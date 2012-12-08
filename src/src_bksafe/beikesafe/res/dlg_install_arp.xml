@@ -1,0 +1,14 @@
+<layer width="470" height="125">
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士ARP防火墙</text>
+		<imgbtn id="60012" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+	<footer class="msgboxfoot" width="full" height="5" />
+	<body width="full" height="full" class="msgboxbody">
+		<dlg pos="0,0,-0,-0">
+		    <img pos="15,15" skin="arp_install_png"/>
+            <text pos="82,30">正在安装ARP防火墙，安装过程可能需要一些时间，请稍候...</text>
+		</dlg>
+	</body>
+</layer>

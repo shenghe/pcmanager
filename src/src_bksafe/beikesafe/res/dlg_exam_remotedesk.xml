@@ -1,0 +1,21 @@
+﻿<layer width="400" height="260" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士 - 没有禁止远程桌面</text>
+		<imgbtn id="815" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-0">  
+			<text pos="20,20,-0,35">当前设置允许其他人远程进入您的电脑，系统有风险。</text>
+			<dlg pos="10,40,-10,-50" class=panel>
+				<text pos="10,10">您希望如何处理这个问题：</text>
+				<radio id="833" pos="30,40" group="guest_method">修复（推荐）</radio>
+				<radio id="834" pos="30,65" group="guest_method">体检时忽略，以后不再检测此项</radio>
+				<radio id="835" pos="30,90" group="guest_method">不处理，下次继续检测此项</radio>
+			</dlg>
+			<button id=812 pos="-180,-40,-100,-10" class="normalbtn">确定</button>
+			<button id=814 pos="-90,-40,-10,-10" class="normalbtn">关闭</button>
+			<text id=808 pos="10,-30" class="linktext" href="http://www.ijinshan.com/safe/remotedesktop_help.html?fr=client">了解更多</text>
+		</dlg>
+	</body>
+</layer>

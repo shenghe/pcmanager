@@ -1,0 +1,29 @@
+﻿<layer title="广告过滤规则" width=500 height=570>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">金山卫士 - 广告过滤规则设置</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=2>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+      <dlg pos="2,0,-2,-0">
+      	<dlg pos="8,8,-8,-8">
+          <text pos="10,13" class="boldtext" crtext="3064A5">在此设置广告过滤的自定义规则</text>
+          <text id ="460" pos="260,13" crtext="FF0000" show ="0">规则修改后，重启浏览器即可生效</text>
+          <dlg pos="10,43,-100,63" class="panel">
+            <realwnd id="452" ctrlid="452" pos="1,1,-1,-1"/>
+          </dlg>
+          <button id="453" class="normalbtn" pos="-80,43,-10,63">添加</button>
+          <dlg pos="10,80,-10,-40" class="panel">
+            <realwnd id="451" ctrlid="451" pos="1,1,-1,-1"/>
+          </dlg>
+          <text id="454" class="linktext" pos="15,-25">导入</text>
+          <text id="455" class="linktext" pos="55,-25">导出</text>
+          <text id="456" class="linktext" pos="105,-25">删除</text>
+          <text id="457" class="linktext" pos="155,-25">清空</text>
+          <text id="458" pos="210,-25" crtext="FF0000" show ="0">广告过滤功能尚未开启，是否启用？</text>
+          <text id="459" class="linktext" pos="-70,-25" show ="0">立即启用</text>
+        </dlg>
+      </dlg>
+    </body>
+</layer>
+

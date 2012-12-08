@@ -1,0 +1,22 @@
+﻿<layer width="360" height="250" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士</text>
+		<imgbtn id="1639" class="linkimage" skin=closeonlybtn pos="-43,0"/>    
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-0">   
+      <img pos="20,15" skin="protectionstatus2" sub="0"/>
+      <text id ="1643" pos="80,12">已经成功修复 1 项异常</text>
+      <text id ="1641" pos="80,27">浏览器主页未锁定，建议立即锁定</text>
+      <text id ="1642" pos="80,27">本次修复需重启后生效，是否立即重启？</text>
+			<hr pos="10,60,-10,60" crbg="CCCCCC"/>
+      <img pos="18,80" skin="hostpageunlock" sub="0"/>
+      <realwnd pos="80,83,327,105" id="3193" ctrlid="3193" show="0"></realwnd>      
+      <check id="3011" pos="80,128">锁定浏览器主页，防止病毒木马篡改</check>
+      <button id="1637" pos="140,170,215,192" class="normalbtn">立即重启</button>
+      <button id="1638" pos="220,170,295,192" class="normalbtn">稍后重启</button>
+      <button id="1640" pos="140,170,215,192" class="normalbtn">确定</button>
+		</dlg>
+	</body>
+</layer>

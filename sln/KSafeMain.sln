@@ -1,0 +1,175 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "safemoniternetflow", "..\src\src_safemonitor\safemoniternetflow\safemoniternetflow\safemoniternetflow.vcproj", "{398334DB-AD73-42CB-8C27-FB77E3C5546B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "safemeasurespeed", "..\src\src_safemonitor\safemeasurespeed\safemeasurespeed\safemeasurespeed.vcproj", "{B624F1DD-ECC1-4822-B68B-ED770917D141}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876} = {7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "beikesafe", "..\src\src_bksafe\beikesafe\beikesafe.vcproj", "{E93E6C89-7D4E-42FC-9633-A8134285B5F4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9} = {5F41920B-2E7E-436B-8A5C-2845CAC727D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "beikesafeexam", "..\src\src_bksafe\beikesafeexam\beikesafeexam.vcproj", "{E867E9FD-689A-496A-8E2B-6838FF4F4C4F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "safemonitortray", "..\src\src_safemonitor\safemonitortray\safemonitortray.vcproj", "{4DCAD655-ED04-4B9D-B42D-23B9C42B0AFE}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uplive", "..\src\src_safemonitor\uplive\uplive.vcproj", "{6769AB44-FD1F-4964-8CB1-5AE52F873379}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BeikeUtils", "..\src\src_bksafe\BeikeUtils\BeikeUtils.vcproj", "{5F41920B-2E7E-436B-8A5C-2845CAC727D9}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libDownload", "..\src\src_bksafe\libDownload2\libDownload.vcproj", "{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kprocesslib", "..\src\src_bksafe\kprocesslib\kprocesslib.vcproj", "{09EDA7DD-C9AC-4658-A056-2F2D1B558CB3}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "safemonitor", "..\src\src_safemonitor\safemonitor\safemonitor.vcproj", "{A7532049-1A38-4989-A54D-951022B39806}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulfixLib", "..\src\src_bksafe\VulfixLib\VulfixLib.vcproj", "{44D5267B-CECB-466D-81EE-BEEADCC09B80}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksafevul", "..\src\src_bksafe\VulfixDll\VulfixDll.vcproj", "{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9} = {5F41920B-2E7E-436B-8A5C-2845CAC727D9}
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80} = {44D5267B-CECB-466D-81EE-BEEADCC09B80}
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876} = {7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksaferunopt", "..\src\src_bksafe\ksaferunopt\ksaferunopt.vcproj", "{6A68B714-D85F-4A67-A766-183FB2254C32}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IEScanEng", "..\src\src_bksafe\IEFixEng\IEScanEng.vcproj", "{DA57CDC8-ECB8-45B7-9AB0-C34BCC02652B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestKProcessLibDll", "..\src\src_bksafe\kprocesslib\TestKProcessLibDll\testKprocesslibDll.vcproj", "{909B764E-4D10-42D4-B1E3-4F64D8B6275C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{398334DB-AD73-42CB-8C27-FB77E3C5546B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{398334DB-AD73-42CB-8C27-FB77E3C5546B}.Debug|Win32.Build.0 = Debug|Win32
+		{398334DB-AD73-42CB-8C27-FB77E3C5546B}.Release|Win32.ActiveCfg = Release|Win32
+		{398334DB-AD73-42CB-8C27-FB77E3C5546B}.Release|Win32.Build.0 = Release|Win32
+		{B624F1DD-ECC1-4822-B68B-ED770917D141}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B624F1DD-ECC1-4822-B68B-ED770917D141}.Debug|Win32.Build.0 = Debug|Win32
+		{B624F1DD-ECC1-4822-B68B-ED770917D141}.Release|Win32.ActiveCfg = Release|Win32
+		{B624F1DD-ECC1-4822-B68B-ED770917D141}.Release|Win32.Build.0 = Release|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Debug|Win32.Build.0 = Debug|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Release|Win32.ActiveCfg = Release|Win32
+		{E93E6C89-7D4E-42FC-9633-A8134285B5F4}.Release|Win32.Build.0 = Release|Win32
+		{E867E9FD-689A-496A-8E2B-6838FF4F4C4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E867E9FD-689A-496A-8E2B-6838FF4F4C4F}.Debug|Win32.Build.0 = Debug|Win32
+		{E867E9FD-689A-496A-8E2B-6838FF4F4C4F}.Release|Win32.ActiveCfg = Release|Win32
+		{E867E9FD-689A-496A-8E2B-6838FF4F4C4F}.Release|Win32.Build.0 = Release|Win32
+		{4DCAD655-ED04-4B9D-B42D-23B9C42B0AFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DCAD655-ED04-4B9D-B42D-23B9C42B0AFE}.Debug|Win32.Build.0 = Debug|Win32
+		{4DCAD655-ED04-4B9D-B42D-23B9C42B0AFE}.Release|Win32.ActiveCfg = Release|Win32
+		{4DCAD655-ED04-4B9D-B42D-23B9C42B0AFE}.Release|Win32.Build.0 = Release|Win32
+		{6769AB44-FD1F-4964-8CB1-5AE52F873379}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6769AB44-FD1F-4964-8CB1-5AE52F873379}.Debug|Win32.Build.0 = Debug|Win32
+		{6769AB44-FD1F-4964-8CB1-5AE52F873379}.Release|Win32.ActiveCfg = Release|Win32
+		{6769AB44-FD1F-4964-8CB1-5AE52F873379}.Release|Win32.Build.0 = Release|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Debug|Win32.Build.0 = Debug|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Release|Win32.ActiveCfg = Release|Win32
+		{5F41920B-2E7E-436B-8A5C-2845CAC727D9}.Release|Win32.Build.0 = Release|Win32
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}.Debug|Win32.Build.0 = Debug|Win32
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}.Release|Win32.ActiveCfg = Release|Win32
+		{7A5FC9A1-4FE4-45A4-8774-A2052B5DC876}.Release|Win32.Build.0 = Release|Win32
+		{09EDA7DD-C9AC-4658-A056-2F2D1B558CB3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09EDA7DD-C9AC-4658-A056-2F2D1B558CB3}.Debug|Win32.Build.0 = Debug|Win32
+		{09EDA7DD-C9AC-4658-A056-2F2D1B558CB3}.Release|Win32.ActiveCfg = Release|Win32
+		{09EDA7DD-C9AC-4658-A056-2F2D1B558CB3}.Release|Win32.Build.0 = Release|Win32
+		{A7532049-1A38-4989-A54D-951022B39806}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7532049-1A38-4989-A54D-951022B39806}.Debug|Win32.Build.0 = Debug|Win32
+		{A7532049-1A38-4989-A54D-951022B39806}.Release|Win32.ActiveCfg = Release|Win32
+		{A7532049-1A38-4989-A54D-951022B39806}.Release|Win32.Build.0 = Release|Win32
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80}.Debug|Win32.Build.0 = Debug|Win32
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80}.Release|Win32.ActiveCfg = Release|Win32
+		{44D5267B-CECB-466D-81EE-BEEADCC09B80}.Release|Win32.Build.0 = Release|Win32
+		{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}.Debug|Win32.Build.0 = Debug|Win32
+		{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}.Release|Win32.ActiveCfg = Release|Win32
+		{B4329D16-FA7B-4CD7-830C-9FC77925B9BE}.Release|Win32.Build.0 = Release|Win32
+		{6A68B714-D85F-4A67-A766-183FB2254C32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A68B714-D85F-4A67-A766-183FB2254C32}.Debug|Win32.Build.0 = Debug|Win32
+		{6A68B714-D85F-4A67-A766-183FB2254C32}.Release|Win32.ActiveCfg = Release|Win32
+		{6A68B714-D85F-4A67-A766-183FB2254C32}.Release|Win32.Build.0 = Release|Win32
+		{DA57CDC8-ECB8-45B7-9AB0-C34BCC02652B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA57CDC8-ECB8-45B7-9AB0-C34BCC02652B}.Debug|Win32.Build.0 = Debug|Win32
+		{DA57CDC8-ECB8-45B7-9AB0-C34BCC02652B}.Release|Win32.ActiveCfg = Release|Win32
+		{DA57CDC8-ECB8-45B7-9AB0-C34BCC02652B}.Release|Win32.Build.0 = Release|Win32
+		{909B764E-4D10-42D4-B1E3-4F64D8B6275C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{909B764E-4D10-42D4-B1E3-4F64D8B6275C}.Debug|Win32.Build.0 = Debug|Win32
+		{909B764E-4D10-42D4-B1E3-4F64D8B6275C}.Release|Win32.ActiveCfg = Release|Win32
+		{909B764E-4D10-42D4-B1E3-4F64D8B6275C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

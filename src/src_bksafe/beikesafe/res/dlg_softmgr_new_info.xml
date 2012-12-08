@@ -1,0 +1,21 @@
+﻿<layer title="设置" width="332" height="240">
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="101" pos="5,9"/>
+    <text id="8162" class="dlgtitle" pos="25,10,215,22">金山卫士 2.0</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <footer class="msgboxfoot" width="full" height="45">
+    <dlg pos="10,10,-10,-10">
+      <button id="1" pos="-170,0,-90,-0" class="normalbtn">立即升级</button>
+      <button id="2" pos="-80,0,-0,-0" class="normalbtn">以后再说</button>
+    </dlg>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="2,0,-2,-0">
+      <dlg pos="0,0,-0,-0" class="panel">
+        <realwnd pos="0,0,-0,-0" id="8161" ctrlid="8161" />
+      </dlg>
+    </dlg>
+  </body>
+</layer>
+

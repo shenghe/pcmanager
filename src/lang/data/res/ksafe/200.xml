@@ -1,0 +1,22 @@
+﻿<layer width="400" height="150">
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="107" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">百度安全卫士</text>
+		<imgbtn id="101" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+	<footer class="msgboxfoot" width="full" height="5" />
+	<body width="full" height="full" class="msgboxbody">
+		<dlg pos="0,0,-0,-0">
+			<dlg pos="20,20,-10,-0" id="51" show="1">
+				<text pos="0,0">您尚未安装网盾，网盾可以为您提供增强的网页防护功能，</text>
+				<text pos="0,18">防止病毒木马通过网页入侵电脑。</text>
+				<text pos="-80,18" class="linktext" href="http://www.duba.net/wangdun/">查看详情>></text>
+				<text pos="0,60">是否立即下载并安装网盾？</text>
+				<dlg id=149 pos="180,50,-10,78">
+					<button id=100 pos="0,0,80,-0" class="normalbtn">立即安装</button>
+					<button id=102 pos="-80,0,-0,-0" class="normalbtn">取消</button>
+				</dlg>
+			</dlg>
+		</dlg>
+	</body>
+</layer>

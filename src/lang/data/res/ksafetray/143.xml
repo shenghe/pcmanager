@@ -1,0 +1,27 @@
+﻿<layer width="350" height="320" resize=0 appwin=0 noborder=1>
+	<header width="full" height="80">
+		<dlg id="60006" class="mainhead_green" pos="0,0,-0,-0">
+			<imgbtn id="60001" class="linkimage" skin="closebtn_green" pos="-40,0"/>
+			<img id="60009" skin="header_title_safe_down_green" pos="40,12"/>
+			<dlg pos="0,41,-0,-0" crbg=FAFDFF >
+        <text id="1020" pos="10,0,-10,-0" class="textmode_title">下载文件云鉴定结果</text>
+			</dlg>
+			<img skin=logo pos="0,10"/>
+		</dlg>
+	</header>	
+	<footer width="full" height="13">
+		<dlg id="60008" class="mainfoot_green" pos="0,0,-0,-0"/>
+	</footer>
+	<body width="full" height="full">
+		<dlg id="60007" class="mainbody_green" pos="0,0,-0,-0">
+			<dlg pos="0,0,-0,-0" crbg="FAFDFF">
+				<dlg class="panel_gray" pos="15,0,-15,-65">
+					<realwnd id="201" ctrlid="201" pos="0,0,-0,-0" />
+				</dlg>
+        <text id="1081" class="linktext" pos="9,-63,-0,-43">打开文件所在目录</text>
+        <check id="1082" pos="9,-27" crtext="0064C8">以后不再提醒</check>
+        <button id="60004" class="normalbtn_gray" pos="-98,-33,-18,-10">确 定</button>
+			</dlg>
+		</dlg>
+	</body>
+</layer>

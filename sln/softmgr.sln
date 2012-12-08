@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KPCFileOpen", "..\src\src_softmgr\kpcfileopen\KPCFileOpen\KPCFileOpen.vcproj", "{8F4D8A7B-236A-4569-800C-CC3BC6C36B1F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "softmgr", "..\src\src_softmgr\softmgr\softmgr.vcproj", "{E7F60ACD-CE5E-474B-9D79-15D717B9C629}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_Baidu|Win32 = Release_Baidu|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F4D8A7B-236A-4569-800C-CC3BC6C36B1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F4D8A7B-236A-4569-800C-CC3BC6C36B1F}.Debug|Win32.Build.0 = Debug|Win32
+		{8F4D8A7B-236A-4569-800C-CC3BC6C36B1F}.Release_Baidu|Win32.ActiveCfg = Release|Win32
+		{8F4D8A7B-236A-4569-800C-CC3BC6C36B1F}.Release_Baidu|Win32.Build.0 = Release|Win32
+		{8F4D8A7B-236A-4569-800C-CC3BC6C36B1F}.Release|Win32.ActiveCfg = Release|Win32
+		{8F4D8A7B-236A-4569-800C-CC3BC6C36B1F}.Release|Win32.Build.0 = Release|Win32
+		{E7F60ACD-CE5E-474B-9D79-15D717B9C629}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7F60ACD-CE5E-474B-9D79-15D717B9C629}.Debug|Win32.Build.0 = Debug|Win32
+		{E7F60ACD-CE5E-474B-9D79-15D717B9C629}.Release_Baidu|Win32.ActiveCfg = Release_Baidu|Win32
+		{E7F60ACD-CE5E-474B-9D79-15D717B9C629}.Release_Baidu|Win32.Build.0 = Release_Baidu|Win32
+		{E7F60ACD-CE5E-474B-9D79-15D717B9C629}.Release|Win32.ActiveCfg = Release|Win32
+		{E7F60ACD-CE5E-474B-9D79-15D717B9C629}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

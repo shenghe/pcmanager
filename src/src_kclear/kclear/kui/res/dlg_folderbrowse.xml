@@ -1,0 +1,20 @@
+﻿<layer title="选择目录" width=540 height=400>
+    <header class=msgboxhead width=full height=32>
+         <icon src="IDI_ICON_SMALL" pos="5,7"/>
+        <text class=dlgtitle pos="25,10">选择一键扫描清理范围</text>
+        <imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+    	  <text id="11004" pos="10,22" class="linktext">恢复默认选项</text>
+        <check id="11005" pos="110,22">每次清理前都确认清理范围</check>
+        <button id=11002 pos="-210,10,-110,-10" class="normalbtn">确认并开始清理</button>
+        <button id=11003 pos="-90,10,-10,-10" class="normalbtn">取消</button>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <img id="11001" pos="10,10" skin="onekey_clean_config_greentip" />
+        <text pos="25,10">请选择您希望进行“一键清理”的条目内容</text>
+        <dlg pos="10,30,-10,-0" class=panel>
+            <realwnd pos="0,0,-0,-0" ctrlid=4420 id=4420/>
+        </dlg>
+    </body>
+</layer>

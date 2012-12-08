@@ -1,0 +1,27 @@
+﻿<layer width="340" height="160" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士系统加速</text>
+		<imgbtn id="102" class="linkimage" skin=closebtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg id="1"  pos="0,0,-0,-0" show="0">
+			<text pos="20,30">正在进行系统加速...</text>
+			<progress id="101" pos="20,50,-20,65" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+		</dlg>
+		
+		<dlg id="2"  pos="0,0,-0,-0" show="0">
+			<img pos="30,20" skin="status40" sub="2"></img>
+			<richtext id="201" pos="75,25,-20,45" ><b>刚才释放了XXX！</b></richtext>
+			<richtext id="202" pos="75,45,-0,65" ><b>历史释放了xxx！</b></richtext>
+			<button id="203" pos="-100,-50,-20,-20" class="normalbtn">确定</button>
+		</dlg>
+
+		<dlg id="3"  pos="0,0,-0,-0" show="1">
+			<img pos="30,20" skin="status40" sub="1"></img>
+			<text  pos="75,25" >您刚刚使用了一键加速，暂时没有可释放</text>
+			<text  pos="75,45" >的资源，请隔一段时间后再使用！</text>
+			<button id="301" pos="-100,-50,-20,-20" class="normalbtn">确定</button>
+		</dlg>
+	</body>
+</layer>

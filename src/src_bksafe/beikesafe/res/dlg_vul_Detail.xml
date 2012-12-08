@@ -1,0 +1,59 @@
+﻿<layer width="587" height="351">
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text id="60004" class="dlgtitle" pos="25,10">%str1% - 漏洞修复</text>
+		<imgbtn id="60001" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+
+	<body class="dlgfoot" width="full" height="full">
+		<img pos="3,0,-3,34" skin="vul_detail_bg"/>
+		<tabctrl id="136" cursel="0" tabwidth="80" tabpos="10" tabskin="tab" tabspacing="5" frameskin="panelgray" framepos="-1" pos="5,4,-5,-10">
+			<tab title="已安装补丁" width="full" height="full">
+				<dlg id="200" pos="0,0,-0,-0" class="client">
+					<realwnd id="20000" ctrlid="20000" pos="10,5,-110,20">在您的系统中未检测到已安装补丁!</realwnd>
+					<text id="20002" pos="-100,5" class="linktext">打开补丁存放目录</text>
+					<dlg pos="0,25,-0,-40" class="panel">
+						<realwnd id="20010" ctrlid="20010" pos="0,0,-0,-0"/>
+					</dlg>
+				</dlg>
+			</tab>
+
+			<tab title="已忽略补丁" width="full" height="full">
+				<dlg id="300" pos="0,0,-0,-0" class="client">
+					<realwnd id="30000" ctrlid="30000" pos="10,5,-110,20">在您的系统中未检测到已忽略的补丁!</realwnd>
+					<dlg pos="0,25,-0,-40" class="panel">
+						<realwnd id="30010" ctrlid="30010" pos="0,0,-0,-0"/>
+					</dlg>
+					<dlg pos="0,-30,-0,-0">
+						<dlg id="1036" pos="0,0,-100,-0">
+							<text id="30500" pos="0,10" class="linktext">全选</text>
+							<text id="30510" pos="30,10">/</text>
+							<text id="30501" pos="40,10" class="linktext">全不选</text>
+							<button id="30502" pos="-80,5,-0,27" class="normalbtn">取消忽略</button>
+						</dlg>
+					</dlg>
+				</dlg>
+			</tab>
+
+			<tab title="已过期补丁" width="full" height="full">
+				<dlg id="400" pos="0,0,-0,-0" class="client">
+					<realwnd id="40000" ctrlid="40000"  pos="10,5,-110,20">在您的系统中未检测到已过期补丁!</realwnd>
+					<dlg pos="0,25,-0,-40" class="panel">
+						<realwnd id="40010" ctrlid="40010" pos="0,0,-0,-0"/>
+					</dlg>
+				</dlg>
+			</tab>
+
+			<tab title="已屏蔽补丁" width="full" height="full">
+				<dlg id="500" pos="0,0,-0,-0" class="client">
+					<realwnd id="50000" ctrlid="50000"  pos="10,5,-110,20">没有已屏蔽补丁!</realwnd>
+					<dlg pos="0,25,-0,-40" class="panel">
+						<realwnd id="50010" ctrlid="50010" pos="0,0,-0,-0"/>
+					</dlg>
+				</dlg>
+			</tab>
+		</tabctrl>
+		<button id="20503" pos="-100,-45,-20,-23" class="normalbtn">关闭</button>
+		<text id="2001" pos="-115,10" class="linktext" crtext="FFFFFF">导出漏洞信息</text>
+	</body>
+</layer>

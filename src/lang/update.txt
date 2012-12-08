@@ -1,0 +1,17 @@
+sp3.nlb, data
+config3.dat, data
+sysrep3.dat, data\ksrcfg
+pluginlib.dat, data\data
+knavlib.dat, data\data
+kproclib.dat, data\data
+system.dat, data\data
+system64.dat, data\data
+runopt.dat, data\data
+rank.dat, data\ksoft\data
+softmgr.dat, data\ksoft\data
+softmgrup.dat, data\ksoft\data
+softuninst2.dat, data\ksoft\data
+softnecess.dat, data\ksoft\data
+autoinst.dat, data\ksoft\data
+softnecess.dat, data\ksoft\data
+

@@ -1,0 +1,245 @@
+﻿<skins>
+<imgframe name=panel src=107 top=1 left=1 crbg=FBFCFD/>
+<imgframe name=panelgray src=106 top=1 left=1 crbg=FBFCFD/>
+<imgframe name=panelwhite src=107 top=1 left=1 crbg=FBFCFD/>
+<imgframe name=panelffffff src=107 top=1 left=1 crbg=FFFFFF/>
+<!-- <imgframe name=panelclear src=217 mode=mask top=7 left=7 crbg=FBFCFD/> -->
+<imgframe name=tabpage src=107 top=1 left=1 crbg=FBFCFD part=center/>
+<imghorzex name=mainbghead src=1 left=3/>
+<imgframe name=mainbgbody src=2 top=88 left=7 mode=mask crbg=FBFCFD/>
+<imghorzex name=mainbgfoot src=3 left=2/>
+<imgframe name=msgboxhead src=4 top=32 left=5 crbg=FBFCFD part=top/>
+<imgframe name=dlgbody src=4 top=32 left=5 crbg=FBFCFD part=middle/>
+<imgframe name=dlgfoot src=4 top=32 left=5 crbg=FBFCFD part=bottom/>
+<imgframe name=msgboxbody src=29 top=0 left=2 crbg=FBFCFD part=middle/>
+<imgframe name=msgboxfoot src=29 top=0 left=2 crbg=FBFCFD part=bottom/>
+<button name=uglybtn/>  
+<button name=normalbtn border=7D9EBC bg=FBFCFD bgup=FEFEFE bgdown=C6E2FD bguphover=FEFEFE bgdownhover=DBEDFE bguppush=C6E2FD bgdownpush=FEFEFE/>  
+<imglst name=tabmain src=5 mode=mask subwidth=71/>
+<png name=logomodule src=3 subwidth=48/>
+<!--imglst name=tabmainsplitter src=8/-->
+<imghorzex name=tab src=6 mode=mask subwidth=7 left=3/>
+<!--imghorzex name=tabex src=30 mode=mask subwidth=7 left=3/-->
+<imghorzex name=tabplug src=20 mode=mask subwidth=9 left=3/>
+<imghorzex name=progressbg src=108 mode=mask left=3/>
+<imghorzex name=progresspos src=109 mode=mask left=3/>
+<imghorzex name=progressposred src=113 mode=mask left=3/>
+
+<imghorzex name="progresssoftmgrbg" src="8019" mode="mask" left="1"/>
+<imghorzex name="progresssoftmgrpos" src="8020" mode="mask"/>
+
+<imghorzex name="listheaderbgnull" src="125" mode="mask" left="2"/>
+  <imghorzex name="updatetipbg" src="126" mode="mask" left="3"/>
+<imghorzex name=listheaderbg2 src=222 mode=mask left=2/>
+<imghorzex name=listheaderbg src=210 mode=mask left=2/>
+  <imghorzex name="softlistheaderbg" src="223" mode="mask" left="2"/>  
+<imghorzex name=pluglistheaderbg src=123 mode=mask left=2/>
+<png name=closebtn src=44 subwidth=43/>
+<png name=closeonlybtn src=44 subwidth=43/>
+<png name=maxbtn src=46 subwidth=30/>
+<png name=minbtn src=47 subwidth=32/>
+<png name=setbtn src=63 subwidth=32/>
+<png name=restorebtn src=48 subwidth=30/>
+<!--imglst name=stat15 src=111 mode=mask subwidth=15/-->
+<png name=stat15 src=40 subwidth=15/>
+<png name=stat55 src=55 subwidth=15/><!--hub-->
+<png name=scanani src=2 subwidth=35/>
+<png name=scananibg src=5 subwidth=47/>
+<png name=softokopenfolder src=17 subwidth=25/>  
+<gradation name=tipbg from=FFFFFF to=E4E5F0 direction=vert/>
+<!--imglst name=logo src=117/-->
+<!-- <png name=icon_clear src=218 subwidth=33/> -->
+<imglst name=splitter_arrow src=11 subwidth=5/>
+<imglst name=stat40 src=15 mode=mask subwidth=40/>
+<imghorzex name=tableft src=16 mode=mask left=4 subwidth=24/>
+<imglst name=tableftsplitter src=17/>
+<png name=examstatus48 src=1 subwidth=48/>
+<!--imglst name="exam_stat15" src="214" mode="mask" subwidth="15"/-->
+<png name=exam_stat15 src=41 subwidth=15/>
+<png name=examanipng48 src=4 subwidth=48/>
+<!-- <png name="protectionstatus3" src="9" subwidth="42" mode="mask" /> -->
+<png name="protectionstatus2" src="11" subwidth="32" mode="mask" />
+<png name="protectionstatus4" src="9" subwidth="32" mode="mask" />
+<png name="hostpageunlock" src="49" subwidth="32" mode="mask" /><!--hub-->
+<png name="netflowcontrol" src="56" subwidth="153" mode="mask" /> <!--hub-->
+<png name="netflowcontrol2" src="57" subwidth="153" mode="mask" />  <!--hub-->
+<!-- <png name="protectionexample" src="10" mode="mask" /> -->
+<png name="vultip" src="12" mode="mask" subwidth=16/>
+<imglst name="iconflash" src="21"/>
+<png name="softnecesspoint" src="43"/>
+<imglst name="iconprotection" src="22" />
+<png name=examstart src=13 subwidth=180/>
+<!-- <png name="examstatusex" src="14" subwidth="98"/> -->
+<imghorzex name=examtitlebgonly src=23/>
+<imglst name=examtitleicon src=24 mode=mask subwidth=32/>
+<imglst name=tipdbleng src=26 mode=mask/>
+<imghorzex name=btnvirscanbg src=27 mode=mask subwidth=10 left=5/>
+<imghorzex name=btnexamrightbg src=504 mode=mask subwidth=11 left=5/>
+<imghorzex name=btnstartpagebg src=28 mode=mask subwidth=9 left=5/>
+<png name=iconvirscan src=15 subwidth=48/>
+<!-- <png name=iconstartpage src=27 subwidth=48/> -->
+<!-- <png name=arrow src=30 subwidth=10/> -->
+<png name=cleanani1 src=6/>
+<png name=cleanani2 src=7 subwidth=103/>
+<png name=cleanani3 src=8 subwidth=33/>
+<png name=kcloud_discon src=50 subwidth=46/>
+  
+<png name="selectfolder" src="17" subwidth="25" />
+<png name="settingsoftmgr" src="8014" />
+<!-- <png name="detailback" src="29" /> -->
+<png name="refrshsoftmgr" src="8015" />
+<png name="querysoftmgr" src="8016" subwidth="20" />
+  <png name="updateverbtn" src="8054" subwidth="16" />
+  <imghorzex name="setsoftmgrtab" src="8055" mode="mask" subwidth="7" left="3"/>
+<imghorzex name="installsoftmgr" src="8017" mode="mask" subwidth="7" left="3"/><!--<png name="installsoftmgr" src="8017" subwidth="79" />-->
+<imgframe name="softtopbk" src="8001" top="29" />
+<imgframe name="softtoptabbg" src="8021" top="31" />
+<imgframe name="softbottombk" src="8003" top="31" left="3" />
+<imglst name="softmgrsplitter" src="8002" mode="mask"/>
+<imgframe name="downdetail" src="8004" top="24" left="11" />
+<imglst name="icondetail" src="8018" subwidth="12" mode="mask"/>
+<png name="btndetailsetup" src="8007" subwidth="65"/>
+<png name="btndetaildownloaded" src="8047" subwidth="65"/>
+<png name="btnonekey" src="8048" subwidth="107"/>
+<png name="btndetaildown" src="8008" subwidth="65"/>
+<png name="btndetailundown" src="8009" subwidth="65"/>
+<png name="btndownselect" src="8018" subwidth="85" />
+<png name="btnbackquery" src="8019" subwidth="65" />
+<png name="btnbackdetail" src="8042"/>
+<png name="splitdetail" src="8043"/>
+<png name="btndetailupdate" src="8030" subwidth="65"/>
+<png name="uninstall_btn" src="18" subwidth="65"/>
+<png name="uninstalled_btn" src="20" subwidth="65"/>
+<png name="powersweep_ico" src="19" />
+<png name=new src=16/>
+<png name=new_cn src=58/>
+<png name="loadinfotip" src="8020" subwidth="16" />
+<png name="listheaderarrowup" src="220"/>
+<png name="listheaderarrowdown" src="221"/>
+<png name="seltypebk" src="8053"/>
+<!-- 
+<png name=browser_ie src=21/>
+<png name=browser_maxthon src=22/>
+<png name=browser_sogou src=23/>
+<png name=browser_ttraveler src=24/>
+ -->
+<!-- <png name="mainuibwssafe" src="219" subwidth="24"/> -->
+<!-- <png name=iconprottab src=25 subwidth=48/> -->
+<!-- <png name=logoprotection src=26 /> -->
+<png name=softmgrclear src=8022 subwidth="79"/>
+<png name=softmgrrevert src=8021 subwidth="79"/>
+<png name="softmgrinstall1" src="8023" />
+<png name="softmgrinstall2" src="8024" />
+<png name="softmgrinstall3" src="8025" />
+<png name="softmgruninstall1" src="8026" />
+<png name="softmgruninstall2" src="8027" />
+<png name="softmgruninstall3" src="8028" />
+<png name="kwssafe" src="10010" subwidth="73" />
+<png name="kwsdanger" src="10011" subwidth="73" />
+<png name="updatenum" src="8031" />
+  <png name="query_return" src="8052" />
+<png name="infoicon" src="8032"/>
+<png name="infored" src="8033"/>
+<imgframe name="clear_bk" src="8034"/>
+<imghorzex name="detail_header" src="8037" mode="mask" left="2"/>
+<png name="softmgrpause" src="8005"/>
+<png name="softmgrcontinue" src="8006"/>
+<png name="softmgrcancel" src="8010"/>
+<png name="ignoreicon" src="8050"/>
+<png name="star" src="8039"/>
+<png name="star_half" src="8040"/>
+<png name="star_off" src="8041"/>
+<png name="charge_soft" src="8044"/>
+<png name="green_soft" src="8045"/>
+<png name="plugin_soft" src="8046"/>
+<png name="important_soft" src="8049"/>
+<png name="new_soft" src="8051"/>
+<imgframe name="softmgr_uninstall_dlg_bg" src="20002" />
+<imghorzex name="softmgr_uninstall_dlg_bg_bmp" src="20002" />
+<imglst name="uni_arrow" src ="20003" />
+<imglst name="uni_clean" src="20001" />
+<imglst name="uni_sweep_result" src="20004" />
+
+<imghorzex name=exam_title_bg src=500/>
+<imghorzex name=exam_bg src=501/>
+<!-- <imghorzex name=exam_btn_tab src=502 subwidth=3 left=1/> -->
+<imglst name="exam_line" src="503" />
+
+<imghorzex name="sysopt_list_headerbk" src=8035 left=0 />
+<imghorzex name="virs_scaning_list" src=121 left=0 /><!--hub-->
+<imghorzex name="loadinfo_dlgbk" src=8036 left=0 />
+<imgframe name=panelsysopt src=107 top=1 left=1 crbg=FBFCFD/>
+<png name="autoopt_noitem" src="20005" />
+<png name="notask_img" src="20006" />
+<imglst name=stat_runopt src="20007" mode=mask subwidth=16/>
+<png name="loading_runopt" src="20008" subwidth="16" />
+<imghorzex name="vul_detail_bg" src="31" left=0/>
+<imglst name="sysopt_more" src="20009" />
+<imgframe name=panelrundelay src=20011 mode=mask top=7 left=7 crbg=FBFCFD/>
+<png name="righttopicon" src="42" subwidth=32/>
+<!-- 
+<png name="examscoretxt" src="200" subwidth=17/>
+<png name="examscorerisknum" src="201" subwidth=23/>
+<png name="examscoredangernum" src="202" subwidth=23/>
+<png name="examscoresafenum" src="203" subwidth=23/>
+<png name="examscoreoptnum" src="204" subwidth=23/>
+ -->
+<png name="urlmon_tip" src="11000" />
+<png name="urlmon_logo" src="11001" />
+<png name="urlmon_turnon" src="11002" />
+<png name="urlmon_turnoff" src="11003" />
+<png name="startup_setting" src="20012"/>
+<png name="onekeytopicon" src="52"/>
+<png name="onekeytopicon2" src="51"/>
+<png name="onekeytopicon2_fail" src="54"/>
+<imglst name="onekeyseldirbgsanjiao" src="8106" mode="mask"/>
+<imgframe name="softdlgbody" src="8102" top="58" left="4" crbg="FBFCFD" part="all"/>
+<imghorzex name="softdlgfoot" src="8101" left="5" crbg="FBFCFD" top="0" part="top"/>
+<imghorzex name="softdlghead" src="8103" left="4" crbg="FBFCFD"/>
+<imghorzex name="softonektopbg" src="8104" left="1"/>
+<imghorzex name="onekeyseldirbg" src="8105" />
+<imglst name="onekeyinstingsanjiao" src="8108" mode="mask"/>
+<imghorzex name="onekeyinstingbg" src="8107" left="1"/>
+<png name="onekeybegininst" src="53" subwidth="151"/>
+<png name="ignore_tip" src="20013"/>
+<png name="exam_safe" src="205" />
+<png name="exam_opt" src="206" />
+<png name="exam_risk" src="207" />
+<png name="exam_danger" src="208" />
+<png name="exam_hight_danger" src="209" />
+<png name="exam_score_icon" src="210" subwidth=22/>
+<png name="exam_trojan" src="211" />
+<png name="no_history" src="20014"/>
+<imghorzex name="sysopt_history_title" src="20010" left=0 />
+<imghorzex name="sysfixlistbg" src="33" left="2" />
+<imghorzex name="sysfixlistbgsel" src="34" left="7"/>
+<png name="sysopt_menubtn" src="20015" subwidth="14"/>
+<png name="update_version" src="60"/>
+<png name="update_warning" src="64"/>
+
+<imghorzex name="sysopt_red_bg" src=20018/>
+<imghorzex name="sysopt_blue_bg" src=20019/>
+<png name="runopt_warn_infotext" src="20020"/>
+<png name="runopt_delay_infotext" src="20021"/>
+<png name="runopt_double_arroe" src="20022"/>
+<png name="runopt_delay_howto" src="20023"/>
+
+
+<png name="arp_install_png" src="66"/>
+
+<png name="btn_onekeyopt" src="20025" subwidth="151"/>
+<png name="btn_onekeyopt_continue" src="20026" subwidth="98"/>
+<!--
+<png name="onekeyopt_scan" src="20027" subwidth="48"/>
+-->
+<png name="onekeyopt_scan" src="12004" subwidth="73"/>
+<png name="scanscroll" src="20028" subwidth="370"/>
+<png name="onekeyopt_status" src="12003" subwidth="73"/>
+<!-- -->
+<imghorzex name="vul_head_back" src="12001"/>
+<png name="vul_repair" src="12002" subwidth="151"/>
+<png name="vul_info" src="12003" subwidth="73"/>
+<png name="vul_scan" src="12004" subwidth="73"/>
+<png name="vul_setup" src="12005" subwidth="73"/>
+<!-- -->
+</skins>

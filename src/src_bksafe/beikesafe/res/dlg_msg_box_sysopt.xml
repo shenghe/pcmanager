@@ -1,0 +1,72 @@
+<layer  width="400" height="175" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士提醒您</text>
+		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+    <footer class=msgboxfoot width=full height=55>
+    	<button id="2" pos="108,10,188,35" class=normalbtn>立即恢复</button>
+    	<button id="4" pos="108,10,188,35" class=normalbtn show="0">我要反馈</button>
+			<button id="3" pos="208,10,288,35" class=normalbtn>取消</button>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+      <icon id="60005" pos="20,20" src="32515" oem="1" size="32"/>
+      <dlg pos="0,0,-0,-0" id="11">
+        <text pos="70,20,-0,-0" class="msgtext">金山卫士已被禁止开机自启动，延迟启动功能已失效，</text>
+        <text pos="70,44,-0,-0" class="msgtext">所有延迟启动项将更改为开机启动！</text>
+        <text pos="70,68,-0,-0" class="msgtext">是否立即恢复金山卫士开机自启动？</text>
+      </dlg>
+      <dlg pos="0,0,-0,-0" id="12" show="0">
+        <text pos="70,20,-0,-0" class="msgtext">360安全卫士存在自保护,无法延迟启动。您可以打开360</text>
+        <text pos="70,44,-0,-0" class="msgtext">安全卫士设置页面，将其修改为开机不启动！</text>
+        <text pos="70,68,-0,-0" class="msgtext">如果您有疑问请进入我们的</text>
+        <text pos="226,68,-0,-0" class="linktext6" id="5">官方论坛</text>
+        <text pos="286,68,-0,-0" class="msgtext">进行反馈！</text>
+      </dlg>
+      <dlg pos="0,0,-0,-0" id="13" show="0">
+        <text pos="70,20,-0,-0" class="msgtext">不能将设置为延迟启动。将此项延迟启动，可能是您的</text>
+        <text pos="70,44,-0,-0" class="msgtext">系统出现异常。</text>
+        <text pos="70,68,-0,-0" class="msgtext">如果您有疑问请进入我们的</text>
+        <text pos="226,68,-0,-0" class="linktext6" id="5">官方论坛</text>
+        <text pos="286,68,-0,-0" class="msgtext">进行反馈！</text>
+      </dlg>
+			<dlg pos="0,0,-0,-0" id="14" show="0">
+        <text pos="70,20,-0,-0" class="msgtext">安全软件存在自保护，无法延迟启动。</text>
+        <text pos="70,56,-0,-0" class="msgtext">如果您有疑问请进入我们的</text>
+        <text pos="226,56,-0,-0" class="linktext6" id="5">官方论坛</text>
+        <text pos="286,56,-0,-0" class="msgtext">进行反馈！</text>
+      </dlg>
+      <dlg pos="0,0,-0,-0" id="15" show="0">
+        <text pos="70,20,-0,-0" class="msgtext">360安全卫士存在自保护,无法禁止启动。您可以打开360</text>
+        <text pos="70,44,-0,-0" class="msgtext">安全卫士设置页面，将其修改为开机不启动！</text>
+        <text pos="70,68,-0,-0" class="msgtext">如果您有疑问请进入我们的</text>
+        <text pos="226,68,-0,-0" class="linktext6" id="5">官方论坛</text>
+        <text pos="286,68,-0,-0" class="msgtext">进行反馈！</text>
+      </dlg>
+      <dlg pos="0,0,-0,-0" id="16" show="0">
+        <text pos="70,20,-0,-0" class="msgtext">QQ电脑管家存在自保护,无法禁止启动。您可以打开QQ</text>
+        <text pos="70,44,-0,-0" class="msgtext">电脑管家设置页面，将其修改为开机不启动！</text>
+        <text pos="70,68,-0,-0" class="msgtext">如果您有疑问请进入我们的</text>
+        <text pos="226,68,-0,-0" class="linktext6" id="5">官方论坛</text>
+        <text pos="286,68,-0,-0" class="msgtext">进行反馈！</text>
+      </dlg>
+      <dlg pos="0,0,-0,-0" id="17" show="0">
+        <text pos="70,20,-0,-0" class="msgtext">360安全卫士存在自保护,无法延迟启动。您可以打开360</text>
+        <text pos="70,44,-0,-0" class="msgtext">安全卫士设置页面，将其修改为开机不启动！</text>
+        <text pos="70,68,-0,-0" class="msgtext">如果您有疑问请进入我们的</text>
+        <text pos="226,68,-0,-0" class="linktext6" id="5">官方论坛</text>
+        <text pos="286,68,-0,-0" class="msgtext">进行反馈！</text>
+      </dlg>
+			<dlg pos="0,0,-0,-0" id="18" show="0">
+        <text pos="70,20,-0,-0" class="msgtext">不能将金山卫士设置为延迟启动。将金山卫士延迟启动</text>
+        <text pos="70,44,-0,-0" class="msgtext">将导致延迟启动功能完全失效！</text>
+        <text pos="70,68,-0,-0" class="msgtext">如果您有疑问请进入我们的</text>
+        <text pos="226,68,-0,-0" class="linktext6" id="5">官方论坛</text>
+        <text pos="286,68,-0,-0" class="msgtext">进行反馈！</text>
+      </dlg>
+      <dlg pos="0,0,-0,-0" id="19" show="0">
+        <text pos="70,20,-0,-0" class="msgtext">金山卫士已被禁止开机自启动，延迟启动功能已失效！</text>
+        <text pos="70,56,-0,-0" class="msgtext">是否立即恢复金山卫士开机自启动？</text>
+      </dlg>
+    </body>
+</layer>

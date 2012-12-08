@@ -1,0 +1,170 @@
+﻿<dlg pos="0,6,-0,-1" crtext="000000">
+	<dlg pos="0,0,146,-0" crbg="E3EDF7"/>
+	<tabctrl id="2001" tabwidth="131" tabalign="left" tabheight="37" tabskin="tableft" splitterskin="tableftsplitter" tabspacing="20" tabpos="20" framepos="10" pos="5,0,-0,-0" text-x="-10" crtext1="FFFFFF">
+		<tab title="木马防火墙">
+			<dlg pos="0,0,-0,75" crbg="EFF8FF"/>
+			<hr pos="0,75,-0,75" crbg="A3BAD2"/>
+			<dlg pos="0,10,-0,-0">
+				<!--实时保护的提示信息-->
+				<dlg pos="0,0,-0,60">
+					<dlg pos="0,0,-0,50" id="265" show="0">
+						<!-- PROTECTION OK -->
+						<img pos="30,2" skin="kwssafe" sub="0"/>
+						<text pos="110,15" crtext="009900" font="0204">实时保护已经全部开启，正在保护您的系统</text>
+						<text pos="110,35">您还可以不定期全盘扫描，随时掌握系统安全状况</text>
+						<text pos="385,35" class="linktext" id="263">立即扫描</text>
+					</dlg>
+					<dlg pos="0,0,-0,50" id="266" show="0">
+						<!-- PROTECTION WARNING1 -->
+						<img pos="30,2" skin="kwssafe" sub="0"/>
+						<text pos="110,15" crtext="009900" font="0204">实时保护已经全部开启，正在保护您的系统</text>
+						<text pos="110,35" crtext="FF0000">未开启“开机后启动%str1%”，系统不会全程受保护，有危险</text>
+						<text pos="480,35" class="linktext" id="262">开启此项</text>
+					</dlg>
+					<dlg pos="0,0,-0,50" id="267" show="0">
+						<!-- PROTECTION WARNING2 -->
+						<img pos="30,2" skin="kwsdanger" sub="0"/>
+						<text pos="110,15" crtext="FF9900" font="0204">有风险！实时保护没有全部开启，系统存在风险</text>
+						<text pos="110,35" >建议您立即开启全部保护，确保系统安全</text>
+						<text pos="350,35" class="linktext" id="264">一键开启</text>
+					</dlg>
+					<dlg pos="0,0,-0,50" id="268">
+						<!-- PROTECTION WARNING13-->
+						<img pos="30,2" skin="kwsdanger" sub="0"/>
+						<text pos="110,15" crtext="FF0000" font="0204">危险！实时保护已关闭，系统容易被木马等入侵</text>
+						<text pos="110,35">建议您立即开启全部保护，确保系统安全</text>
+						<text pos="350,35" class="linktext" id="264">一键开启</text>
+					</dlg>
+				</dlg>
+				<!--各个保护的开启状态-->
+				<dlg pos="2,70,-26,-0">
+
+          <dlg pos="33,6,-0,57">
+            <img id="100204" pos="0,4" skin="protectionstatus2" sub="1"/>
+            <text id="100312" pos="53,6" class="boldtext" crtext1="808080">网页病毒木马过滤</text>
+            <text id="100313" pos="53,27" crtext="808080">保护浏览网页安全，过滤网页木马病毒</text>
+            <text id="100277" pos="-78,6" crtext="FF0000">已关闭</text>
+            <text id="100191" pos="-31,6" class="linktext">开启</text>
+          </dlg>
+          <hr pos="29,57,-0,57" crbg="CCCCCC" style="dot"/>
+          
+					<dlg pos="33,66,-0,118">
+						<img id="200" pos="0,4" skin="protectionstatus2" sub="1"/>
+						<text id="304" pos="53,6" class="boldtext" crtext1="808080">漏洞防护</text>
+						<text id="305" pos="53,27" crtext="808080">监测 Windows 最新漏洞，第一时间打补丁、修复漏洞</text>
+						<text id="273" pos="-78,6" crtext="FF0000">已关闭</text>
+						<text id="187" pos="-31,6" class="linktext">开启</text>
+					</dlg>
+					<hr pos="29,118,-0,118" crbg="CCCCCC" style="dot"/>
+
+         <dlg pos="33,127,-0,177">
+            <img id="100205" pos="0,4" skin="protectionstatus2" sub="1"/>
+            <text id="100314" pos="53,6" class="boldtext" crtext1="808080">下载保护</text>
+            <text id="100315" pos="53,27" crtext="808080">保护浏览器、下载软件和聊天工具，防止从网上下载文件时感染木马</text>
+            <text id="100278" pos="-78,6" crtext="FF0000">已关闭</text>
+            <text id="100192" pos="-31,6" class="linktext">开启</text>
+          </dlg>
+          <hr pos="29,177,-0,177" crbg="CCCCCC" style="dot"/>
+
+					<dlg pos="33,185,-0,237">
+						<img id="201" pos="0,4" skin="protectionstatus2" sub="1"/>
+						<text id="306" pos="53,6" class="boldtext" crtext="808080">关键位置防护</text>
+						<text id="307" pos="53,27" crtext="808080">保护系统注册表的关键位置，防止木马恶意篡改</text>
+						<text id="274" pos="-78,6" crtext="FF0000">已关闭</text>
+						<text id="188" pos="-31,6" class="linktext">开启</text>
+					</dlg>
+					<hr pos="29,237,-0,237" crbg="CCCCCC" style="dot"/>
+
+					<dlg pos="33,246,-0,296">
+						<img id="202" pos="0,4" skin="protectionstatus2" sub="1"/>
+						<text id="308" pos="53,6" class="boldtext" crtext="808080">进程防护</text>
+						<text id="309" pos="53,27" crtext="808080">阻止木马运行，避免银行账号、QQ号、游戏账号被盗</text>
+						<text id="275" pos="-78,6" crtext="FF0000">已关闭</text>
+						<text id="189" pos="-31,6" class="linktext">开启</text>
+					</dlg>
+					<hr pos="29,296,-0,296" crbg="CCCCCC" style="dot"/>
+
+					<dlg pos="33,306,-0,360">
+						<img id="203" pos="0,4" skin="protectionstatus2" sub="1"/>
+						<text id="310" pos="53,6" class="boldtext" crtext="808080">U 盘防护</text>
+						<text id="311" pos="53,27" crtext="808080">阻止木马从 U 盘/优盘、移动硬盘等侵入系统</text>
+						<text id="276" pos="-78,6" crtext="FF0000">已关闭</text>
+						<text id="190" pos="-31,6" class="linktext">开启</text>
+					</dlg>
+				</dlg>
+			</dlg>
+		</tab>
+    <!-- PROTECTION OK 
+    <tab title="网络防火墙">
+      <dlg pos="0,0,-0,75" crbg="EFF8FF"/>
+      <hr pos="0,75,-0,75" crbg="A3BAD2"/>
+      <dlg pos="0,10,-0,-0">
+        <dlg pos="0,0,-0,60">
+          <dlg pos="0,0,-0,50" show="0" id="101000">
+            
+            <img pos="35,10" skin="urlmon_turnon" sub="0"/>
+            <text pos="110,15" crtext="009900" font1="0200">网络防火墙功能已经开启</text>
+            <text pos="110,35">阻止恶意程序访问网络，防御网络攻击</text>
+          </dlg>
+          <dlg pos="0,0,-0,50" show="1" id="101001">
+            
+            <img pos="35,10" skin="urlmon_turnoff" sub="0"/>
+            <text pos="110,15" crtext="FF0000" font="0204">网络防火墙功能尚未开启，建议立即开启</text>
+            <text pos="110,35">阻止恶意程序访问网络，防御网络攻击</text>
+          </dlg>
+        </dlg>
+        <dlg pos="2,70,-26,-0">
+          <img pos="35,20" skin="urlmon_logo" sub="0" />
+          <text pos="110,20" font="0004">网络云监控</text>
+          <text pos="110,40">拦截木马与可疑程序访问网络，阻止用户隐私数据泄漏</text>
+          <text pos="110,70">已检查程序安全性：</text>
+          <text pos="230,70" crtext="00a2e8" id="101002">3146</text>
+          <text pos="280,70">次</text>
+          <text pos="300,70" class="linktext" id="101007">拦截记录</text>
+
+          <text pos="110,90">拦截木马网络访问：</text>
+          <text pos="230,90" crtext="ff0000" id="101003">12</text>
+          <text pos="280,90">次</text>
+
+          <text pos="110,110">最后一次拦截时间：</text>
+          <text pos="230,110" id="101004">2010-20-13 23:11:21</text>
+
+          <text pos="-100,20" id="101005" crtext="FF0000">已关闭</text>
+          <text pos="-55,20" id="101006" class="linktext">开启</text>
+
+          <img skin="urlmon_tip" pos="40,-50" sub="0"/>
+          <text pos="60,-50" crtext="808080" font="0004">你知道吗</text>
+          <text pos="40,-30" crtext="808080">新版网络防火墙不仅可以防止已知木马上传用户的隐私，更可以有效防御各类变种木马、木马下载器。</text>
+        </dlg>
+      </dlg>
+    </tab>  -->
+    
+		<tab title="程序规则">
+			<text id="345" pos="10,10"/>
+			<dlg pos="10,30,-10,-40" class="panel">
+				<text pos="10,10">正在加载信任/阻止程序列表，请稍候...</text>
+				<realwnd id="341" ctrlid="341" pos="0,0,-0,-0" show1="0"/>
+			</dlg>
+			<richtext id="349" pos="10,-28,300,-10" class="richtext" linkclass="linktext">
+				<a id="342">全选</a>/<a id="343">全不选</a>
+			</richtext>
+			<button id="344" pos="-120,-32,-10,-7" class="normalbtn">删除选中记录</button>
+		</tab>
+		
+		<tab title="拦截日志">
+			<dlg pos="10,10,-10,-40" class="panel">
+				<text pos="10,10" show="0">正在加载监控历史记录，请稍候...</text>
+				<dlg id="347" pos="0,0,-0,-0" show="0">
+					<dlg pos="0,0,-0,20">
+						<text pos="0,0,120,-0" class="listheader" crbg="AAAA00">时间</text>
+						<text pos="120,0,210,-0" class="listheader" crbg="AAAA00">拦截类型</text>
+						<text pos="210,0,-100,-0" class="listheader" crbg="00AA00">拦截内容</text>
+						<text pos="-100,0,-0,-0" class="listheader" crbg="00AAAA">处理结果</text>
+					</dlg>
+					<realwnd id="346" ctrlid="346" pos="0,20,-0,-0" show1="0"/>
+				</dlg>
+			</dlg>
+			<button id="348" pos="-120,-32,-10,-7" class="normalbtn">清除所有日志</button>
+		</tab>
+	</tabctrl>
+</dlg>

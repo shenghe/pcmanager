@@ -1,0 +1,26 @@
+﻿<layer title="金山卫士流量监控" width="800" height="570" appwin="1" resize="1" nomaxsize="1">
+	<header class="mainhead" width="full" height="31">
+		<imgbtn id="112" class="linkimage" skin="minbtn" pos="-76,0"/>
+    <imgbtn id="100" class="linkimage" skin="closebtn" pos="-45,0"/>
+	</header>
+	<footer  class="mainfoot" width="full" height="31">
+		<check id="111" pos="10,5" >在桌面显示悬浮窗,监控网络流量</check>
+	</footer>
+	<body class="mainbody" width="full" height="508">
+    <dlg pos="0,0,-0,-0" >
+      <img pos="22,15,64,51" skin="icon"></img>
+      <richtext id="101" pos="78,16,-0,-0" >共有X个程序正在访问网络，实时查看程序的网络访问情况可以帮助您了解是哪些程序在占用网络资源!</richtext>
+	  <link  id="110"  class="linktext" pos="550,16" href="http://guanjia.baidu.com/help/safeguide.html#n10">了解详情</link>
+	  <text id="102" pos="78,37" class="textblue">已下载总流量：00000MB  </text>
+	  <text id="108" pos="210,37" class="textblue">已上传总流量：00000KB</text>
+      <img pos="348,36,360,50" skin="downicon"></img>
+      <text id="104" pos="363,37" class="textblue">下载速度：00000B/S </text>
+      <img pos="488,35,500,49" skin="updataicon"></img>
+      <text id="105" pos="503,37" class="textblue">上传速度：00000B/S </text>
+	  <imgbtn id="109" class="netmondisable" skin="netmondisable" pos="665,15"/>
+      <dlg pos="10,67,-7,-14">
+        <realwnd id="103" ctrlid="103" pos="0,0,-0,-0"/>
+      </dlg>
+    </dlg>
+	</body>
+</layer>

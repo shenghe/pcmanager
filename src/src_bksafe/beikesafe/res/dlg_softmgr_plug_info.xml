@@ -1,0 +1,46 @@
+﻿<layer title="设置" width="320" height="202">
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="101" pos="5,9"/>
+    <text id="8162" class="dlgtitle" pos="25,10,215,22">金山卫士下载提示</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <footer class="msgboxfoot" width="full" height="47">
+    <dlg pos="10,10,-10,-10">
+      <check id="8509"  pos="5,7">不再显示此提示</check>
+      <button id="1" pos="-170,0,-90,-0" class="normalbtn">继续下载</button>
+      <button id="2" pos="-80,0,-0,-0" class="normalbtn">取消下载</button>
+    </dlg>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="2,0,-2,-0">
+      <dlg pos="0,0,-0,-1">
+        <dlg pos="12,20,-12,36">
+          <img id="8513" pos="0,0" skin="softnecesspoint"/>
+          <realwnd pos="0,0,16,16" id="8513" ctrlid="8513" />
+          <richtext id="8514" pos="24,2,-0,-0" class="richtext">
+            <b>傲盾网络加速器</b>
+          </richtext>
+        </dlg>
+        <dlg id="8510" pos="12,50,-12,62" show="0">
+          <img pos="4,2" skin="softnecesspoint"/>
+          <richtext pos="18,0,-0,-0" class="richtext">
+            此软件为<c color="A21818">收费软件</c>，您可能面临收费的提示
+          </richtext>
+        </dlg>
+        <dlg id="8511" pos="12,72,-12,84" show="0">
+          <img pos="4,2" skin="softnecesspoint"/>
+          <richtext pos="18,0,-0,-0" class="richtext">
+            此软件含<c color="A21818">有插件</c>，安装时请根据需要选择
+          </richtext>
+        </dlg>
+        <dlg id="8512" pos="12,94,-12,106" show="0">
+          <img pos="4,2" skin="softnecesspoint"/>
+          <richtext pos="18,0,-0,-0" class="richtext">
+            此版本为<c color="A21818">测试版本</c>，功能虽新但可能不稳定
+          </richtext>
+        </dlg>
+        <dlg pos="0,121,-0,122" crbg="D9D9D9"></dlg>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

@@ -1,0 +1,44 @@
+﻿<layer width=400 height=330>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 木马扫描结果</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <hr pos="10,0,-10,0" crbg=CCCCCC/>
+        <dlg id=110 pos="10,10,-10,-10">
+			<text id=106 pos="5,5" class="linktext" show="0">上报未知文件</text>
+            <button id=121 pos="-190,0,-100,-0" class=normalbtn show=0>全盘扫描</button>
+            <button id=1 pos="-80,0,-0,-0" class=normalbtn>确定</button>
+        </dlg>
+        <dlg id=111 pos="10,10,-10,-10">
+            <button id=108 pos="-180,0,-100,-0" class=normalbtn>立即清除</button>
+            <button id=109 pos="-80,0,-0,-0" class=normalbtn>暂不处理</button>
+        </dlg>
+        <dlg id=113 pos="10,10,-10,-10">
+			<text id=119 pos="5,5" class="linktext" >到论坛求助</text>
+			<text id=120 pos="135,5" class="linktext" >全盘扫描</text>
+            <button id=114 pos="-180,0,-100,-0" class=normalbtn>立即重启</button>
+            <button id=115 pos="-80,0,-0,-0" class=normalbtn>稍后重启</button>
+        </dlg>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="0,0,-0,-0" class=client>
+            <img id=100 pos="10,10" skin=stat40 sub=2/>
+            <dlg id=101 pos="60,10,-0,50" class=safetext>
+                <text id=102 pos="0,0,-0,-0" class=virscanreporttitle>未发现威胁，您的系统非常安全</text>
+				<text id=122 pos="0,42,-0,54" class=dangertext show=1>清除感染性病毒后为避免反复感染，建议立即全盘扫描</text>
+            </dlg>
+            <dlg pos="60,80,-0,-0">
+                <text pos="0,0" class=boldtext>扫描时间：</text><text id=103 pos="70,0"/>
+                <text pos="0,25" class=boldtext>扫描文件：</text><text id=104 pos="70,25"/>
+                <text pos="0,50" class=boldtext>发现威胁：</text><text id=105 pos="70,50"/>
+                <text pos="0,75" class=boldtext>未知文件：</text><text id=107 pos="70,75"/><text id=112 pos="-190,75" class=linktext show=0>查看详细信息</text>
+                <dlg id=118 pos="0,100,-0,125" show=0>
+                    <text pos="0,0" class=boldtext>友情提示：</text>
+                    <text id=116 pos="70,0">5分钟判定未知文件是否安全，并及时提醒。</text>
+                    <text id=117 pos="70,0" class=dangertext show=0>立即上报，5分钟判定未知文件是否安全</text>
+                </dlg>
+				<check id=128 pos="0,130">加入云安全计划，自动上传到云安全服务器以作分析</check>
+            </dlg>
+        </dlg>
+    </body>
+</layer>

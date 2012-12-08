@@ -1,0 +1,27 @@
+﻿<!--layer width="350" height="240" appwin=0 noborder=1-->
+<layer width="470" height="300" appwin="0" noborder="1">
+  <header width="full" height="90">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+      <img id="60009" skin="header_title_sec_red" pos="50,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1060" pos="20,0,-0,-0" class="textmode_title" font="0904">拦截到木马运行，建议立即清除！</text>
+      </dlg>
+      <img skin="logo_big" pos="0,5"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_red" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <dlg class="panel_red" pos="8,0,-8,-60">
+          <realwnd id="1061" ctrlid="1061" font="0000" crtext="333333" pos="10,0,-0,-0"/>
+        </dlg>
+        <text id="1064" pos="14,-25" class="linktext">做一次木马快速扫描</text>
+        <button id="60005" class="normalbtn_gray" pos="-93,-40,-8,-10">确定</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

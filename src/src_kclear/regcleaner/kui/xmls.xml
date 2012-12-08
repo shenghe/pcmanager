@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xmls>
+	<xml id="IDR_KSC_SKIN" path="res/def_skin.xml" />
+	<xml id="IDR_KSC_STYLE" path="res/def_style.xml" />
+	<xml id="IDR_KSC_STRING" path="res/def_string.xml" />
+	<xml id="IDR_DLG_MAIN" path="res/dlg_main.xml" />
+	<xml id="IDR_DLG_CLEAR" path="res/dlg_clear.xml" />
+	<xml id="IDR_DLG_PROCESSMGR" path="res/dlg_processmgr.xml" />
+	<xml id="IDR_DLG_FILECRUSHER" path="res/dlg_filecrusher.xml" />
+	<xml id="IDR_DLG_MESSAGEBOX" path="res/dlg_msgbox.xml" />
+	<xml id="IDR_DLG_FOLDER_BROWSE" path="res/dlg_folderbrowse.xml" />
+	<xml id="IDR_DLG_REG_BACKUP" path="res/dlg_show_reg_backup.xml" />
+</xmls>

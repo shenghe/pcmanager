@@ -1,0 +1,77 @@
+﻿<style>
+  <class name="mainhead_red" skin="mainbghead_red" x-margin="12" y-margin="0"/>
+  <class name="mainbody_red" skin="mainbgbody_red" x-margin="12"/>
+  <class name="mainfoot_red" skin="mainbgfoot_red" y-margin="0"/>
+  <class name="mainhead_orange" skin="mainbghead_orange" x-margin="12" y-margin="0"/>
+  <class name="mainbody_orange" skin="mainbgbody_orange" x-margin="12"/>
+  <class name="mainfoot_orange" skin="mainbgfoot_orange" y-margin="0"/>
+  <class name="mainhead_green" skin="mainbghead_green" x-margin="12" y-margin="0"/>
+  <class name="mainbody_green" skin="mainbgbody_green" x-margin="12"/>
+  <class name="mainfoot_green" skin="mainbgfoot_green" y-margin="0"/>
+  <class name="mainhead_blue" skin="mainbghead_blue"  x-margin="12" y-margin="0"/>
+  <class name="mainbody_blue" skin="mainbgbody_blue"  x-margin="12"/>
+  <class name="mainfoot_blue" skin="mainbgfoot_blue"  y-margin="0"/>
+  <class name="msgboxhead" skin="msgboxhead" font="0000" crtext="000000" crbg="FBFCFD"/>
+  <class name="msgboxbody" skin="msgboxbody" font="0000" crtext="000000" crbg="FBFCFD"/>
+  <class name="msgboxfoot" skin="msgboxfoot" font="0000" crtext="000000" crbg="FBFCFD"/>
+  <class name="panel_gray" skin="panel_gray" margin="1"/>
+  <class name="panel_red" skin="panel_red" margin="2" />
+  <class name="panel_green" skin="panel_green" margin="2" />
+  <class name="normalbtn_gray" skin="normalbtn_gray" font="0000" crtext="000000" textmode="25" cursor="hand" x-margin="5"/>
+  <class name="textmode_title" font="0304" textmode="25"/>
+  <class name="textmode_bws_title" font="0404" textmode="25"/>
+  <class name="richtext_title" font="0402" />
+  <class name="textmode_text" textmode="25"/>
+  <class name="textmode_text_gray" crtext="333333" textmode="25"/>
+  <class name="mainall" skin="mainbgall" font="0000" crtext="000000" crbg="FFFFFF"/>
+  <class name="mainhead" skin="mainbghead" font="0000" crtext="000000" crbg="FFFFFF" x-margin="1"/>
+  <class name="mainbody" skin="mainbgbody" font="0000" crtext="000000" crbg="FFFFFF" x-margin="2"/>
+  <class name="mainfoot" skin="mainbgfoot" font="0000" crtext="000000" crbg="FFFFFF" x-margin="12"/>
+  <class name="mainbody_unk_fdbk" skin="mainbgbody_unk_fdbk" font="0000" crtext="000000" crbg="FFFFFF" x-margin="2"/>
+  <class name="linktext" font="0002" hoverfont="0002" crtext="0064C8" crhover="FF0000" cursor="hand"/>
+  <class name="linktext_unk_fdbk" font="0202" hoverfont="0202" crtext="3366CC" crhover="FF0000" cursor="hand"/>
+  <class name="panel" skin="panel" margin="2"/> 
+  <class name="cpanel" skin="panel" margin="15"/>
+  <class name="uglybtn" skin="uglybtn" font="0000" crtext="000000" textmode="25" cursor="hand"/>
+  <class name="normalbtn" skin="normalbtn" font="0000" crtext="000000" textmode="25" cursor="hand" x-margin="5"/>
+  <class name="linkimage" cursor="hand"/>
+  <class name="boldtext" crtext="6A8DA3"/>
+  <class name="toptext" textmode="20" />
+  <class name="vcentertext" textmode="24"/>
+  <class name="centertext" textmode="25"/>
+  <class name="multitext" textmode="A210" />
+  <class name="titletext" textmode="8000" />
+  <class name="unk_fdbk_titletext" textmode="0" font="0004" crtext="658EA9" />
+  <class name="risktext" crtext="FF0000" textmode="108000" />
+  <class name="unktext" crtext="00B0B0" textmode="108000" />
+  <class name="safetext" crtext="00B0B0" textmode="108000" />
+  <class name="riskpath" crtext="FF0000" textmode="108000" />
+  <class name="safepath" crtext="00B0B0" textmode="108000" />
+  <class name="textmode" textmode="108000" />
+  <class name="bigtitle_risk" skin="bigtitle_risk" x-margin="0"/>
+  <class name="bigtitle_safe" skin="bigtitle_safe" x-margin="0"/>
+  <class name="bigtitle_unk" skin="bigtitle_unk" x-margin="0"/>
+  <class name="bigtitle_news" skin="bigtitle_news" x-margin="0"/>
+  <class name="bigtitle_unk_fdbk" skin="bigtitle_unk_fdbk"/>
+  <class name="bggradation" skin="bggradation"/>
+  <class name="backgroudpicture1" skin="backgroudpicture1" x-margin="0"/>
+  <class name="titlebg" skin="titlebg" />
+  <class name="footerbg" skin="footerbg" />
+  <class name="richtext_normal" linespacing="12"/>   
+  <class name="richtext_normal_space" spacing="5" linespacing="12"/>
+  <class name="client" margin="10"/>
+  <class name="dlgtitle" font="0004" crtext="023863"/>
+  <class name="msgtext" font="0000" crtext="000000" textmode="850"/>
+  <class name="multivcenter" textmode="14" linespacing="12"/>
+  <class name="runopt_green" skin="runopt_frame_green" x-margin="12" y-margin="101"/>
+  <class name=runopthead skin=runoptbghead font=0000 crtext=000000 crbg=FBFCFD  x-margin=2 y-margin=0/>
+  <class name=runoptheadslow skin=runoptbgheadslow font=0000 crtext=000000 crbg=FBFCFD  x-margin=2 y-margin=0/>
+  <class name=runoptbodyquick skin=runoptbgbodyquick font=0000 crtext=FFFFFF crbg=FBFCFD x-margin=2 y-margin=0/>
+  <class name=runoptbodyslow skin=runoptbgbodyslow font=0000 crtext=FFFFFF crbg=FBFCFD x-margin=2 y-margin=0/>
+  <class name=runoptfoot skin=runoptbgfoot font=0000 crtext=000000 crbg=FBFCFD x-margin=10 y-margin=1/>
+  <class name="runopt_slowbg" skin="runopt_body_slow_bg" />
+  <class name="runopt_quickbg" skin="runopt_body_quick_bg"/>
+  <class name=trayappwinbody skin=trayappwinbody font=0000 crtext=FFFFFF crbg=FBFCFD x-margin=9 y-margin=1/>
+  <class name=doublehead skin=doublebghead font=0000 crtext=000000 crbg=FBFCFD  x-margin=2 y-margin=0/>
+  <class name=doublefoot skin=doublebgfoot font=0000 crtext=000000 crbg=FBFCFD x-margin=10 y-margin=1/>
+</style>

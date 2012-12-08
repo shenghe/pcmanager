@@ -1,0 +1,20 @@
+﻿<layer width="576" height="384" appwin="0" noborder="1">
+  <header class="msgboxhead" width="full" height="31">
+    <icon src="108" pos="5,9"/>
+    <text id="60004" class="dlgtitle" pos="25,10">百度安全卫士提醒您</text>
+  </header>
+  <footer class="msgboxfoot" width="full" height="4">
+    <dlg id="60008" pos="0,0,-0,-0" class="client"/>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="1,0,-1,-0" crbg="FAFDFF">
+      <dlg pos="0,0,-0,300" crbg="FAFDFF">
+          <img skin="auto_start_disable_hint" pos="0,0,-0,103"/>
+          <richtext pos="10,110,-10,-143" class="richtext_normal_space">百度安全卫士开机启动项被360安全卫士关闭，这可能造成您得不到全面的安全保障。如果您希望百度安全卫士开机启动，请修改360的启动项设置，开启百度安全卫士的开机启动。</richtext>
+          <img skin="start_from_360" pos="20,-133,-0,-0"/>
+        </dlg>
+        <button id="60005" class="normalbtn" pos="-155,-45,-40,-10">我知道了</button>
+        <button id="60004" class="normalbtn" pos="-343,-45,-188,-10">打开360并手动开启</button>
+     </dlg>
+  </body>
+</layer>

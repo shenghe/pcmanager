@@ -1,0 +1,42 @@
+﻿<layer width="350" height="260" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">电脑体检</text>
+		<imgbtn id="830" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-0">  
+			<text pos="10,5,-10,20">金山卫士实时保护已经全部开启，正在保护您的系统：</text>
+			<dlg pos="20,50,-0,-0">
+				<dlg pos="0,0,-0,-0">
+					<img pos="0,0" skin=exam_stat15 sub=2/>
+					<text pos="20,0">漏洞防护</text>
+					<text pos="-100,0">已开启</text>
+				</dlg>
+				<dlg pos="0,20,-0,-0">
+					<img pos="0,0" skin=exam_stat15 sub=2/>
+					<text pos="20,0">关键位置防护</text>
+					<text pos="-100,0">已开启</text>
+				</dlg>
+				<dlg pos="0,40,-0,-0">
+					<img pos="0,0" skin=exam_stat15 sub=2/>
+					<text pos="20,0">进程防护</text>
+					<text pos="-100,0">已开启</text>
+				</dlg>
+				<dlg pos="0,60,-0,-0">
+					<img pos="0,0" skin=exam_stat15 sub=2/>
+					<text pos="20,0">网页防护</text>
+					<text pos="-100,0">已开启</text>
+				</dlg>
+				<dlg pos="0,80,-0,-0">
+					<img pos="0,0" skin=exam_stat15 sub=2/>
+					<text pos="20,0">U盘防护</text>
+					<text pos="-100,0">已开启</text>
+				</dlg>
+			</dlg>
+			<hr pos="10,-50,-10,-50" crbg=CCCCCC style1=dot/>
+			<text id=832 pos="10,-45" class=linktext>了解更多</text>
+			<button id=831 pos="|-35,-40,|35,-15" class=normalbtn>确定</button>
+		</dlg>
+	</body>
+</layer>

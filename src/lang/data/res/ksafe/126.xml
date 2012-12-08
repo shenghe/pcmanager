@@ -1,0 +1,15 @@
+﻿<layer width="350" height="150" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="107" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">%str1%</text>
+		<imgbtn id="1" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="5,0,-20,-0" >
+			<text pos="20,20">正在分析系统安全状况，为%str1%运行作准备。</text>
+			<text pos="20,40">这将需要约 20 秒钟左右的时间，请稍候...</text>
+			<progress id="3" pos="20,70,-100,112" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+			<button id="4" pos="-90,66,-10,88" class="normalbtn">跳过</button>
+		</dlg>
+	</body>
+</layer>

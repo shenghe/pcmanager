@@ -1,0 +1,32 @@
+﻿<layer title="强力清扫" width="540" height="410">
+    <header class="msgboxhead" width="full" height="25">
+        <icon src="107" pos="5,5"/><text id="9906"  class="dlgtitle" pos="25,8">百度安全卫士强力清扫</text><imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="45">
+        <dlg pos="10,10,-10,-10">
+			<radio id="20001" pos="3,5" group="delete_method">将文件删除到回收站</radio>
+			<radio id="20002" pos="140,5" group="delete_method">彻底删除文件</radio>
+            <button id="10001" pos="-180,0,-90,-0" class="normalbtn">删除所选项目</button>
+            <button id="2" pos="-82,0,-2,-0" class="normalbtn">退出</button>
+        </dlg>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+       <dlg pos="1,1,-1,-0">       		
+			<img pos="20,25" skin="powersweep_ico" />
+			<text pos="70,20" class="examtext">强力清扫</text>
+			<richtext id="10005" pos="130,20,-10,40" class="addspace"></richtext>
+			<progress id="10002" pos="70,40,-10,-0" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos" show="0" />
+			<richtext id="9905"  pos="70,40,-10,-0" class="addspace" show="1" />
+			<!--richtext id="10003" pos="20,70,-0,90" class="addspace" ></richtext-->	
+			<dlg pos="10,75,-10,-0">
+				<dlg pos="0,0,-0,-0" class="panel">
+					<realwnd pos="0,0,-0,-0" id="10004" ctrlid="10004" />
+					<dlg id="2010" show="0" pos="2,2,-2,-2" >
+						<img pos="210,110" skin="uni_sweep_result" />
+					</dlg>
+				</dlg>
+			</dlg>							
+       </dlg> 
+    </body>
+</layer>
+

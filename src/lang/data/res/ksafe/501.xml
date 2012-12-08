@@ -1,0 +1,388 @@
+﻿<dlg pos="0,0,-0,-0" class="softmgrtopbk">
+  <tabctrl id="8132"  tabwidth="79" tabheight="25" tabskin="installsoftmgr" tabspacing="5" tabpos="9" framepos="0" pos="0,4,-0,-1" text-x="1"  text-y="1">
+    <tab title="装机必备" width="full" height="full" >
+      <dlg pos="0,0,-0,-0" id="8429" show="0">
+        <dlg pos="0,0,-0,31" class="softmgrtoptabbg">
+          <text pos="10,10" >市面上最流行的装机软件，经过严格的安全检查，请放心下载安装。</text>
+          <dlg pos ="-305,4,-15,26">
+            <dlg pos="0,0,-50,-0" class="panel" show="1">
+              <realwnd id="8403" pos="2,2,-22,-2" ctrlid="8403"/>
+              <imgbtn id="8430" class="linkimage" skin="querysoftmgr" pos="-20,1,-0,-0" show="1"/>
+            </dlg>
+            <button id="8404" pos="-45,0,-0,-0" class="normalbtn">搜索</button>
+          </dlg>
+        </dlg>
+        <dlg pos="0,32,-0,-30">
+          <dlg pos="0,0,135,-0">
+            <realwnd pos="0,0,-0,-0" id="8401" ctrlid="8401"  />
+            <!-- 屏蔽一键装机
+            <realwnd pos="0,0,-0,-45" id="8401" ctrlid="8401"  />
+            <hr pos="0,-44,-0,-44" crbg="A3BAD2" />
+            <hr pos="0,0,0,-0" crbg="A3BAD2" />
+            <hr pos="-1,0,-1,-0" crbg="A3BAD2" />
+            <imgbtn id="8433" pos="5,-38,129,-6" class="btnonekey" skin="btnonekey"></imgbtn>  
+            -->
+          </dlg>
+          <dlg id="8410" pos="135,0,-0,-0">
+            <dlg id="8405" pos="0,0,-0,27" class="softmgrdetailheader" show="0">
+              <imgbtn	id="8406" pos="14,3" class="linkimage" skin="btnbackquery" />
+              <richtext id="8407" pos="88,8,-0,27"  class="addspace"></richtext>
+            </dlg>
+            <dlg id="8408" pos="0,27,-0,-0" show="0">
+              <text id="8409" pos="0,30,-0,-60" class="centertext" font="0200" >没有找到相关软件，请重新输入关键词搜索</text>
+            </dlg>
+            <realwnd pos="0,0,-0,-0" id="8402" ctrlid="8402"  />
+          </dlg>
+          <dlg id="8411" pos="135,0,-0,-0" show="0">
+            <dlg pos="0,0,-0,52" crbg="FCFDFE">
+              <imgbtn	id="8412" pos="0,0" class="linkimage" skin="btnbackdetail" />
+              <img	pos="65,0" skin="splitdetail" sub="1"/>
+              <realwnd pos="80,9,112,41" id="8414" ctrlid="8414" />
+              <richtext id="8415" pos="130,9,-100,21" class="addspace"></richtext>
+              <img	id="8416" pos="130,29" skin="icondetail" sub="1"/>
+              <text id="8417" pos="145,29">免费</text>
+              <img	id="8418" pos="180,29" skin="icondetail" sub="1"/>
+              <text id="8419" pos="195,29">有插件</text>
+              <img	id="8420" pos="242,29" skin="icondetail" sub="1"/>
+              <text id="8421" pos="257,29">适合当前版本（winXP）</text>
+              <text id="8423" pos="417,29" class="linktext">我来完善</text>
+              <imgbtn id="8424" class="linkimage" skin="btndetailsetup" pos="-78,14" />
+            </dlg>
+            <dlg pos="0,52,-0,53" crbg="D9D9D9"></dlg>
+            <dlg pos="0,54,-0,-0">
+              <realwnd id="8425" pos="0,0,-0,-0" ctrlid="8424"/>
+            </dlg>
+          </dlg>
+        </dlg>
+        <dlg pos="0,-31,-0,-0" class="softmgrbottombk">
+          <text id="8426"  pos="20,-20" class="linktext2">提交软件给百度安全卫士</text>
+          <check id="8432"  pos="154,-21">不显示收费软件</check>
+          <check id="8431"  pos="260,-21" >不显示有插件软件</check>
+          <text id="8427" class="softmgrdowndetail" pos="-230,-26"  show="0"></text>
+          <text id="8428" pos="-72,-20" class="linktext2">下载管理</text>
+        </dlg>
+      </dlg>
+      <!--进度条-->
+      <dlg id="8201" pos="0,0,-0,-0" crbg="FFFFFF" show="0">
+        <img id="8145" pos="|-70,|-110,|-54,|-94" skin="loadinfotip" sub="0"/>
+        <text pos="|-42,|-110,-0,|-94" id="8207">载入中，请稍候......</text>
+        <img	id="8146" pos="|-201,|-76,|+201,|+76" skin="softmgrinstall1" />
+        <!--progress id="8202" pos="180,150,-180,163" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/-->
+      </dlg>
+    </tab>
+    <tab title="软件大全" width="full" height="full">
+
+      <dlg pos="0,0,-0,31" class="softmgrtoptabbg">
+        <text id="8157" pos="10,10">共收录了1860款精品软件，并经过严格的安全检查，请放心下载安装。</text>
+        <!--搜索框-->
+        <dlg pos ="-305,4,-15,26">
+          <dlg id="8150" pos="0,0,-50,-0" class="panel" show="1">
+            <realwnd pos="2,2,-22,-2" id="8101" ctrlid="8101"  />
+            <imgbtn id="8158" class="linkimage" skin="querysoftmgr" pos="-20,1,-0,-0" show="1"/>
+          </dlg>
+          <button id="8156" pos="-45,0,-0,-0" class="normalbtn">搜索</button>
+
+        </dlg>
+      </dlg>
+      <dlg pos="0,31,-0,-0">
+        <!--左侧分类-->
+        <realwnd id="8128" pos="0,0,135,-31" ctrlid="8128" />
+
+        <!--软件大全的正常显示页面-->
+        <dlg id="8115" pos="135,1,-0,-31"  show="1">
+          <!--搜索提示页面-->
+          <dlg id="8134" pos="0,0,-0,27" class="softmgrdetailheader" show="1">
+            <imgbtn	id="8135" pos="14,3" class="linkimage" skin="btnbackquery" />
+            <richtext id="8136" pos="88,8,-0,27"  class="addspace"></richtext>
+          </dlg>
+
+          <!--右侧listview-->
+          <realwnd pos="0,0,-0,-0" id="8100" ctrlid="8100" />
+
+          <!--
+                  <dlg id="8137" pos="0,26,-0,-0" show="0">
+                    <text id="8138" pos="0,|-80,-0,|-60" class="centertext" font="0200" ></text>
+                    <text id="8141" pos="|-160,|-40,|95,|-20" class="centertext" font="0200" ></text>
+                    <text id="8142" pos="|100,|-40,|160,|-20" class="linkcenter" font="0200">最新软件</text>
+                  </dlg>
+                  -->
+
+          <dlg id="8137" pos="0,28,-0,-0" show="0">
+            <text pos="0,30,-0,-60" class="centertext" font="0200" >没有找到相关软件，请重新输入关键词搜索</text>
+          </dlg>
+
+        </dlg>
+
+        <!--显示详情页面-->
+        <dlg id="8116" pos="135,1,-0,-31" show="1">
+          <dlg pos="0,0,-0,52" crbg="FCFDFE">
+            <imgbtn	id="8119" pos="0,0" class="linkimage" skin="btnbackdetail" />
+            <img	pos="65,0" skin="splitdetail" sub="1"/>
+            <realwnd pos="80,9,112,41" id="8122" ctrlid="8122" />
+            <richtext id="8121" pos="130,9,-100,21" class="addspace"></richtext>
+            <img	id="8129" pos="130,29" skin="icondetail" sub="1"/>
+            <text id="8123" pos="145,29">免费</text>
+            <img	id="8130" pos="180,29" skin="icondetail" sub="1"/>
+            <text id="8124" pos="195,29">有插件</text>
+            <img	id="8131" pos="242,29" skin="icondetail" sub="1"/>
+            <text id="8125" pos="257,29">适合当前版本（winXP）</text>
+            <text id="8133" pos="417,29" class="linktext">我来完善</text>
+            <imgbtn id="8126" class="linkimage" skin="btndetailsetup" pos="-78,14" />
+          </dlg>
+          <dlg pos="0,52,-0,53" crbg="D9D9D9"></dlg>
+
+          <!--IE控件，显示软件详情-->
+          <dlg pos="0,54,-0,-0">
+            <realwnd id="8127" pos="0,0,-0,-0" ctrlid="8127"/>
+          </dlg>
+        </dlg>
+      </dlg>
+
+      <!--底部-->
+      <dlg pos="0,-31,-0,-0" class="softmgrbottombk">
+        <text id="8143" pos="20,-20" class="linktext2">提交软件给百度安全卫士</text>
+        <check id="8113"  pos="154,-21">不显示收费软件</check>
+        <check id="8112"  pos="260,-21" >不显示有插件软件</check>
+        <text id="8111" class="softmgrdowndetail" pos="-230,-26"  show="0"></text>
+        <text id="8107" pos="-72,-20" class="linktext2">下载管理</text>
+      </dlg>
+
+    </tab>
+
+    <tab title="软件卸载" width="full" height="full">
+      <!--进度条-->
+      <dlg id="8205" pos="0,0,-0,-31" crbg="FFFFFF" show="1">
+        <img id="8148" pos="|-70,|-110,|-54,|-94" skin="loadinfotip" sub="0"/>
+        <text pos="|-42,|-110,-0,|-94" id="8208">载入中，请稍候......</text>
+        <img	id="8147" pos="|-201,|-76,|+201,|+76" skin="softmgruninstall1" />
+        <!--progress id="8206" pos="180,150,-180,163" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/-->
+      </dlg>
+
+      <!--软件卸载首页-->
+      <dlg id="8210" pos="0,0,-0,-31" show="1">
+        <dlg id="8218" pos="|-100,140,|100,158" show="0">
+          <img id="8219" pos="0,3" skin="loadinfotip" sub="0"/>
+          <text pos="20,5" class="loadtip"> 正在加载软件信息，请稍候...</text>
+        </dlg>
+      </dlg>
+
+      <dlg id="8220" pos="0,0,-0,-31" show="0">
+        <!--导航栏-->
+        <dlg pos="0,0,-0,31" class="softmgrtoptabbg">
+
+          <text pos="8,9" >按位置查找：</text>
+          <realwnd pos="88,4,190,25" id="8168" ctrlid="8168"></realwnd>
+
+          <!--搜索框-->
+          <dlg pos ="-305,4,-15,26">
+            <dlg pos="0,0,-50,-0" class="panel" show="1">
+              <realwnd id="9316" pos="2,2,-22,-2" ctrlid="9316"/>
+              <imgbtn id="9315" class="linkimage" skin="querysoftmgr" pos="-20,1,-0,-0" show="1"/>
+            </dlg>
+            <button id="9317" pos="-45,0,-0,-0" class="normalbtn">搜索</button>
+          </dlg>
+
+
+        </dlg>
+
+        <realwnd id="8120" pos="0,31,135,-0" ctrlid="8120" />
+        <!-- 软件卸载的正常显示页面-->
+        <dlg id="9100" pos="135,31,-0,-0"  show="1">
+          <!--搜索提示页面-->
+          <dlg id="8163" pos="0,0,-0,27" class="softmgrdetailheader" show="0">
+            <imgbtn	id="8164" pos="14,3" class="linkimage" skin="btnbackquery" />
+            <richtext id="8165" pos="88,8,-0,27"  class="addspace"></richtext>
+          </dlg>
+
+          <dlg id="8166" pos="0,0,-0,20">
+            <text id="8300" pos="0,0,-320,-0" class="listheader" crbg="AAAA00">软件名称</text>
+            <dlg pos="-320,0,-0,20">
+              <text id="8301" pos="0,0,100,-0" class="listheader" crbg="AAAA00">占用空间</text>
+              <text id="8302" pos="100,0,200,-0" class="listheader" crbg="00AA00">软件评分</text>
+              <text pos="200,0,320,-0" class="listheader" crbg="AAAA00">操作</text>
+            </dlg>
+            <img id="8304" pos="5,5" skin="listheaderarrowup" transparent="1" show="0"/>
+          </dlg>
+
+          <!--右侧listview-->
+          <realwnd pos="0,20,-0,-0" id="9101" ctrlid="9101" />
+
+          <dlg id="8167" pos="0,28,-0,-0" show="0">
+            <text pos="0,30,-0,-60" class="centertext" font="0200" >没有找到相关软件，请重新输入关键词搜索</text>
+          </dlg>
+        </dlg>
+
+        <!--显示详情页面-->
+        <dlg id="9200" pos="135,31,-0,-0" show="1">
+          <dlg pos="0,0,-0,52" crbg="FCFDFE">
+            <imgbtn	id="8245" pos="0,0" class="linkimage" skin="btnbackdetail" />
+            <img	pos="65,0" skin="splitdetail" sub="1"/>
+            <realwnd pos="80,9,112,41" id="9203" ctrlid="9203" />
+            <richtext id="9204" pos="130,9,-100,21" class="addspace" ></richtext>
+            <text id="9205" class="linktext" pos="130,29">打开该程序安装目录>></text>
+            <text id="8133" pos="417,29" class="linktext">我来完善</text>
+            <imgbtn id="9206" class="linkimage" skin="uninstall_btn" pos="-78,14" />
+          </dlg>
+          <dlg pos="0,52,-0,53" crbg="D9D9D9"></dlg>
+
+          <!--IE控件，显示软件详情-->
+          <dlg pos="0,54,-0,-0">
+            <realwnd id="9207" pos="0,0,-0,-0" ctrlid="9207"/>
+          </dlg>
+        </dlg>
+
+      </dlg>
+
+
+      <!--底部-->
+      <dlg pos="0,-31,-0,-0" class="softmgrbottombk">
+        <!--首页时显示的文字链接-->
+
+        <dlg pos="0,0,350,-0" id="8246">
+          <text id="9301" class="linktext" pos="10,-20">什么样的软件需要卸载？</text>
+          <text id="9303" class="linktext" pos="180,-20">举报无法彻底卸载的软件</text>
+        </dlg>
+
+        <!--重新计算占用空间 -->
+        <text id="9304" class="linktext" pos="10,-20" show="0">点击计算各款软件占用空间情况</text>
+
+        <!--正在计算时的提示-->
+        <text id="9305" pos="10,-20" show="0">正在计算各款软件占用空间情况...</text>
+        <text id="9306" pos="210,-20" font="0004"  show="0">199%</text>
+        <text id="9307" class="linktext" pos="240,-20" show="0">取消</text>
+
+        <!--上次使用时间统计-->
+        <text id="9310" class="linktext" pos="200,-20" show="0">点击开启上次使用时间统计功能</text>
+
+        <dlg pos="0,-31,230,-0" id="9311" show="0">
+          <img id="9312" pos="5,-25" skin="infored" sub="0" />
+          <richtext id="9313" pos="30,-20,145,-0" class="addspace">发现 0 个残留项</richtext>
+          <text id="9314" class="linktext" pos="138,-20">立即清理</text>
+        </dlg>
+
+        <richtext id="9302" pos="-400,-20,-0,-0" class="addspace"></richtext>
+        <text id="9300" class="linktext" pos="-138,-20">垃圾清理</text>
+        <text pos="-90,-20" >|</text>
+        <text id="9304" class="linktext" pos="-80,-20">大文件管理</text>
+      </dlg>
+    </tab>
+
+    <tab title="软件更新" width="full" height="full">
+      <!--进度条-->
+      <dlg id="8221" pos="0,0,-0,-31" crbg="FFFFFF" show="1">
+        <img id="8152" pos="|-70,|-110,|-54,|-94" skin="loadinfotip" sub="0"/>
+        <text pos="|-42,|-110,-0,|-94" id="8209">载入中，请稍候......</text>
+        <img	id="8151" pos="|-201,|-76,|+201,|+76" skin="softmgruninstall1" />
+        <!--progress id="8206" pos="180,150,-180,163" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/-->
+      </dlg>
+
+      <!--没有软件升级页面-->
+      <dlg id="8280" pos="|-100,140,|100,158" show="0">
+        <img id="8281" pos="0,3" skin="infoicon" sub="0"/>
+        <text pos="32,12" class="loadtip"> 目前没有需要升级的软件</text>
+      </dlg>
+
+      <!--软件升级的正常显示页面-->
+
+      <dlg pos="0,0,-0,-0">
+        <dlg id="8282" pos="0,0,-0,31" class="softmgrtoptabbg">
+          <text pos="10,10">有</text>
+          <text id="8285" pos="33,10,55,22" crtext="FF0000" font="0004" textmode="5" >0</text>
+          <text pos="50,10">款可以更新的软件，定期更新软件，可杜绝安全隐患。</text>
+
+          <dlg id="9319" pos="-160,8,-0,24" show="0">
+            <img pos="0,0" skin="ignoreicon" sub="0"/>
+            <text id="8283" pos="20,2" class="linktext2" >不再提醒升级</text>
+            <richtext id="9318" pos="-60,2,-0,-0" class="addspace" >( <b><c color="EC3535">0</c></b> 款)</richtext>
+          </dlg>
+        </dlg>
+        <dlg id="8256" pos="1,31,-0,-31"  show="1">
+
+          <dlg id="8290" pos="0,0,-0,-0">
+            <!--右侧listview-->
+            <realwnd pos="0,0,-0,-31" id="8257" ctrlid="8257" />
+
+            <!--底部-->
+            <dlg pos="0,-31,-0,-0" crbg="EFF9FF">
+              <check id="8260"  pos="10,-21">全选</check>
+
+              <dlg id="8272" pos="-125,5,-20,26" class="normalbtn" onlydrawchild="1">
+                <img id="8273" pos="2,5" skin="arrow" sub="0" />
+                <text id="8274" pos="18,5">升级选中软件</text>
+              </dlg>
+            </dlg>
+          </dlg>
+          
+          <!--没有软件升级但有忽略升级-->
+          <dlg id="8286" pos="|-160,140,|160,158" show="0">
+            <img pos="0,3" skin="infoicon" sub="0"/>
+            <richtext id="8288" pos="32,12,-0,27" class="addspace">检测到有 0 款软件已设置为不再提醒升级</richtext>
+            <text id="8289" pos="277,12" class="linktext2">点击查看</text>
+          </dlg>
+
+        </dlg>
+
+        <!--显示详情页面-->
+        <dlg id="8258" pos="0,31,-0,-31" show="0">
+          <dlg pos="0,0,-0,52" crbg="FCFDFE">
+            <imgbtn	id="8263" pos="0,0" class="linkimage" skin="btnbackdetail" />
+            <img	pos="65,0" skin="splitdetail" sub="1"/>
+            <realwnd pos="80,9,112,41" id="8264" ctrlid="8264" />
+            <richtext id="8265" pos="130,9,-100,21" class="addspace"></richtext>
+            <img	id="8266" pos="130,29" skin="icondetail" sub="1"/>
+            <text id="8267" pos="145,29">免费</text>
+            <img	id="8268" pos="180,29" skin="icondetail" sub="1"/>
+            <text id="8269" pos="195,29">有插件</text>
+            <img	id="8270" pos="242,29" skin="icondetail" sub="1"/>
+            <text id="8271" pos="257,29">适合当前版本（winXP）</text>
+            <imgbtn id="8278" class="linkimage" skin="btndetailupdate" pos="-78,14" />
+          </dlg>
+          <dlg pos="0,52,-0,53" crbg="D9D9D9"></dlg>
+
+          <!--IE控件，显示软件详情-->
+          <dlg pos="0,54,-0,-0">
+            <realwnd id="8259" pos="0,0,-0,-0" ctrlid="8259"/>
+          </dlg>
+        </dlg>
+      </dlg>
+
+      <!--底部-->
+      <dlg pos="0,-31,-0,-0" class="softmgrbottombk">
+        <text id="8143" pos="20,-20" class="linktext2">提交软件给百度安全卫士</text>
+        <text id="8279" class="softmgrdowndetail" pos="-230,-26"  show="0"></text>
+        <text id="8107" pos="-72,-20" class="linktext2">下载管理</text>
+      </dlg>
+
+    </tab>
+
+    <tab title="热门游戏" width="full" height="full">
+      <dlg pos="0,0,-0,31" crbg="FFFFFF" show="1"  class="softmgrtoptabbg" >
+        <text pos="5,10">精选最好玩的网络游戏，网页游戏无需下载，点击即玩。</text>
+        <text id="8153" pos="-220,10" class="linktext">设为IE首页</text>
+        <text pos="-155,10" >|</text>
+        <text id="8154" pos="-140,10" class="linktext">在桌面添加“游戏大厅”</text>
+      </dlg>
+      <dlg pos="0,31,-0,-0">
+        <realwnd pos="0,0,-0,-0" id="8155" ctrlid="8155"  />
+      </dlg>
+    </tab>
+
+  </tabctrl>
+
+  <dlg id="8275" pos="324,4,344,17" show="0">
+    <img id="8276" pos="0,0" skin="updatenum" sub="0" />
+    <text id="8277" pos="0,0,-0,-0" class="centertext" crtext="ffffff">5</text>
+  </dlg>
+
+  <!--加载提示框-->
+  <dlg id="8144" pos="440,5,623,22" show="0">
+    <img id="8149" pos="0,0" skin="loadinfotip" sub="0"/>
+    <text pos="18,2" font="0000" crtext="ffffff"> 正在更新软件信息...</text>
+  </dlg>
+
+  <img	id="8105" pos="-65,5"  skin="settingsoftmgr" />
+  <text id="8102" pos="-45,8"  class="linktext5" crtext="FFFFFF"> 选项</text>
+  <img	id="8106" pos="-118,5" show="0" skin="refrshsoftmgr" />
+  <text id="8103" pos="-96,8" show="0" class="linktext5" crtext="FFFFFF"> 刷新</text>
+
+</dlg>

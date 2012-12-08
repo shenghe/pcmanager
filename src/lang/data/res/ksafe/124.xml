@@ -1,0 +1,16 @@
+﻿<layer width="320" height="170">
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="107" pos="5,9"/>
+    <text id="60004" class="dlgtitle" pos="25,10">%str1%</text>
+    <imgbtn id="60001" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+  </header>
+  <body class="msgboxfoot" width="full" height="full">
+    <dlg id="200" pos="0,0,-0,-0" class="client">
+      <text pos="20,10">您的电脑将在</text><text id="30000" pos="100,10" class="text_color_red">60</text><text pos="120,10">秒后自动关机……</text>
+      <text pos="20,35">如果您现在不想关机，请点击“取消”按钮。</text>
+      
+      <button id="30502" pos="60,-40,140,-10" class="normalbtn">立即关机</button>
+      <button id="30503" pos="180,-40,260,-10" class="normalbtn">取消</button>
+    </dlg>
+  </body>
+</layer>

@@ -1,0 +1,71 @@
+<layer title="广告过滤规则" width="794" height="546">
+	<header class="msgboxhead" width="full" height="32">
+		<icon src=101 pos="5,9"/>
+		<text class=dlgtitle pos="25,10">%str1% - 广告过滤规则</text>
+		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+	<body class="msgboxbody" width="full" height="full">
+		<dlg pos="5,5,-220,55">
+			<img  pos="5,5,50,50" skin="advert_rule_top_image"/>
+			<text id="1800" pos="60,5,-20,18" font="0004">广告过滤功能已经开启</text>
+			<text id="1801" pos="60,22,-0,40">金山卫士广告过滤规则，均由热心网友义务提供，有效过滤网页中各种烦人的弹出、浮动广告。</text>
+		</dlg>
+		<dlg pos="-200,10,-10,30">
+			<img  pos="0,6,15,-4" skin="advert_more_rule"/>
+			<text pos="18,0,100,-0" class="linktext" id="1815">更多过滤规则</text>
+			<img  pos="105,6,120,-4" skin="advert_set_rule"/>
+			<text pos="124,0,-2,-0" class="linktext" id="1816">详细设置</text>
+		</dlg>
+		<dlg pos="5,55,-5,475">
+			<tabctrl id="1802" pos="0,0,-0,-0" tabwidth="100" tabheight1="35" tabskin="tab" frameskin="panelgray" tabpos="9" tabspacing="5" framepos="-1">
+				<tab title="基本规则" width="full" height="full">
+					<dlg pos="1,1,-1,-1">
+						<realwnd pos="0,0,-0,-0" ctrlid="1803" id="1803" />
+					</dlg>
+				</tab>
+				<tab title="自定义规则" width="full" height="full">
+					<dlg pos="1,1,-1,-1">
+						<realwnd pos="0,0,-0,-0" ctrlid="1809" id="1809" />
+					</dlg>
+					<dlg pos="0,0,-0,-0" crbg="FFFFFF" id="1822" show="0">
+						<img pos="0,50,-0,-0" skin="advert_no_rule" id="1813"/>
+						<dlg pos="-420,-37,-230,-10" class="panel">
+							<realwnd pos="1,6,-1,-1" ctrlid="1819" id="1819" />
+						</dlg>
+						<button pos="-220,-37,-130,-10" class="normalbtn" id="1820">添加规则</button>
+						<button pos="-110,-37,-20,-10" class="normalbtn" id="1821">导入规则包</button>
+					</dlg>
+				</tab>
+				<tab title="全部规则细节" width="full" height="full">
+					<dlg pos="0,0,-0,30" crbg="ECF1F7">
+						<dlg pos="-300,5,-60,28" class="panel">
+							<realwnd id="1805" pos="1,5,-22,-1" ctrlid="1805"/>
+							<imgbtn id="1810" pos="-21,1,-1,-1" class="linkimage" skin="advert_search_return" show="0"/>
+						</dlg>
+						<button id="1806" pos="-55,5,-10,28" class="normalbtn">搜索</button>
+					</dlg>
+					<dlg pos="1,31,-1,-1" id="1829" show="0">
+						<realwnd pos="0,0,-0,-0" ctrlid="1804" id="1804" />
+					</dlg>
+					<dlg pos="1,31,-1,-1" id="1828" show="0">
+						<text pos="300,150,-50,170">正在获取规则信息，请等待...</text>
+					</dlg>
+				</tab>
+			</tabctrl>
+		</dlg>
+		<dlg pos="20,486,-100,506">
+			<img pos="0,3,15,-2" skin="urlmon_tip"/>
+			<text pos="18,4,-0,-2">支持多组规则同时启用</text>
+		</dlg>
+		<dlg pos="-100,486,-10,506" show="0" id="1825">
+			<text pos="0,3,30,-3" class="linktext" id="1817">复制</text>
+			<text pos="40,3,-0,-3" class="linktext" id="1818">删除</text>
+		</dlg>
+		<dlg pos="-290,486,-10,506" show="0" id="1826">
+			<text pos="0,3,90,-3" class="linktext" id="1827">添加独立规则</text>
+			<text pos="100,3,170,-3" class="linktext" id="1823">导入规则包</text>
+			<text pos="180,3,-0,-3" class="linktext" id="1824">删除所有规则包</text>
+		</dlg>
+	</body>
+  <footer class="msgboxfoot" width="full" height="3"/>
+</layer>

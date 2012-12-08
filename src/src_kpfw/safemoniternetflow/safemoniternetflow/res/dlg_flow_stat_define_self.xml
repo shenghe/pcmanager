@@ -1,0 +1,30 @@
+﻿<layer title="金山卫士-流量监控" width="400" height="160"  resize="1" nomaxsize="1">
+  <header class="msgboxhead" width="400" height="32">
+    <icon src="101" pos="5,9"/>
+    <text class="dlgtitle" pos="25,10">金山卫士-流量监控</text>
+    <imgbtn id="100" class="linkimage" skin="closebtn" pos="-43,0"/>
+  </header>
+  
+  <footer class="msgboxfoot" width="400" height="2">
+  </footer>
+  
+  <body class="msgboxbody" width="400" height="full">
+    <text pos ="20,10,-20,26" class="boldfont">请选择您要查看的时间范围</text>
+    <dlg pos="20,45,-0,75">
+      <text pos ="0,5" >开始时间：</text>
+      <dlg pos="60,0,160,20" class="panel2">  
+        <realwnd id="102" pos="0,0,-1,-0" ctrlid="102" />
+      </dlg>
+      
+      <text pos ="200,5" >结束时间：</text>
+      <dlg pos="260,0,-20,20" class="panel2">
+        <realwnd id="103" pos="0,0,-1,-0" ctrlid="103" />
+      </dlg>
+    </dlg>
+    
+    <dlg pos="20,85,-0,-0">
+      <button id="104" pos="100,0,180,25" class="normalbtn">立即查看</button>
+      <button id="105" pos="200,0,280,25" class="normalbtn">取消</button>
+    </dlg>
+  </body>
+</layer>

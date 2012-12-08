@@ -1,0 +1,17 @@
+﻿<listitem height=50>
+    <dlg id=100 pos="0,0,-0,-0">
+        <check id=101 pos="10,18"/>
+        <icon id=102 pos="40,9" size=32/>
+        <text id=103 pos="80,10,-180,30" class=endellipsistext/>
+        <text id=104 pos="80,30,-180,50" class=endellipsistext crtext=777777/>
+        <dlg id=105 pos="-180,0,-0,-0" show=0>
+            <text pos="0,0,80,-0" class=centertext crtext=00AA00>已信任</text>
+            <button id=107 pos="-80,15,-20,-15" class=normalbtn>取消信任</button>
+        </dlg>
+        <dlg id=106 pos="-180,0,-0,-0">
+            <text pos="0,0,80,-0" class=centertext crtext=FF0000>已阻止</text>
+            <button id=108 pos="-80,15,-20,-15" class=normalbtn>取消阻止</button>
+        </dlg>
+        <hr pos="0,-1,-0,-1" crbg=CCCCCC/>
+    </dlg>
+</listitem>

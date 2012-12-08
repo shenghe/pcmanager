@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+html,body{overflow:hidden;}
+
+#container
+{
+    width:634px;
+    height:428px;
+    position:relative;
+    /*background-color:#336699;*/
+	overflow:hidden;
+}
+
+#main
+{
+    width:634px;
+    height:428px;
+    position:relative;
+    /*background-color:red;*/
+	overflow:hidden;
+}
+
+#item_title
+{
+    position:relative;
+    background:url(../images/tip.jpg) no-repeat 20px 5px;
+    height:28px;
+    text-indent:43px;
+    line-height:28px;
+    vertical-align:middle;
+}
+#content
+{
+    position:relative;
+    width:628px;
+    height:396px;
+    border:solid 1px #d3d3d3;
+    overflow-x:hidden;
+    overflow-y:auto;
+    left:4px;
+    /*background-color:blue;*/
+}
+#content li
+{
+    position:relative;
+    border-bottom:solid 1px #d3d3d3;
+    height:65px;
+    vertical-align:middle;    
+    cursor:pointer;
+	/*background-color:yellow;*/
+}
+#content li img
+{
+    display:block;
+    float:left;
+}
+.option_title
+{
+    width:555px;
+    display:block;
+    font-weight:700;
+    float:right;
+    text-align:left;
+    margin-top:15px;
+    height:20px;
+    line-height:20px;    
+}
+.option_content
+{
+    width:555px;
+    display:block;
+    float:right;
+    text-align:left;
+    height:20px;
+    line-height:20px;
+}
+.on_menu
+{
+    background:url(../images/bg.jpg);
+}

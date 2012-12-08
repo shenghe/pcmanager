@@ -1,0 +1,1 @@
+xcopy /E /I /Y "%cd%\data" "..\..\product\win32"

@@ -1,0 +1,31 @@
+﻿<listitem height="85">
+  <dlg pos="0,0,-0,-0" crbg="FFFFFF" crtext="000000">
+    <dlg pos="20,15,-15,-20">
+      <dlg id="1" pos="0,0,130,-0">
+        <memimage id="11"  pos="|-16,0,|16,32"/>
+        <img id="13" pos="|5,20" skin="stat15" sub="2"/>
+        <text id="12" pos="0,40,-0,52" class="centertext" />
+      </dlg>
+      <dlg id="2" pos="130,0,260,-0">
+        <memimage id="21"  pos="|-16,0,|16,32"/>
+        <img id="23" pos="|8,24," skin="stat15" sub="8"/>
+        <text id="22" pos="0,40,-0,52" class="centertext" />
+      </dlg>
+      <dlg id="3" pos="260,0,390,-0">
+        <memimage id="31"  pos="|-16,0,|16,32"/>
+        <img id="33" pos="|8,24," skin="stat15" sub="8" />
+        <text id="32" pos="0,40,-0,52" class="centertext" />
+      </dlg>
+      <dlg id="4" pos="390,0,520,-0">
+        <memimage id="41"  pos="|-16,0,|16,32"/>
+        <img id="43" pos="|8,24," skin="stat15" sub="8" />
+        <text id="42" pos="0,40,-0,52" class="centertext" />
+      </dlg>
+      <dlg id="5" pos="520,0,650,-0">
+        <memimage id="51"  pos="|-16,0,|16,32"/>
+        <img id="53" pos="|8,24," skin="stat15" sub="8"/>
+        <text id="52" pos="0,40,-0,52" class="centertext" />
+      </dlg>
+    </dlg>
+  </dlg>
+</listitem>

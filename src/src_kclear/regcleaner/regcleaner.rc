@@ -1,0 +1,185 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""buildcfg/versionno.rc2""\r\n"
+    "#include ""kuiwin/kuires.rc2""\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_REGCLEANER DIALOGEX 0, 0, 457, 262
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "立即清理",IDC_BTN_CLEAN,391,227,49,18,BS_CENTER
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_TABSTOP,37,28,114,34
+    LTEXT           "",IDC_TXT_DESC,28,7,300,11,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "结束扫描",IDC_BTN_STOP,265,227,49,18,BS_CENTER
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",0x0,382,7,50,10
+    CONTROL         "",IDC_PIC_TIPS,"Static",SS_BITMAP,7,6,15,13
+    LTEXT           "恢复注册表",IDC_BACKUP,220,230,41,8
+    CONTROL         "",IDC_TREE,"SysTreeView32",TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP | 0x800,53,68,163,91,WS_EX_TRANSPARENT
+    PUSHBUTTON      "开始扫描",IDC_BTN_SCAN,168,227,49,18,BS_CENTER
+    CONTROL         "",IDC_SELECTALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,233,9,8
+    LTEXT           "推荐选项",IDC_DEFAULT,39,235,49,8
+    CONTROL         "",IDC_PIC_LOADING,"Static",SS_BITMAP,13,22,15,13
+    LTEXT           "全选",IDC_SELALL_T,19,227,18,8
+END
+
+IDD_BACKUP_DIALOG DIALOGEX 0, 0, 346, 180
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "",ID_RESTORE,211,160,55,17
+    CONTROL         "",IDC_BACKUP_LIST,"SysListView32",LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,6,35,329,119
+    CONTROL         "",IDC_PIC_TIP,"Static",SS_BITMAP,6,21,15,13
+    PUSHBUTTON      "",IDC_CLOSE,279,160,55,17
+    LTEXT           "",IDC_TXT_STATIC,19,21,264,8,0,WS_EX_TRANSPARENT
+    LTEXT           "删除选中项",ID_DELETE,6,162,43,8,0,WS_EX_TRANSPARENT
+    LTEXT           "删除全部",ID_DELETE_ALL,56,162,34,8,0,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_REGCLEANER, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 440
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_BACKUP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 343
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 177
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LISTITEMS           BITMAP                  "res\\listitems.bmp"
+IDB_PROGRESS            BITMAP                  "res\\progress.bmp"
+IDB_TIPS                BITMAP                  "res\\status.bmp"
+IDB_QUIT                BITMAP                  "res\\btn_quit.bmp"
+IDB_GREEN               BITMAP                  "res\\green.bmp"
+IDB_FOLDER_CHECKFLAG_BMP BITMAP                  "res\\bmp_foler_checkflags.bmp"
+IDB_LOADING             BITMAP                  "res\\loading.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_BTN_DOWN            PNG                     "res\\buttondown.PNG"
+IDB_BTN_NORMAL          PNG                     "res\\buttonnormal.PNG"
+IDB_BTN_OVER            PNG                     "res\\buttonover.PNG"
+IDB_BTNDOWN_B           PNG                     "res\\btn_down.bmp"
+IDB_BTNHOVER_B          PNG                     "res\\btn_hover.bmp"
+IDB_BTNNORMAL_B         PNG                     "res\\btn_normal.bmp"
+IDB_BTNDISABLE_B        PNG                     "res\\btn_disable.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\backupdlg.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_SCAN                "开始扫描"
+    IDS_STOP                "停止扫描"
+    IDS_CLEAN               "立即清理"
+    IDS_STOPCLEAN           "停止清理"
+    IDS_BACKUP_CLOSE        "关闭"
+    IDS_BACKUP_DELETE       "删除"
+    IDS_BACKUP_RESTORE      "恢复"
+    IDS_RESCAN              "重新扫描"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "buildcfg/versionno.rc2"
+#include "kuiwin/kuires.rc2"
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

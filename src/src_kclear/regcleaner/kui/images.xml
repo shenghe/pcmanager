@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<images>
+	<image id="IDI_ICON_BIG" path="images/icon_big.ico" />
+	<image id="IDI_ICON_SMALL" path="images/icon_small.ico" />
+	<image id="IDP_LOGO_MODULE" path="images/logo_module.png" />
+	<image id="IDP_TAB_LOGOS_FULL" path="images/tab_logs_full.png" />
+	<image id="IDP_TAB_LOGOS_LITE" path="images/tab_logs_lite.png" />
+	<image id="IDB_MAIN_BG_HEADER" path="images/main_bg_header.bmp" />
+	<image id="IDB_MAIN_BG_BODY" path="images/main_bg_body.bmp" />
+	<image id="IDB_MAIN_BG_FOOTER" path="images/main_bg_footer.bmp" />
+	<image id="IDB_MSGBOX_HEADER" path="images/msgbox_bg.bmp" />
+	<image id="IDB_MSGBOX_BODY" path="images/msgbox_body_bg.bmp" />
+	<image id="IDB_PROGRESS_BAR_BG" path="images/progress_bar_bg.bmp" />
+	<image id="IDB_PROGRESS_BAR_VALUE" path="images/progress_bar_value.bmp" />
+	<image id="IDB_TAB_MAIN" path="images/tab_main.bmp" />
+	<image id="IDB_TAB_NORMAL" path="images/tab_normal.bmp" />
+	<image id="IDB_TAB_MAIN_SPLITTER" path="images/tab_main_splitter.bmp" />
+	<image id="IDB_TAB_LEFT" path="images/tab_left.bmp" />
+	<image id="IDB_TAB_LEFT_SPLITTER" path="images/tab_left_splitter.bmp" />
+	<image id="IDB_TAB_PLUGNORMAL" path="images/tab-plug.bmp" />
+	<image id="IDB_BTN_NORMAL_BG" path="images/btn_normal_bg.bmp" />
+	<image id="IDB_BTN_SYS_CLOSE" path="images/btn_sys_close.bmp" />
+	<image id="IDP_BTN_SYS_CLOSE_ONLY" path="images/btn_sys_close.png" />
+	<image id="IDB_BTN_SYS_MAXIMIZE" path="images/btn_sys_maximize.bmp" />
+	<image id="IDB_BTN_SYS_MINIMIZE" path="images/btn_sys_minimize.bmp" />
+	<image id="IDB_BTN_SYS_RESTORE" path="images/btn_sys_restore.bmp" />
+	<image id="IDB_FRAME_PANEL_GRAY" path="images/frame_panel_gray.bmp" />
+	<image id="IDB_FRAME_PANEL" path="images/frame_panel.bmp" />
+	<image id="IDB_TAB_MAIN" path="images/tab_main.bmp" />
+	<image id="IDB_LOGO_KSSC" path="images/logo_ksc.bmp" />
+	<image id="IDB_LOGO_CLEAR" path="images/logo_clear.bmp" />
+	<image id="IDB_STATUS_ICON" path="images/status_icon.bmp" />
+	<image id="IDB_STATUS_ICON2" path="images/loading.bmp" />
+	<image id="IDB_STATUS_ICON3" path="images/status_40.bmp" />
+	<image id="IDP_PROTECTION_STATUS3" path="images/protection_status3.png" />
+	<image id="IDB_ONEKEY_CLEAN_END" path="images/clean_done.png" />
+	<image id="IDB_ONEKEY_CLEAN_ADVICE" path="images/onekey_clean_advice.bmp" />
+	<image id="IDB_ONEKEY_CLEAN_FIRST" path="images/onekey_clean_first.bmp" />
+	<image id="IDB_ONEKEY_CLEAN_STOPED" path="images/clean_cancel.png" />
+	<image id="IDP_SCAN_ANIMATION" path="images/scan_animation.png" />
+	<image id="IDP_SCAN_ANIMATION_BG" path="images/scan_animation_bg.png" />
+	<image id="IDB_ONEKEY_CLEAN_SMALL_ICONS" path="images/onekey_clean_small_icons.bmp" />
+	<image id="IDB_ONEKEY_CLEAN_GREEN_TIPS" path="images/onekey_clean_greentip.bmp" />
+	<image id="IDB_BITMAP_LISTCTRL_HEADER" path="images/listctrl_header.bmp" />
+	<image id="IDB_BITMAP_LISTCTRL_CHECK" path="images/listctrl_check.bmp" />
+	<image id="IDP_FOLDER" path="images/folder.png" />
+	<image id="IDP_PROCESS_OK" path="images/proce_OK.png" />
+	<image id="IDI_UNKNOWN_SMALL" path="images/unknown_small.ico" />
+	<image id="IDB_DEL_MSGBOX_INFO" path="images/status_40.bmp" />
+	<image id="IDB_ONEKEY_CLEAN" path="images/btn_start_clean.bmp" />
+	<image id="IDB_ONEKEY_SHAWDOW" path="images/shadow.bmp" />
+	<image id="IDP_ONEKEY_FLAG" path="images/onekey.png"/>
+	<image id="IDB_ONEKEY_TRASH" path="images/onekey_trash.bmp"/>
+	<image id="IDB_ONEKEY_TRACK" path="images/onekey_track.bmp"/>
+	<image id="IDB_ONEKEY_REG" path="images/onekey_reg.bmp"/>
+</images>
+

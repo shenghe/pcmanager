@@ -1,0 +1,14 @@
+﻿<string>
+  <s id="1">BkWin Demo</s>
+  <s id="2">&lt;b&gt;&lt;c color=E35500&gt;%s&lt;/c&gt;&lt;/b&gt;  &lt;b&gt;是一个%s。&lt;/b&gt;</s>
+  <s id="17">&lt;button id=%d pos="%d,-29,%d,-0" class=normalbtn&gt;%s&lt;/button&gt;</s>
+  <s id="18">确定</s>
+  <s id="19">取消</s>
+  <s id="20">放弃</s>
+  <s id="21">重试</s>
+  <s id="22">忽略</s>
+  <s id="23">是</s>
+  <s id="24">否</s>
+  <s id="25">继续</s>
+  <s id="26">&lt;dlg pos="|-%d,0,|%d,-0"&gt;%s&lt;/dlg&gt;</s>
+</string>

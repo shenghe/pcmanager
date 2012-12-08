@@ -1,0 +1,38 @@
+﻿<layer title="已安装补丁" width="700" height="520">
+  <header class="mainhead" width="full" height="50">
+    <icon src="100" pos="5,5"/>
+    <imgbtn id="10000" class="linkimage" skin="closebtn" pos="-50,0"/>
+    <text class="dlgtitle" pos="25,5">已安装补丁</text>
+  </header>
+  
+  <footer class="mainfoot" width="full" height="50">
+  </footer>
+  
+  <body class="mainbody" width="full" height="full">
+    <dlg id="200" pos="0,0,-0,-0">
+      
+      <!-- 正在扫描 -->
+      <dlg id="201" pos="0,0,-0,-0">
+        <img id="20180" pos="0,0" skin="examani" sub="0"/>
+        <text pos="70,0" class="examtitle">
+          正在扫描已安装补丁，请稍候…
+        </text>
+        <progress id="112" pos="70,25,-65,45" min="0" max="200" value="0" showpercent="1"/>
+        <button id="1001"  pos="-60,25,-0,45" class="uglybtn">取消</button>
+      </dlg>
+      
+      <!-- 列表 -->
+      <dlg id="300" show="0" pos="0,0,-0,-0">
+        <text id="30000"  pos="10,10">已安装系统漏洞补丁 83 个，补丁文件大小总计 120M</text>
+        <button id="30001" pos="-150,10" class="uglybtn">打开补丁文件存放目录</button>
+        
+        <realwnd id="30010" ctrlid="30010" pos="5,35,-5,-40"/>        
+        <dlg id="305"  pos="5,-35,-5,-5">
+          <button id="30503" pos="-100,10" class="uglybtn">关闭</button>
+        </dlg>
+      </dlg>
+      
+    </dlg>
+    
+  </body>
+</layer>

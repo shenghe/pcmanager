@@ -1,0 +1,15 @@
+﻿<listitem height="55">
+  <dlg id="8500" pos="0,0,-0,-0" crbg="FFFFFF">
+    <dlg pos="0,0,-0,-0">
+      <check id="8501"  pos="10,16"></check>
+      <memimage id="8502"  pos="32,12,64,44"/>
+      <text id="8503" pos="78,12,-290,27" class="linktextignorename"></text>
+      <text id="8504" pos="78,32,208,47" class="linktextsoftmgrdesc"></text>
+      <text id="8505" pos="150,32" crtext="3163A6" class="mark">新版功能</text>
+      <text id="8506" pos="-285,12,-80,27" class="linktextsoftmgrdesc"></text>
+      <text id="8507" pos="-285,32,-80,47" class="linktextsoftmgrdesc"></text>
+      <text id="8508" pos="-80,20,-0,37" crtext="3163A6" class="mark">恢复提醒</text>
+    </dlg>
+    <hr pos="0,-1,-0,-1" crbg="DEE6E8"/>
+  </dlg>
+</listitem>

@@ -1,0 +1,30 @@
+<layer width="400" height="218">
+    <header class="msgboxhead" width="full" height="32">
+        <icon src="IDI_ICON_SMALL" pos="5,9"/><text class="dlgtitle" pos="25,10">请选择迁移路径</text><imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="45">
+        <button id="1" pos="-210,10,-130,-10" class="normalbtn">立即迁移</button>
+        <button id="2" pos="-110,10,-30,-10" class="normalbtn">取消</button>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+        <dlg id="200" pos="0,0,-0,-0">
+            <text pos="30,30">所有勾选文件即将迁移到其他盘，您确认迁移这些文件吗？</text>
+            <text pos="30,60">总大小：</text><text id="100" pos="90,60"></text>
+            <text pos="160,60">文件数：</text><text id="101" pos="209,60"></text>
+        </dlg>
+        <dlg id="201" pos="0,0,-0,-0">
+            <text pos="30,20">该文件即将迁移到其他盘，您确认迁移这些文件吗？</text>
+            <text pos="30,45">文件名：</text>
+            <dlg pos="87,43,280,59" class="panel">
+                <realwnd pos="0,0,-0,-0" id="202" ctrlid="202" />
+            </dlg>
+            <text pos="30,70">大　小：</text><text id="203" pos="87,70"></text>
+        </dlg>
+        <text pos="30,95">迁移到：</text>
+        <dlg pos="87,93,283,109" class="panel">
+            <realwnd pos="0,0,-0,-0" id="102" ctrlid="102" />
+        </dlg>
+        <text id="103" pos="322,95" class="linktext">修改路径</text>
+        <text id="104" pos="30,122" class="cancelsafe">请选择一个不在系统盘的目录，可以是移动硬盘或者U盘上的目录！</text>
+    </body>
+</layer>

@@ -1,0 +1,120 @@
+﻿
+<layer title="金山卫士实时保护设置" width="700" height="535" appwin="0" noborder="0">
+	<header class="mainhead" width="full" height="23">
+		<icon src="101" pos="5,4"/>
+		<text class="dlgtitle" pos="25,6">%str1%实时保护</text>
+		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+	<footer class="mainfoot" width="full" height="5"/>
+	<body class="mainbody" width="full" height="full">
+		<!--dlg pos="0,-23,-0,-0" class="mainfoot"/-->
+		<dlg pos="0,0,-0,-10" crtext="000000">
+            <tabctrl id=136 tabwidth=71 tabheight=71 tabskin="tabmain" iconskin="iconprottab" splitterskin1="tabmainsplitter" tabspacing=5 tabpos=1 framepos=7 pos="0,5,-0,-1" icon-x=10 icon-y=1 text-y=25>
+                <tab title="保护状态">
+                    <hr pos="-190,10,-190,-10" crbg="A3BAD2"/>
+                    <img1 id="312" pos="20,10" skin="protectionstatus3" sub="0"/>
+                    <dlg pos="20,15,-210,-20">
+                        <dlg pos="0,0,-0,50" id="265" show="0">
+                            <!-- PROTECTION OK -->
+                            <text pos="0,0" crtext="009900" font="0200">实时保护已经全部开启，正在保护您的系统</text>
+                            <text pos="0,25">您还可以不定期全盘扫描，随时掌握系统安全状况</text>
+                            <text pos="270,25" class="linktext" id="263">立即扫描</text>
+                        </dlg>
+                        <dlg pos="0,0,-0,50" id="266" show="0">
+                            <!-- PROTECTION WARNING1 -->
+                            <text pos="0,0" crtext="009900" font="0200">实时保护已经全部开启，正在保护您的系统</text>
+                            <text pos="0,25" crtext="FF0000">未开启“开机后启动%str1%”，系统不会全程受保护，有危险</text>
+                            <text pos="340,25" class="linktext" id="262">开启此项</text>
+                        </dlg>
+                        <dlg pos="0,0,-0,50" id="267" show="0">
+                            <!-- PROTECTION WARNING2 -->
+                            <text pos="0,0" crtext="FF9900" font="0200">有风险！实时保护没有全部开启，系统存在风险</text>
+                            <text pos="0,25" >建议您立即开启全部保护，确保系统安全</text>
+                            <text pos="225,25" class="linktext" id="264">一键开启</text>
+                        </dlg>
+                        <dlg pos="0,0,-0,50" id="268">
+                            <!-- PROTECTION WARNING13-->
+                            <text pos="0,0" crtext="FF0000" font="0200">危险！实时保护已关闭，系统容易被木马等入侵</text>
+                            <text pos="0,25">建议您立即开启全部保护，确保系统安全</text>
+                            <text pos="225,25" class="linktext" id="264">一键开启</text>
+                        </dlg>
+                        <hr pos="0,50,-0,50" crbg="A3BAD2"/>
+                        <dlg pos="0,60,-0,100">
+                            <img id="200" pos="0,4" skin="protectionstatus2" sub="1"/>
+                            <text id="304" pos="50,0" class="boldtext" crtext="808080">漏洞防护</text>
+                            <text id="305" pos="50,28" crtext="808080">监测 Windows 最新漏洞，第一时间打补丁、修复漏洞</text>
+                            <text id="273" pos="-80,14" crtext="009900" show="0">已开启</text>
+                            <text id="269" pos="-80,14" crtext="ff0000">已关闭</text>
+                            <text id="187" pos="-25,14" class="linktext" show="0">关闭</text>
+                            <text id="191" pos="-25,14" class="linktext">开启</text>
+                        </dlg>
+                        <hr pos="0,110,-0,110" crbg="CCCCCC" style="dot"/>
+                        <dlg pos="0,120,-0,160">
+                            <img id="201" pos="0,4" skin="protectionstatus2" sub="1"/>
+                            <text id="306" pos="50,0" class="boldtext" crtext="808080">关键位置防护</text>
+                            <text id="307" pos="50,28" crtext="808080">保护系统注册表的关键位置，防止木马恶意篡改</text>
+                            <text id="274" pos="-80,14" crtext="009900" show="0">已开启</text>
+                            <text id="270" pos="-80,14" crtext="ff0000">已关闭</text>
+                            <text id="188" pos="-25,14" class="linktext" show="0">关闭</text>
+                            <text id="192" pos="-25,14" class="linktext">开启</text>
+                        </dlg>
+                        <hr pos="0,170,-0,170" crbg="CCCCCC" style="dot"/>
+                        <dlg pos="0,180,-0,220">
+                            <img id="202" pos="0,4" skin="protectionstatus2" sub="1"/>
+                            <text id="308" pos="50,0" class="boldtext" crtext="808080">进程防护</text>
+                            <text id="309" pos="50,28" crtext="808080">阻止木马运行，避免银行账号、QQ号、游戏账号被盗</text>
+                            <text id="275" pos="-80,14" crtext="009900" show="0">已开启</text>
+                            <text id="271" pos="-80,14" crtext="ff0000">已关闭</text>
+                            <text id="189" pos="-25,14" class="linktext" show="0">关闭</text>
+                            <text id="193" pos="-25,14" class="linktext">开启</text>
+                        </dlg>
+                        <hr pos="0,230,-0,230" crbg="CCCCCC" style="dot"/>
+                        <dlg pos="0,240,-0,280">
+                            <img id="203" pos="0,4" skin="protectionstatus2" sub="1"/>
+                            <text id="310" pos="50,0" class="boldtext" crtext="808080">U 盘防护</text>
+                            <text id="311" pos="50,28" crtext="808080">阻止木马从 U 盘/优盘、移动硬盘等侵入系统</text>
+                            <text id="276" pos="-80,14" crtext="009900" show="0">已开启</text>
+                            <text id="272" pos="-80,14" crtext="ff0000">已关闭</text>
+                            <text id="190" pos="-25,14" class="linktext" show="0">关闭</text>
+                            <text id="194" pos="-25,14" class="linktext">开启</text>
+                        </dlg>
+                    </dlg>
+                    <dlg pos="-200,0,-20,-0">
+                        <text pos="20,25">开启实时保护后，%str1%发现</text>
+                        <text pos="20,45">威胁时，会及时提示。如果您不</text>
+                        <text pos="20,65">知道如何处理，请点击“确定”</text>
+                        <text pos="20,85">由%str1%自动帮您处理。如下</text>
+                        <text pos="20,105">图所示：</text>
+                        <img  pos="22,140" skin="protectionexample" />
+                        <text pos="-40,-30" class="linktext" href="http://www.ijinshan.com/safe/protect_intro.html?fr=client">了解更多</text>
+                    </dlg>
+                </tab>
+                <tab title="信任/阻止">
+                    <text id=345 pos="10,10"/>
+                    <dlg pos="10,30,-10,-40" class=panel>
+                        <text pos="10,10">正在加载信任/阻止程序列表，请稍候...</text>
+                        <realwnd id=341 ctrlid=341 pos="0,0,-0,-0" show=0/>
+                    </dlg>
+                    <richtext id=349 pos="10,-28,300,-10" class=richtext linkclass=linktext><a id=342>全选</a>/<a id=343>全不选</a></richtext>
+                    <button id=344 pos="-120,-32,-10,-7" class=normalbtn>清空已选程序</button>
+                </tab>
+                <tab title="查看历史">
+                    <dlg pos="10,10,-10,-40" class=panel>
+                        <text pos="10,10">正在加载监控历史记录，请稍候...</text>
+                        <dlg id=347 pos="0,0,-0,-0" show=0>
+							<dlg pos="0,0,-0,20">
+								<text pos="0,0,120,-0" class="listheader" crbg="AAAA00">时间</text>
+								<text pos="120,0,210,-0" class="listheader" crbg="AAAA00">拦截类型</text>
+								<text pos="210,0,-100,-0" class="listheader" crbg="00AA00">拦截内容</text>
+								<text pos="-100,0,-0,-0" class="listheader" crbg="00AAAA">处理结果</text>
+							</dlg>
+                            <realwnd id=346 ctrlid=346 pos="0,20,-0,-0"/>
+                        </dlg>
+                    </dlg>
+                    <button id=348 pos="-120,-32,-10,-7" class=normalbtn>清除所有日志</button>
+                </tab>
+            </tabctrl>
+		</dlg>
+        <img pos="-170,11" skin=logoprotection/>
+    </body>
+</layer>

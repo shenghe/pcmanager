@@ -1,0 +1,115 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TEST_BKWIN          ICON                    "res\\test_bkwin.ico"
+IDI_SMALL               ICON                    "res\\small.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BTN_NORMAL_BG       BITMAP                  "res\\btn_normal_bg.bmp"
+IDB_FRAME_DIALOG        BITMAP                  "res\\frame_dialog.bmp"
+IDB_TAB                 BITMAP                  "res\\tab.bmp"
+IDB_FRAME_PANEL         BITMAP                  "res\\frame_panel.bmp"
+IDB_BTN_SYS_CLOSE_ONLY  BITMAP                  "res\\btn_sys_close_only.bmp"
+IDB_PROGRESS_BAR_BG     BITMAP                  "res\\progress_bar_bg.bmp"
+IDB_PROGRESS_BAR_POS    BITMAP                  "res\\progress_bar_pos.bmp"
+IDB_BTN_SYS_CLOSE       BITMAP                  "res\\btn_sys_close.bmp"
+IDB_BTN_SYS_MIN         BITMAP                  "res\\btn_sys_minimize.bmp"
+IDB_BTN_SYS_MAX         BITMAP                  "res\\btn_sys_maximize.bmp"
+IDB_BTN_SYS_RESTORE     BITMAP                  "res\\btn_sys_restore.bmp"
+IDB_SPLIT               BITMAP                  "res\\split.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BKRES
+//
+
+IDR_BK_TEST_DIALOG      BKRES                   "res\\dlg_test.xml"
+IDR_BK_SKIN_DEF         BKRES                   "res\\def_skin.xml"
+IDR_BK_STYLE_DEF        BKRES                   "res\\def_style.xml"
+IDR_BK_STRING_DEF       BKRES                   "res\\def_string.xml"
+IDR_BK_TEST2_DIALOG     BKRES                   "res\\dlg_test2.xml"
+IDR_BK_VIEW_DETAIL_PANEL BKRES                   "res\\panel_view_detail.xml"
+IDR_BK_HIDE_DETAIL_PANEL BKRES                   "res\\panel_hide_detail.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG1                PNG                     "res\\png1.png"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

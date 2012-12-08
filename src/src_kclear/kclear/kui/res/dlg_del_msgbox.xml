@@ -1,0 +1,18 @@
+<layer width="400" height="200">
+    <header class="msgboxhead" width="full" height="32">
+        <icon src="IDI_ICON_SMALL" pos="5,9"/><text class="dlgtitle" id="10" pos="25,10">金山卫士</text><imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="45">
+        <button id="1" pos="100,10,180,-10" class="normalbtn">立即删除</button>
+        <button id="2" pos="200,10,280,-10" class="normalbtn">取消</button>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+        <dlg id="200" pos="0,0,-0,-0">
+            <img pos="30,25" skin="bigfile_del_msgbox" sub="1"/>
+            <text id="5" pos="90,30">您确认删除这些文件吗？</text>
+            <radio pos="90,60" id="3">删除到回收站</radio>
+            <radio pos="90,90" id="4">直接删除</radio>
+            <text pos="153,90" class="text_color_red">(此文件不可恢复)</text>
+        </dlg>
+    </body>
+</layer>

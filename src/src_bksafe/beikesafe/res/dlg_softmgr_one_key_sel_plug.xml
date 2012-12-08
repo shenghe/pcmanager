@@ -1,0 +1,35 @@
+﻿<layer title="金山卫士" width="680" height="420">
+  <header class="softdlghead" width="full" height="28">
+    <icon src="101" pos="5,9"/>
+    <text id="8160" class="dlgtitle" pos="25,10,215,22">金山卫士 - 一键装机</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <footer class="softdlgfoot" width="full" height="3">
+  </footer>
+  <body class="softdlgbody" width="full" height="full">
+
+    <dlg pos="4,0,-4,-0" crbg="0071A9">
+      
+      <dlg pos="0,0,-0,-0">
+         <dlg pos="0,0,-0,-40">
+           <dlg pos="0,0,-0,70" class="softonektopbg">
+              <img  pos="10,12" skin="stat15" sub="3"/>
+              <text pos="28,13" font="0204">您可以根据需要选择随软件附带的安装选项</text>
+              <hr pos="0,-1,-0,-1" crbg="cccccc"/>
+            </dlg> 
+            <dlg pos="0,68,-0,-0" class="panel">
+              <realwnd id="1" pos="0,0,-0,-0" ctrlid="1" />
+            </dlg>  
+        </dlg>
+        
+        <dlg pos="10,-40,-10,-5">
+          <button id="2" pos="-200,10,-120,38" class="normalbtn">确定</button>
+          <button id="3" pos="-90,10,-10,38" class="normalbtn">取消</button>
+        </dlg>  
+      </dlg>
+      
+    </dlg>  
+
+  </body>
+</layer>
+

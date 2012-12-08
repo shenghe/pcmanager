@@ -1,0 +1,20 @@
+﻿<layer title="添加网站到阻止列表" width=446 height=176>
+    <header class=msgboxhead width=full height=32>
+        <!--icon src=101 pos="5,9"/-->
+		<text class=dlgtitle pos="10,10">添加到网站黑名单</text>
+		<imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <dlg pos="10,10,-10,-10">
+			<text pos=0,-19>支持通配符*、?，例如*.xxx.com</text>
+            <button id=100 pos="-170,0,-90,-0" class=normalbtn>确定</button>
+            <button id=101 pos="-80,0,-0,-0" class=normalbtn>取消</button>
+        </dlg>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+		<text pos=10,12>请输入/粘贴要拦截的网站/网址，每行一个：</text>
+        <dlg pos="10,35,-10,-0" class=panel>
+            <realwnd pos="0,0,-0,-0" ctrlid=102 id=102 show=1/>
+        </dlg>
+    </body>
+</layer>

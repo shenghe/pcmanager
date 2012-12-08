@@ -1,0 +1,4 @@
+LIBRARY	"kispublic"
+
+EXPORTS
+KisCopyFile

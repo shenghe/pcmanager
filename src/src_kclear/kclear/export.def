@@ -1,0 +1,8 @@
+LIBRARY	"kclear"
+
+EXPORTS
+	DllGetClassObject		PRIVATE
+	CreateKClearObject
+	HasTrash
+	SetTrashNotifyHwnd
+	

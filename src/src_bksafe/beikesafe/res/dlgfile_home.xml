@@ -1,0 +1,216 @@
+﻿<dlg pos="0,0,-0,-0">
+	<hr pos="-265,6,-265,-0" crbg="A3BAD2"/>
+	<dlg pos="0,0,-265,-0">
+		<!--新版本体检title部分-->
+		<dlg pos="0,0,-0,104">
+			<img pos="0,8,-0,-1" skin="exam_title_bg"/>
+			<img id="505" pos="22,30" skin="examstatus48" sub="0"/>
+			<!--扫描扫描结果状态-->
+			<dlg id="109" pos="0,0,-0,-0">
+				<text id="526" pos="86,35" crtext="6d6d6d" class="examscoretitle">体检得分</text>
+				<richtext id="524" pos="88,61,-0,76" class="richtext">体检共发现：<b><c  color="FB9D00">xxx</c></b>项问题，建议立即修复</richtext>
+				<button id="530" pos="-100,45,-18,75" class="normalbtn">重新体检</button>
+				<dlg pos="20,0,-100,-0">
+					<!--木马-->
+					<dlg pos="0,0,-0,-0" id="626">
+						<img pos="68,25,150,50" skin="exam_trojan"/>
+						<imglisth pos="176,27,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=1,sub1=1,sub2=1,sub3=1,sub4=1"></imglisth>
+					</dlg>
+					<!--高危-->
+					<dlg pos="0,0,-0,-0" id="625">
+						<img pos="68,25,150,50" skin="exam_hight_danger"/>
+						<imglisth pos="131,27,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=2,sub1=1,sub2=1,sub3=1,sub4=1"></imglisth>
+					</dlg>
+					<!--危险-->
+					<dlg pos="0,0,-0,-0" id="624">
+						<img pos="68,25,150,50" skin="exam_danger"/>
+						<imglisth pos="131,27,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=2,sub1=2,sub2=1,sub3=1,sub4=1"></imglisth>
+					</dlg>
+					<!--风险-->
+					<dlg pos="0,0,-0,-0" id="623">
+						<img pos="68,25,150,50" skin="exam_risk"/>
+						<imglisth pos="131,27,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=0,sub1=0,sub2=0,sub3=5,sub4=1"></imglisth>
+					</dlg>
+					<!--优化-->
+					<dlg pos="0,0,-0,-0" id="622">
+						<img pos="68,25,150,50" skin="exam_opt"/>
+						<imglisth pos="153,27,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=0,sub1=0,sub2=0,sub3=0,sub4=1"></imglisth>
+					</dlg>
+					<!--安全-->
+					<dlg pos="0,0,-0,-0" id="621">
+						<img pos="68,25,150,50" skin="exam_safe"/>
+						<imglisth pos="131,27,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=3,sub1=3,sub2=3,sub3=3,sub4=3"></imglisth>
+					</dlg>
+				</dlg>
+				<!-- 
+				<text id="526" pos="86,35" crtext="6d6d6d" class="examscoretitle">体检得分</text>
+				<richtext id="524" pos="88,61,-0,76" class="richtext">体检共发现：<b><c  color="FB9D00">xxx</c></b>项问题，建议立即修复</richtext>
+				<dlg id="592" pos="150,0,-0,-0" show="1">
+					<imglisth id="587" pos="0,23,69,63" imagecount="3" skinlist="" sublist=""></imglisth>
+					<img id="590" pos="69,33,88,63" skin="examscoretxt" sub="0"/>
+					<text id="591" pos="105,36" font1="0204" crtext="6d6d6d" class="examscoretitle">当前系统处于危险当中</text>
+				</dlg>
+				<dlg id="593" pos="150,0,-0,-0" show="1">
+
+					<imglisth id="595" pos="0,23,46,63" imagecount="2" skinlist="" sublist=""></imglisth>
+					<img id="597" pos="46,33,65,63" skin="examscoretxt" sub="0"/>
+					<text id="598" pos="72,36" font1="0204" crtext="6d6d6d" class="examscoretitle">当前系统处于危险当中</text>
+				</dlg>
+				<dlg id="594" pos="150,0,-0,-0" show="1">
+					<imglisth id="599" pos="0,23,23,63" imagecount="1" skinlist="" sublist=""></imglisth>
+					<img id="600" pos="25,33,45,63" skin="examscoretxt" sub="0"/>
+					<text id="601" pos="50,36" font1="0204" crtext="6d6d6d" class="examscoretitle">当前系统处于危险当中</text>
+				</dlg>
+				<button id="530" pos="-100,45,-18,75" class="normalbtn">重新体检</button> 
+-->
+
+			</dlg>
+			<!--启动页面初始化状态-->
+			<dlg id="504" pos="0,0,-0,-0">
+				<dlg id="602" pos="0,0,-0,-0">
+					<text id="507" pos="88,35" font1="0204" crtext="6d6d6d" class="examtitle">上次体检时间</text>
+					<text id="517" pos="88,57,-0,71" font1="0204" crtext="6d6d6d"></text>
+				</dlg>
+				<dlg id="603" pos="0,0,-0,-0" >
+					<dlg pos="20,0,-0,-0">
+						<text id="604" pos="66,35" font1="0204" crtext="C80000" class="examscoretitle">上次体检结果</text>
+						<!--木马-->
+						<dlg pos="0,0,-0,-0" id="632">
+							<img pos="160,25,200,50" skin="exam_trojan"/>
+							<imglisth pos="269,28,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=1,sub1=1,sub2=1,sub3=1,sub4=1"/>
+						</dlg>
+						<!--高危-->
+						<dlg pos="0,0,-0,-0" id="631">
+							<img pos="160,25,200,50" skin="exam_hight_danger"/>
+							<imglisth pos="221,28,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=2,sub1=1,sub2=1,sub3=1,sub4=1"/>
+						</dlg>
+						<!--危险-->
+						<dlg pos="0,0,-0,-0" id="630">
+							<img pos="160,25,200,50" skin="exam_danger"/>
+							<imglisth pos="221,28,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=2,sub1=2,sub2=1,sub3=1,sub4=1"/>
+						</dlg>
+						<!--风险-->
+						<dlg pos="0,0,-0,-0" id="629">
+							<img pos="160,25,200,50" skin="exam_risk"/>
+							<imglisth pos="221,28,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=0,sub1=0,sub2=0,sub3=5,sub4=1"/>
+						</dlg>
+						<!--优化-->
+						<dlg pos="0,0,-0,-0" id="628">
+							<img pos="160,25,240,50" skin="exam_opt"/>
+							<imglisth pos="246,28,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=0,sub1=0,sub2=0,sub3=0,sub4=1"></imglisth>
+						</dlg>
+						<!--安全-->
+						<dlg pos="0,0,-0,-0" id="627">
+							<img pos="160,25,200,50" skin="exam_safe"/>
+							<imglisth pos="221,28,-0,63" imagecount="5" skinlist="skin0=exam_score_icon,skin1=exam_score_icon,skin2=exam_score_icon,skin3=exam_score_icon,skin4=exam_score_icon" sublist="sub0=3,sub1=3,sub2=3,sub3=3,sub4=3"/>
+						</dlg>
+					</dlg>
+<!-- 
+					<text id="604" pos="86,35" font1="0204" crtext="6d6d6d" class="examscoretitle">上次体检得分</text>
+					<dlg id="605" pos="175,0,-0,-0" show="1">
+
+						<imglisth id="606" pos="0,23,69,63" imagecount="3" skinlist="" sublist=""></imglisth>
+						<img id="609" pos="69,33,88,63" skin="examscoretxt" sub="0"/>
+						<text id="610" pos="105,36" font1="0204" crtext="6d6d6d" class="examscoretitle">当前系统处于危险当中</text>
+					</dlg>
+					<dlg id="611" pos="175,0,-0,-0" show="1">
+						<imglisth id="612" pos="0,23,46,63" imagecount="2" skinlist="" sublist=""></imglisth>
+						<img id="614" pos="46,33,65,63" skin="examscoretxt" sub="0"/>
+						<text id="615" pos="72,36" font1="0204" crtext="6d6d6d" class="examscoretitle">当前系统处于危险当中</text>
+					</dlg>
+					<dlg id="616" pos="175,0,-0,-0" show="1">
+						< ! -- <img id="617" pos="0,23,23,63" skin="examscoresafenum" sub="1"/> -- >
+						<imglisth id="617" pos="0,23,23,63" imagecount="1" skinlist="" sublist=""></imglisth>
+						<img id="618" pos="25,33,45,63" skin="examscoretxt" sub="0"/>
+						<text id="619" pos="50,36" font1="0204" crtext="6d6d6d" class="examscoretitle">当前系统处于危险当中</text>
+					</dlg>
+ -->
+					<richtext id="620" pos="88,57,-0,73" class="richtext">
+						上次体检时间：<b>
+							<c  color="%s">%s</c>
+						</b>，共发现问题<b>
+							<c color="%s"></c>
+						</b>项，未处理问题<b>
+							<c color="%s">%s</c>
+						</b>项
+					</richtext>
+				</dlg>
+			</dlg>
+			<!--体检过程-->
+			<dlg id="108" pos="0,0,-0,80" >
+				<img id="105" pos="22,32" skin="examanipng48" sub="0"/>
+				<text id="580" pos="78,35">正在进行电脑体检，请稍候...</text>
+				<!-- <imglisth id="583" pos="-220,20,-134,60" imagecount="3" skinlist="" sublist=""></imglisth> -->
+				<!-- <img id="584" pos="-151,30,-134,60" skin="examscoretxt" sub="0"/> -->
+				<progress id="112" pos="75,55,-130,55" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+				<button id="138" pos="-112,45,-30,75" class="normalbtn">取消</button>
+			</dlg>
+		</dlg>
+		<!--整个体检模块界面UI-->
+		<dlg pos="0,100,-0,-6" class1="panel" crbg="FFFFFF">
+			<img pos="0,0,-0,21" skin="exam_bg"/>
+			<!--左下功能调用-->
+			<dlg pos="0,0,-0,-0" class1="client" crbg1="FBFCFD">
+				<realwnd id="501" pos="3,10,-1,-33" ctrlid="501" crbg1="FBFCFD"/>
+				<!--等待体检界面-->
+				<dlg id="509" pos="0,0,-0,-30" show="0">
+					<text pos="15,15" crtext="6d6d6d">金山卫士电脑体检将快速扫描您的电脑安全状态，发现系统存在的木马、漏洞、恶评插件等</text>
+					<text pos="15,35" crtext="6d6d6d">问题和其他安全隐患，以解决这些问题或给出系统优化建议。建议每天体检一次。</text>
+					<imgbtn id="508" class="linkimage" skin="examstart" pos="|-88,|-40"/>
+				</dlg>
+				<!--修改体检设置-->
+				<dlg pos="0,-32,-20,-0">
+					<hr pos="10,-31,-10,-31" crbg="CCCCCC" style="dot"/>
+					<dlg id="518" pos="0,-30,-0,-0" class1="client">
+						<text id="511" pos="10,10" crtext="6d6d6d">当前设置为：手动体检</text>
+						<text id="520" pos="-165,10,-10,25" class="linktextright"> 改为每天体检一次</text>
+					</dlg>
+					<dlg id="519" pos="0,-30,-0,-0" class1="client">
+						<text id="502" pos="10,10" crtext="6d6d6d">当前设置为：每次打开%str1%主界面时，自动体检</text>
+						<text id="503" pos="-165,10,-10,25" class="linktextright">改为手动体检</text>
+					</dlg>
+				</dlg>
+			</dlg>
+		</dlg>
+	</dlg>
+	
+	<dlg pos="-264,0,-0,-0" crtext="000000">
+		<!--推荐-->
+		<dlg pos="0,10,-0,260">
+			<img pos="5,5" skin="iconflash"/>
+			<text pos="25,7" class="boldtext">最新功能</text>
+			<dlg pos="10,17,-0,-0" crtext="6d6d6d">
+				<dlg id="562" pos="0,10,-10,57" class="btnexamright" onlydrawchild="1" crbg="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="1"/>
+					<text pos="52,9" crtext1="3064A5" font1="0204">系统修复</text>
+					<text pos="52,26" crtext1="777777">发现系统问题，一键完美解决</text>
+				</dlg>
+				<dlg id="564" pos="0,57,-10,104" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="2"/>
+					<text pos="52,9" crtext1="3064A5" font1="0204">清理痕迹</text>
+					<text pos="52,26" crtext1="777777">清理使用痕迹，保护您的隐私</text>
+				</dlg>
+				<dlg id="572" pos="0,104,-10,151" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="3"/>
+					<text pos="52,9" crtext1="3064A5" font1="0204">开机加速</text>
+					<text pos="52,26" crtext1="777777">优化启动项目，加快开机速度</text>
+				</dlg>
+				<dlg id="573" pos="0,151,-10,198" class="btnexamright" onlydrawchild="1" crbg1="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="4"/>
+					<text pos="52,9" crtext1="3064A5" font1="0204">插件清理</text>
+					<text pos="52,26" crtext1="777777">清理恶评插件，修复桌面图标</text>
+				</dlg>
+				<dlg id="570" pos="0,198,-10,245" class="btnexamright" onlydrawchild="1" crbg="FF0000">
+					<img pos="15,7" skin="righttopicon" sub="0"/>
+					<text id="581" pos="52,9" crtext1="3064A5" font1="0204">游戏中心</text>
+					<text id="582" pos="52,26" crtext1="777777">多款精品网页游戏，永久免费</text>
+				</dlg>
+
+			</dlg>
+		</dlg>
+		<!--网页-->
+		<dlg pos="11,272,-10,-12" show="1">
+			<realwnd id="114" pos="0,0,-0,-0" ctrlid="114"/>
+		</dlg>
+	</dlg>
+</dlg>

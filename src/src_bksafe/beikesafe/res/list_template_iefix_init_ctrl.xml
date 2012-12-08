@@ -1,0 +1,10 @@
+﻿<listitem height=24>
+  <dlg id=5 pos="0,0,-0,-0">
+        <text pos="20,6" id=1></text>
+	  <dlg id=2 pos="-140,0,-0,-0" show="0">
+			<img id=3 pos="0,5" skin="stat15" sub="2"/>
+			<text pos="25,6" id=4></text>
+		</dlg>		  
+	  <hr pos="0,-1,-0,-1" crbg="CCCCCC" />
+    </dlg>
+</listitem>

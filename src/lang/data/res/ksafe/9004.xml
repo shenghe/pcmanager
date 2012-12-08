@@ -1,0 +1,11 @@
+﻿<layer>
+	<body width="full" height="full">
+		<dlg pos="0,0,-0,-0" crbg="DDDDDD" >
+			<dlg pos="1,1,-1,-1" crbg="F0F2F0">
+				<dlg pos="0,0,-0,-0" id="1">
+					<text pos="0,0,-0,-0" class="centertext">正在加载，请稍候...</text>
+				</dlg>
+			</dlg>
+		</dlg>
+	</body>
+</layer>

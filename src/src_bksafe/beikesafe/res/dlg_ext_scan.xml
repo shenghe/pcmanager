@@ -1,0 +1,20 @@
+﻿<layer width="400" height="200">
+    <header class="msgboxhead" height="32">
+        <icon src="101" pos="5,9"/>
+        <text class="dlgtitle" pos="25,10">%str1%</text>
+        <imgbtn id="2" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <body class="msgboxfoot">
+        <dlg pos="0,0,-0,-0" class="client">
+            <icon id="60005" pos="10,10" src="32515" oem="1" size="32"/>
+          <!--<text pos="60,10">本次扫描在您的系统中发现了病毒，为了确保系统安全</text>
+            <text pos="60,35">需要立即进行一轮深度扫描！深度扫描可能发现更多威</text>
+            <text pos="60,60">胁，需要几分钟时间。</text>-->
+            <text pos="60,22">当前系统存在威胁，金山卫士将进行深度扫描。</text>
+            <text pos="60,52" crtext="6d6d6d">深度扫描可能发现其他的系统威胁</text>
+            <button id="1" pos="|-85,-55,|-5,-25" class="normalbtn">确定</button>
+            <button id="2" pos="|5,-55,|85,-25" class="normalbtn">取消</button>
+            <check id="60010" pos="10,-20">不再询问</check>
+        </dlg>
+    </body>
+</layer>

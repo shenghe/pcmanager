@@ -1,0 +1,32 @@
+﻿<layer title="COM 禁用" width="700" height="520">
+  <header class="mainhead" width="full" height="50">
+    <icon src="100" pos="5,5"/>
+    <imgbtn id="10000" class="linkimage" skin="closebtn" pos="-50,0"/>
+    <text class="dlgtitle" pos="25,5">软件漏洞修复</text>
+  </header>
+  
+  <footer class="mainfoot" width="full" height="50">
+  </footer>
+  
+  <body class="mainbody" width="full" height="full">
+    <dlg id="200" pos="0,0,-0,-0">
+      
+      <dlg id="201" pos="0,0,-0,30">
+        <img id="105" pos="0,0" skin="examani" sub="0"/>
+        <text pos="70,0" class="examtitle">
+          重要提示: COM 禁用可能导致以下软件的在线功能无法正常使用
+        </text>
+      </dlg>
+      
+      <realwnd id="30010" ctrlid="30010" pos="5,35,-5,-40"/>
+      
+      <dlg id="300" pos="5,-35,-5,-0">
+        <text id="30000"  pos="10,10" class="linktext">如何恢复禁用的COM组件</text>
+        
+        <button id="30001" pos="|-100,10" class="uglybtn">修复选中漏洞</button>
+        <button id="30002" pos="|100,10" class="uglybtn">放弃修复漏洞</button>
+      </dlg>
+      
+    </dlg>    
+  </body>
+</layer>

@@ -1,0 +1,24 @@
+﻿<layer width="580" height="385" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士提醒您</text>
+		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,78" >
+			<dlg pos="2,1,-2,76" class="sysopt_blue_bg">
+			</dlg>
+			<hr pos="2,76,-2,76" class=ignore_line/>
+			<img pos="23,13" skin="runopt_double_arroe"/>
+			<img pos="90,31" skin="runopt_delay_infotext"/>
+		</dlg>
+		<dlg pos="2,78,-2,-2" crbg="fbfcfe">
+			<text pos="15,10" crtext="9A9A9A">Windows开机时会自动运行一些程序，拖慢开机速度。将它们延迟到开机完成后再运行，</text>
+			<text pos="15,35" crtext="9A9A9A">可以加快开机速度！</text>
+			<text pos="15,70" >延迟启动适用于大部分启动项，您可以在“启动项”页面设置延迟启动。</text>
+			<img pos="15,88" skin="runopt_delay_howto"/>
+			<check pos="15,237" id="1">我知道了，下次不再提示。</check>
+			<button pos="482,231,562,256" id="2" class=normalbtn>确定</button>
+		</dlg>
+	</body>
+</layer>

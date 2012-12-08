@@ -1,0 +1,17 @@
+﻿<layer title="当前使用的百度安全卫士非官方版本，系统存在危险。" width=350 height=250>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">验证官方版本失败</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <text pos="20,14" class=linktext href="http://guanjia.baidu.com/safe.html">下载官方版本</text>
+        <button id=2 pos="-90,10,-10,-10" class=normalbtn>关闭</button>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,-0" class=cpanel>
+            <text pos="0,0">当前使用的百度安全卫士非官方版本，系统存在危险。</text>
+			<text pos="0,40">出现此问题，意味着百度安全卫士已被恶意篡改。这将导</text>
+			<text pos="0,60">致百度安全卫士功能异常，丧失保护系统安全的能力。</text>
+			<text pos="0,100">强烈建议您立即下载官方版本，解决此问题。</text>
+        </dlg>
+    </body>
+</layer>

@@ -1,0 +1,24 @@
+﻿<layer width="350" height="200" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">安装永久免费的金山毒霸</text>
+		<imgbtn id="815" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-0">
+			<dlg pos="10,10,-0,60">
+				<img pos="20,5" skin="logomodule" sub="2"/>	 
+				<text class="examtitle" pos="70,20">金山毒霸2011永久免费</text>
+			</dlg>
+			<dlg pos="10,60,-0,100">
+				<text class1="examtitle" pos="70,0">永久免费的专业杀毒软件，国内技术领先</text>
+				<text class1="examtitle" pos="70,15">创新三引擎，全面保护您的电脑安全！</text>
+			</dlg>
+			<dlg pos="0,100,-0,-0">
+				<button id="812" pos="|-40,-60,|40,-30" class="normalbtn">免费安装</button>	
+				<text id=841 pos="-100,-45" class="linktext2">体检忽略此项</text>
+			</dlg>
+			<!--check id="841" pos="20,-30">不再检查此项</check-->
+		</dlg>
+	</body>
+</layer>

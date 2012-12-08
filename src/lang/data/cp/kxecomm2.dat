@@ -1,0 +1,11 @@
+[ProductInfo]
+kxebase.dll=SOFTWARE\KSafe\KXEngine
+scom.dll=SOFTWARE\KSafe\KXEngine\CLASSES_ROOT
+[SPRoot]
+SPRoot=SOFTWARE\KSafe\KXEngine\SP_ROOT
+[SPCfg]
+KBasicSP=KBasicSPCp2
+KBootCare=KBootCareCp2
+KSBWScanServiceSE=KSBWScanServiceSECp2
+KSBWScanServiceEx=KSBWScanServiceExCp2
+KsmPopData=KsmPopDataCp2

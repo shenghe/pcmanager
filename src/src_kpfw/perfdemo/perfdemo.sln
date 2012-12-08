@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "perfdemo", "perfdemo\perfdemo.vcproj", "{F80FEE67-53F8-4391-B557-5371FD66B0EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shellhook", "shellhook\shellhook.vcproj", "{9270AAED-706D-4417-9D46-AA6B00976630}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80FEE67-53F8-4391-B557-5371FD66B0EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F80FEE67-53F8-4391-B557-5371FD66B0EF}.Debug|Win32.Build.0 = Debug|Win32
+		{F80FEE67-53F8-4391-B557-5371FD66B0EF}.Release|Win32.ActiveCfg = Release|Win32
+		{F80FEE67-53F8-4391-B557-5371FD66B0EF}.Release|Win32.Build.0 = Release|Win32
+		{9270AAED-706D-4417-9D46-AA6B00976630}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9270AAED-706D-4417-9D46-AA6B00976630}.Debug|Win32.Build.0 = Debug|Win32
+		{9270AAED-706D-4417-9D46-AA6B00976630}.Release|Win32.ActiveCfg = Release|Win32
+		{9270AAED-706D-4417-9D46-AA6B00976630}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

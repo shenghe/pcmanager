@@ -1,0 +1,94 @@
+hWnd: 00010060 title: 开始
+
+hWnd: 001006a0 title: Windows 任务管理器
+
+hWnd: 0001005a title: 
+
+hWnd: 0001018c title: 
+
+hWnd: 0008072e title: e:\ksafe\trunk\src\src_kpfw\perfdemo\debug\perfdemo.exe
+
+hWnd: 0005046c title: perfdemo (正在运行) - Microsoft Visual Studio
+
+hWnd: 0007068c title: perfdemo
+
+hWnd: 00040378 title: 收件箱 - Microsoft Outlook
+
+hWnd: 0003095a title: 永生, 正文 第四百五十八章 天剑切割,天翼文学 - 谷歌浏览器
+
+hWnd: 000802be title: MSDN Library - April 2005 - RegisterShellHookWindow Function
+
+hWnd: 000b024e title: MSDN Library - April 2005 - RegisterShellHookWindow Function
+
+hWnd: 0002085e title: 性能监视器
+
+hWnd: 0003079e title: 管理工具
+
+hWnd: 00030756 title: 系统和安全
+
+hWnd: 00010102 title: Program Manager
+
+hWnd: 00010060 title: 开始
+
+hWnd: 0001005a title: 
+
+hWnd: 001006a0 title: Windows 任务管理器
+
+hWnd: 0001018c title: 
+
+hWnd: 0005046c title: perfdemo (正在运行) - Microsoft Visual Studio
+
+hWnd: 00010a9a title: e:\ksafe\trunk\src\src_kpfw\perfdemo\debug\perfdemo.exe
+
+hWnd: 000802be title: MSDN Library - April 2005 - RegisterShellHookWindow Function
+
+hWnd: 000b024e title: MSDN Library - April 2005 - RegisterShellHookWindow Function
+
+hWnd: 0002093a title: 
+
+hWnd: 0003095a title: 获取窗口失去响应的方法 - Google 搜索 - 谷歌浏览器
+
+hWnd: 002506aa title: 流量监控
+
+hWnd: 001f06b0 title:  larry
+
+hWnd: 0007068c title: perfdemo
+
+hWnd: 00040378 title: 收件箱 - Microsoft Outlook
+
+hWnd: 0002085e title: 性能监视器
+
+hWnd: 0003079e title: 管理工具
+
+hWnd: 00030756 title: 系统和安全
+
+hWnd: 00010102 title: Program Manager
+
+hWnd: 00010060 title: 开始
+
+hWnd: 0001005a title: 
+
+hWnd: 0001018c title: 
+
+hWnd: 000209f0 title: e:\ksafe\trunk\src\src_kpfw\perfdemo\debug\perfdemo.exe
+
+hWnd: 0005046c title: perfdemo (正在运行) - Microsoft Visual Studio
+
+hWnd: 0003095a title: 永生, 正文 第四百六十五章 星球枯萎,天翼文学 - 谷歌浏览器
+
+hWnd: 000802be title: MSDN Library - April 2005 - RegisterShellHookWindow Function
+
+hWnd: 000b024e title: MSDN Library - April 2005 - RegisterShellHookWindow Function
+
+hWnd: 00040378 title: 收件箱 - Microsoft Outlook
+
+hWnd: 0007068c title: perfdemo
+
+hWnd: 0002085e title: 性能监视器
+
+hWnd: 0003079e title: 管理工具
+
+hWnd: 00030756 title: 系统和安全
+
+hWnd: 00010102 title: Program Manager
+

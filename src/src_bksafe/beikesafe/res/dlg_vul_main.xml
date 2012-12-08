@@ -1,0 +1,114 @@
+﻿<layer>
+	<body class=tabpage width=full height=full>
+		<dlg pos="3,3,-3,-3">
+			<!--扫描中...-->
+			<dlg id="101" pos="0,0,-0,-0">
+				<dlg pos="0,30,-0,-32" class="panel">
+					<dlg pos="0,0,-230,-0" class="client">
+						<dlg pos="0,0,-0,-0" class="anibg">
+							<dlg pos="0,|-100,-0,|50">								
+								<img pos="20,22" skin=scananibg sub=1/>
+								<img id="1002" pos="28,29" skin=scanani sub=0/>
+								<text pos="70,20">正在扫描系统漏洞，请稍候...</text>
+								<progress id="1000" pos="70,45,-80,62" min="0" max="300" value="30" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+							</dlg>
+						</dlg>
+					</dlg>
+					<dlg pos="-230,0,-220,-0" class=splitter_notclickable onlydrawchild=1/>
+					<dlg pos="-220,0,-0,-0" class="client">
+						<img pos="0,13" skin="vultip" sub=1/>
+						<text pos="20,15" class="boldtext">漏洞修复的目的</text>  
+						<text pos="20,40" crtext="#101010">及时有效的修复系统、软件漏洞，</text>
+						<text pos="20,60" crtext="#101010">避免被黑客利用控制您的电脑窃取</text>
+						<text pos="20,80" crtext="#101010">账号、密码等重要信息。</text>
+						<text id="1034" pos="-30,80" class="linktext">详细</text>
+						
+						<img pos="0,118" skin="vultip" sub=0/>
+						<text pos="20,120" class="boldtext">我们的优势</text>  
+						<text pos="20,145" class="boldtext">完美修复</text>
+						<text pos="20,165" crtext="#101010">全面检测并智能修复高危漏洞</text>
+						<text pos="20,190" class="boldtext">快速检测</text>
+						<text pos="20,210" crtext="#101010">专门针对win 7 系统进行优化，</text>
+						<text pos="20,230" crtext="#101010">修复速度比传统软件快10倍</text>
+					</dlg>
+				</dlg>
+				<button id="1001" pos="-80,-22,-0,-0" class="normalbtn">取消</button>
+			</dlg>
+
+			<!-- 显示扫描结果 -->
+			<dlg id="100" show="0" pos="0,0,-0,-0">
+				<img id="1042" pos="0,5" skin="stat15" sub="3"/>
+				<!--扫描结果文字-->
+				<richtext id="1041" pos="20,7,-320,20" class=richtext linkclass=linktext>
+					共检测到 <b>%d</b> 个补丁，其中 <b>%d</b> 个高危漏洞需要立即修复！
+				</richtext>
+				<!--扫描按钮:已安装, 已忽略, 已失效, 已屏蔽-->
+				<realwnd id="1016" ctrlid="1016" pos="-320,7,-5,20"/>
+				<!--主窗口内容, 右侧显示/隐藏-->
+				<dlg id="1003" pos="0,30,-0,-32" class="panel"/>
+				<dlg pos="0,-32,-0,-0">
+					<text id="1008" pos="0,12" class="linktext">全选</text>
+					<text id="1010" pos="30,12">/</text>
+					<text id="1009" pos="40,12" class="linktext">全不选</text>
+					
+					<text id="2001" pos="90,12" class="linktext">导出漏洞信息</text>					
+					<text id="1015" show="1" pos="180,12" class="boldtext" crtext="FF0000">漏洞修复功能暂时不支持您的操作系统</text>
+					<button id="1014" pos="-300,-28,-180,-0" class="normalbtn">立即修复</button>
+					<text id="1012" pos="-155,12" class="linktext">忽略选中补丁</text>
+					<text id="1013" pos="-60,12" class="linktext">重新扫描</text>
+				</dlg>
+			</dlg>
+
+			<!-- repairing -->
+			<dlg id="102" show="0"  pos="0,0,-0,-0">
+				<dlg pos="0,0,-0,61" class="panel">
+					<dlg pos="0,0,-0,60" class="anibg">
+						<dlg show="1" id="1018" pos="0,0,-0,-0">
+							<img pos="10,8" skin=scananibg sub=1/>
+							<img id="30100" pos="18,9" skin=scanani sub=0/>
+							<text id="30101" pos="80,11">正在下载并安装漏洞补丁( %d / %d )……</text>
+							<progress id="1022" pos="80,30,-210,43" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+							<button id="1024" pos="-190,26,-110,48" class="normalbtn">后台运行</button>
+							<button id="1023" pos="-90,26,-10,48" class="normalbtn">取消</button>
+						</dlg>
+						<dlg show="0" id="1019" pos="0,0,-0,-0">
+							<img pos="20,20" skin="stat15" sub="2"/>
+							<text pos="40,23" class="boldtext" crtext="4AA00B">漏洞补丁已经全部安装成功，重启后立即生效。</text>
+						</dlg>
+						<dlg show="0" id="1020" pos="0,0,-0,-0">
+							<img pos="20,20" skin="stat15" sub="3"/>
+							<text pos="40,23" class="boldtext" crtext="FFA000">部分漏洞补丁安装成功，重启后立即生效。</text>
+						</dlg>
+						<dlg show="0" id="1021" pos="0,0,-0,-0">
+							<img pos="20,20" skin="stat15" sub="0"/>
+							<dlg id="10215" pos="0,0,-0,-0">
+								<text id="10210" pos="40,23,70,35" class="boldnum_right_red">%d</text>
+								<text pos="75,23" class="boldtext" crtext="FF0000">个补丁安装失败，建议您稍后重试！</text>
+							</dlg>
+							<dlg show="0" id="10216" pos="0,0,-0,-0">
+								<text pos="40,23" class="boldtext" crtext="FF0000">补丁下载失败，建议您检查是否可以正常链接网络后重试！</text>
+							</dlg>							
+						</dlg>
+					</dlg>
+				</dlg>
+				<dlg pos="0,60,-0,-40" class="panel">
+					<realwnd id="1005" ctrlid="1005" pos="0,0,-0,-0"/>
+				</dlg>
+				<dlg id="1037" pos="0,-30,-0,-0">
+					<check id="1025" pos="3,2">完成后关机</check>
+				</dlg>
+				<dlg id="1038" show="0" pos="0,-30,-0,-0">
+				</dlg>
+				<dlg id="1040" show="0" pos="0,-30,-0,-0">
+					<dlg id="1050" pos="0,0,-0,-0">
+						<button id="1039" pos="-180,0,-100,22" class="normalbtn">立即重启</button>
+						<button id="1030" pos="-80,0,-0,22" class="normalbtn">稍后重启</button>
+					</dlg>
+					<dlg id="1051" show="0" pos="0,0,-0,-0">
+						<button id="1052" pos="-80,0,-0,22" class="normalbtn">重新扫描</button>
+					</dlg>
+				</dlg>
+			</dlg>
+		</dlg>	
+	</body>
+</layer>

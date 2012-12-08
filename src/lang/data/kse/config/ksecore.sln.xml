@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kse>
+  <solution>
+    <target alias="我的电脑">
+      <target alias="所有盘符"/>
+    </target>
+    <target alias="移动存贮设备">
+      <target alias="便携存贮器"/>
+    </target>
+    <target alias="关键区域">
+      <target alias="Windows目录"/>
+      <target alias="Syswow64目录"/>
+      <target alias="System32目录"/>
+    </target>
+  </solution>
+  <aliases>
+    <target alias="我的电脑"            type="0x20001"/>
+    <target alias="移动存贮设备"        type="0x20003"/>
+    <target alias="关键区域"            type="0x20005"/>
+    <target alias="所有盘符"            type="0x10000"    id="0" name="" comment="能枚举出来的所有驱动器"/>
+    <target alias="便携存贮器"          type="0x10002"    id="2" name="" comment="不包括软驱"/>
+    <target alias="System32目录"        type="0x10003"    id="0" name="%&lt;windir&gt;%\system32\"  comment="C:\windows\system32，包含子目录"/>
+    <target alias="Syswow64目录"        type="0x10003"    id="0" name="%&lt;windir&gt;%\syswow64\"  comment="C:\windows\system32重定向目录，包含子目录"/>
+    <target alias="Windows目录"         type="0x10003"    id="1" name="%&lt;windir&gt;%"            comment="C:\windows，不包含子目录"/>
+  </aliases>
+</kse>

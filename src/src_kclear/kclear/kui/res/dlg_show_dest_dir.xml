@@ -1,0 +1,23 @@
+<layer width="700" height="414">
+    <header class="msgboxhead" width="full" height="32">
+        <icon src="IDI_ICON_SMALL" pos="5,9"/><text id="4428" class="dlgtitle" pos="25,10">以下文件即将被删除</text>
+        <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="45">
+        <radio id="3" pos="10,10" >删除到回收站</radio>
+        <radio id="4" pos="120,10" >直接删除</radio>
+        <text id="5" pos="190,10" class="text_color_red">(勾选文件将不可恢复)</text>
+        <button id="1" pos="-90,10,-10,-10" class="normalbtn">关闭</button>
+        <button id="2" pos="-200,10,-120,-10" class="normalbtn">确认</button>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+        <img id="151" pos="9,10" skin="stat15" sub="2"/>
+        <text id="4424" pos="30,10">下表中的文件即将被删除，删除后这些文件将</text>
+        <text id="4427" pos="30,10">以下列表中记录了您迁移文件的历史，您可以在此找到迁移文件存放的位置。</text>
+        <dlg id="4419" pos="10,30,-10,-5">
+            <dlg pos="0,0,-0,-0" class="panel">
+                <realwnd pos="0,0,-0,-0" id="4420" ctrlid="4420" />
+            </dlg>
+        </dlg>
+    </body>
+</layer>

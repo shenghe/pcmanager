@@ -1,0 +1,27 @@
+<layer title="修改广告过滤规则包名称" width="400" height="200">
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="101" pos="5,9"/>
+    <text class="dlgtitle" pos="25,10">%str1% - 修改广告过滤规则包名称</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="10,10,-5,-10">
+      <img pos="10,0,63,40" skin="advert_rule_rename"/>
+      <text pos="123,0,-10,15" font="0004">您是否需要修改规则包名称？</text>
+      <text pos="93,20,160,48">规则包名称:</text>
+      <dlg pos="165,30,330,50" class="panel">
+        <realwnd id="1923" pos="2,4,-1,-0" ctrlid="1923"/>
+      </dlg>
+      <dlg pos="10,60,-10,-10" crtext="909090">
+        <text pos="0,0,-0,15">给自定义规则包修改名称，可便于您进行管理，最多可输入15个字符。</text>
+        <text pos="0,20,-0,35">如不需修改，请点“确认”沿用现有名称。</text>
+      </dlg>
+    </dlg>
+  </body>
+  <footer class="msgboxfoot" width="full" height="40"  crbg="DFE9F0">
+    <dlg pos="10,0,-10,28">
+      <button id="1921" pos="-180,0,-100,-0" class="normalbtn">确定</button>
+      <button id="1922" pos="-80,0,-0,-0" class="normalbtn">取消</button>
+    </dlg>
+  </footer>
+</layer>

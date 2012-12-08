@@ -1,0 +1,58 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// XML
+
+DEFINE_XML(IDR_BK_SKIN_DEF,                 100, "res\\def_skin.xml")
+DEFINE_XML(IDR_BK_STYLE_DEF,                101, "res\\def_style.xml")
+DEFINE_XML(IDR_BK_STRING_DEF,               102, "res\\def_string.xml")
+DEFINE_XML(IDR_BK_TEST_DIALOG,              103, "res\\dlg_test.xml")
+DEFINE_XML(IDR_BK_INSTALLED_VUL_DIALOG,     104, "res\\dlgInstalledVuls.xml")
+DEFINE_XML(IDR_BK_IGNORED_VUL_DIALOG,		105, "res\\dlgIgnoredVuls.xml")
+DEFINE_XML(IDR_BK_DISABLECOM_DIALOG,		106, "res\\dlgDisableCom.xml")
+DEFINE_XML(IDR_BK_OPTION_DIALOG,		107, "res\\dlgOption.xml")
+
+DEFINE_XML(IDR_BK_VULDLG_MAIN,				112, "res\\dlg_vul_main.xml")
+DEFINE_XML(IDR_BK_VULDLG_INSTALLED,			113, "res\\dlg_vul_Installed.xml")
+DEFINE_XML(IDR_BK_VULDLG_IGNORED,			114, "res\\dlg_vul_Ignored.xml")
+DEFINE_XML(IDR_BK_VULDLG_OPTION,			115, "res\\dlg_vul_Option.xml")
+
+//////////////////////////////////////////////////////////////////////////
+// ICON
+
+DEFINE_ICO(IDI_TEST_BKWIN,                  100, "res\\test_bkwin.ico")
+DEFINE_ICO(IDI_SMALL,                       101, "res\\small.ico")
+
+//////////////////////////////////////////////////////////////////////////
+// BITMAP
+DEFINE_BMP(IDB_FRAME_PANEL,                 100, "res\\frame_panel.bmp")
+DEFINE_BMP(IDB_FRAME_DIALOG,                101, "res\\frame_dialog.bmp")
+DEFINE_BMP(IDB_BTN_NORMAL_BG,               102, "res\\btn_normal_bg.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_BG,             103, "res\\progress_bar_bg.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_POS,			104, "res\\progress_bar_value.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_VALUE_RED,      105, "res\\progress_bar_value_red.bmp")
+DEFINE_BMP(IDB_TAB,							106, "res\\tab_main.bmp")
+
+DEFINE_BMP(IDB_BTN_SYS_MIN,					111, "res\\btn_sys_minimize.bmp")
+DEFINE_BMP(IDB_BTN_SYS_MAX,					112, "res\\btn_sys_maximize.bmp")
+DEFINE_BMP(IDB_BTN_SYS_RESTORE,             113, "res\\btn_sys_restore.bmp")
+DEFINE_BMP(IDB_BTN_SYS_CLOSE,               114, "res\\btn_sys_close.bmp")
+DEFINE_BMP(IDB_BTN_SYS_CLOSE_ONLY,          115, "res\\btn_sys_close_only.bmp")
+DEFINE_BMP(IDB_EXAM_ANIMATION,              116, "res\\exam_animation.bmp")
+
+
+DEFINE_BMP(IDB_VULFIX_ICON84,	120, "res\\status_84.bmp")
+DEFINE_BMP(IDB_VULFIX_ICON60,	121, "res\\status_60.bmp")
+DEFINE_BMP(IDB_VULFIX_ICON48,	122, "res\\status_48.bmp")
+DEFINE_BMP(IDB_VULFIX_ICON32,	123, "res\\status_32.bmp")
+DEFINE_BMP(IDB_VULFIX_ICON24,	124, "res\\status_24.bmp")
+
+
+DEFINE_BMP(IDB_VULFIX_LOGO,					200, "res\\vulfix_biglogo.bmp")
+DEFINE_BMP(IDB_VULFIX_SMALL_RED_EXCLAM,		202, "res\\vul_small_red_exclam.bmp")
+DEFINE_BMP(IDB_VULFIX_SMALL_YELLOW_EXCLAM,	203, "res\\vul_small_yellow_exclam.bmp")
+
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER,		210, "res\\listctrl_header.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_CHECK,	211, "res\\listctrl_check.bmp")
+
+

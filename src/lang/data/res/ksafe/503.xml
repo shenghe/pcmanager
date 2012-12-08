@@ -1,0 +1,405 @@
+﻿<dlg pos="0,0,-0,-0">
+	<!-- add by zbl-->
+	<!--左侧TAB窗口-->
+	<!--背景色-->
+	<dlg id="3006" pos="0,6,150,-0" crbg="E3EDF7" show="1">
+		<tabctrl id="3073" tabwidth="131" tabalign="left" tabheight="37" tabskin="tableft" splitterskin="tableftsplitter" tabspacing="20" tabpos="20" framepos="10" pos="5,0,-0,-0" text-x="-10" crbg1="D6EBFE">
+			<tab title="上网安全保护" width="full" height="full" class="settingpage" valign="middle">
+			</tab>
+			<tab title="浏览器修复" width="full" height="full" class="settingpage" valign="middle">
+			</tab>
+			<tab title="浏览器设置" width="full" height="full" class="settingpage" valign="middle">
+			</tab>
+			<tab title="IE 清理" width="full" height="full" class="settingpage" valign="middle">
+			</tab>
+		</tabctrl>
+	</dlg>
+	<!--工作区域，包括显示的LIST，和LIST下面的按钮-->
+	<dlg id="3007" pos="146,6,-0,-6" show="1" crbg1="FBFCFD">
+		<!--已安装金山网盾-->
+		<dlg id="3169" pos="0,0,-0,-0" show="0">
+			<dlg pos="0,0,-0,74" crbg="EFF8FF" id="3170" show="0">
+				<img pos="30,12" skin="kwssafe" sub="0" id="3174"/>
+				<text id="3172" pos="110,25" font="0204">您已经开启网盾提供的上网安全保护功能！</text>
+				<richtext id="3173" pos="110,45,485,69" class="richtext"></richtext>
+				<text id="3206" pos="-107,25" class="linktext" show="0">立即修复</text>
+				<text id="3175" pos="-80,25" class="linktext" show="0">详细设置</text>
+				<text id="3176" pos="-80,45" class="linktext" show="0">查看日志</text>
+				<button id="3202" pos="-100,25,-20,52" class="normalbtn" show="1">详细设置</button>
+			</dlg>
+			<hr pos="0,75,-0,75" crbg="A3BAD2"/>
+			<!-- 木马病毒 -->
+			<img id="3177" pos="35,90" skin="protectionstatus2" sub="0"/>
+			<text pos="88,92" font1="0204" class="boldtext">网页病毒木马过滤</text>
+			<text id="3178" pos="-104,92" crtext="029900">已开启</text>
+			<text id="3179" pos="-57,92" class="linktext" crtext="3164A3">关闭</text>
+			<text pos="88,113">保护浏览网页安全，过滤网页木马病毒</text>
+			<hr pos="31,137,-31,137" crbg="CCCCCC" style="dot"/>
+			<!-- 钓鱼 -->
+			<img id="3180" pos="35,150" skin="protectionstatus2" sub="0"/>
+			<text pos="88,152" font1="0204" class="boldtext">钓鱼网站智能拦截</text>
+			<text id="3181" pos="-104,152" crtext="029900">已开启</text>
+			<text id="3182" pos="-57,152" class="linktext" crtext="3164A3">关闭</text>
+			<text pos="88,173">拦截假购物、假中奖、假银行网址，避免网购受骗</text>
+			<hr pos="31,198,-31,198" crbg="CCCCCC" style="dot"/>
+			<!-- 浏览器主页锁定 -->
+			<img id="3186" pos="35,211" skin="protectionstatus2" sub="0"/>
+			<text pos="88,213" font1="0204" class="boldtext">IE主页锁定</text>
+			<text id="3187" pos="-104,213" crtext="029900">已开启</text>
+			<text id="3188" pos="-57,213" class="linktext" crtext="3164A3">关闭</text>
+			<text pos="88,233">将主页锁定为：</text>
+			<text pos="178,233,-151,245" id="3192" class="endellipsisurl"></text>
+			<realwnd pos="176,228,-254,249" id="3193" ctrlid="3193" show="0"></realwnd>
+			<hr pos="31,257,-31,257" crbg="CCCCCC" style="dot"/>
+			<!-- 搜索引擎 -->
+      <dlg id="3333" pos="0,0,-0,-0" show="1">
+			<img id="3183" pos="35,269" skin="protectionstatus2" sub="0"/>
+			<text pos="88,271" font1="0204" class="boldtext">搜索引擎保护</text>
+			<text id="3184" pos="-104,271" crtext="029900">已开启</text>
+			<text id="3185" pos="-57,271" class="linktext" crtext="3164A3">关闭</text>
+			<text pos="88,292">智能识别搜索结果是否安全</text>
+      </dlg>
+			<!-- 共存时更多设置 -->
+			<text id="3204" pos="-104,353" class="linktext" crtext="3164A3" show="1">更多功能设置</text>
+			<dlg id="3203" pos="0,239,-0,-0" show="1">
+				<hr pos="31,17,-31,17" crbg="CCCCCC" style="dot"/>
+				<!-- 下载保护 -->
+				<img id="3196" pos="35,30" skin="protectionstatus2" sub="0"/>
+				<text pos="88,32" font1="0204" class="boldtext">下载保护</text>
+				<img id="3197" pos="145,30"  skin="kws_dl_set" sub="0" show="1"/>
+				<text id="3198" pos="163,32" class="linktext" crtext="3164A3">查看下载记录</text>
+				<text id="3199" pos="-104,32" crtext="029900">已开启</text>
+				<text id="3200" pos="-57,32" class="linktext" crtext="3164A3">关闭</text>
+				<text pos="88,53">保护浏览器、下载软件和聊天工具，防止从网上下载文件时感染木马</text>
+				<hr pos="31,76,-31,76" crbg="CCCCCC" style="dot"/>
+				<!-- 广告过滤 -->
+				<img id="3189" pos="35,90" skin="protectionstatus2" sub="0"/>
+				<text pos="88,92" font1="0204" class="boldtext">广告过滤</text>
+				<img id="3194" pos="145,91" class="linkimage" skin="settingsoftmgr" sub="0" show="1"/>
+				<text id="3195" pos="163,92" class="linktext" crtext="3164A3">设置</text>
+				<text id="3190" pos="-104,92" crtext="029900">已开启</text>
+				<text id="3191" pos="-57,92" class="linktext" crtext="3164A3">关闭</text>
+				<text pos="88,113">拦截网页中扰民的各种弹出、浮动广告</text>
+        <dlg id="3332" pos="0,0,-0,-0" show="1">
+          <img id="3334" pos="35,150" skin="protectionstatus2" sub="0"/>
+          <text pos="88,152" font1="0204" class="boldtext">搜索引擎保护</text>
+          <text id="3335" pos="-104,152" crtext="029900">已开启</text>
+          <text id="3336" pos="-57,152" class="linktext" crtext="3164A3">关闭</text>
+          <text pos="88,165">智能识别搜索结果是否安全</text>
+        </dlg>
+      </dlg>
+      <!-- 搜索引擎 -->
+
+    </dlg>
+		<!--3071 Dlg包含了IE修复的右侧的整个工作区域-->
+		<dlg pos="3,6,-6,-0" show="0">
+			<text id="3069" pos="13,10" class="centertext" show="1">“一键修复”使用智能分析技术，自动识别 IE 被篡改的项目并智能修复</text>
+			<dlg id="3068" pos="2,30,-1,-50" show="1" class="panel">
+				<text id="3125" pos="|-100,|-20" class1="linktext">正在加载数据请稍候...</text>
+				<realwnd id="3004" pos="5,0,-0,-0" ctrlid="3004" show="1"/>
+			</dlg>
+		</dlg>
+		<!--修复页面-->
+		<dlg id="3071" pos="0,0,-0,-50" show="0" class="anibg">
+			<dlg pos="0,10,-0,65" show="1" id="3316">
+				<img id="3328" pos="10,0" skin="examanipng48" sub="0"/>
+				<text pos="60,5,120,18" >正在扫描: </text>
+				<text id="3301" pos="120,6,-15,20" class="filename"></text>
+				<progress id="3302" pos="60,24,-15,36" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+				<!--
+				  <img  pos="10,20" skin="stat15" sub="3"/>
+				  <text pos="30,20">网盾浏览器修复强力修复各类浏览器异常问题（浏览器主页被篡改，桌面出现异常图标等）</text>
+				-->
+			</dlg>
+			<dlg pos="0,0,-0,50" show="0" id="3318">
+				<img  pos="10,12" skin="stat40" sub="0"/>
+				<text id="3319" pos="60,25" font="0204" crtext="FF0000">在您的系统中发现了3处威胁，请立即处理</text>
+			</dlg>
+			<dlg pos="0,0,-0,50" show="0" id="3317">
+				<img  pos="10,12" skin="stat40" sub="2"/>
+				<text pos="60,25" font="0204" crtext="008000">未发现浏览器相关的异常现象</text>
+			</dlg>
+			<dlg pos="0,0,-0,50" show="0" id="3326">
+				<img  pos="10,12" skin="stat40" sub="2"/>
+				<text pos="60,25" id="3327" font="0204" crtext="008000">在您的系统中发现了3处威胁，已经全部清除并修复</text>
+			</dlg>
+			<dlg pos="0,0,-0,50" show="0" id="3323">
+				<img  pos="10,12" skin="stat40" sub="3"/>
+				<text pos="60,25" font="0204" crtext="F99E00">扫描中断，可能存在风险。</text>
+			</dlg>
+      <dlg pos="0,0,-0,50" show="0" id="3335">
+        <img  pos="10,12" skin="stat40" sub="0"/>
+        <text id="3336" pos="60,25" font="0204" crtext="FF0000"></text>
+      </dlg><!--hub-->
+			<dlg pos="0,0,-0,50" show="0" id="3324">
+				<img  pos="10,12" skin="stat40" sub="0"/>
+				<text id="3325" pos="60,25" font="0204" crtext="FF0000"></text>
+			</dlg>
+
+			<dlg pos="8,65,-5,-1" class="panelffffff" id="3304">
+				<dlg pos="0,0,-0,-58" id="3322">
+					<dlg pos="0,0,-0,25">
+						<text pos="0,0,|0,-0" class="listheader" crbg="AAAA00">扫描类型</text>
+						<text pos="|0,0,-0,-0" class="listheader" crbg="00AAAA">扫描状态</text>
+					</dlg>
+					<realwnd id="3300" ctrlid="3300" pos="0,20,-0,-0"/>
+				</dlg>
+				<dlg id="3321" pos="30,-58,-0,-0">
+				</dlg>
+			</dlg>
+			<dlg pos="8,65,-5,-1" class="panelffffff" show="0" id="3305">
+				<dlg pos="0,0,-0,-0">
+					<dlg pos="0,0,-0,20">
+						<text pos="0,0,-210,-0" class="listheader" crbg="AAAA00">扫描类型</text>
+						<text pos="-210,0,-130,-0" class="listheader" crbg="AAAA00">危险等级</text>
+						<text pos="-130,0,-0,-0" class="listheader" crbg="00AAAA">处理方式</text>
+					</dlg>
+					<realwnd id="3306" ctrlid="3306" pos="0,20,-0,-0"/>
+				</dlg>
+			</dlg>
+		</dlg>
+		<dlg id="3075" pos="0,0,-0,-50" show="0" class="anibg">
+			<img id="3124" pos="15,20" skin="scananibg" sub="1"/>
+			<img id="3077" pos="23,23" skin="scanani" sub="0"/>
+			<text id="3099" pos="70,20,-10,40" show="1" class="filename">正在扫描: </text>
+			<text id="3083" pos="65,23" font="0204" crtext="008000" show="0"></text>
+			<dlg id="3121" pos="60,40,285,55" show="0">
+				<!--共检测 %d 项，修复 %d 项，忽略 %d 项-->
+				<text pos="-220,0,-185,-0" class="righttext">共检测 </text>
+				<text id="3120" pos="-185,0,-165,-0" class="righttext" crtext="c80000">0</text>
+				<text pos="-165,0,-110,-0" class="righttext"> 项，修复 </text>
+				<text id="3122" pos="-115,0,-95,-0" class="righttext" crtext="c80000">0</text>
+				<text pos="-95,0,-40,-0" class="righttext"> 项，忽略 </text>
+				<text id="3123" pos="-40,0,-20,-0" class="righttext" crtext="c80000">0</text>
+				<text pos="-20,0,-0,-0" class="righttext"> 项</text>
+			</dlg>
+			<img id="3081" pos="15,15" skin="stat40" sub="2" show="0"/>
+			<progress id="3078" pos="70,40,-100,75" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+			<realwnd id="3094" pos="5,71,-5,-1" ctrlid="3094"></realwnd>
+			<dlg pos="2,70,-1,-0" class="panel"></dlg>
+			<button id="3084" pos="-90,32,-10,57" class="normalbtn">取消</button>
+		</dlg>
+		<!--工作区域中的IE清理功能中的TAB区域-->
+		<dlg id="3015" pos="3,6,-6,-0" show="0" crbg1="FBFCFD">
+			<realwnd id="3016" pos="20,40,-12,-52" ctrlid="3016" show="1"/>
+			<tabctrl id="3014" tabwidth="80" tabheight1="30" class="tabpage" tabskin="tab" frameskin="panelgray" tabspacing="5" tabpos="10" framepos="-1" pos="2,10,-1,-50">
+				<tab title="右键菜单" width="full" height="full" class="client" crbg1="FFFFFF">
+					<dlg id="3098" pos="0,0,-0,-0" show="1">
+						<text id="3100" pos="|-100,|-20" class="centertext"></text>
+						<text id="3108" pos="|-50,|0" class="centertext" crtext="008000"></text>
+						<text id="3114" pos="|40,|0" class="linktext" show="0"> 显示</text>
+					</dlg>
+				</tab>
+				<tab title="工具条" width="full" height="full" class="client" crbg1="FFFFFF">
+					<dlg id="3098" pos="0,0,-0,-0" show="1" crbg1="FBFCFD">
+						<text id="3101" pos="|-100,|-20" class="centertext"></text>
+						<text id="3109" pos="|-50,|0" class="centertext"  crtext="008000"></text>
+						<text id="3115" pos="|40,|0" class="linktext" show="0"> 显示</text>
+					</dlg>
+				</tab>
+				<tab title="插件" width="full" height="full" class="client" crbg1="FFFFFF">
+					<dlg id="3098" pos="0,0,-0,-0" show="1" crbg1="FBFCFD">
+						<text id="3102" pos="|-100,|-20" class="centertext"></text>
+						<text id="3110" pos="|-50,|0" class="centertext" crtext="008000"></text>
+						<text id="3116" pos="|40,|0" class="linktext" show="0"> 显示</text>
+					</dlg>
+				</tab>
+				<tab title="IE信任网站" width="full" height="full" class="tabpage" crbg1="FFFFFF">
+					<dlg id="3098" pos="0,0,-0,-0" show="1" crbg1="FBFCFD">
+						<text id="3103" pos="|-100,|-20" class="centertext"></text>
+						<text id="3111" pos="|-50,|0" class="centertext" crtext="008000"></text>
+						<text id="3117" pos="|40,|0" class="linktext" show="0"> 显示</text>
+					</dlg>
+				</tab>
+				<tab title="网络协议" width="full" height="full" class="client" crbg1="FFFFFF">
+					<dlg id="3098" pos="0,0,-0,-0" show="1" crbg1="FBFCFD">
+						<text id="3104" pos="|-100,|-20" class="centertext"></text>
+						<text id="3112" pos="|-50,|0" class="centertext" crtext="008000"></text>
+						<text id="3118" pos="|40,|0" class="linktext" show="0"> 显示</text>
+					</dlg>
+				</tab>
+				<tab title="搜索及其他" width="full" height="full" class="client" crbg1="FFFFFF">
+					<dlg id="3098" pos="0,0,-0,-0" show="1" crbg1="FBFCFD">
+						<text id="3105" pos="|-100,|-20" class="centertext"></text>
+						<text id="3113" pos="|-50,|0" class="centertext" crtext="008000"></text>
+						<text id="3119" pos="|40,|0" class="linktext" show="0"> 显示</text>
+					</dlg>
+				</tab>
+			</tabctrl>
+		</dlg>
+		<!--工作区域中的网页保护功能中的TAB区域-->
+		<dlg id="3126" pos="3,6,-6,-0" show="0" crbg1="FBFCFD">
+			<text id="3160" pos="10,10">浏览器保护可以拦截木马、假银行、假中奖等网站，保护上网安全</text>
+			<text id="3161" pos="-130,10" class="linktext">了解详情</text>
+			<text id="3162" pos="-53,10" class="linktext">常见问题</text>
+			<text id="3163" pos="-71,10" crtext="C0C0C0">|</text>
+			<tabctrl id="3127" tabwidth="100" tabheight="30" class="tabpage" tabskin="tab" frameskin="panelgray" tabspacing="-1" tabpos="0" framepos="-2" pos="5,35,-5,-55">
+				<tab title="保护状态" width="full" height="full" class="client" crbg1="FFFFFF">
+					<dlg id="3128" pos="0,0,-0,-0" show="1">
+						<text id="3130" pos="13,10" font="0400" crtext="009900">浏览器保护已全部开启，正在保护您的上网安全</text>
+						<text id="3131" pos="13,40">已拦截次数</text>
+						<text id="3132" pos="110,40" class="linktext">查看历史</text>
+						<hr pos="10,70,-10,70" crbg="A3BAD2"/>
+						<img id="3133" pos="13,110" skin="protectionstatus2" sub="1"/>
+						<text id="3134" pos="70,110" font="0004">网页防护</text>
+						<text id="3135" pos="70,130">阻止网页木马，有效防御针对浏览器的挂马攻击</text>
+						<text id="3136" pos="-90,110" crtext="009900" show="0">已开启</text>
+						<text id="3137" pos="-90,110" crtext="ff0000">已关闭</text>
+						<text id="3138" pos="-35,110" class="linktext" show="0">关闭</text>
+						<text id="3139" pos="-35,110" class="linktext">开启</text>
+						<hr pos="10,180,-10,180" crbg="CCCCCC" style="dot"/>
+						<img id="3140" pos="13,220" skin="protectionstatus2" sub="1"/>
+						<text id="3141" pos="70,220" font="0004">欺诈防护</text>
+						<text id="3142" pos="70,240">阻止假银行、假中奖等网站，防止钓鱼、欺诈</text>
+						<text id="3143" pos="-90,220" crtext="009900" show="0">已开启</text>
+						<text id="3144" pos="-90,220" crtext="ff0000">已关闭</text>
+						<text id="3145" pos="-35,220" class="linktext" show="0">关闭</text>
+						<text id="3146" pos="-35,220" class="linktext">开启</text>
+					</dlg>
+				</tab>
+				<tab title="信任/阻止程序" width="full" height="full" crbg1="FFFFFF">
+					<realwnd id="3147" ctrlid="3147" pos="0,0,-0,-0"/>
+				</tab>
+				<tab title="网站黑名单" width="full" height="full" crbg1="FFFFFF">
+					<realwnd id="3148" ctrlid="3148" pos="0,0,-0,-0"/>
+				</tab>
+				<tab title="查看历史" width="full" height="full" crbg1="FFFFFF">
+					<realwnd id="3129" ctrlid="3129" pos="0,0,-0,-0"/>
+				</tab>
+			</tabctrl>
+		</dlg>
+		<!--浏览器保护页面中，保护状态的底栏-->
+		<dlg id="3149" pos="0,-50,-0,-0" show="0">
+			<text pos="8,18">支持的浏览器：</text>
+			<img pos="110,16" skin="browser_ie" />
+			<text pos="133,18">IE</text>
+			<img pos="170,16" skin="browser_maxthon" />
+			<text pos="193,18">傲游</text>
+			<img pos="240,16" skin="browser_sogou" />
+			<text pos="263,18">搜狗</text>
+			<img pos="310,16" skin="browser_ttraveler" />
+			<text pos="333,18">腾讯TT</text>
+			<text id="3164" pos="-77,18" class="linktext">举报恶意网址</text>
+			<text id="3165" pos="-178,18" class="linktext">测试拦截效果</text>
+			<text id="3166" pos="-95,18" crtext="C0C0C0">|</text>
+			<img pos="-110,5" skin="new"/>
+		</dlg>
+		<!--浏览器保护页面中，信任/阻止程序的底栏-->
+		<dlg id="3150" pos="0,-50,-0,-0" show="0">
+			<text pos="8,18">弹出拦截窗口时，如果选择阻止，则该程序将被自动加入此列表中</text>
+			<button id="3153" pos="-95,-37,-5,-10" class="normalbtn">删除</button>
+		</dlg>
+		<!--浏览器保护页面中，阻止网站的底栏-->
+		<dlg id="3151" pos="0,-50,-0,-0" show="0">
+			<text id="3154" pos="8,18" class="linktext">全选</text>
+			<text id="3155" pos="38,18" class="centertext">/</text>
+			<text id="3156" pos="50,18" class="linktext">全不选</text>
+			<button id="3157" pos="-95,-37,-5,-10" class="normalbtn">添加网站</button>
+			<button id="3158" pos="-200,-37,-110,-10" class="normalbtn">删除</button>
+		</dlg>
+		<!--浏览器保护页面中，查看历史的底栏-->
+		<dlg id="3152" pos="0,-50,-0,-0" show="0">
+			<button id="3159" pos="-95,-37,-4,-10" class="normalbtn">清空历史</button>
+		</dlg>
+
+		<!--IE修复页面中，详细显示页面的低栏-->
+		<dlg id="3013" pos="0,-47,-0,-0" show="0">
+			<dlg pos="0,0,-0,-0" show="0" id="3307">
+				<check id="3011" pos="8,21" >全选</check>
+				<text id="3315" pos="88,21" class="linktext">查看信任列表</text>
+				<text id="3313" pos="-180,-29" class="linktext">暂不处理</text>
+				<button id="3314" pos="-101,-37,-10,-10" class="normalbtn">立即处理</button>
+			</dlg>
+			<dlg pos="0,0,-0,-0" show="0" id="3308">
+				<button id="3309" pos="-231,-37,-140,-10" class="normalbtn">暂停扫描</button>
+				<button id="3320" pos="-231,-37,-140,-10" class="normalbtn">继续扫描</button>
+				<button id="3310" pos="-101,-37,-10,-10" class="normalbtn">停止扫描</button>
+			</dlg>
+			<dlg pos="0,0,-0,-0" show="0" id="3312">
+				<button id="3311" pos="-101,-37,-10,-10" class="normalbtn">重新扫描</button>
+			</dlg>
+      <dlg pos="0,0,-0,-0" show="0" id="3329">
+        <button id="3330" pos="-231,-37,-140,-10" class="normalbtn">继续处理</button>
+        <button id="3331" pos="-101,-37,-10,-10" class="normalbtn">重新扫描</button>
+      </dlg><!--hub-->
+    </dlg>
+    <!--IE清理页面中，详细显示页面的低栏-->
+		<dlg id="3023" pos="0,-50,-0,-0" show="0">
+			<text id="3024" pos="8,18" class="linktext">全选</text>
+			<text id="3020" pos="38,18" class="centertext">/</text>
+			<text id="3025" pos="50,18" class="linktext">全不选</text>
+			<text id="3020" pos="115,18" class="centertext" crtext="D3D3D3">|</text>
+			<text id="3026" pos="151,18" class="linktext">全部项目描述展开</text>
+			<text id="3020" pos="253,18" class="centertext">/</text>
+			<text id="3027" pos="265,18" class="linktext">收起</text>
+			<button id="3045" pos="-101,-37,-10,-10" class="normalbtn">立即清理</button>
+			<check id="3046" pos="-230,-37,-110,-10" show="0">显示安全项</check>
+		</dlg>
+		<!--IE修复过程中的显示列表的底栏-->
+		<dlg id="3076" pos="0,-50,-0,-0" show="0">
+			<dlg id="3090" pos="0,0,-250,-0" show="0">
+				<text id="3088" pos="15,20" class="centertext" show="1">为进一步确保 IE 安全，推荐您：</text>
+				<text id="3089" pos="200,20" class="linktext">修复漏洞</text>
+			</dlg>
+			<dlg id="3091" pos="0,0,-250,-0" show="0">
+				<text id="3088" pos="15,20" class="centertext" show="1">为进一步确保 IE 安全，推荐您：</text>
+				<text id="3092" pos="200,20" class="linktext">全盘扫描木马病毒</text>
+			</dlg>
+			<dlg id="3095" pos="0,0,-250,-0" show="0">
+				<text id="3088" pos="15,20" class="centertext" show="1">为进一步确保 IE 安全，推荐您：</text>
+				<text id="3096" pos="200,20" class="linktext">全面清理插件</text>
+			</dlg>
+			<dlg id="3093" pos="0,0,-250,-0" show="0">
+				<text id="3088" pos="15,20" class="centertext" show="1">木马病毒会使修复无效。重启将清除木马病毒，之后再修复 IE，效果更好 </text>
+			</dlg>
+			<button id="3087" pos="-100,-37,-10,-10" class="normalbtn">返回</button>
+		</dlg>
+	</dlg>
+	<!--IE设置界面，包含详细的设置项目-->
+	<dlg id="3072" pos="151,6,-0,-0" crbg="FBFCFD">
+		<dlg pos="3,25,-7,100" class="panel">
+			<text pos="10,30">选择默认浏览器：</text>
+			<realwnd id="3207" pos="150,26,320,44" ctrlid="3207"/>
+			<text pos="336,29" crtext="6D6D6D">重启浏览器后生效</text>
+			<button id="3210" pos="-91,-52,-10,-25" class="normalbtn">立即生效</button>
+		</dlg>
+		<dlg pos="19,19,120,34" crbg="FBFCFD"></dlg>
+		<text pos="25,19" class="boldtext" crbg="FBFCFD"> 默认浏览器设置 </text>
+		<dlg pos="3,120,-7,-10" class="panel">
+			<text pos="10,15,100,30">IE 首页：</text>
+			<realwnd id="3029" pos="150,15,320,35" ctrlid="3029"/>
+			<text id="3031" pos="336,20" class="linktext">使用空白页</text>
+			<check id="3201" pos="420,20">锁定 IE 首页，防止篡改</check>
+			<text id="3048" pos="10,40,130,55" show="1">IE 窗口标题：</text>
+			<realwnd id="3030" pos="150,40,320,60" ctrlid="3030"/>
+			<text id="3049" pos="10,65,180,80" show="1">IE 默认搜索引擎：</text>
+			<realwnd id="3034" pos="150,65,320,165" ctrlid="3034"/>
+			<text id="3050" pos="10,90,180,105" show="1">IE 查看源文件的程序：</text>
+			<realwnd id="3058" pos="150,90,320,110" ctrlid="3058"/>
+			<text id="3059" pos="336,95" class="linktext">使用记事本</text>
+			<text id="3051" pos="10,115,150,130" show="1">IE 窗口初始大小：</text>
+			<realwnd id="3036" pos="150,115,320,215" ctrlid="3036"/>
+			<text id="3052" pos="10,140,150,155" show="1">IE 窗口初始位置：</text>
+			<realwnd id="3037" pos="150,140,320,240" ctrlid="3037"/>
+			<text pos="10,165,180,180" show="1">IE 默认文件下载目录：</text>
+			<realwnd id="3039" pos="150,165,470,185" ctrlid="3039"/>
+			<text id="3042" pos="480,170" class="linktext">选择目录</text>
+			<text id="3053" pos="550,170" class="linktext">打开目录</text>
+			<text pos="10,190,180,205" show="1">IE 默认网页缓存目录：</text>
+			<realwnd id="3040" pos="150,190,470,210" ctrlid="3040"/>
+			<text id="3043" pos="480,195" class="linktext">选择目录</text>
+			<text id="3054" pos="550,195" class="linktext">打开目录</text>
+			<text pos="10,215,180,230" show="1">IE 默认收藏夹目录：</text>
+			<realwnd id="3041" pos="150,215,470,235" ctrlid="3041"/>
+			<text id="3044" pos="480,220" class="linktext">选择目录</text>
+			<text id="3055" pos="550,220" class="linktext">打开目录</text>
+			<text id="3056" pos="10,245,200,257" show="1">IE 同时下载文件数：</text>
+			<realwnd id="3038" pos="150,240,330,455" ctrlid="3038"/>
+
+			<text id="3062" pos="10,-25" class="linktext" >使用 IE 默认设置</text>
+			<button id="3047" pos="-91,-35,-10,-6" class="normalbtn">立即生效</button>
+		</dlg>
+		<dlg pos="19,114,120,129" crbg="FBFCFD"></dlg>
+		<text pos="25,114" class="boldtext" crbg="FFFFFF"> IE 浏览器设置 </text>
+	</dlg>
+</dlg>

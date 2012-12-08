@@ -1,0 +1,20 @@
+<listitem height="50">
+  <dlg id="1" pos="0,0,-0,-0" crbg="FFFFFF">
+    <dlg pos="0,0,-330,-0">
+      <iconfrommodule id="2" pos="10,8,42,40" srcfile="0"/>
+      <text id="3" pos="50,8,-0,23" class="sysopt_display"></text>
+      <text id="4" pos="50,28,-0,43" class="sysopt_desc"></text>
+    </dlg>
+    <dlg pos="-300,0,-0,-0">
+    	<text id="5" pos="8,18,68,32"></text>
+    	<text id="6" pos="120,18,173,32" class="centertext" crtext="FF0000"></text>
+    	<text id="7" pos="254,18,280,32" class="linktext"></text>
+    	<imgbtn id="8" pos="280,18,284,32" class="linkimage" skin="sysopt_menubtn"/>
+    </dlg>
+    <hr pos="0,-1,-0,-1" crbg="DEE6E8"/>
+  </dlg>
+  <dlg id="100" pos="0,0,-0,-0" crbg="fbfbfb" class=sysopt_history_title>
+    <text id="101" font="0004" pos="10,6"></text>
+    <hr pos="0,-1,-0,-1" crbg="DEE6E8"/>
+  </dlg>
+</listitem>

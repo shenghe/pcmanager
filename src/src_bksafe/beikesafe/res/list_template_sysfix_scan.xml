@@ -1,0 +1,23 @@
+﻿<listitem height=24>
+  <dlg pos="0,0,-0,-0">
+    <dlg pos="0,0,-0,-0" id="99" show="0">
+      <dlg id=5 pos="0,0,-0,-0" class="sysfixlistbg">
+          <img id=6 pos="10,5" skin="stat15" sub="7"/>
+          <text pos="30,6" id=1></text>
+          <dlg id=2 pos="-140,0,-0,-0" show="0">
+            <img id=3 pos="0,5" skin="stat15" sub="2"/>
+            <text pos="25,6" id=4></text>
+          </dlg>		  
+      </dlg>
+      <hr pos="0,-1,-0,-1" crbg="CCCCCC" />
+    </dlg>
+    <dlg pos="0,0,-0,-0" id="100" show="0" crbg="ffffff">
+      <check id="101" pos="40,5" />
+      <text  id="102" pos="55,6,-270,18" crtext="ff0000" class="endellipsistext"></text>
+      <text  id="103" pos="-260,6" class="linktext">查看详情</text>
+      <text  id="104" pos="-115,6" crtext="ff0000">[风险]</text>
+      <text  id="106" pos="-75,6">建议修复</text>
+      <hr id="105" pos="0,-1,-0,-1" crbg="CCCCCC" />
+    </dlg>
+  </dlg>  
+</listitem>

@@ -1,0 +1,27 @@
+﻿<layer width="290" height="216" appwin="0" noborder="1">
+  <header width="full" height="80">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+      <img id="60009" skin="header_title_normal" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1700" pos="0,10,-0,-0" class="textmode_title"></text>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_red" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,90" crbg="FAFDFF">
+        <realwnd id="1701" ctrlid="1701" crtext="333333" pos="10,0,-10,-0"/>
+      </dlg>
+      <dlg pos="0,90,-0,-0" crbg="FAFDFF">
+        <button id="60004" pos="-90,-30,-10,-5" class="normalbtn_gray" ></button>
+        <img id="60010" skin="link_icon" pos="12,-22"/>
+        <text id="1702" pos="35,-20" class="linktext">了解更多</text>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

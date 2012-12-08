@@ -1,0 +1,30 @@
+﻿<listitem height="65">
+  <dlg pos="0,0,-0,-0" crbg="FFFFFF" crtext="000000">
+    <dlg pos="0,0,-0,20">
+      <img pos="10,8" skin="softnecesspoint"/>
+      <text id="1" crtext="3165A0" font="0004" pos="26,6" />
+    </dlg>
+
+    <dlg id="10" pos="0,28,215,-0">
+      <check id="11" pos="10,5,27,27" />
+      <img pos="10,8," skin="stat15" sub="8" id="14" />
+      <memimage id="12"  pos="30,0,62,32"/>
+      <text id="13" pos="70,10,-5,-0" class="text_multiline" />
+    </dlg>
+
+    <dlg id="20" pos="215,28,430,-0">
+      <check id="21" pos="10,5,27,27" />
+      <img pos="10,8," skin="stat15" sub="8" id="24" />
+      <memimage id="22"  pos="30,0,62,32"/>
+      <text id="23" pos="70,10,-5,-0" class="text_multiline" />
+    </dlg>
+
+    <dlg id="30" pos="430,28,-0,-0">
+      <check id="31" pos="10,5,27,27" />
+      <img pos="10,8," skin="stat15" sub="8" id="34" />
+      <memimage id="32"  pos="30,0,62,32"/>
+      <text id="33" pos="70,10,-5,-0" class="text_multiline" />
+    </dlg>
+    <hr pos="0,-1,-0,-1" crbg="cccccc"/>
+  </dlg>   
+</listitem>

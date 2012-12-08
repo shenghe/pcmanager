@@ -1,0 +1,227 @@
+﻿<!--扫描模式选择-->
+<dlg pos="0,0,-0,-0" class="softmgrtopbk">
+	<tabctrl id="364"  tabwidth="85" tabheight="25" tabskin="installsoftmgr" tabspacing="5" tabpos="9" framepos="0" pos="0,4,-0,-1" text-x="1"  text-y="1">
+		<tab title="木马查杀" width="full" height="full" >
+			<dlg id="103" pos="0,0,-0,-0">
+				<hr pos="-265,0,-265,-0" crbg="A3BAD2"/>
+				<dlg pos="0,0,-265,-0">
+					<dlg pos="0,0,-0,82" class="sysopt_listbk">
+						<img pos="45,8" skin="stat15" sub="2" id="371" />
+						<richtext pos="70,10,-0,-0" id="372" class="richtext">长时间未进行扫描检测，建议立即扫描!</richtext>
+					</dlg>
+					<dlg id="100" pos="40,60,-40,135" class="btnvirscan" onlydrawchild="1">
+						<img pos="15,13" skin="iconvirscan" sub="0"/>
+						<text pos="80,17" crtext="3064A5" font="0204">快速扫描</text>
+						<text pos="140,17" crtext="FF0000" font="0204">（推荐）</text>
+						<text pos="80,45" crtext="777777">扫描内存、启动项、木马隐藏的目录，仅用数十秒完成</text>
+					</dlg>
+					<dlg id="101" pos="40,165,-40,240" class="btnvirscan" onlydrawchild="1">
+						<img pos="15,13" skin="iconvirscan" sub="1"/>
+						<text pos="80,17" crtext="3064A5" font="0204">全盘扫描</text>
+						<text pos="80,45" crtext="777777">扫描计算机中所有磁盘，让木马无处藏身，建议您定期进行扫描</text>
+					</dlg>
+					<dlg id="102" pos="40,270,-40,345" class="btnvirscan" onlydrawchild="1">
+						<img pos="15,13" skin="iconvirscan" sub="2"/>
+						<text pos="80,17" crtext="3064A5" font="0204">自定义扫描</text>
+						<text pos="80,45" crtext="777777">根据您的需要指定扫描范围</text>
+					</dlg>
+					<hr pos="40,-40,-40,-40" crbg="777777" style="dot"/>
+					<dlg pos="40,-25,-40,-0">
+						<img  pos="0,0" skin="stat15" sub="3"/>
+						<text pos="20,2" crtext="777777" >如果木马查杀没能解决您的问题，建议使用</text>
+						<text pos="248,2" id="269" crtext="3064A5" class="linktext2" font="0004">金山毒霸</text>
+						<text pos="300,2" crtext="777777">进行查杀。</text>
+					</dlg>
+				</dlg>
+				<dlg pos="-265,0,-0,-0">
+					<dlg id="313" pos="15,20,-10,40">
+						<img pos="0,0" skin="stat15" sub="1"/>
+						<text pos="20,1" class="dangertext" font="0004">本地V10引擎未开启</text>
+						<text id="316" pos="140,1" class="linktext">立即开启</text>
+					</dlg>
+					<dlg id="314" pos="15,20,-10,40">
+						<img pos="0,0" skin="stat15" sub="4"/>
+						<text pos="20,1" font="0004">正在下载本地V10引擎，请稍候...</text>
+					</dlg>
+					<dlg id="315" pos="15,15,-10,40">
+						<img pos="0,0" skin="stat15" sub="2"/>
+						<text pos="20,1" class="safetext" font="0004">木马查杀双引擎已开启</text>
+					</dlg>
+					<text pos="35,40">革命性云引擎技术，精准查杀上亿木马</text>
+					<text pos="35,60">全新本地V10引擎，完美清除感染型木马</text>
+					<img pos="1,85,-1,86" skin="exam_line"/>
+					<img pos="15,95" skin="stat15" sub="7"/>
+					<dlg pos="35,95,-20,180">
+						<text pos="0,1" class="boldtext">推荐工具：</text>
+						<dlg pos="0,25,-0,-0">
+							<text id="337" pos="0,0" class="linktext2"/>
+							<text id="338" pos="0,20" class="linktext2"/>
+							<text id="375" pos="0,40" class="linktext2"/>
+						</dlg>
+					</dlg>
+					<img pos="1,190,-1,191" skin="exam_line"/>
+					<img pos="15,210" skin="stat15" sub="6"/>
+					<dlg pos="35,212,-20,292">
+						<text pos="0,1" id="168" class="linktext2" font="0004">查杀历史记录：</text>
+						<text id="199" pos="0,30" crtext="777777">恢复和查看处理过的文件</text>
+					</dlg>
+					<img pos="15,280" skin="stat15" sub="6"/>
+					<dlg pos="35,280,-20,330">
+						<text id="335" pos="0,1" class="linktext2" font="0004">信任列表：</text>
+						<text pos="0,30" id="370" crtext="777777">添加您认为安全的文件和网址</text>
+					</dlg>
+					<img pos="15,345" skin="stat15" sub="6"/>
+					<dlg pos="35,345,-20,410">
+						<text id="231" pos="0,1" class="linktext2" font="0004">云安全文件分析：</text>
+						<text id="230" pos="0,30" crtext="777777">查看可疑文件的鉴定结果</text>
+					</dlg>
+				</dlg>
+			</dlg>
+			<!--扫描过程-->
+			<dlg id="104" show="0" pos="0,0,-0,-0" class="client">
+				<!--正在扫描-->
+				<dlg pos="0,0,-0,100">
+					<dlg id="127" pos="0,0,-0,76">
+						<dlg pos="0,0,|-5,-0" class="virscanpanel">
+							<img pos="0,10" skin="scananibg" sub="2" id=373/>
+							<img pos="0,10" skin="kcloud_discon" sub="0" id=374 show=0/>
+							<img id="140" pos="8,17" skin="scanani" sub="0"/>
+              <!--<text id="115" pos="50,0"/>-->
+							<richtext id="115" pos="50,0,-0,-0" class ="richtext"/><!--hub-->
+							<text id="176" pos="50,20,-0,40" class="filename"/>
+							<progress id="110" pos="50,-17,-0,-0" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+						</dlg>
+						<dlg id="323" pos="|5,0,-0,-0" class="virscanpanel" show="0">
+							<img pos="0,10" skin="scananibg" sub="1"/>
+							<img id="319" pos="8,17" skin="scanani" sub="0"/>
+              <!--<text id="320" pos="50,0"/>-->
+							<richtext id="320" pos="50,0,-0,-0" class ="richtext"/><!--hub-->
+							<text id="321" pos="50,20,-0,40" class="filename"/>
+							<progress id="322" pos="50,-17,-0,-0" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+						</dlg>
+						<dlg id="327" pos="|5,0,-0,-0" class="virscanpanel" show="0">
+							<dlg id="324" pos="0,0,-0,-0" show="0">
+								<img pos="0,10" skin="scananibg" sub="0"/>
+								<richtext pos="50,20,-0,40" class="richtext" linkclass="linktext">
+									<c color="FF0000">未开启本地V10引擎，对木马查杀效果会有影响</c>
+									<a id="316">立即开启</a>
+								</richtext>
+							</dlg>
+							<dlg id="325" pos="0,0,-0,-0" show="0">
+								<img pos="0,10" skin="scananibg" sub="0"/>
+								<text pos="50,10" crtext="FF0000">正在下载本地V10引擎，请稍候...</text>
+								<text pos="50,35">不会影响本次云引擎扫描速度</text>
+							</dlg>
+							<dlg id="326" pos="0,0,-0,-0" show="0">
+								<img pos="0,10" skin="scananibg" sub="1"/>
+								<img pos="8,17" skin="scanani" sub="0"/>
+								<text pos="50,20" class="safetext">本地V10引擎已开启，重新扫描立即生效</text>
+							</dlg>
+						</dlg>
+					</dlg>
+					<!--正在清除-->
+					<dlg id="145" show="0" pos="0,0,-0,76">
+						<img id="328" pos="20,0" skin="cleanani1"/>
+						<img id="329" pos="54,0" skin="cleanani2" sub="0"/>
+						<img id="330" pos="157,0" skin="cleanani3" sub="0"/>
+						<text pos="220,33">正在修复威胁：</text>
+						<text id="331" pos="305,33,-10,45" class="filename"/>
+						<progress id="146" pos="10,-17,-10,-0" min="0" max="100" value="20" showpercent="1" bgskin="progressbg" posskin="progressposred"/>
+					</dlg>
+					<!--扫描结束-->
+					<dlg id="128" show="0" pos="0,0,-10,76">
+						<img id="282" pos="10,10" skin="stat40" sub="1"/>
+						<dlg pos="60,24,-0,47" font="0204">
+							<text id="143" pos="0,0" class="dangertext"/>
+						</dlg>
+					</dlg>
+					<!--扫描数字统计-->
+					<dlg id="277" pos="60,81,-0,100">
+						<text pos="0,0">已扫描文件：</text>
+						<text id="116" pos="85,0"/>
+						<text pos="255,0">发现威胁：</text>
+						<text id="117" pos="340,0"/>
+						<text pos="460,0">扫描时间：</text>
+						<text id="118" pos="530,0"/>
+					</dlg>
+					<!--清除数字统计-->
+					<dlg id="278" pos="10,81,-0,100" show="0">
+						<text pos="0,0">发现威胁：</text>
+						<text id="279" pos="85,0"/>
+						<text pos="230,0">已处理威胁：</text>
+						<text id="280" pos="340,0"/>
+						<text pos="460,0">未处理威胁：</text>
+						<text id="281" pos="550,0"/>
+					</dlg>
+				</dlg>
+				<!--病毒列表-->
+				<dlg pos="0,100,-0,-51" show="0" class="panel" id="352">           
+					  <realwnd pos="0,0,-0,24" ctrlid="353" id="353" />
+					  <realwnd pos="0,24,-0,-0" ctrlid="350" id="350" />          
+				</dlg>
+				<dlg pos="0,100,-0,-51" show="0" class="panelffffff" id="365"><!--hub-->
+					<realwnd pos="0,0,-0,24" ctrlid="366" id="366" />
+					<realwnd id="3337" ctrlid="3337" pos="0,24,-0,-0"/>
+				</dlg>        
+				<dlg pos="0,-50,-0,-28" show="0" id="355">
+					<realwnd pos="0,0,-0,-0" ctrlid="354" id="354" />
+				</dlg>
+				<dlg pos="0,100,-0,-51" show="0" class="panel" id="376">  
+					  <text pos="|-240,|-60,|160,|-40">如果您感觉电脑仍然存在问题，请尝试以下方法：</text>
+					  <text pos="|-240,|-20,|-204,|0">1 使用</text>
+					  <text pos="|-204,|-20,|-150,|0" id="378" class="linktext2" font="0004">金山毒霸</text>
+					  <text pos="|-150,|-20,|160,|0" >进行强力查杀，清除顽固木马。</text>
+					  <text pos="|200,|-20,|260,|0" class="linktext" id="377">立即使用</text>
+					  
+					  <text pos="|-240,|10,|-204,|30" >2 使用</text>
+					  <text pos="|-204,|10,|-137,|30" class="linktext2" href="http://www.duba.net/jijiu/index.shtml" font="0004">金山急救箱</text>
+					  <text pos="|-137,|10,|160,|30" >进行系统急救，恢复电脑正常的使用环境。</text>
+					  <text pos="|200,|10,|260,|30" class="linktext" href="http://www.duba.net/jijiu/index.shtml">立即使用</text>
+				</dlg>
+				<dlg pos="0,-35,-0,-0">
+					<dlg pos="0,0,-0,-0">
+						<check id="155" pos="0,-16" show="0">全选</check>
+					</dlg>         
+					<dlg pos="25,-35,-0,-0">
+						<dlg id="368" pos="0,0,-0,-0" show="0">
+							<text id="367" pos="45,-16" show="0" class="linktext">查看扫描列表</text>
+							<text id="369" pos="45,-16" show="0" class="linktext">返回结果页</text>
+						</dlg>
+						<!--扫描时的按钮-->
+						<dlg id="204" pos="-170,-25,-0,-0">
+							<button id="129" pos="-170,0,-90,-0" class="normalbtn">暂停扫描</button>
+							<button id="131" show="0" pos="-170,0,-90,-0" class="normalbtn">继续扫描</button>
+							<button id="130" pos="-80,0,-0,-0" class="normalbtn">停止扫描</button>
+						</dlg>
+						<!--需要手动清除-->
+						<dlg id="147" pos="-170,-25,-0,-0">                
+							<!--<text id="339" pos="20,-19" class="linktext">查看信任列表</text>
+							<text id="340" show="0" pos="130,-19">恶意插件暂时不能加入信任列表</text> -->
+						  <text id="133" pos="-150,8" class="linktext">暂不处理</text>
+						  <button id="132" pos="-80,0,-0,-0" class="normalbtn">立即处理</button>
+						</dlg>
+						<!--已全部清除-->
+						<dlg id="148" pos="-170,-25,-0,-0">
+							<button id="150" pos="-80,0,-0,-0" class="normalbtn">返回</button>
+						</dlg>
+						<!--需要重启-->
+						<dlg id="149" pos="-170,-25,-0,-0">
+							<button id="151" pos="0,0,80,-0" class="normalbtn">立即重启</button>
+							<button id="152" pos="-80,0,-0,-0" class="normalbtn">稍后重启</button>
+						</dlg>
+					</dlg>
+				</dlg>
+			</dlg>
+		</tab>
+		<tab title="插件清理" width="full" height="full" >
+			<dlg pos="0,0,-0,-0" show="1" >
+        <dlgfile pos="0,0,-0,-0" src="505" />
+			</dlg>
+		</tab>
+    <tab title="系统修复" width="full" height="full" >
+      <dlg pos="0,0,-0,-0" show="1" >
+        <dlgfile pos="0,0,-0,-0" src="510" />
+      </dlg>
+		</tab>
+	</tabctrl>
+</dlg>

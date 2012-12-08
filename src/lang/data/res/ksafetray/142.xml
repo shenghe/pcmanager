@@ -1,0 +1,26 @@
+﻿<layer width="360" height="250" appwin="0" noborder="1">
+  <header width="full" height="80">
+    <dlg id="60006" class="mainhead_blue" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closebtn_blue" pos="-40,0"/>
+      <img id="60009" skin="header_title_safe_down_blue" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1080" pos="0,0,-0,-0" font="0404" class="textmode_title">您下载的文件是未知文件，需要云鉴定</text>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_blue" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_blue" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <dlg class="panel_gray" pos="15,0,-15,-60">
+          <realwnd id="1043" ctrlid="1043" font="0000" crtext="333333" pos="8,0,-8,-0"/>
+        </dlg>
+        <check id="1092" pos="15,-27" crtext="0064C8">不再提示未知文件</check>
+        <button id="60004" class="normalbtn_gray" pos="-98,-33,-18,-10">查看目录</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

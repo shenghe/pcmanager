@@ -1,0 +1,34 @@
+﻿<layer title="金山卫士-流量监控" width="600" height="450"  resize="1" nomaxsize="1">
+  <header class="msgboxhead" width="400" height="32">
+    <icon src="101" pos="5,9"/>
+    <text class="dlgtitle" pos="25,10">金山卫士-流量监控</text>
+    <imgbtn id="100" class="linkimage" skin="closebtn" pos="-43,0"/>
+  </header>
+
+  <footer class="msgboxfoot" width="full" height="2">
+  </footer>
+
+  <body class="msgboxbody" width="full" height="full">
+    <img pos="3,1,-3,-3" skin="topbkcolor"></img>
+    <img pos="10,10,26,26"  skin="statplist"></img>
+    <text pos="30,13" id="200">今日网络中流量21M</text>
+
+    <!-- listbox -->
+    <dlg class="panel" pos="1,40,-1,-45">
+      <dlg pos="1,0,-1,20">
+        <!--0-->
+        <text id="201" pos="0,0,300,-0" class="listheader2" crbg="AAAA00">进程名</text>
+        <!--1-->
+        <text id="202" pos="300,0,400,-0" class="listheader2" crbg="AAAA00">网络总流量</text>
+        <!--2-->
+        <text id="203" pos="400,0,500,-0" class="listheader2" crbg="00AA00">上传总流量</text>
+        <!--3-->
+        <text id="204" pos="500,0,-0,-0" class="listheader2" crbg="00AAAA">下载总流量</text>
+      </dlg>
+      <dlg pos="0,20,-0,-0" show="1">
+        <realwnd id="205" ctrlid="205" pos="0,0,-0,-0"/>
+      </dlg>
+    </dlg>
+    <button id="102" pos="-100,-35,-20,-10" class="normalbtn">关闭</button>
+  </body>
+</layer>

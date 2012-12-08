@@ -1,0 +1,157 @@
+﻿<layer title="百度安全卫士" width="690" height="472" appwin="1">
+  <header class="softdlghead" width="full" height="28">
+    <icon src="107" pos="5,9"/>
+    <text id="8160" class="dlgtitle" pos="25,10,215,22">百度安全卫士 - 一键装机</text>
+    <imgbtn id="60003" class="linkimage" skin="minbtn" pos="-74,0"/>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <footer class="softdlgfoot" width="full" height="3">
+  </footer>
+  <body class="softdlgbody" width="full" height="full" >
+
+    <dlg pos="4,0,-4,-0" crbg="0071A9">
+
+      <!-- 选择软件的界面 -->
+      <dlg pos="0,0,-0,-0" id="1" >
+        
+      <dlg pos="0,0,0,0" show="0">  
+        <!-- 分类的radio -->
+        <text pos="10,15" >装机类型：</text>
+        <dlg pos="80,5,-0,40">
+          <radio id="30"  group="1" check="4"  pos="0,10,100,22" />
+          <radio id="31"  group="1"  pos="100,10,200,22" />
+          <radio id="32"  group="1"  pos="200,10,300,22" />
+          <radio id="33"  group="1"  pos="300,10,400,22" />
+          <radio id="34"  group="1"  pos="400,10,500,22" />
+        </dlg>  
+      </dlg>  
+      
+      <dlg pos="0,0,-0,-50">
+        <dlg pos="0,0,-0,70"  class="softonektopbg">
+          <img  pos="15,0" skin="onekeytopicon" />
+          <text pos="155,26" font="0304">请选择需要安装的必备软件</text>
+          <text id="43" pos="-250,28" show="0">已选择10款软件，预计共需365MB空间</text>
+        </dlg> 
+        <dlg pos="0,67,-0,-0" class="panel">
+          <realwnd id="10" pos="0,0,-0,-0" ctrlid="10" />
+        </dlg>  
+      </dlg>
+      
+      <dlg pos="10,-40,-10,-5">
+        <check id="40" pos="0,10" crtext="FFFFFF">全选/全不选</check>
+        <text pos="95,10" crtext="FFFFFF">|</text>
+        <text id="42" pos="110,10" class="linktextwhite">默认推荐</text>
+        <text id="44" pos="180,10" class="linktextwhite" >选择安装各软件附带的安装选项</text>
+        <button id="41" pos="-90,0,-10,30" class="normalbtn">开始安装</button>
+      </dlg>  
+    </dlg>
+
+    <!-- 安装选择目录的界面 -->
+    <dlg pos="0,0,-0,-0" id="200" show="0" >
+      
+      <dlg pos="0,0,-0,70" class="softonektopbg">
+          <img  pos="15,0" skin="onekeytopicon" />
+          <richtext pos="155,26,-50,40" id="201" class="richtext" crtext="FFFFFF"/>
+      </dlg>
+      
+      <dlg pos="0,67,-0,-40" class="panel">
+          <dlg pos="0,0,-0,137" class="onekeyseldirbg">
+             <text pos="38,31" >请选择安装目录，所选软件将被安装在此目录下：</text>
+             <text pos="305,31" id="204" class="linktext">恢复默认目录</text>
+
+             <dlg pos="38,50,420,80" class="panel" crbg="FFFFFF">
+               <realwnd id="202" pos="2,|-8,-2,|8" ctrlid="202" />
+             </dlg>
+             <button id="203" pos="428,50,528,80" class="normalbtn">换个目录</button>
+           </dlg>
+           <dlg pos="30,95,-0,115">
+             <img  id="205" pos="10,0" skin="stat15" sub="2"/>
+
+             <richtext pos="28,3,-50,15" id="206" class="richtext" crtext="FFFFFF"/>
+           </dlg>
+
+
+          <dlg pos="10,150,-10,-40">
+            <imgbtn id="209" pos="|-80,10,|80,55" class="onekeybegininst" skin="onekeybegininst" />
+            <dlg pos="100,83,-100,110" class="panelclear">
+              <text pos="0,0,-0,-0" class="centertext" >安装部分软件时，可能有安全软件弹出询问窗口，请根据需要选择后即可继续！</text>
+            </dlg>
+           </dlg>
+          <img pos="333,132" class="onekeyseldirbgsanjiao" skin="onekeyseldirbgsanjiao"/>
+
+      </dlg>
+
+      <dlg pos="0,-40,-0,-0">
+        <button id="210" pos="-210,5,-130,35" class="normalbtn">开始安装</button>
+        <button id="211" pos="-90,5,-10,35" class="normalbtn">取消</button>
+      </dlg>
+    </dlg>
+
+    <!-- 安装进行中的界面 -->
+    <dlg pos="0,0,-0,-0" id="400" show="0" >
+
+      <dlg pos="0,0,-0,102">
+        <dlg pos="0,0,-0,-0"  class="onekeyinstingbg">
+          <dlg pos="35,25,-35,40">     
+            <richtext pos="0,0,-50,15" id="401" class="richtext"/>
+          </dlg>
+          <dlg pos="35,45,-35,65">
+            <progress id="403" pos="0,0,-0,30" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+          </dlg>
+          <dlg pos="35,73,-0,110">
+            <richtext pos="0,3,-200,15" id="404" class="richtext" crtext="FFFFFF"/>
+            <text pos="-150,3" id="405" crtext="FFFFFF"></text>
+          </dlg>
+        </dlg>
+      </dlg>
+
+      <dlg pos="0,99,-0,-40" class="panel">
+        <dlg pos="45,30,-45,-30" class="panelclear">
+          <memimage id="415"  pos="10,12,42,44"/>
+          <text id="407" pos="50,12,-125,27" font="0004" ></text>
+          <text id="408" pos="50,40,-20,52" ></text>
+          
+          <dlg pos="50,65,200,90">
+              <img id="409"  pos="0,0,14,33" skin="star_off" />
+              <img id="410"  pos="15,0,29,33" skin="star_off" />
+              <img id="411"  pos="30,0,44,33" skin="star_off" />
+              <img id="412"  pos="45,0,59,33" skin="star_off" />
+              <img id="413"  pos="60,0,74,33" skin="star_off" />
+              <text id="414" pos="85,3" ></text>
+          </dlg>  
+
+          <text pos="50,130" >安装部分软件时，可能有安全软件弹出询问窗口，请根据需要选择后即可继续！</text>
+        </dlg>
+      </dlg>
+      <img pos="110,99" class="onekeyinstingsanjiao" skin="onekeyinstingsanjiao"/>
+
+      <dlg pos="10,-40,-10,-0">
+        <button pos="-90,5,-10,35" id="406" class="normalbtn">取消</button>
+      </dlg>
+    </dlg>
+
+    <!-- 安装完成的界面 -->
+    <dlg pos="0,0,-0,-0" id="300" show="0" >
+
+      <dlg pos="0,0,-0,-40">
+        <dlg pos="0,0,-0,70"  class="softonektopbg" >
+          <img  pos="25,0" skin="onekeytopicon2" />
+          <richtext pos="155,26,-50,40" id="201" crtext="FFFFFF"/>
+
+          <richtext id="301" pos="155,28,-10,45" class="richtext" />
+        </dlg>
+        <dlg pos="0,67,-0,-0" class="panel">
+          <realwnd id="303" pos="0,0,-0,-0" ctrlid="303" />
+        </dlg>
+      </dlg>
+
+      <dlg pos="10,-40,-10,-0">
+        <button id="302" pos="-90,5,-10,35" class="normalbtn">装机完成</button>
+      </dlg>
+    </dlg>
+      
+    </dlg>  
+    
+  </body>
+</layer>
+

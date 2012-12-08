@@ -1,0 +1,41 @@
+﻿<text pos="0,0,80,-0" class="vcentertext" crtext="7A9EBC">主程序版本：</text>
+<text id="254" pos="72,0,150,-0" class="vcentertext" crtext="7A9EBC"/>
+<!--hr1 pos="160,1,160,-2" crbg=CCCCCC/-->
+<text id="332" pos="170,0,320,-0" class="vcentertext" show="0"  crtext="7A9EBC"/>
+<dlg id="333" pos="170,0,320,-0">
+	<dlg id="256" pos="0,3,-0,-0">
+		<img pos="0,0" skin="stat15" sub="4"/>
+		<text pos="20,1" crtext="7A9EBC">正在检测新版本</text>
+	</dlg>
+	<dlg id="257" pos="0,3,-0,-0" show="0">
+		<img pos="0,0" skin="stat15" sub="1"/>
+		<text pos="20,1" class="dangertext" crtext="7A9EBC">检测到新版本</text>
+		<text id="259" pos="100,1" class="linktext" crtext="7A9EBC">立即升级</text>
+	</dlg>
+	<!--dlg id=258 pos="0,0,-0,-0" show=0>
+                <img pos="0,0" skin=stat15 sub=2/>
+                <text pos="20,1" class=safetext crtext=7A9EBC>已是最新版</text>
+            </dlg-->
+	<dlg id="260" pos="0,0,-0,-0" show="0">
+		<img pos="0,0" skin="stat15" sub="4"/>
+		<text pos="20,1" crtext="7A9EBC">正在升级</text>
+		<progress id="261" pos="70,1,-0,14" min="0" max="100" value="0" showpercent="1"/>
+	</dlg>
+</dlg>
+<!--hr pos="-262,1,-262,-2" crbg=CCCCCC/-->
+<dlg id="179" pos="-246,0,-10,-0" class="infotext" show="0">
+	<img pos="0,3" skin="stat15" sub="3"/>
+	<text pos="21,0,-0,-0" class="vcentertext" crtext="7A9EBC">正在连接云引擎 ...</text>
+</dlg>
+<dlg id="180" pos="-246,0,-10,-0" show="0">
+	<img pos="0,3" skin="stat15" sub="5"/>
+	<text pos="21,0,-0,-0" class="vcentertext" crtext="7A9EBC">云引擎连接成功</text>
+</dlg>
+<dlg id="181" pos="-246,0,-10,-0" class="risktext" show="0">
+	<img pos="0,3" skin="stat15" sub="0"/>
+	<text pos="21,0,-0,-0" class="vcentertext" crtext="7A9EBC">云引擎连接失败，请检查网络</text>
+</dlg>
+<dlg id="182" pos="-246,0,-10,-0" class="dangertext" show="0">
+	<img pos="0,3" skin="stat15" sub="1"/>
+	<text pos="21,0,-0,-0" class="vcentertext" crtext="7A9EBC">您使用的是非官方版本，不能连接云引擎</text>
+</dlg>

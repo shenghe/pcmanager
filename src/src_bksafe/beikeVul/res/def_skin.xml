@@ -1,0 +1,29 @@
+﻿<skins>
+  <imgframe name="panel" src="100" top="2" left="2" crbg="F0F4FA"/>
+  <imgframe name="mainbgall" src="101" top="14" left="3" crbg="DEEFFF"/>
+  <imgframe name="mainbghead" src="101" top="14" left="3" crbg="DEEFFF" part="top"/>
+  <imgframe name="mainbgbody" src="101" top="14" left="3" crbg="DEEFFF" part="middle"/>
+  <imgframe name="mainbgfoot" src="101" top="14" left="3" crbg="DEEFFF" part="bottom"/>
+  <button name="uglybtn"/>
+  <imghorzex name="normalbtn" src="102" mode="mask" subwidth="9" left="4"/>
+  <imghorzex name="tab" src="106" mode="mask" subwidth="7" left="3"/>
+  <imghorzex name="progressbg" src="103" mode="mask" left="3"/>
+  <imghorzex name="progresspos" src="104" mode="mask" left="3"/>
+
+  <imglst name="minbtn" src="111" subwidth="25"/>
+  <imglst name="maxbtn" src="112" subwidth="25"/>
+  <imglst name="restorebtn" src="113" subwidth="25"/>
+  <imglst name="closebtn" src="114" subwidth="43"/>
+  <imglst name="examani" src="116" subwidth="46"/>
+
+
+
+  <imglst name="vulfixlogo" src="200" subwidth="128" mode="alpha"/>
+  
+  <imglst name="icon_84" src="120" subwidth="80"/>
+  <imglst name="icon_60" src="121" subwidth="60"/>
+  <imglst name="icon_48" src="122" subwidth="48"/>
+  <imglst name="icon_32" src="123" subwidth="32"/>
+  <imglst name="icon_24" src="124" subwidth="24"/>
+
+</skins>

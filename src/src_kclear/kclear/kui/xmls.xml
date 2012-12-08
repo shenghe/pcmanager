@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xmls>
+	<xml id="IDR_KSC_SKIN" path="res/def_skin.xml" />
+	<xml id="IDR_KSC_STYLE" path="res/def_style.xml" />
+	<xml id="IDR_KSC_STRING" path="res/def_string.xml" />
+	<xml id="IDR_DLG_MAIN" path="res/dlg_main.xml" />
+	<xml id="IDR_DLG_CLEAR" path="res/dlg_clear.xml" />
+	<xml id="IDR_DLG_PROCESSMGR" path="res/dlg_processmgr.xml" />
+	<xml id="IDR_DLG_FILECRUSHER" path="res/dlg_filecrusher.xml" />
+	<xml id="IDR_DLG_MESSAGEBOX" path="res/dlg_msgbox.xml" />
+	<xml id="IDR_DLG_FOLDER_BROWSE" path="res/dlg_folderbrowse.xml" />
+	<xml id="IDR_DLG_VIEWLOG" path="res/dlg_viewlog.xml" />
+	<xml id="IDR_DLG_DEST_FOLDER_BROWSE" path="res/dlg_destfolderbrowse.xml" />
+	<xml id="IDR_DLG_MOVE_LEFT" path="res/dlg_move_left.xml" />
+	<xml id="IDR_DLG_DEL_LEFT" path="res/dlg_del_left.xml" />
+	<xml id="IDR_DLG_SHOW_DEST_DIR" path="res/dlg_show_dest_dir.xml" />
+	<xml id="IDR_DLG_DOING" path="res/dlg_doing.xml" />
+	<xml id="IDR_DLG_MOVE" path="res/dlg_move.xml" />
+	<xml id="IDR_DLG_DEL_MSGBOX" path="res/dlg_del_msgbox.xml" />
+	<xml id="IDR_DLG_CLEAR_UPDATE" path="res/dlg_uplive.xml" />
+	<xml id="IDR_DLG_SETTING" path="res/dlg_setting.xml" />
+	<xml id="IDR_DLG_SLIM_WARNING" path="res/dlg_del_warning.xml" />
+	<xml id="IDR_DLG_SLIM_DOING" path="res/dlg_del_doing.xml" />
+</xmls>

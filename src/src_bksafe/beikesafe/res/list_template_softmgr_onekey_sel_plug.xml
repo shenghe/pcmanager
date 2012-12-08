@@ -1,0 +1,19 @@
+﻿<listitem height="40">
+  <dlg id="1" pos="0,0,-0,-0" crbg="FBFCFD" show="1">
+    <dlg pos="10,10,320,25" id="10">
+      <check id="11" pos="0,0" />
+    </dlg>
+    <dlg pos="330,10,650,25" id="20">
+      <check id="21" pos="0,0" />
+    </dlg>
+    <dlg pos="380,10,570,25" id="30" show="0">
+      <check id="31" pos="0,0" />
+    </dlg>
+    <hr pos="5,-1,-5,-1" crbg="DEE6E8"/>
+  </dlg>
+
+  <dlg id="100" pos="0,0,-0,-0" crbg="FBFCFD" show="0">
+    <img pos="12,8" skin="softnecesspoint"/>
+    <text id="101" font="0004" pos="28,8" />
+  </dlg>
+</listitem>

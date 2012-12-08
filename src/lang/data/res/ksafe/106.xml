@@ -1,0 +1,15 @@
+﻿<layer title="选择目录" width=400 height=400>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">%str1%</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <button id=1 pos="-190,10,-110,-10" class=normalbtn>确定</button>
+        <button id=2 pos="-90,10,-10,-10" class=normalbtn>取消</button>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <text pos="10,10">请选择要扫描的目录：</text>
+        <dlg pos="10,30,-10,-0" class=panel>
+            <realwnd pos="2,2,-2,-2" ctrlid=144 id=144/>
+        </dlg>
+    </body>
+</layer>

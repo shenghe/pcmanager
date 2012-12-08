@@ -1,0 +1,17 @@
+﻿<style>
+<class name=mainall skin=mainbgall font=0000 crtext=000000 crbg=FFFFFF/>
+<class name=mainhead skin=mainbghead font=0000 crtext=000000 crbg=FFFFFF x-margin=0/>
+<class name=mainbody skin=mainbgbody font=0000 crtext=000000 crbg=FFFFFF x-margin=10 linespacing=10/>
+<class name=mainfoot skin=mainbgfoot font=0000 crtext=000000 crbg=FFFFFF margin=10 linespacing=20/>
+<class name=linktext font=0002 hoverfont=0002 crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=panel skin=panel margin=2 spacing=3 linespacing=5/>
+<class name=uglybtn skin=uglybtn font=0000 crtext=000000 textmode=25 cursor=hand/>
+<class name=normalbtn skin=normalbtn font=0000 crtext=FFFFFF crdisabled=A2A2A2 textmode=25 margin=5 cursor=hand/>
+<class name=client font=0000 crtext=000000 margin=11 linespacing=20 />
+<class name=linkimage cursor=hand/>
+<class name=list spacing=5 linespacing=8 crtext=000000 />
+<class name=toptext textmode=20 />
+<class name=centertext textmode=25 />
+<class name=tabpage margin=1/>
+<class name=ultext font=0002 crtext=3064A5/>
+</style>

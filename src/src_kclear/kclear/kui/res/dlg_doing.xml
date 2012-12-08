@@ -1,0 +1,15 @@
+<layer width="400" height="198">
+    <header class="msgboxhead" width="full" height="28">
+        <icon src="IDI_ICON_SMALL" pos="5,9"/><text id="100" class="dlgtitle" pos="25,10">正在...</text><imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="35">
+    	<button id="105" pos="-134,0,-54,-10" class="normalbtn">取消</button>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+        <img pos="32,12" skin="folder"/>
+        <text id="101" pos="67,18" class="boldtext">正在...</text>
+        <text id="102" pos="32,56"></text>
+        <text id="103" pos="32,76"></text>
+        <progress id="104" pos="33,100,-34,140" min="0" max="100" value="0" showpercent="0" bgskin="progressbg" posskin="progresspos" show="0" />
+    </body>
+</layer>

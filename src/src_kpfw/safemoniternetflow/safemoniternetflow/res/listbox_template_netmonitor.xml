@@ -1,0 +1,47 @@
+﻿<listitem height="55">
+	<dlg  pos="0,0,-0,-0" crbg="FFFFFF">
+		<dlg id="212" pos="0,0,-0,-0">
+			<!--item bg-->
+			<img id="240" pos="0,0,-0,-0" skin="listitembg"/>
+			<!--icon-->
+			<iconfrommodule id="217"  pos="10,12,42,44" class="linkimage" srcfile="0"/>
+			<!-- <fileicon id="217"  pos="10,12,42,44" class="linkimage" autosize="0" file="" mempointer="" autosize="0"></fileicon> -->
+			<!--disable net-->
+			<img id="218"  pos="24,26,44,46" skin="disablenet" show=0/>
+			<!--title 210P-->
+			<text id="203" pos="50,12,-0,27" class="linktextnetmonitor2">xxxxxxx</text>
+			<!--level-->
+			<text id="204" pos="50,12,-0,27" class="levelcentertext" crtext="ff0000" font="0004">xxxxxxx</text>
+			<!--download speed-->
+			<text id="205" pos="50,12,-0,27" class="centertext">xxxxxxx</text>
+			<!--up speed-->
+			<text id="206" pos="50,12,-0,27" class="centertext">xxxxxxx</text>
+			<!--up limit 限制-->
+			<text id="207" pos="50,32,-0,27" class="linkcentertext">xxxxxxx</text>
+			<!--lock-->
+			<imgbtn id="229" pos="50,32,-0,27" class="linkimage" skin="netlock" cursor="hand"/>
+			<!--unlock-->
+			<imgbtn id="230" pos="50,32,-0,27" class="linkimage" skin="netunlock" show="0" cursor="hand"/>
+			<!--total download-->
+			<text id="208" pos="50,32,-0,27" class="centertext">xxxxxxx</text>
+			<!--total up-->
+			<text id="209" pos="50,32,-0,27" class="centertext">xxxxxxx</text>
+			<!--pid-->
+			<!-- <text id="210" pos="50,32,-0,27" class="centertext">xxxxxxx</text> -->
+			<!--setting-->
+			<!-- <text id="211" pos="50,32,-0,27" class="centertext">xxxxxxx</text> -->
+			<imgbtn id="211" pos="50,32,-0,27" class="linkimage" skin="netsetting"/>
+			<!--des-->
+			<text id="213" pos="50,32,-0,47" class="filename" crtext="6d6d6d">xxxxxxx</text>
+			<!--pid-->
+			<text id="251" pos="50,70"></text>
+			 <!--path-->
+			<dlg id="214" pos="0,47,-1,-1">
+				<text id="215" pos="50,50,-0,70" class1="linktextnetmonitordesc" class="filename" crtext="6d6d6d">xxxxxxx</text>
+				<text id="216" pos="50,52,-0,72" class="linktext">查看所在目录</text>
+			</dlg>
+			
+			<hr pos="0,-1,-0,-1" crbg="dceeff"/>
+		</dlg>
+	</dlg>
+</listitem>

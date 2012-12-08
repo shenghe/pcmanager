@@ -1,0 +1,21 @@
+﻿<layer width="670" height="435" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="107" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">开机加速 - 已忽略的优化项</text>
+		<imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="10,5,-10,-50" class=cpanel>
+		</dlg>
+		<hr pos="11,54,-11,54" class=ignore_line/>
+		<realwnd id="3" pos="11,55,-11,-51" ctrlid="3" />
+		<img pos="25,13" skin="ignore_tip" />
+		<text pos="85,25" crtext="6d6d6d" class="ignore_title">以下启动项将不会在“一键优化”及“体检”功能中提示</text>
+		<check id="4" pos="27,-33">全选</check>
+		<button id="5" class=normalbtn pos="-200,-40,-115,-14">取消忽略</button>
+		<button id="6" class=normalbtn pos="-100,-40,-15,-14">关闭</button>
+		<dlg id="7" pos="11,55,-11,-51">
+			<text pos="|-50,|-50" font="0404" crtext="9A9A9A" crbg="FFFFFF">没有忽略项</text>
+		</dlg>
+	</body>
+</layer>

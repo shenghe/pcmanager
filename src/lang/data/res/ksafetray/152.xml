@@ -1,0 +1,40 @@
+﻿<!--layer width="350" height="240" appwin=0 noborder=1-->
+<layer width="470" height="300" appwin="0" noborder="1">
+  <header width="full" height="80">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+      <img id="60009" skin="header_title_sec_red" pos="50,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1060" pos="20,0,-0,-0" class="textmode_title" font="0804" crtext="ff0000">拦截到木马运行，建议立即清除！</text>
+      </dlg>
+      <img skin="logo_big" pos="0,5"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_red" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <dlg class="panel_red" pos="8,0,-8,130">
+          <text pos="15,10" font="0004">木马网址：</text>
+          <text pos="85,10,-80,30" class="textmode" id="201">http://js.tongj11111111111111i.linezing.com/tongji.js</text>
+          <text pos="-70,10" class="linktext" id="205">信任此网站</text>
+          <text pos="15,35" font="0004">程序名称：</text>
+          <text pos="85,35" id="203">iexplorer32.exe</text>
+          <text pos="15,60" font="0004">程序路径：</text>
+          <text pos="85,60" class="linktext" id="204">c:\windows\system32</text>
+          <text pos="15,85" font="0004">危险行为：</text>
+          <text pos="85,85" font="0004" crtext="ff0000" id="202">下载木马配置文件</text>
+          <text pos="85,100" id="206">下载木马配置文件是典型的木马行为，这个程序可能是木马</text>
+        </dlg>
+        <text pos="8,135,-8,150" id="207" class="textmode_text">假如您不确定这个文件是否安全，建议终止这个程序运行。</text>
+        
+        <text id="1064" pos="14,-25" class="linktext">做一次木马快速扫描</text>
+        <text id="1065" pos="154,-25" class="linktext" show="0">信任此程序</text>
+        <button id="60004" class="normalbtn_gray" pos="-203,-40,-118,-10">立即清除</button>
+        <button id="60005" class="normalbtn_gray" pos="-93,-40,-8,-10">暂不处理</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

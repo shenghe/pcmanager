@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<images>
+	<image id="IDI_ICON_BIG" path="images/icon_big.ico" />
+	<image id="IDI_ICON_SMALL" path="images/icon_small.ico" />
+	<image id="IDP_LOGO_MODULE" path="images/logo_module.png" />
+	<image id="IDP_TAB_LOGOS_FULL" path="images/tab_logs_full.png" />
+	<image id="IDP_TAB_LOGOS_LITE" path="images/tab_logs_lite.png" />
+	<image id="IDB_MAIN_BG_HEADER" path="images/main_bg_header.bmp" />
+	<image id="IDB_MAIN_BG_BODY" path="images/main_bg_body.bmp" />
+	<image id="IDB_MAIN_BG_FOOTER" path="images/main_bg_footer.bmp" />
+	<image id="IDB_MSGBOX_HEADER" path="images/msgbox_bg.bmp" />
+	<image id="IDB_MSGBOX_BODY" path="images/msgbox_body_bg.bmp" />
+	<image id="IDB_PROGRESS_BAR_BG" path="images/progress_bar_bg.bmp" />
+	<image id="IDB_PROGRESS_BAR_VALUE" path="images/progress_bar_value.bmp" />
+	<image id="IDB_TAB_MAIN" path="images/tab_main.bmp" />
+	<image id="IDB_TAB_NORMAL" path="images/tab_normal.bmp" />
+	<image id="IDB_TAB_MAIN_SPLITTER" path="images/tab_main_splitter.bmp" />
+	<image id="IDB_TAB_LEFT" path="images/tab_left.bmp" />
+	<image id="IDB_TAB_LEFT_SPLITTER" path="images/tab_left_splitter.bmp" />
+	<image id="IDB_TAB_PLUGNORMAL" path="images/tab-plug.bmp" />
+	<image id="IDB_BTN_NORMAL_BG" path="images/btn_normal_bg.bmp" />
+	<image id="IDB_BTN_SYS_CLOSE" path="images/btn_sys_close.bmp" />
+	<image id="IDP_BTN_SYS_CLOSE_ONLY" path="images/btn_sys_close.png" />
+	<image id="IDB_BTN_SYS_MAXIMIZE" path="images/btn_sys_maximize.bmp" />
+	<image id="IDB_BTN_SYS_MINIMIZE" path="images/btn_sys_minimize.bmp" />
+	<image id="IDB_BTN_SYS_RESTORE" path="images/btn_sys_restore.bmp" />
+	<image id="IDB_FRAME_PANEL_GRAY" path="images/frame_panel_gray.bmp" />
+	<image id="IDB_FRAME_PANEL" path="images/frame_panel.bmp" />
+	<image id="IDB_TAB_MAIN" path="images/tab_main.bmp" />
+	<image id="IDB_LOGO_KSSC" path="images/logo_ksc.bmp" />
+	<image id="IDB_LOGO_CLEAR" path="images/logo_clear.bmp" />
+	<image id="IDB_STATUS_ICON" path="images/status_icon.bmp" />
+	<image id="IDB_STATUS_ICON2" path="images/loading.bmp" />
+	<image id="IDB_STATUS_ICON3" path="images/status_40.bmp" />
+	<image id="IDP_PROTECTION_STATUS3" path="images/protection_status3.png" />
+	<image id="IDB_ONEKEY_CLEAN_END" path="images/clean_done.png" />
+	<image id="IDB_ONEKEY_CLEAN_ADVICE" path="images/onekey_clean_advice.bmp" />
+	<image id="IDB_ONEKEY_CLEAN_FIRST" path="images/onekey_clean_first.bmp" />
+	<image id="IDB_ONEKEY_CLEAN_STOPED" path="images/clean_cancel.png" />
+	<image id="IDP_SCAN_ANIMATION" path="images/scan_animation.png" />
+	<image id="IDP_SCAN_ANIMATION_BG" path="images/scan_animation_bg.png" />
+	<image id="IDB_ONEKEY_CLEAN_SMALL_ICONS" path="images/onekey_clean_small_icons.bmp" />
+	<image id="IDB_ONEKEY_CLEAN_GREEN_TIPS" path="images/onekey_clean_greentip.bmp" />
+	<image id="IDB_BITMAP_LISTCTRL_HEADER" path="images/listctrl_header.bmp" />
+	<image id="IDB_BITMAP_LISTCTRL_CHECK" path="images/listctrl_check.bmp" />
+	<image id="IDP_FOLDER" path="images/folder.png" />
+	<image id="IDP_PROCESS_OK" path="images/proce_OK.png" />
+	<image id="IDI_UNKNOWN_SMALL" path="images/unknown_small.ico" />
+	<image id="IDB_DEL_MSGBOX_INFO" path="images/status_40.bmp" />
+	<image id="IDB_ONEKEY_CLEAN" path="images/btn_start_clean.bmp" />
+	<image id="IDB_ONEKEY_SHAWDOW" path="images/shadow.bmp" />
+	<image id="IDP_ONEKEY_FLAG" path="images/onekey.png"/>
+	<image id="IDB_ONEKEY_TRASH" path="images/onekey_trash.bmp"/>
+	<image id="IDB_ONEKEY_TRACK" path="images/onekey_track.bmp"/>
+	<image id="IDB_ONEKEY_REG" path="images/onekey_reg.bmp"/>
+	<image id="IDB_ONEKEY_SPLITELINE" path="images/onekey_spliteline.bmp"/>
+	<image id="IDB_ONEKEY_HEADER" path="images/onekey_header.bmp"/>
+	<image id="IDB_BTN_FILTER_LEFT" path="images/btn_filter_left.bmp"/>
+	<image id="IDB_BTN_FILTER_RIGHT" path="images/btn_filter_right.bmp"/>
+	<image id="IDI_DISK_ICON" path="images/disk.ico" />
+	<image id="IDI_FOLDER_ICON" path="images/folder.ico" />
+	
+	<image id="IDB_TRASH_TIPS_BKG" path="images/trash/trash_tips_bk.bmp"/>
+	<image id="IDB_TRASH_HEAD" path="images/trash/trash_head.bmp"/>
+	<image id="IDB_BOOT_SPEED" path="images/trash/boot_speed.png"/>
+	<image id="IDB_PLUG_CLEAR" path="images/trash/plug_clear.png"/>
+	<image id="IDB_SOFT_UNINSTALL" path="images/trash/soft_uninstall.png"/>
+	<image id="IDB_EXAM_RIGHT_BG" path="images/exam_right_btn_bg.bmp"/>
+	<image id="IDB_RIGHT_TRANGLE" path="images/trash/right_triangle.bmp"/>
+	<image id="IDB_SHADOW_VERT" path="images/trash/shadow_vert.bmp"/>
+	<image id="IDB_TIPS_CLOSE" path="images/trash/tips_close.bmp"/>
+	<image id="IDB_FINISH_SUCCESS_R" path="images/finish_success_r.bmp"/>
+	<image id="IDB_FINISH_CANCEL_R" path="images/finish_cancel_r.bmp"/>
+	<image id="IDB_SHOW_DETAIL" path="images/trash/jiantou.bmp" />
+	<image id="IDB_TRASH_SHADOW" path="images/trash/shadow_line.bmp"/>
+	<image id="IDB_TRASH_FILE" path="images/trash/file.bmp" />
+	<image id="IDB_TRASH_RECYCLE_BIN" path="images/trash/laji.bmp" />
+	<image id="IDB_TRASH_VIDEO" path="images/trash/video.bmp" />
+	<image id="IDB_TRASH_WEB" path="images/trash/web.bmp" />
+	<image id="IDB_TRASH_CUSTOM" path="images/trash/zidingyi.bmp" />
+	<image id="IDP_TRASH_BEGIN_ICON" path="images/trash/san_begin.png"/>
+	<image id="IDP_TRASH_BEGIN_SCAN" path="images/trash/scan_button.png"/>
+	<!--
+	<image id="IDP_TRASH_FINISH_HEAD_S" path="images/trash/wulaji.png" />
+	<image id="IDP_TRASH_FINISH_HEAD_F" path="images/trash/youlaji.png" />
+	-->
+	<image id="IDP_TRASH_CANCEL" path="images/trash/cancel_button.png"/>
+	<image id="IDP_TRASH_CLEANING" path="images/trash/cleaning.png"/>
+	<image id="IDP_TRASH_SCANING" path="images/trash/scaning.png"/>
+	<image id="IDP_TRASH_CLEAN" path="images/trash/clear_button.png" />
+	<image id="IDP_TRASH_OK" path="images/trash/wulaji.png"/>
+	<image id="IDP_TRASH_HAS" path="images/trash/youlaji.png"/>
+	<image id="IDP_SETTING_ICON" path="images/setting.png"/>
+	<image id="IDP_FLASH_PROGRESS" path="images/trash/scanscrooll.png"/>
+	<image id="IDB_TRASH_CHECK_BOX" path="images/trash/check_box_3.bmp"/>
+	<image id="IDP_SHOW_DETAIL_BAR" path="images/trash/detail_bar.png"/>
+	<image id="IDP_TRASH_RESCAN" path="images/trash/re_scan.png" />
+	<image id="IDI_UNKNOW_BROWER" path="images/trash/system_help.ico" />
+	<image id="IDI_BROWER_IE" path="images/trash/ie.ico"/>
+	<image id="IDB_SKIP_HEAD_BACK" path="images/trash/skip_head_back.bmp"/>
+	<image id="IDP_SKIP_SOFT_OFF" path="images/trash/skip_soft_off.png"/>
+	<image id="IDP_TRASH_RISK" path="images/trash/risk.png"/>
+	<image id="IDP_PLUS_APP4" path="images/trash/plus_app4.png"/>
+	<image id="IDP_PLUS_APP5" path="images/trash/plus_app5.png"/>
+	<image id="IDP_PLUS_APP6" path="images/trash/plus_app6.png"/>
+	<image id="IDP_PLUS_APP1" path="images/trash/plus_app1.png"/>
+	
+	
+	<image id="IDP_QUESTION" path="images/question.png" />
+	<image id="IDB_SLIM_HEAD_BK" path="images/slim_head_bk.bmp" />
+	
+	<image id="IDB_SLIM_DRIVER" path="images/slim/driver.bmp" />
+	<image id="IDB_SLIM_DRIVER_DIS" path="images/slim/driver2.bmp" />
+	<image id="IDB_SLIM_HELP" path="images/slim/help.bmp" />
+	<image id="IDB_SLIM_HELP_DIS" path="images/slim/help2.bmp" />
+	<image id="IDB_SLIM_INSTALL_UPDATE" path="images/slim/installupdate.bmp" />
+	<image id="IDB_SLIM_INSTALL_UPDATE_DIS" path="images/slim/installupdate2.bmp" />
+	<image id="IDB_SLIM_JAPAN" path="images/slim/japan.bmp" />
+	<image id="IDB_SLIM_JAPAN_DIS" path="images/slim/japan2.bmp" />
+	<image id="IDB_SLIM_KOREAN" path="images/slim/korean.bmp" />
+	<image id="IDB_SLIM_KOREAN_DIS" path="images/slim/korean2.bmp" />
+	<image id="IDB_SLIM_MICR" path="images/slim/micr.bmp" />
+	<image id="IDB_SLIM_MICR_DIS" path="images/slim/micr2.bmp" />
+	<image id="IDB_SLIM_MUSIC" path="images/slim/music.bmp" />
+	<image id="IDB_SLIM_MUSIC_DIS" path="images/slim/music2.bmp" />
+	<image id="IDB_SLIM_PICTURE" path="images/slim/picture.bmp" />
+	<image id="IDB_SLIM_PICTURE_DIS" path="images/slim/picture2.bmp" />
+	<image id="IDB_SLIM_TRAD" path="images/slim/trad.bmp" />
+	<image id="IDB_SLIM_TRAD_DIS" path="images/slim/trad2.bmp" />
+	<image id="IDB_SLIM_TV" path="images/slim/TV.bmp" />
+	<image id="IDB_SLIM_TV_DIS" path="images/slim/TV2.bmp" />
+	<image id="IDB_SLIM_VADIO" path="images/slim/vadio.bmp" />
+	<image id="IDB_SLIM_VADIO_DIS" path="images/slim/vadio2.bmp" />
+	<image id="IDB_SLIM_WALL" path="images/slim/wallpaper.bmp" />
+	<image id="IDB_SLIM_WALL_DIS" path="images/slim/wallpaper2.bmp" />
+	<image id="IDB_SLIM_WIN_UPDATE" path="images/slim/winupdate.bmp" />
+	<image id="IDB_SLIM_WIN_UPDATE_DIS" path="images/slim/winupdate2.bmp" />
+</images>
+

@@ -1,0 +1,18 @@
+﻿<layer nomaxsize="1" width="800">
+    <header class=msgboxhead width=full height=31>
+        <icon src=101 pos="5,9"/><text id=60004 class=dlgtitle pos="25,10">%str7%</text><imgbtn id=60001 class=linkimage skin=closebtn pos="-45,2"/>
+    </header>
+    <footer class=msgboxfoot width=full height=55>
+        <dlg id="60008" pos="0,0,-0,-10" class="client">
+        </dlg>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+      <dlg pos="0,0,-0,-0">
+        <dlg pos="0,0,-0,-0">
+          <icon id="60005" pos="30,20" src="32515" oem="1" size="32"/>
+          <text id="60006" pos="80,20,-0,-0" class="msgtext">流量监控功能已经更新，需要重启计算机后才可生效！</text>
+          <text id="60099" pos="80,40,-0,-0" class="msgtext">是否立即重启计算机？</text>
+        </dlg>
+      </dlg>
+    </body>
+</layer>

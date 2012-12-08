@@ -1,0 +1,26 @@
+﻿<layer title="金山卫士" width="414" height="235" appwin="0" resize="0">
+  <header class="msgboxhead" height="95">
+    <imgbtn id="60001" class="linkimage" skin="closebtn" pos="-20,5"/>
+    <img pos="10,42" skin="default_logo" />
+    <richtext id="8284" pos="66,47,-0,65" class="addspace">是一个未知文件</richtext>
+    <text pos="66,68" class="linktext_gray" >Windows不能打开此文件，安装以下软件即可打开。</text>
+  </header>
+  <footer class="msgboxfoot" width="full" height="2">
+    <!--<dlg pos="10,8,-10,-8">
+      <text id="8283" pos="0,10" class="linktext" >选择计算机上安装的程序</text>
+      <button id="1" pos="-80,0,-0,-0" class="normalbtn">安装</button>
+    </dlg>-->
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="0,0,-0,-0" crbg="ffffff">
+      <dlg id="8281" pos="0,0,-0,-0" show="1">
+        <img id="8282" pos="128,50" skin="loadinfotip" sub="0"/>
+        <text pos="146,52" font="0000" crtext="000000"> 软件信息载入中，请稍候...</text>
+        <text id="8283" pos="10,105" class="linktext" show="0">选择计算机上安装的程序</text>
+      </dlg>
+      
+      <realwnd pos="0,0,-0,-0" id="8285" ctrlid="8285" show="0"/>
+    </dlg>
+  </body>
+</layer>
+

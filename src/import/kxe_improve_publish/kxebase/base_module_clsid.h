@@ -1,0 +1,46 @@
+//////////////////////////////////////////////////////////////////////
+///		@file		base_module_clsid.h
+///		@author		luopeng
+///		@date		2008-9-17 09:07:58
+///	
+///		@brief		Service ProviderµÄ¶¨Òå
+//////////////////////////////////////////////////////////////////////
+#pragma once
+#include "../scom/scom/scombase.h"
+
+// {076C52E3-3B9E-4356-B289-52A721977F77}
+__declspec(selectany) KSCLSID CLSID_KxEThreadManager = 
+	{ 0x76c52e3, 0x3b9e, 0x4356, { 0xb2, 0x89, 0x52, 0xa7, 0x21, 0x97, 0x7f, 0x77 } };
+
+// {F3AE92F6-59FC-49b5-88E8-5167DF7682A1}
+__declspec(selectany) KSCLSID CLSID_KxEDebugLog = 
+	{ 0xf3ae92f6, 0x59fc, 0x49b5, { 0x88, 0xe8, 0x51, 0x67, 0xdf, 0x76, 0x82, 0xa1 } };
+
+
+// {005CBE0E-5F10-4471-AFEB-8923E8827585}
+__declspec(selectany) KSCLSID CLSID_KxEEvent = 
+	{ 0x5cbe0e, 0x5f10, 0x4471, { 0xaf, 0xeb, 0x89, 0x23, 0xe8, 0x82, 0x75, 0x85 } };
+
+// {A7E5F25E-E324-4710-976C-C4353F7CD1E4}
+__declspec(selectany) KSCLSID CLSID_KxEConfig = 
+	{ 0xa7e5f25e, 0xe324, 0x4710, { 0x97, 0x6c, 0xc4, 0x35, 0x3f, 0x7c, 0xd1, 0xe4 } };
+
+// {0AA3DCF9-A9A2-4756-A73A-25A185EE09BD}
+__declspec(selectany) KSCLSID CLSID_KxEIpcProxy = 
+	{ 0xaa3dcf9, 0xa9a2, 0x4756, { 0xa7, 0x3a, 0x25, 0xa1, 0x85, 0xee, 0x9, 0xbd } };
+
+// {8ADFE757-2FA4-47f8-9535-404951471483}
+__declspec(selectany) KSCLSID CLSID_KxEIPCClient = 
+	{ 0x8adfe757, 0x2fa4, 0x47f8, { 0x95, 0x35, 0x40, 0x49, 0x51, 0x47, 0x14, 0x83 } };
+
+// {DC39369D-721A-49bc-AC3E-18D343B57DC2}
+__declspec(selectany) KSCLSID CLSID_KxEPipeServer = 
+{ 0xdc39369d, 0x721a, 0x49bc, { 0xac, 0x3e, 0x18, 0xd3, 0x43, 0xb5, 0x7d, 0xc2 } };
+
+//{26FBD07D-FE03-44E3-90AF-4338AD37B236}
+__declspec(selectany) KSCLSID CLSID_KxeActivity = 
+{ 0x26fbd07d, 0xfe03, 0x44e3, { 0x90, 0xaf, 0x43, 0x38, 0xad, 0x37, 0xb2, 0x36 } };
+
+// {3782EEBB-1952-46c7-8A66-BF60343CE330}
+__declspec(selectany) KSCLSID CLSID_KxEUncompressFile = 
+	{ 0x3782eebb, 0x1952, 0x46c7, { 0x8a, 0x66, 0xbf, 0x60, 0x34, 0x3c, 0xe3, 0x30 } };

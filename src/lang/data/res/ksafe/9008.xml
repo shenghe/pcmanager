@@ -1,0 +1,30 @@
+﻿<layer title="设置" width="571" height="433">
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="107" pos="5,9"/>
+    <text id="8162" class="dlgtitle" pos="25,10">软件管理-升级提醒设置</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <footer class="msgboxfoot" width="full" height="45">
+    <dlg pos="10,10,-10,-10">
+      <check id="8284"  pos="0,0">全选</check>
+      <button id="8172" pos="-90,0,-10,-0" class="normalbtn">提醒选中软件</button>
+    </dlg>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="2,0,-2,-0">
+      <dlg pos="0,0,-0,52" crbg="FCFDFE">
+        <richtext id="8170" pos="15,9,-0,21" class="addspace">有<b><c color="EC3535">0</c></b> 款软件已设置为不再提醒</richtext>
+        <text pos="15,29">如果您希望重新获取以下软件的升级提示，点击“恢复提醒”即可</text>
+      </dlg>
+      <dlg pos="0,52,-0,-0" class="panel">
+        <realwnd pos="0,0,-0,-0" id="8169" ctrlid="8169" show="1"/>
+
+        <dlg id="8171" pos="|-100,140,|100,158" show="0">
+          <img pos="0,3" skin="infoicon" sub="0"/>
+          <text pos="32,12" class="loadtip"> 目前没有不再提醒升级的软件</text>
+        </dlg>
+      </dlg>
+    </dlg>
+  </body>
+</layer>
+

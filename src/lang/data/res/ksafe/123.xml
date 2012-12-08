@@ -1,0 +1,16 @@
+﻿<layer title="未知文件列表" width=500 height=350>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 查看未知文件列表</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <dlg pos="10,10,-10,-10">
+            <button id=1 pos="-190,0,-100,-0" class=normalbtn>上报未知文件</button>
+            <button id=2 pos="-80,0,-0,-0" class=normalbtn>关闭</button>
+        </dlg>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,-0" class=panel>
+            <realwnd pos="0,0,-0,-0" ctrlid=102 id=102/>
+        </dlg>
+    </body>
+</layer>

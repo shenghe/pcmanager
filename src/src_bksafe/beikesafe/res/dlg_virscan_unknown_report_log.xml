@@ -1,0 +1,23 @@
+﻿<layer title="未知文件分析记录" width=700 height=550>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 未知文件分析记录</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <dlg pos="10,10,-10,-10">
+            <!-- <button id=334 pos="-280,0,-190,-0" class=normalbtn>清除所有木马</button> -->
+            <button id=169 pos="-180,0,-90,-0" class=normalbtn>清空历史记录</button>
+            <button id=2 pos="-80,0,-0,-0" class=normalbtn>关闭</button>
+        </dlg>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,20">
+            <img pos="0,0" skin=stat15 sub=3/><text pos="20,1">在此查看云安全中心对未知文件的分析进度；同时可以点击“清空历史记录”对历史记录进行清除。</text>
+        </dlg>
+        <dlg pos="10,35,-10,-0" class=panel>
+            <dlg pos="0,0,-0,-0" class=client>
+                <text pos="0,0">正在加载未知文件分析记录...</text>
+            </dlg>
+            <realwnd pos="0,0,-0,-0" ctrlid=167 id=167 show=0/>
+        </dlg>
+    </body>
+</layer>

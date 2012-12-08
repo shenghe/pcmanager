@@ -1,0 +1,25 @@
+﻿<listitem height="55">
+  <dlg id="1" pos="0,0,-0,-0" crbg="FFFFFF">
+    <dlg pos="0,0,-340,-0">
+      <memimage id="2"  pos="10,12,42,44" class="linkimage"/>
+      <text id="3" pos="50,12,-125,27" class="linktextsoftmgr"></text>
+      <text id="4" pos="50,32,-0,47" class="linktextsoftmgrdesc"></text>
+    </dlg>
+    <dlg id="11"  pos="-340,0,-260,-0">
+      <dlg pos="0,9,74,42">
+        <img id="15"  pos="0,0,14,33" class="mark"/>
+        <img id="16"  pos="15,0,29,33" class="mark"/>
+        <img id="17"  pos="30,0,44,33" class="mark"/>
+        <img id="18"  pos="45,0,59,33" class="mark"/>
+        <img id="19"  pos="60,0,74,33" class="mark"/>
+      </dlg>
+      <text id="33" pos="13,33" crtext="3163A6" class="mark"></text>
+    </dlg>
+    <dlg pos="-240,0,-0,-0">
+      <progress id="21" pos="0,22,100,32" min="0" max="100" value="0" bgskin="progresssoftmgrbg" posskin="progresssoftmgrpos"/>
+      <text id="22" pos="115,22" />
+      <text id="30" pos="160,22" ></text>      
+    </dlg>
+    <hr pos="0,-1,-0,-1" crbg="DEE6E8"/>
+  </dlg>
+</listitem>

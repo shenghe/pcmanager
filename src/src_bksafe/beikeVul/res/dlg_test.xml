@@ -1,0 +1,18 @@
+﻿<layer title="这是一个测试窗口" width="800" height="570" appwin="1">
+  <header class="mainhead" width="full" height="50">
+    <icon src="100" pos="5,5"/>
+    <imgbtn id="60003" class="linkimage" skin="minbtn" pos="-100,0"/>
+    <imgbtn id="60002" class="linkimage" skin="maxbtn" pos="-75,0"/>
+    <imgbtn id="60001" class="linkimage" skin="closebtn" pos="-50,0"/>
+    <text class="dlgtitle" pos="25,5">%str1%This is a dialog</text>
+  </header>
+
+  <footer class="mainfoot" width="full" height="50">
+    <text class="linktext" pos="10,10" href="http://www.beike.cn/?s=1">这是链接</text>
+  </footer>
+  
+  <body class="mainbody" width="full" height="full">
+    <realwnd id="1001" ctrlid="1001" pos="0,0,-0,-0"/>
+    <text id="1003" pos="-100, 5" class="linktext">选项设置</text>
+  </body>
+</layer>

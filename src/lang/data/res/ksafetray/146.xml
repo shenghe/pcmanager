@@ -1,0 +1,40 @@
+﻿<!-- 首页拦截界面 -->
+<layer width="290" height="320" appwin="0" noborder="1">
+  <header width="full" height="72">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+      <img id="60009" skin="header_title_sec_red" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1060" pos="20,0,-0,-0" class="textmode_title">拦截到浏览器的主页被劫持</text>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_orange" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_orange" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <!-- enum_KPTI_LockHomePage -->
+        <dlg id="501" show="0" class="panel_gray" pos="5,0,-5,-45">
+          <text pos="14,10" font="0004">风险网址：</text>
+          <text id="503" pos="14,27,-0,-10" class="textmode" crtext="FF0000">http://www.xx.com</text>
+          <text pos="14,47" >有程序试图恶意劫持您的浏览器主页，已经</text>
+          <text pos="14,64" >被主页锁定功能拦截。</text>
+        </dlg>
+        <!-- enum_KPTI_RemindLock -->
+        <dlg id="502" show="0" class="panel_gray" pos="5,0,-5,-45">
+          <text pos="14,10">有程序试图将您的浏览器主页劫持到下面网</text>
+          <text pos="14,27">址：</text>
+          <text id="504" pos="40,27,-0,44" class="textmode">http://www.xx.com</text>
+          <text pos="14,70">建议您立即启用主页锁定功能，保护浏览器</text>
+          <text pos="14,87">主页，防止恶意劫持。</text>
+          <realwnd id="1029" ctrlid="1029" font="0000" crtext="333333" pos="-190,-30,-5,-5" />
+        </dlg>
+        <check id="1028" height="17" pos="14,-25" >记住此操作，不再提示</check>
+        <button id="60004" class="normalbtn_gray" pos="-85,-30,-5,-5">确定</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

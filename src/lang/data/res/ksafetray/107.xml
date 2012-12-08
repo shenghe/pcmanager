@@ -1,0 +1,24 @@
+﻿<layer width="340" height="194" appwin="0" noborder="1">
+  <header class="mainhead_red" width="full" height="72">
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+    <img skin="header_title_normal" pos="40,12" />
+    <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+      <text id="1040" pos="10,0,-0,-0" class="textmode_title">成功拦截到木马程序运行！</text>
+    </dlg>
+    <img skin="logo" pos="0,10"/>
+  </header>
+  <footer class="mainfoot_red" width="full" height="13">
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <dlg class="panel_red" pos="5,0,-5,77">
+          <realwnd id="1041" ctrlid="1041" font="0000" crtext="333333" pos="14,0,-0,-0"/>
+        </dlg>
+        <img id="60010" skin="link_icon" pos="5,-22"/>
+        <text id="1042" pos="30,-20" class="linktext">立即做一次木马快速扫描</text>
+        <text id="1043" pos="180,-20" class="linktext">查看监控日志</text>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

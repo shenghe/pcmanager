@@ -1,0 +1,18 @@
+﻿<layer title="金山清理专家 - 进程管理器" width=800 height=570 resize=1>
+    <header class="msgboxhead" width=full height=23>
+        <icon src="IDI_APP_ICON_SMALL" pos="5,4"/>
+        <text class=dlgtitle pos="25,6">金山卫士 - 进程管理器</text>
+        <imgbtn id=60003 class=linkimage skin=minbtn pos="-94,1"/>
+        <imgbtn id=60002 class=linkimage skin=maxbtn pos="-65,1"/>
+        <imgbtn id=60001 class=linkimage skin=closebtn pos="-38,1"/>
+    </header>
+    <footer class="msgboxfoot" width=full height=29>
+        <hr1 pos="160,1,160,-2" crbg=CCCCCC/>
+        <text id=332 pos="170,0,320,-0" class=vcentertext show=0/>
+        <dlg id=333 pos="170,0,320,-0">
+        </dlg>
+    </footer>
+    <body class="msgboxbody" width=full height=full>
+        
+    </body>
+</layer>

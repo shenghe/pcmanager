@@ -1,0 +1,27 @@
+﻿<layer title="信任文件列表" width=750 height=450>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 已信任插件</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=3>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,20" >
+            <img pos="0,0" skin=stat15 sub=3/><richtext pos="20,1,-0,14" id="113" class="richtext">您已经添加信任的插件有 款。添加信任的插件下次扫描时将不再检出。</richtext>
+        </dlg>
+        <dlg pos="10,35,-0,-0" id="116">
+			
+			<dlg pos="0,0,-10,-45" show="1" class="panel" id="114">
+				<dlg pos="1,0,-1,20">
+					<text pos="0,0,-380,-0" class="pluglistheader" crbg="AAAA00">插件信息</text>
+					<text pos="-380,0,-300,-0" class="pluglistheader" crbg="AAAA00">安全级别</text>
+					<text pos="-300,0,-160,-0" class="pluglistheader" crbg="00AA00">插件类型</text>
+					<text pos="-160,0,-0,-0" class="pluglistheader" crbg="00AAAA">出品公司</text>
+				</dlg>
+				<realwnd pos="1,20,-1,-1" ctrlid="112" id="112" show="1"/>
+            </dlg>
+			<check id="115" pos="0,-35" >全选</check>
+			<button id="110" pos="-190,-35,-110,-10" class="normalbtn">取消信任</button>
+			<button id="111" pos="-90,-35,-10,-10" class="normalbtn">关闭</button>
+         </dlg>
+    </body>
+</layer>

@@ -1,0 +1,1 @@
+for %%i in (%cd%\output\*.exe) do (call signfile.bat "%%i")

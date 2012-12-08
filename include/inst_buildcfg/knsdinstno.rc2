@@ -1,0 +1,42 @@
+//CopyRight符号的 Ascii 码为 0xA9
+
+#ifndef VER_H
+#define VOS_NT_WINDOWS32        0x00040004L
+#define VFT_DLL                 0x00000002L
+#define VS_VERSION_INFO         1
+#endif
+
+#include "buildcfg.h"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,1393
+PRODUCTVERSION 1,0,0,1393
+FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+FILEFLAGS VS_FF_DEBUG
+#else
+FILEFLAGS 0x0L	
+#endif
+FILEOS VOS_NT_WINDOWS32 
+FILETYPE VFT_DLL
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004B0"
+        BEGIN
+            VALUE "CompanyName", "Kingsoft Corporation"
+            VALUE "FileDescription", VI_FILEDESCRIPTION
+            VALUE "FileVersion", "1.0.0.1393"
+            VALUE "InternalName", VI_INTERNALNAME
+            VALUE "LegalCopyright", "Copyright (C) 1998-2011 Kingsoft Corporation"
+            VALUE "OriginalFilename", VI_ORIGINALFILENAME
+            VALUE "ProductName", "金山卫士"
+            VALUE "ProductVersion", "1.0.0.1393"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0000, 1200
+    END
+END

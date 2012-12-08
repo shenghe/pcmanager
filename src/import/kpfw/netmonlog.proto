@@ -1,0 +1,229 @@
+package netmon;
+
+message KNetMonLogHeader
+{
+	required int32 m_eLogType = 1;
+	required uint64 m_nID = 2;
+}
+
+message IPLOG_EXTRADATA
+{
+	message tagTCP_DATA
+	{
+		optional int32	localPort = 1;
+		optional int32	remotePort = 2;
+		optional int32	byTcpFlags = 3;
+	}
+	message tagUDP_DATA
+	{
+		optional int32	localPort = 1;
+		optional int32	remotePort = 2;
+	}
+	message tagICMP_DATA
+	{
+		optional int32	byType = 1;
+		optional int32	byCode = 2;
+	}
+	message tagIGMP_DATA
+	{
+		optional int32	empty = 1;
+	}
+	optional tagTCP_DATA TCP_DATA = 1;
+	optional tagUDP_DATA UDP_DATA = 2;
+	optional tagICMP_DATA ICMP_DATA = 3;
+	optional tagIGMP_DATA IGMP_DATA = 4;
+}
+
+message KLOG_IP
+{
+	optional bytes id	= 1;
+	optional int64 time	= 2;
+	optional uint32 nCount	= 3;
+	optional int32	byProtocolType = 4;
+	optional uint32	LocalAddr = 5;
+	optional uint32 RemoteAddr = 6;
+	optional int32 byDirection = 7;
+	optional int32 nOperation = 8;
+	optional uint32 nAttackType = 9;
+	optional IPLOG_EXTRADATA ExtraInfo = 10;
+}
+
+message LOG_MODULE
+{
+	optional bytes userid = 1;
+	optional bytes modulePath = 2;
+	optional uint32 trustModle = 3;
+	optional uint32 userModle = 4;
+	optional uint32 popRes = 5;
+}
+
+message LOG_APP
+{
+	optional int32 eFlag			= 1;
+	optional uint32 dwRemoteAddress = 2;
+	optional uint32 dwLocalAddress	= 3;
+	optional int32	wRemotePort		= 4;
+	optional int32 wLocalPort		= 5;
+	optional int32 nRequestType		= 6;
+	optional int32 nRequestProtocol = 7;
+	optional int64 time				= 8;
+	optional int32 nBehavior		= 9;
+	optional LOG_MODULE exeModule	= 10;
+	repeated LOG_MODULE dllModules	= 11;
+	optional bytes lanpath = 12;
+}
+
+message IP_RANGE
+{
+	optional int32 addr_start = 1;
+	optional int32 addr_end = 2;
+}
+
+message PORT_RANGE
+{
+	optional int32 port_start = 1;
+	optional int32 port_end = 2;
+}
+
+message FILTER_IP_ADDR
+{
+	optional int32 addrmode = 1;
+	optional int32 ipaddr = 2;
+	optional PORT_RANGE addrrange = 3;
+}
+
+message FILTER_IP_PORT
+{
+	optional int32 addrmode = 1;
+	optional int32 port = 2;
+	optional PORT_RANGE portrange = 3;
+}
+
+message LOG_APP_RULE
+{
+	optional bytes userid = 1;
+	optional bytes ruleid = 2;
+	optional bytes modulepath = 3;
+	optional bytes checksum = 4;
+	repeated FILTER_IP_PORT tcp_remote_denyports = 5;
+	repeated FILTER_IP_PORT tcp_local_deny_ports = 6;
+	repeated FILTER_IP_PORT udp_remote_denyports = 7;
+	repeated FILTER_IP_PORT udp_local_deny_ports = 8;
+	optional int32 trustmode = 9;
+	optional int32 usermode = 10;
+	optional int32 eFlag	= 11;
+	optional int64 time		= 12;
+	optional int32 bDll		= 13;
+}
+
+message FILTERINFO_EXTRADATA
+{
+	message tagTCP_DATA
+	{
+		optional FILTER_IP_PORT	localPort = 1;
+		optional FILTER_IP_PORT	remotePort = 2;
+		optional int32	byTcpFlags = 3;
+	}
+	message tagUDP_DATA
+	{
+		optional FILTER_IP_PORT	localPort = 1;
+		optional FILTER_IP_PORT	remotePort = 2;
+	}
+	message tagICMP_DATA
+	{
+		optional int32	byType = 1;
+		optional int32	byCode = 2;
+	}
+	message tagIGMP_DATA
+	{
+		optional int32	empty = 1;
+	}
+	optional tagTCP_DATA TCP_DATA = 1;
+	optional tagUDP_DATA UDP_DATA = 2;
+	optional tagICMP_DATA ICMP_DATA = 3;
+	optional tagIGMP_DATA IGMP_DATA = 4;
+}
+
+message FILTER_INFO
+{
+	optional int32 protocoltype = 1;
+	optional int32 direction = 2;
+	optional int32 operation = 3;
+	optional FILTER_IP_ADDR localaddr = 4;
+	optional FILTER_IP_ADDR remoteaddr = 5;
+	optional FILTERINFO_EXTRADATA externdata = 6;
+}
+
+message LOG_IP_RULE
+{
+	optional bytes userid = 1;
+	optional bytes ruleid = 2;
+	optional bytes name = 3;
+	optional int32 valid = 4;
+	optional FILTER_INFO filterinfo = 5;
+}
+
+message LOG_ARP
+{
+
+	optional int32	count				= 1;
+	optional int32	block_type			= 2;
+	optional bytes	eh_destaddr			= 3;
+	optional bytes	eh_srcaddr			= 4;
+	
+	optional bytes	arp_sender_haddr	= 5;
+	optional uint32	arp_sender_addr		= 6;
+	optional bytes	arp_target_haddr	= 7;
+	optional uint32	arp_target_addr		= 8;
+	optional int64	time				= 9;
+}
+
+message LOG_AREA
+{
+	message AREA
+	{
+		optional bytes	area_name = 1;
+		optional uint32	area_type = 2;
+		optional bytes	area_gatemac = 3;
+		optional uint32	area_gateip = 4;
+		optional bytes	time = 5;
+	}
+	
+	optional AREA	new_area = 1;
+	optional AREA	old_area = 2;
+	optional uint32 area_opt = 3;
+	optional int64 time	 = 4;
+}
+
+message LOG_USER_SETTING
+{
+	optional uint32 type	= 1;
+	optional uint32 opt		= 2;
+	optional int64  time	= 3;
+}
+
+message LOG_DEBUG
+{
+	optional int64	time			= 1;
+	optional bytes	bug_module		= 2;
+	optional uint32	bug_type		= 3;
+	optional uint32 bug_level		= 4;
+}
+
+message LOG_UPDATE
+{
+	optional int64 time			= 1;
+	optional bytes	update_file		= 2;
+	optional uint32 file_type		= 3;
+	optional uint32 breboot			= 4;
+	optional bool	bsuccess		= 5;
+}
+
+message LOG_SHEID
+{
+	optional uint64 time			= 1;
+	optional int32	block_pc_ip		= 2;
+	optional uint32	attack_times	= 3;
+	optional uint32 attack_type		= 4;
+	optional bytes	reason_id		= 5;
+}

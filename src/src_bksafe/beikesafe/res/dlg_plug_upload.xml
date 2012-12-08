@@ -1,0 +1,17 @@
+﻿<layer width="425" height="210" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">上传插件</text>
+		<imgbtn id="1605" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-10">
+			<text pos="40,20">上传插件程序文件能够帮助我们快速发现新的恶评插件，并以最快的</text>
+			<text pos="20,45">速度升级插件库，彻底清除恶评插件！</text>
+			<progress id="1503" pos="20,85,-20,112" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+			<text id="1213" pos="20,120">正在上传插件信息…</text>
+			<button id="1606" pos="|-33,-30,|33,-5" class="normalbtn">取消</button>
+			<button id="1607" pos="|-33,-30,|33,-5" show="0" class="normalbtn">确定</button>
+		</dlg>
+	</body>
+</layer>

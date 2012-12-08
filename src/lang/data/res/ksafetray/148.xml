@@ -1,0 +1,16 @@
+﻿<layer width="390" height="160" appwin="0" noborder="1">
+  <header class="msgboxhead" width="full" height="31">
+    <icon src="108" pos="5,9"/>
+    <text id="60004" class="dlgtitle" pos="25,10">%str1%</text>
+    <imgbtn id="60001" class="linkimage" skin="closebtn" pos="-28,2"/>
+  </header>
+  <footer class="msgboxfoot" width="full" height="45">
+    <img id="60010" skin="link_icon" pos="30,5"/>
+    <text id="1700" pos="53,9" class="linktext">点此反馈服务启动失败问题</text>
+    <button id="60004" class="normalbtn_gray" pos="285,3,360,26">确 定</button>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <text pos="30,20">%str3%关键服务启动失败！实时保护及木马扫描功能将无法</text>
+    <text pos="30,46">正常使用。建议尝试重新安装。</text>
+  </body>
+</layer>

@@ -1,0 +1,77 @@
+﻿<skins>
+  <imgframe name="mainbghead_red" src="201" top="44" left="12" crbg="FFE7E4" part="top"/>
+  <imgframe name="mainbgbody_red" src="201" top="44" left="12" crbg="FFE7E4" part="middle"/>
+  <imgframe name="mainbgfoot_red" src="201" top="44" left="12" crbg="FFE7E4" part="bottom"/>
+  <imgframe name="mainbghead_orange" src="202" top="44" left="12" crbg="FFF3E4" part="top"/>
+  <imgframe name="mainbgbody_orange" src="202" top="44" left="12" crbg="FFF3E4" part="middle"/>
+  <imgframe name="mainbgfoot_orange" src="202" top="44" left="12" crbg="FFF3E4" part="bottom"/>
+  <imgframe name="mainbghead_green" src="203" top="44" left="12" crbg="E4FFE9" part="top"/>
+  <imgframe name="mainbgbody_green" src="203" top="44" left="12" crbg="E4FFE9" part="middle"/>
+  <imgframe name="mainbgfoot_green" src="203" top="44" left="12" crbg="E4FFE9" part="bottom"/>
+  <imgframe name="mainbghead_blue"  src="204" top="44" left="12" crbg="C6E2FF" part="top"/>
+  <imgframe name="mainbgbody_blue"  src="204" top="44" left="12" crbg="C6E2FF" part="middle"/>
+  <imgframe name="mainbgfoot_blue"  src="204" top="44" left="12" crbg="C6E2FF" part="bottom"/>
+  <imgframe name="msgboxhead" src="205" top="32" left="5" crbg="FBFCFD" part="top"/>
+  <imgframe name="msgboxbody" src="209" top="0" left="2" crbg="FBFCFD" part="middle"/>
+  <imgframe name="msgboxfoot" src="209" top="0" left="2" crbg="FBFCFD" part="bottom"/>
+  <imgframe name="panel_gray" src="200" top="1" left="1" crbg="FFFFFF"/>
+  <imgframe name="panel_red" src="207" top="1" left="1" crbg="FFF9F3"/>
+  <imgframe name="panel_green" src="208" top="1" left="1" crbg="EDFAE9" />
+  <button name="normalbtn_gray" border="9E9E9E" bg="FFFFFF" bgup="FEFEFE" bgdown="EDF0F3" bguphover="FEFEFE" bgdownhover="FEFEFE" bguppush="EDF0F3" bgdownpush="FEFEFE"/>
+  <png name="logo" src="200"/>
+  <png name="logo_big" src="201" />
+  <png name="header_title_sec_red" src="203"/>
+  <png name="header_title_sec_orange" src="205"/>
+  <png name="header_title_sec_green" src="207"/>
+  <png name="header_title_normal" src="213" />
+  <png name="link_icon" src="119"/>
+  <png name="header_title_safe_down_red" src="210"/>
+  <png name="header_title_safe_down_green" src="211"/>
+  <png name="header_title_safe_down_blue"  src="212"/>
+  <png name="closeonlybtn" src="214" subwidth="43"/> <!-- see closebtn_red -->
+  <png name="closebtn_red" src="214" subwidth="43" />
+  <png name="closebtn_green" src="215" subwidth="43" />
+  <png name="closebtn_orange" src="216" subwidth="43" />
+  <png name="closebtn_blue" src="217" subwidth="43" />
+  <imglst name="stat15" src="206" mode="mask" subwidth="15"/>
+  <imgframe name="panel" src="107" top="2" left="2" crbg="FFFFFF"/>
+  <imgframe name="mainbgall" src="106" top="28" left="3" crbg="FFFFFF"/>
+  <imgframe name="mainbghead" src="106" top="28" left="3" crbg="E6F3FF" part="top"/>
+  <imgframe name="mainbgbody" src="106" top="28" left="3" crbg="E6F3FF" part="middle"/>
+  <imgframe name="mainbgfoot" src="106" top="28" left="3" crbg="E6F3FF" part="bottom"/>
+  <imgframe name="mainbgbody_unk_fdbk" src="106" top="28" left="3" crbg="E0F0FF" part="middle"/>
+  <gradation name="bggradation" from="F5FBFF" to="E6F3FF" direction="vert"/>
+  <imghorzex name="bigtitle_risk" src="114" left="0"/>
+  <imghorzex name="bigtitle_safe" src="115" left="0"/>
+  <imghorzex name="bigtitle_unk" src="116" left="0"/>
+  <imghorzex name="bigtitle_news" src="117" left="0"/>
+  <png name="titleicons" src="118"  subwidth="32" />
+  <imghorzex name="titlebg" src="119" left="0"/>
+  <button name="uglybtn"/>
+  <button name="normalbtn" border="7D9EBC" bg="FFFFFF" bgup="FEFEFE" bgdown="c6e2fd" bguphover="FEFEFE" bgdownhover="dbedfe" bguppush="c6e2fd" bgdownpush="FEFEFE"/>
+  <imglst name="closebtn" src="101" subwidth="21"/>
+  <imghorzex name="backgroudpicture1" src="122" left="0"/>
+  <imghorzex name="footerbg" src="123" left="0"/>
+  <imghorzex name="multitext_lead_icon" src="124" left="0" crbg="FFFFFF"/>
+  <png name="auto_start_disable_hint" src="218"/>
+  <png name="start_from_360" src="219"/>
+  <imghorzex name=runoptbghead src=210 left=4 mode="mask"/>
+  <imghorzex name=runoptbgheadslow src=215 left=4/>
+  <imgframe name=runoptbgbodyquick src=211 top=0 left=2 mode=mask crbg=FBFCFD/>
+  <imgframe name=runoptbgbodyslow src=213 top=52 left=7 mode=mask crbg=FBFCFD/>
+  <imghorzex name=runoptbgfoot src=212 left=4 mode=mask/>
+  <imgframe name=trayappwinbody src=216 top=52 left=7 mode=mask crbg=FBFCFD/>
+ 	<imghorzex name="runopt_body_slow_bg" src="217" left="0"/>
+ 	<imghorzex name="runopt_body_quick_bg" src="218" left="0"/>
+  <png name="runopttxt" src="220" subwidth=120/>
+  <png name="runoptquicknum" src="222" subwidth=31/>
+  <png name="runoptslownum" src="223" subwidth=31/>
+  <png name="runopticon" src="224" subwidth=21/>
+  <png name="runopttime" src="221" subwidth=21/>
+  <png name="closebtn_orange2" src="225" subwidth="43" />
+  <png name="closebtn_green2" src="226" subwidth="43" />
+  <png name="header_title_green" src="227" />
+  <png name="header_title_orange" src="228" />
+  <imghorzex name=doublebghead src=219 left=9 mode="mask"/>
+  <imghorzex name=doublebgfoot src=220 left=2 mode=mask/>
+</skins>

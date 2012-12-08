@@ -1,0 +1,82 @@
+﻿<layer title="金山卫士-系统加速" width="800" height="570" appwin="1" resize="1" nomaxsize="1">
+	<header class="msgboxhead" width="800" height="37">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士-系统加速</text>
+		<imgbtn id="112" class="linkimage" skin="minbtn" pos="-74,0"/>
+		<imgbtn id="100" class="linkimage" skin="closebtn" pos="-43,0"/>
+	</header>
+	<footer class="msgboxbody2" width="800" height="538">
+		<dlg pos="0,0,-0,-0">
+			<dlg id="260"  pos="0,5,-0,-0" show="1">
+				<!--所有进程 Header-->
+				<dlg id="801" pos="0,0,-0,-0">
+					<img pos="7,0,-7,69" skin="top"></img>
+					<img pos="7,70,-7,-7" skin="topbkcolor"></img>
+					<img pos="24,15,72,51" skin="icon"></img>
+					<richtext id="813" pos="86,16,-0,-0" class="addspace"><b>金山卫士系统加速用以查看系统当前资源占用情况，可以关闭资源占用高的进程来加速系统！</b></richtext>
+					<text id="108" pos="86,41" class="textgray">正在运行的程序：</text>
+					<img pos="230,41" skin="cpu_mem_disk" sub="0"></img>
+					<text id="104" pos="250,41" class="textgray">CPU占用：</text>
+					<img pos="335,41" skin="cpu_mem_disk" sub="1"></img>
+					<text id="105" pos="355,41" class="textgray">内存占用：</text>
+					<img pos="443,41" skin="cpu_mem_disk" sub="2"></img>
+					<text id="102" pos="460,41" class="textgray">磁盘读写：</text>
+					<text id="816" pos="-195,41" class="linktext">设置</text>
+					<imgbtn id="812" pos="-158,20" skin="btn_onekey_speedup" sub="0"/>
+				</dlg>
+				<!--所有进程 body-->
+				<dlg id="802" class="panel" pos="7,100,-7,-40">
+					<dlg pos="0,0,-0,20">
+						<text id="216" pos="0,0,270,-0" class="listheader2" crbg="AAAA00">进程名称及其说明</text>
+						<text id="217" pos="270,0,370,-0" class="listheader2" crbg="AAAA00">安全级别</text>
+						<text id="218" pos="370,0,470,-0" class="listheader2" crbg="00AA00">CPU占用</text>
+						<text id="219" pos="470,0,570,-0" class="listheader2" crbg="00AAAA">内存占用</text>
+						<text id="220" pos="570,0,670,-0" class="listheader2" crbg="00AAAA">磁盘读写</text>
+						<text id="221" pos="670,0,784,-0" class="listheader2" crbg="00AAAA">操作</text>
+						<img id="222" pos="0,0,0,0" skin="listsort" sub="0" show="0"></img>
+					</dlg>
+					<dlg pos="0,20,-0,-0">
+						<realwnd id="113" ctrlid="113" pos="0,0,-0,-0"/>
+					</dlg>
+				</dlg>
+				<!--所有进程 flooter-->
+				<dlg id="803" pos="22,-30,-7,-0">
+					<check id="223" pos="0,0" >隐藏系统程序</check>
+					<text id="224" pos="480,0" >当前设置：在桌面悬浮窗中显示性能监控信息</text>
+					<link  id="225"  class="linktext" pos="730,0" >隐藏</link>
+				</dlg>
+				<!--窗口 header-->
+				<dlg id="804" pos="0,0,-0,-0">
+					<img pos="7,0,-7,69" skin="top"></img>
+					<img pos="7,70,-7,-7" skin="topbkcolor"></img>
+					<img pos="24,15,72,51" skin="icon"></img>
+					<richtext id="814" pos="96,16,-0,-0" class="addspace">您上次使用一键加速共释放内存 <b><c color="c80000"> 200.200M </c></b>，建议定期使用，加速系统运行！</richtext>
+					<richtext id="815" pos="96,40,-0,-0" class="addspace"><c color="666666">已经打开的窗口总数：X 个，关闭不用的窗口可以释放资源，加速系统。</c></richtext>
+					<imgbtn id="811" pos="-158,20" skin="btn_onekey_speedup" sub="0"/>
+				</dlg>
+				<!--窗口 body-->
+				<dlg id="805" pos="7,100,-7,-20" class="panel">
+					<dlg pos="0,0,-0,20">
+						<text  pos="0,0,200,-0" class="listheader2" crbg="AAAA00">窗口名称</text>
+						<text  pos="200,0,470,-0" class="listheader2" crbg="AAAA00">所属程序</text>
+						<text  pos="470,0,685,-0" class="listheader2" crbg="00AA00">窗口状态</text>
+						<text  pos="685,0,785,-0" class="listheader2" crbg="00AAAA">操作</text>
+						<img   pos="0,0,0,0" skin="listsort" sub="0" show="0"></img>
+					</dlg>
+					<dlg pos="0,20,-0,-0" show="1">
+						<realwnd id="809" ctrlid="809" pos="0,0,-0,-0"/>
+					</dlg>
+				</dlg>
+				<!--link 文字-->
+				<dlg id="806" pos="0,70,-0,100">
+					<link  id="807" pos="17,0,67,-8" class="linktext"  show="1">所有程序</link>
+					<hr pos="75,9,75,24" crbg="3064A5"/>
+					<link  id="808" pos="85,0,155,-8" class="linktext" show="1">打开的窗口</link>
+				</dlg>
+				<!--窗口 flooter-->
+				<dlg id="810" pos="7,-20,-7,-7" crbg="ffffff">
+				</dlg>
+			</dlg>
+		</dlg>
+	</footer>
+</layer>

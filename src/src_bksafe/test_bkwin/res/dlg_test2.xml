@@ -1,0 +1,48 @@
+﻿<dlgframe title="Title" width=600 height=450 appwin=1 class=mainall>
+<icon src=102 pos="5,5"/>
+<imgbtn id=60003 class=linkimage src=115 subwidth=25 pos="-100,0"/>
+<imgbtn id=60002 class=linkimage src=116 subwidth=25 pos="-75,0"/>
+<imgbtn id=60001 class=linkimage src=114 subwidth=43 pos="-50,0"/>
+<text class=dlgtitle pos="25,5" crbg=FF0000>%str1%This is a dialog</text>
+<tabctrl id=1002 cursel=0 tabwidth=120 class=tabpage tabskin="tab" frameskin="panel" tabspacing=-1 tableft=1 frametop=-2 pos="10,25,-10,-40">
+<tab title="Steam" width=full height=full class=client>
+<div class=list>
+<div valign=top>
+<text crbg=00AA00 height=50>Valign</text><text crbg=AA0000 height=20>Top</text><text class=toptext crbg=7777FF width=70 height=30>Top</text><br/>
+</div>
+<div valign=middle>
+<text crbg=00AA00 height=50>Valign</text><text crbg=AA0000 height=20>Middle</text><text class=centertext crbg=7777FF width=70 height=30>Middle</text><br/>
+</div>
+<div valign=bottom>
+<text crbg=00AA00 height=50>Valign</text><text crbg=AA0000 height=20>Bottom</text><text crbg=7777FF width=70 height=30>Bottom</text><br/>
+</div>
+</div>
+</tab>
+<tab title="Buttons" width=full height=full class=client>
+<dlg pos="0,0,-0,-0">
+<button class=normalbtn pos="10,10,90,35">左上按钮</button>
+<button class=normalbtn pos="10,-35,90,-10">左下按钮</button>
+<button class=normalbtn pos="-90,10,-10,35">右上按钮</button>
+<button class=normalbtn pos="-90,-35,-10,-10">右下按钮</button>
+<button class=uglybtn pos="10,50,-10,75">中间按钮</button>
+</dlg>
+</tab>
+<tab title="Radio &amp;&amp; Checkbox" width=full height=full class=client>
+<dlg pos="0,0,-0,-0">
+<check id=1003 pos="10,10">复选框1</check>
+<check id=1004 pos="10,30">复选框2</check>
+<button id=1013 class=uglybtn pos="100,30">复选框2被选中了吗？</button>
+<text pos="10,50">第一组复选框</text>
+<radio id=1005 pos="10,70" group="group1">1</radio>
+<radio id=1006 pos="40,70" group="group1">2</radio>
+<radio id=1007 pos="70,70" group="group1">3</radio>
+<text pos="10,90">第二组复选框</text>
+<radio id=1008 pos="10,110" group="group2">1</radio>
+<radio id=1009 pos="40,110" group="group2">2</radio>
+</dlg>
+</tab>
+<tab title="Real Window" width=full height=full class=tabpage>
+<realwnd ctrlid=1015 width=full height=full/>
+</tab>
+</tabctrl>
+</dlgframe>

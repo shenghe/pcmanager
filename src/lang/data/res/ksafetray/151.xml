@@ -1,0 +1,67 @@
+﻿<layer width="329" height="232" appwin="0" noborder="1">
+	<header class="runoptheadslow" width="full" height="20">
+		<icon src="106" pos="5,4"/>
+		<imgbtn id="60001" class="linkimage" skin="closebtn_orange2" pos="-52,0"/>
+		<img skin="header_title_orange" pos="25,5"/>
+	</header>
+	<footer class="runoptfoot" width="full" height="4"/>
+	<body class="runoptbodyquick" width="full" height="full" crtext="000000">
+		<!--第一行-->
+		<dlg pos="0,0,-0,79" class="runopt_slowbg">
+			<img id="100001" pos="25,30,139,42" skin="runopttxt" sub="0"></img>
+			<!--分秒 秒数>10-->
+			<dlg id="100002" pos="140,15,-0,50">
+				<img id="100003" pos="10,0,40,-0" skin="runoptquicknum" sub="1"/>
+				<img id="100004" pos="45,10,75,-0" skin="runopttime" sub="0"/>
+				<img id="100005" pos="70,0,100,-0" skin="runoptquicknum" sub="1"/>
+				<img id="100019" pos="100,0,130,-0" skin="runoptquicknum" sub="1"/>
+				<img id="100006" pos="135,10,165,-0" skin="runopttime" sub="1"/>
+			</dlg>
+			<!--分秒 秒数<10-->
+			<dlg id="100024" pos="140,15,-0,50">
+				<img id="100025" pos="10,0,40,-0" skin="runoptquicknum" sub="1"/>
+				<img id="100026" pos="40,10,70,-0" skin="runopttime" sub="0"/>
+				<img id="100027" pos="70,0,100,-0" skin="runoptquicknum" sub="1"/>
+				<img id="100028" pos="105,10,130,-0" skin="runopttime" sub="1"/>
+			</dlg>
+
+			<!--秒-->
+			<dlg id="100007" pos="140,15,-0,50">
+				<img id="100008" pos="20,0,50,-0" skin="runoptquicknum" sub="1"/>
+				<img id="100020" pos="50,0,80,-0" skin="runoptquicknum" sub="1"/>
+				<img id="100009" pos="90,10,100,-0" skin="runopttime" sub="1"/>
+			</dlg>
+
+			<dlg id="100021" pos="140,15,-0,50">
+				<img id="100022" pos="10,0,40,-0" skin="runoptquicknum" sub="1"/>
+				<img id="100023" pos="70,10,100,-0" skin="runopttime" sub="1"/>
+			</dlg>
+		</dlg>
+		<!--第二行-->
+		<dlg id="100010"  pos="0,88,-0,108">
+			<richtext id="100011" pos="25,5,-100,20" class="richtext">经检测，本次开机速度：<c color="d53b17">较慢</c></richtext>
+			<img id="100031" pos="-130,2,-110,-0" skin="runopticon" sub="1"/>
+		  <img id="100032" pos="-110,2,-90,-0" skin="runopticon" sub="1"/>
+		  <img id="100033" pos="-90,2,-70,-0" skin="runopticon" sub="1"/>
+		  <img id="100034" pos="-70,2,-50,-0" skin="runopticon" sub="1"/>
+		  <img id="100035" pos="-50,2,-30,-0" skin="runopticon" sub="1"/>
+		</dlg>
+		<!--第三行-->
+		<dlg pos="0,108,-0,130">
+		  <richtext id="100030" pos="25,10,-0,25" class="richtext">您的开机速度击败了全国 <c color="d53b17">x%</c> 的电脑</richtext>
+	  </dlg>
+		<!--第四行-->
+		<dlg id="100015" pos="0,130,-0,185">
+			<richtext id="100016" pos="25,10,-0,-0" class="richtext">本次开机共有：<c  color="d53b17">xxx</c>个程序自动运行，建议</richtext>
+			<richtext id="100017" pos="25,30,-0,-0">禁止您不需要的启动项</richtext>
+		</dlg>
+		<dlg pos="1,180,-1,-0" crbg="FAFDFF">
+			<text id="100029" pos="23,0" class="linktext">设置</text>
+			<button id="60004" class="normalbtn" pos="-100,-30,-20,-5">一键优化</button>
+			<button id="100036" class="normalbtn" pos="-80,-30,-20,-5">优化</button>
+		</dlg>
+	</body>
+</layer>
+
+
+

@@ -1,0 +1,18 @@
+﻿<layer width="700" height="550" >
+	<header class="msgboxhead" width="full" height="32">
+		<text id="4489" pos="25,10" class="dlgtitle">查看详情</text>
+		<icon src="IDI_ICON_SMALL" pos="5,9"/>
+		<imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-10">
+			<img pos="10,10" skin="stat15" sub="2"/>
+			<text id="4490" pos="30,12"></text>
+			<dlg pos="10,40,-10,-40" class="panel">
+				<realwnd id="1601" pos="0,0,-0,-0" ctrlid="1601"/>
+			</dlg>
+			<button id="4488" pos="-80,-30,-10,-2" class="normalbtn">关闭</button>
+			<button id="4491" pos="-160,-30,-90,-2" class="normalbtn">复制</button>
+		</dlg>
+	</body>
+</layer>

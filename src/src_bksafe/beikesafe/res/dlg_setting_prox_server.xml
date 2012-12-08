@@ -1,0 +1,37 @@
+﻿<layer title="代理服务器设置" width=400 height=410>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">金山卫士 - 代理设置</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=50>
+      <button id ="528" pos="-185,5,-105,35" class="normalbtn">确定</button>
+      <button id ="529" pos="-90,5,-10,35" class="normalbtn">取消</button>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+      <dlg pos="2,0,-2,-0">
+      	<dlg pos="8,8,-8,-8" class="panel">
+          <text pos="35,40" class="boldtext" crtext="3064A5">代理服务器类型</text>
+          <realwnd pos="150,35,320,65" id="522" ctrlid="522"></realwnd>
+          <text pos="100,75">地址</text>
+          <dlg pos="150,70,320,90" class="panel">
+            <realwnd pos="1,1,-1,-1" id="524" ctrlid="524"></realwnd>
+          </dlg>
+          <text pos="100,110">端口</text>
+          <dlg pos="150,105,320,125" class="panel">
+            <realwnd pos="1,1,-1,-1" id="525" ctrlid="525"></realwnd>
+          </dlg>          
+          <text pos="35,145" class="boldtext" crtext="3064A5">代理服务器验证</text>
+          <realwnd pos="150,140,320,160" id="523" ctrlid="523"></realwnd>
+          <text pos="100,180">账号</text>
+          <dlg pos="150,175,320,195" class="panel">
+            <realwnd pos="1,1,-1,-1" id="526" ctrlid="526"></realwnd>
+          </dlg>         
+          <text pos="100,215">密码</text>
+          <dlg pos="150,210,320,230" class="panel">
+            <realwnd pos="1,1,-1,-1" id="527" ctrlid="527"></realwnd>
+          </dlg>
+          <!--<text pos="35,265" crtext="3064A5">代理服务器设置暂不支持软件管理、漏洞修复等下载功能。</text>-->
+        </dlg>
+      </dlg>
+    </body>
+</layer>
+

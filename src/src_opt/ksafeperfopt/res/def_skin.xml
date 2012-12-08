@@ -1,0 +1,32 @@
+﻿<skins>
+<png name="closebtn"   src="2" subwidth="43"/>
+<png name="icon"       src="5" />
+<imglst name="closebtn2" src="101" subwidth="21"/>
+<button name="normalbtn" border="7D9EBC" bg="FFFFFF" bgup="FEFEFE" bgdown="c6e2fd" bguphover="FEFEFE" bgdownhover="dbedfe" bguppush="c6e2fd" bgdownpush="FEFEFE"/>
+<imgframe name="msgboxhead" src="205" top="32" left="5" crbg="FBFCFD" part="top"/>
+<imgframe name="msgboxbody" src="209" top="0" left="2" crbg="FBFCFD" part="middle"/>
+<imgframe name="msgboxfoot" src="209" top="0" left="2" crbg="FBFCFD" part="bottom"/>
+<imgframe name="msgboxbody2" src="220" top="50" left="7" mode="none" crbg="FBFCFD" />
+<png name="minbtn" src="11" subwidth="32"/>
+<imghorzex name=listheaderbg src=210 mode=mask left=2/>
+<imghorzex name="wndoptlistheaderbg" src="225" mode="mask" left="0"/>
+<png name="listsort" src="201" subwidth="10"/>
+<imglst name="listcheck" src="224" subwidth="13" mode="mask"/>
+<png name="netsetting" src="202" subwidth="14"/>
+<png name=examstatus48 src=14 subwidth=48/>
+<imghorzex name=progressbg src=221 mode=mask left=3/>
+<imghorzex name=progresspos src=222 mode=mask left=3/>
+<imghorzex name=progressposred src=223 mode=mask left=3/>
+<imgframe name=panel src=211 top=1 left=1 crbg=FBFCFD/>
+<imgframe name="netmonitorheader" src="212" left="3" part=top/>
+<imghorzex name=listitembg src=213 mode=mask left=0/>
+<imgframe name="panelgray" src="216" top="1" left="1" crbg="FBFCFD"/>
+<imghorzex name="top" src="217" mode="none" />
+<imgframe name="topbkcolor" src="218" top="1" left="1" crbg="F6FBFF"/>
+<imgframe name="topbkcolor2" src="218" top="1" left="1" crbg="FFFFFF"/>
+<imglst name="status40" src="219" mode="mask" subwidth="40"/>
+<png name="btn_onekey_speedup" src="12" subwidth="121"/>
+<png name="cpu_mem_disk" src="13" subwidth="14"/>
+<png name="scanani" src="4" subwidth="48"/>
+<png name="loading" src="15" subwidth="16"/>
+</skins>

@@ -1,0 +1,65 @@
+﻿<layer title="设置" width=500 height=300>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">金山卫士软件管理 - 设置</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <dlg pos="10,10,-10,-10">
+            <button id="1" pos="-170,0,-90,-0" class="normalbtn">确定</button>
+            <button id="2" pos="-80,0,-0,-0" class="normalbtn">取消</button>
+        </dlg>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+       <dlg pos="2,0,-2,-0">
+       		<dlg pos="0,0,-0,-0" class=panel>
+							<realwnd pos="0,0,100,-0" id=100 ctrlid=100 />
+					
+							<dlg id=101 pos="100,10,-0,-0" >
+								<dlg pos="0,0,-0,130">
+  							  		<hr pos="0,6,-10,6" class=settingline/>
+  							  		<text class=settingsubtitle pos="0,0">安装文件保存目录</text>
+									<text pos="20,30">将下载的软件安装包保存在以下的目录(</text>
+									<text id=401 pos="230,30" class=linktext >打开目录</text>
+									<text pos="280,30">):</text>
+									<dlg pos="20,50,300,70" class=panel><realwnd id=402 ctrlid=402 pos="2,2,-2,-2"/></dlg>
+									<imgbtn id=403 class=linkimage skin=selectfolder pos="300,50"/>
+									<text id=404 class=linktext pos="20,80">恢复默认目录</text>
+									<text pos="90,80">|当前目录所在硬盘可用空间:</text>
+									<text pos="250,80" id=405 class=spacetext>0 GB</text>	  
+  							  	</dlg>	
+								<dlg pos="0,110,-0,-0">
+									<hr pos="0,6,-10,6" class=settingline/>
+									<text class=settingsubtitle pos="0,0">选择下载提示</text>
+									<radio id=406 group="hint_method1" pos="20,30">下载前弹出窗口提示该软件是否收费、含有插件等信息</radio>
+									<radio id=407 group="hint_method1" pos="20,60">下载软件前不进行提示，直接开始下载</radio>
+								</dlg>
+							</dlg>
+  				
+							<dlg id=102 pos="100,10,-0,-0" >
+								<dlg pos="0,0,-0,90">
+  							  		<hr pos="0,6,-10,6" class=settingline/>
+  							  		<text class=settingsubtitle pos="0,0">软件安装设置</text>
+									<radio id=408 group="install_method2" pos="20,30">下载完成后自动启动软件的安装程序</radio>
+									<radio id=409 group="install_method2" pos="20,60">下载完成后手动进行安装</radio>
+  							  	</dlg>	
+								<dlg pos="0,90,-0,-0">
+									<hr pos="0,6,-10,6" class=settingline/>
+									<text class=settingsubtitle pos="0,0">安装完成后软件安装文件处理方式</text>
+									<radio id=410 group="delete_method" pos="20,30">已下载的安装文件一周后自动删除</radio>
+									<radio id=411 group="delete_method" pos="20,60">安装完成后立即自动删除安装文件</radio>
+									<radio id=412 group="delete_method" pos="20,90">安装后安装文件一直保留，直到自己手动删除</radio>
+								</dlg>
+							</dlg>	
+
+							<dlg id=103 pos="100,10,-0,-0" >
+								<dlg pos="0,0,-0,-0">
+  							  		<hr pos="0,6,-10,6" class=settingline/>
+  							  		<text class=settingsubtitle pos="0,0">强力清扫删除文件处理方式</text>
+									<radio id=420 group="delfile_method2" pos="20,30">删除到回收站（可手工恢复）</radio>
+									<radio id=421 group="delfile_method2" pos="20,60">彻底删除文件（不可恢复）</radio>
+  							  	</dlg>	
+							</dlg>	
+	       	</dlg>
+       </dlg> 
+    </body>
+</layer>
+

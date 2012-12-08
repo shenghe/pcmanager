@@ -1,0 +1,18 @@
+﻿<layer width="380" height="190" >
+	<header class="msgboxhead" width="full" height="32">
+		<text id="4489" pos="25,10" class="dlgtitle">系统盘瘦身</text>
+		<icon src="IDI_ICON_SMALL" pos="5,9"/>
+		<imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg id="600" pos="0,0,-0,-0">
+			<text id="601" pos="32,12">正在处理“系统升级补丁备份”</text>
+			<text id="602" pos="32,49">正在压缩文件：</text>
+			<text id="603" pos="115,49,-36,62">...</text>
+			<text pos="32,68">预计剩余时间：</text>
+			<text id="604" pos="115,68">正在计算</text>
+			<progress id="605" pos="32,-64,-36,-42" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos" show="1" />
+			<button id="2" pos="-115,-40,-36,-15" class="normalbtn">取消</button>
+		</dlg>
+	</body>
+</layer>

@@ -1,0 +1,133 @@
+﻿<dlg pos="0,0,-0,-0">
+	<dlg pos="0,6,150,-0" crbg="E3EDF7" show="1">
+		<tabctrl id="4001" tabwidth="131" tabalign="left" tabheight="37" tabskin="tableft" splitterskin="tableftsplitter" tabspacing="20" tabpos="20" framepos="10" pos="5,0,-0,-0" text-x="-10" crbg1="EFF8FF">
+			<tab title="开机加速" width="full" height="full" class="settingpage" valign="middle" />
+      <tab title="流量监控" width="full" height="full" class="settingpage" valign="middle" />
+      <tab title="网速测量" width="full" height="full" class="settingpage" valign="middle" />
+			<tab title="更多优化" width="full" height="full" class="settingpage" valign="middle" />
+		</tabctrl>
+	</dlg>
+	<dlg id="4002" pos="150,0,-6,-0" class="panelsysopt">
+		<tabctrl id="4004" cursel="1" tabwidth="105" tabskin="tab" tabspacing="4" tabpos="10" pos="0,10,-0,-35" frameskin="panelgray" framepos="-1">
+			<tab id="4100" title="一键优化" width="full" height="full" class1="tabpage" />
+			<tab id="4014" title="启动项" width="full" height="full" class1="tabpage" />
+			<tab id="4015" title="服务项" width="full" height="full" class1="tabpage" />
+			<tab id="4016" title="计划任务" width="full" height="full" class1="tabpage" />
+		</tabctrl>
+		<dlg id="4060" pos="2,35,-2,-50" class="sysopt_listbk">
+			<dlg id="4019" pos="15,8,-0,-0">
+				<img pos="0,0" skin="stat_runopt" sub="0"/>
+				<text pos="20,2">“启动项”在开机后自动运行，通常屏幕右下角有图标。禁止非必须项可加快开机速度。</text>
+			</dlg>
+			<dlg id="4020" pos="15,8,-0,-0" show="0">
+				<img pos="0,0" skin="stat_runopt" sub="0"/>
+				<text pos="20,2">“服务项”是开机后在后台运行，没有界面。把非必须的项改为开机不启动可加快开机速度。</text>
+			</dlg>
+			<dlg id="4021" pos="15,8,-0,-0" show="0">
+				<img pos="0,0" skin="stat_runopt" sub="0"/>
+				<text pos="20,2">“计划任务” 会在设定的时间（例如每天、每周的某个时间点）定时执行。</text>
+			</dlg>
+			<text id="4022" pos="-80,10" class="linktext" href="http://guanjia.baidu.com/help/safeguide.html#n3">了解更多</text>
+		</dlg>
+		<dlg id="4084" pos="2,35,-2,-50" class="sysopt_listbk">
+			<dlg id="4056" pos="15,8,-0,-0" show="0">
+				<img pos="0,0" skin="stat_runopt" sub="0"/>
+				<text pos="20,2">经百度卫士智能分析，以下</text>
+				<text pos="170,2" id="4076" crtext="3064A5" font="0004" textmode="25"/>
+				<text pos="185,2" id="4079">项可以被禁止开机启动，建议立即优化加快开机速度。</text>
+			</dlg>
+			<dlg id="4073" pos="15,8,-0,-0" show="0">
+				<img id="4063" pos="0,0" skin="loading_runopt" sub="0"/>
+				<text id="4058" pos="20,2,-0,14"/>
+			</dlg>
+			<dlg id="4074" pos="15,8,-0,-0" show="0">
+				<img pos="0,0" skin="stat_runopt" sub="1"/>
+				<text pos="20,2">优化完成，本次共优化</text>
+				<text pos="145,2" id="4080" crtext="3064A5" font="0004" textmode="25"/>
+				<text pos="160,2" id="4083">项，下次重启系统即可感受开机速度的改善。</text>
+			</dlg>
+			<dlg id="4075" pos="15,8,-0,-0" show="0">
+				<img pos="0,0" skin="stat_runopt" sub="1"/>
+				<text pos="20,2">优化完成，本次共优化</text>
+				<text pos="147,2" id="4077" crtext="3064A5" font="0004" textmode="25"/>
+				<text pos="160,2" id="4081">项，尚有</text>
+				<text pos="213,2" id="4078" crtext="FF7F24" font="0004" textmode="25"/>
+				<text pos="228,2" id="4082">项待优化。</text>
+			</dlg>
+			<text id="4085" pos="-103,10" class="linktext">已忽略</text>
+		</dlg>
+		<!--开机提示设置-->
+			<img pos="-130,10" skin="startup_setting" sub="0"/>
+			<text id="4048" pos="-105,15" class="linktext">开机提示设置</text>
+		<!---->
+		<!--启动项列表-->
+		<dlg pos="2,67,-0,-40" >
+			<realwnd id="4003" pos="0,0,-1,-0" ctrlid="4003" />
+		</dlg>
+		<dlg id="4006" pos="10,-35,-0,-0" show="0">
+			<dlg id="4026" pos="0,0,-0,-0" show="0">
+				<dlg pos="0,-26,280,-0">
+					<check pos="5,0" id="4027">全选</check>
+					<text pos="65,0" id="4086" class="linktext">添加忽略</text>
+				</dlg>
+				<button id="4053" pos="-80,-31,-0,-6" class="normalbtn">立即优化</button>
+			</dlg>
+			<dlg id="4061" pos="0,0,-0,-0" show="0">
+				<dlg pos="0,-26,280,-0">
+					<check pos="5,0" id="4057">全选</check>
+					<text pos="65,0" id="4087" class="linktext">添加忽略</text>
+				</dlg>
+				<button id="4072" pos="-80,-31,-0,-6" class="normalbtn">继续优化</button>
+				<text id="4062" pos="-55,-26" class="linktext">刷新</text>
+				<text id="4067" pos="-200,-26" class="linktext">撤销全部更改</text>
+			</dlg>
+		</dlg>
+		<dlg id="4013" pos="10,-35,-0,-0" show="0">
+			<dlg pos="0,-26,280,-0" id="4023">
+				<check pos="5,0" id="4025">显示已禁止启动的项目</check>
+			</dlg>
+			<dlg pos="135,-26,-100,-0" id="4024" show="0">
+				<dlg pos="25,0,470,-0" show="1">
+					<check id="4005" pos="0,0">隐藏系统服务</check>
+				</dlg>
+			</dlg>
+			<text id="4011" pos="-55,-26" class="linktext">刷新</text>
+			<text id="4012" pos="-180,-26" class="linktext">撤销全部更改</text>
+		</dlg>
+		<!--一键优化列表-->
+		<dlg pos="2,67,-0,-40" id="4055" show="0">
+			<dlg pos="|-324,|-165,|324,|165" id="4059">
+				<img pos="111,62" skin="autoopt_noitem"/>
+				<text pos="174,116" class="centertext">您还可以在以下界面，依据需要手动禁止或还原其他的开机项目：</text>
+				<img pos="170,145" skin="stat_runopt" sub="2"/>
+				<text id="4007" pos="185,145" class="linktext">查看已忽略的优化项</text>
+				<img pos="170,182" skin="stat_runopt" sub="2"/>
+				<text id="4064" pos="185,182" class="linktext">查看开机启动项</text>
+				<img pos="170,219" skin="stat_runopt" sub="2"/>
+				<text id="4065" pos="185,219" class="linktext">查看开机加载服务项</text>
+				<img pos="170,256" skin="stat_runopt" sub="2"/>
+				<text id="4066" pos="185,256" class="linktext">查看计划任务</text>
+			</dlg>
+			<realwnd id="4054" pos="0,0,-1,-0" ctrlid="4054" />
+		</dlg>
+		<dlg pos="3,62,-1,-43" id="4069" show="0">
+			<dlg pos="|-330,|-163,|330,|163">
+				<img pos="111,62" skin="notask_img"/>
+				<text pos="180,116" class="centertext">推荐您使用以下功能：</text>
+				<img pos="176,145" skin="stat_runopt" sub="2" />
+				<text id="4070" pos="191,145" class="linktext">清理垃圾</text>
+				<text pos="261,145">清理垃圾文件，加速系统，释放磁盘空间</text>
+				<img pos="176,175" skin="stat_runopt" sub="2" show="0"/>
+				<text id="4071" pos="191,175" class="linktext" show="0">装机必备</text>
+				<text pos="261,175" show="0">安全快速安装软件</text>
+			</dlg>
+		</dlg>
+	</dlg>
+	<dlg id="4017" pos="150,0,-10,-0" show="0">
+		<dlg pos="|-200,|-80,|200,|0">
+			<img pos="0,0" skin="sysopt_more" />
+			<text pos="160,30" class="centertext">百度安全卫士将陆续推出更多优化功能，敬请期待!</text>
+			<text id="4018" pos="178,70" class="linktext">我希望百度安全卫士增加功能，我要提建议</text>
+		</dlg>
+	</dlg>
+</dlg>

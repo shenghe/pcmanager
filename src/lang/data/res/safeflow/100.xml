@@ -1,0 +1,18 @@
+﻿<skins>
+<png name="mainbghead" src="1" />
+<png name="closebtn"   src="2" subwidth="43"/>
+<png name="mainbgbody" src="3" />
+<png name="mainbgfoot" src="4" />
+<png name="icon"       src="5" />
+<png name="updataicon" src="6" />
+<png name="downicon"   src="7" />
+<png name="bottonicon" src="8" />
+<imglst name="closebtn2" src="101" subwidth="21"/>
+<png name="netmondisable" src="9"  subwidth="121" />
+<png name="netmonenable" src="10" subwidth="121"/>
+<button name="normalbtn" border="7D9EBC" bg="FFFFFF" bgup="FEFEFE" bgdown="c6e2fd" bguphover="FEFEFE" bgdownhover="dbedfe" bguppush="c6e2fd" bgdownpush="FEFEFE"/>
+<imgframe name="msgboxhead" src="205" top="32" left="5" crbg="FBFCFD" part="top"/>
+<imgframe name="msgboxbody" src="209" top="0" left="2" crbg="FBFCFD" part="middle"/>
+<imgframe name="msgboxfoot" src="209" top="0" left="2" crbg="FBFCFD" part="bottom"/>
+<png name="minbtn" src="11" subwidth="32"/>
+</skins>

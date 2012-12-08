@@ -1,0 +1,17 @@
+﻿<listitem height=24>
+<dlg pos="0,0,-0,-0" show="0" crbg="FFFFFF" id="8" class="wndoptlisttitlebg">
+	<text pos="5,6" id="1" crtext="386AA9"></text>
+</dlg>
+<dlg pos="0,0,-0,-0" show="0" crbg="FFFFFF" id="9">
+	<img id="12" pos="5,6" skin="listcheck" sub="2"/>
+	<text id="10" pos="28,6,410,18" class="perfmon_desc"></text>
+	<text id="11" pos="415,6" ></text>
+</dlg>
+<dlg id="2" pos="0,0,-0,-0" show="0" crbg="FFFFFF">
+	<img id="3" pos="5,6" skin="listcheck" sub="2"/>
+	<iconfrommodule id="4"  pos="21,5,37,21" srcfile="0"/>
+	<text id="5" pos="39,6,330,18" class="perfmon_desc"></text>
+	<text id="6" pos="335,6,410,18" ></text>
+	<text id="7" pos="415,6,-5,18" ></text>
+</dlg>
+</listitem>

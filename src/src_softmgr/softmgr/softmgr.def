@@ -1,0 +1,5 @@
+LIBRARY	"softmgr"
+
+EXPORTS
+    CreateUpdateHelper	PRIVATE
+    CreateSoftMgrObject	PRIVATE

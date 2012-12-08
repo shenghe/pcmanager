@@ -1,0 +1,83 @@
+﻿<style>
+<class name=mainbody skin=mainbgbody font=0000 crtext=000000 crbg=FBFCFD x-margin=7/>
+<class name="softmgrtopbk" skin="softtopbk" font="0000" crtext="000000" crbg="FFFFFF" x-margin="0"/>
+<class name=msgboxhead skin=msgboxhead font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=msgboxbody skin=msgboxbody font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=msgboxfoot skin=msgboxfoot font=0000 crtext=000000 crbg=FBFCFD/>
+<class name=linktext font=0002 hoverfont=0002 crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=linktext2 crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=linktext3 font=0002 hoverfont=0002 crtext=0051E5 crhover=FF0000 cursor=hand/>
+<class name=linktext4 crtext=94959D crhover=3064A5 />
+<class name=panel skin=panel margin=1/>
+<class name=anibg skin=anibg/>
+<class name=tipbg skin=tipbg/>
+<class name=panelwhite skin=panelwhite/>
+<class name=cpanel skin=panel margin=20/>
+<class name=panelclear skin=panelclear margin=8/>
+<class name=client margin=10/>
+<class name=normalbtn skin=normalbtn font=0000 crtext=000000 textmode=25 cursor=hand x-margin=5/>
+<class name=linkimage cursor=hand/>
+<class name=boldtext font=0004 textmode=20/>
+<class name=toptext textmode=20 />
+<class name=vcentertext textmode=24/>
+<class name=rightvcentertext textmode=26/>
+<class name=centertext textmode=25/>
+<class name=righttext textmode=22/>
+<class name=tabpage margin=2 crbg=FBFCFD/>
+<class name=scanbtn skin=normalbtn crtext=3064A5 crhover=FF0000 cursor=hand/>
+<class name=examtitle font=0204 crtext=3064A5/>
+<class name=examtext font=0004/>
+<class name=safetext crtext=008000/>
+<class name=risktext crtext=F99E00/>
+<class name=dangertext crtext=EC3535/>
+<class name=spacetext font=0004 crtext=EC3535/>
+<class name=infotext crtext=3064A5/>
+<class name=filename textmode=4020/>
+<class name=tipscantext textmode=25 font=0204 crtext=008000/>
+<class name=msgtext font=0000 crtext=000000 textmode=850/>
+<class name=msgtextsingleline font=0000 crtext=000000 textmode=874/>
+<class name=listheader skin=listheaderbg font=0000 crtext=000000 crbg=FBFCFD textmode=25/>
+<class name=list spacing=10/>
+<class name=dlgtitle font=0004 crtext=FFFFFF/>
+<class name=virscanreporttitle font=0504 textmode=24/>
+<class name=splitter crbg=E5E5E5 textmode=25 cursor=hand/>
+<class name=splitter_notclickable crbg=E5E5E5 textmode=25/>
+<class name=countdiv spacing=5/>
+<class name=logtext font=0A04 textmode=2010/>
+<class name=text_multiline textmode=2010/>
+<class name=text_novul font=0804 crtext=00FF00/>
+<class name=text_note font=0000 crtext=333333/>
+<class name=text_title font=0804/>
+<class name=text_emerg_tag crtext=FFFFFF crbg=FF0000/>
+<class name=text_warning_tag crtext=FFFFFF crbg=FFFF00/>
+<class name=text_color_red crtext=FF0000/>
+<class name=text_color_yellow crtext=FFFF00/>
+<class name=text_color_green crtext=00FFFF/>
+<class name=leftbtnsel skin=leftbtnsel textmode=25 font=0004 crtext=000000/>
+<class name=settingpage crbg=FBFCFD y-margin=10/>
+<class name=settingsubtitle font=0004 crtext=4E759A crbg=FBFCFD x-margin=10/>
+<class name=settingline crbg=CCCCCC/>
+<class name=downmgrdlg crbg=F0F0F0/>
+<class name=boldnum_center font=0004 textmode=01/>
+<class name=boldnum_right_red font=0004 textmode=02 crtext=ff0000/>
+<class name=cancelsafe crtext=6b6b6b/>
+<class name=examtexttitle font=0204/>
+<class name=examtitlebg skin=examtitlebg/>
+<class name=defaultexamcrttxt crtext=101010/>
+<class name=examtitlebgonly skin=examtitlebgonly/>
+<class name=linktextright font=0002 hoverfont=0002 crtext=3064A5 crhover=FF0000 cursor=hand textmode=26/>
+<class name=btnvirscan skin=btnvirscanbg cursor=hand/>
+<class name=btnstartpage skin=btnstartpagebg cursor=hand/>
+<class name=richtext spacing=5 linespacing=20/>
+<class name=virscanpanel skin=panelgray margin=10/>
+<class name=panelgray skin=panelgray/>
+<class name=endellipsistext textmode=8020/>
+
+<class name="softmgrtopbk" skin="softtopbk" font="0000" crtext="000000" crbg="FFFFFF" x-margin="0"/>
+<class name="softmgrbottombk" skin="softbottombk" font="0000" crtext="000000" crbg="FFFFFF" x-margin="0"/>
+<class name="softmgrdowndetail" skin="downdetail" font="0000" crtext="000000" crbg="FFFFFF" y-margin="6" x-margin="10" />
+<class name="nametext" font="0004" />
+<class name="addspace" spacing="7" />
+<class name="linkcenter" crtext="3064A5" crhover="FF0000" cursor="hand" textmode="25" />
+<class name="loadtip" font="0000" crtext="666666"/>
+</style>

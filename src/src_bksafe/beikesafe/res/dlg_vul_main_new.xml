@@ -1,0 +1,94 @@
+<layer width="800" height="570">
+	<body class="tabpage" width="full" height="full">
+		<dlg pos="0,0,-0,-0" crbg="FFFFFF">
+			<dlg id="101" pos="0,0,-0,-0">
+				<dlg id="" pos="0,0,-0,85">
+				<!--扫描中...-->
+					<img pos="0,0,-0,-1" skin="vul_head_back"/>
+					<hr pos="0,-0,-0,-0" crbg="96AECA"/>
+					<img id="1002" pos="25,15" skin="vul_scan" sub="0"/>								
+					<text pos="120,23" class="examtexttitle">正在扫描系统漏洞，请稍候...</text>
+					<progress id="1000" pos="120,49,-220,66" min="0" max="300" value="30" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+					<button id="1001" pos="-100,35,-18,65" class="normalbtn">取消</button>
+				</dlg>
+				<hr pos="0,-32,-0,-32" crbg="96AECA"/>
+				<dlg pos="0,-30,-0,-0" crbg="EEF7FF"/>
+			</dlg>
+			<!-- 显示扫描结果 -->
+			<dlg id="100" show="0" pos="0,0,-0,-0">
+				<dlg id="" pos="0,0,-0,85" crbg="FFFFFF">
+					<img pos="0,0,-0,-1" skin="vul_head_back"/>
+					<hr pos="0,-0,-0,-0" crbg="96AECA"/>
+					<img id="1042" pos="25,15" skin="vul_info" sub="3"/>
+					<richtext id="1041" pos="120,24,-0,40" class="richtext" linkclass="linktext" defaultfont="0204">
+						<!--共检测到您的系统存在 <font color=red><b> %d </b></font><sp/> 个补丁，其中 <b>%d</b> 个高危漏洞需要立即修复！-->
+					</richtext>
+					<text id="1062" pos="120,52" crtext="676765"><!--已选择补丁：%d 个--></text>
+					<text id="1063" pos="230,52" crtext="676765"><!--总大小：%s--></text>
+					<text id="1013" pos="-230,52" class="linktext">重新扫描</text>
+					<imgbtn id="1014" pos="-170,-70" skin="vul_repair" class="linkimage"/>
+				</dlg>
+				<dlg id="1003" pos="0,85,-0,-32" class="panel">
+					<realwnd id="1004" ctrlid="1004" pos="0,0,-0,-0"/>
+				</dlg>
+				<hr pos="0,-32,-0,-32" crbg="96AECA"/>
+				<dlg pos="0,-30,-0,-0" crbg="EEF7FF"/>
+				<dlg pos="0,-30,-0,-0" crbg="EEF7FF">
+					<check id="1008" pos="24,10"> 全选</check>
+					<text id="1009" pos="90,10" class="linktext">推荐选项</text>
+					<!--<text id="2001" pos="-185,10" class="linktext">导出漏洞信息</text>-->
+					<text id="1012" pos="-185,10" class="linktext">忽略选中补丁</text>
+					<text id="1016" pos="-65,10" class="linktext">补丁管理</text>
+				</dlg>
+			</dlg>
+			<!-- repairing -->
+			<dlg id="102" show="0"  pos="0,0,-0,-0">
+				<dlg pos="0,0,-0,85" class="anibg">
+					<img pos="0,0,-0,-1" skin="vul_head_back"/>
+					<hr pos="0,-0,-0,-0" crbg="96AECA"/>
+					<dlg show="1" id="1018" pos="0,0,-0,-0">
+						<img id="30100" pos="25,15" skin="vul_setup" sub="0"/>
+						<text id="30101" pos="120,23" class="examtexttitle">正在下载/正在安装（。。。）</text>
+						<progress id="1022" pos="120,48,-220,65" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+						<button id="1024" pos="-100,35,-18,65" class="normalbtn">后台运行</button>
+						<button id="1023" pos="-200,35,-118,65" class="normalbtn">取消修复</button>
+					</dlg>
+					<dlg show="0" id="1019" pos="0,0,-0,-0">
+						<img pos="25,15" skin="vul_info" sub="2"/>
+						<text pos="120,23" class="examtexttitle">漏洞补丁已经全部安装成功，重启后立即生效。</text>
+						<text pos="120,52" crtext="676765">正在被系统占用文件和服务的相关更新将在重启后完成。</text>
+					</dlg>
+					<dlg show="0" id="1020" pos="0,0,-0,-0">
+						<img pos="25,15" skin="vul_info" sub="3"/>
+						<text pos="120,23" class="examtexttitle">部分漏洞补丁安装成功，重启后立即生效。</text>
+					</dlg>
+					<dlg show="0" id="1021" pos="0,0,-0,-0">
+						<img pos="25,15" skin="vul_info" sub="0"/>
+						<dlg id="10215" pos="0,0,-0,-0">
+							<text id="10210" pos="120,23" class="boldnum_right_red">%d</text>
+							<text pos="130,23" class="examtexttitle">个补丁安装失败，建议您稍后重试！</text>
+						</dlg>
+						<dlg show="0" id="10216" pos="0,0,-0,-0">
+							<text pos="120,23" class="examtexttitle">补丁下载失败，建议您检查是否可以正常链接网络后重试！</text>
+						</dlg>							
+					</dlg>
+					<dlg id="1040" show="0" pos="-200,0,-0,-0">
+						<dlg id="1050" pos="0,0,-0,-0">
+							<button id="1030" pos="-100,35,-18,65" class="normalbtn">稍后重启</button>
+							<button id="1039" pos="-200,35,-118,65" class="normalbtn">立即重启</button>
+						</dlg>
+						<dlg id="1051" show="0" pos="0,0,-0,-0">
+							<button id="1052" pos="-80,0,-0,22" class="normalbtn">重新扫描</button>
+						</dlg>
+					</dlg>
+				</dlg>
+				<dlg pos="0,85,-0,-32" class="panel">
+					<realwnd id="1005" ctrlid="1005" pos="0,0,-0,-0"/>
+				</dlg>
+				<dlg id="1037" pos="0,-30,-0,-0" crbg="EEF7FF">
+					<check id="1025" pos="24,10"> 完成后关机</check>
+				</dlg>
+			</dlg>
+		</dlg>
+	</body>
+</layer>

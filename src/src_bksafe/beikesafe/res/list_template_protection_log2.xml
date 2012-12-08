@@ -1,0 +1,10 @@
+﻿<listitem height=50>
+    <dlg pos="0,0,-0,-0" crbg=FFFFFF>
+        <text id=100 pos="0,0,120,-0" class=centertext/>
+        <text id=101 pos="120,0,210,-0" class=centertext/>
+        <text id=102 pos="210,10,-80,30" class=endellipsistext/>
+        <text id=103 pos="210,30,-80,50" class=endellipsistext/>
+        <text id=104 pos="-80,0,-0,-0" class=centertext/>
+        <hr pos="0,-1,-0,-1" crbg=CCCCCC/>
+    </dlg>
+</listitem>

@@ -1,0 +1,22 @@
+﻿<layer width="599" height="329">
+	<header class="kwsswitchdlghead" width="full" height="64">
+		<imgbtn id="100" class="linkimage" skin="kwsbtnclose_red" pos="-80,0"/>
+		<img skin="kwsswitchinstalldlgtitle" pos=8,10/>
+	</header>
+	<footer class="kwsswitchdlgfoot" width="full" height="14"/>
+	<body class="kwsswitchdlgbody" width="full" height="full">
+		<text pos="35,5" class="kwsswitchdlgRedFont">您电脑中已经安装的360安全卫士，可能与金山网盾产生冲突，影响金山网盾的正常</text>
+		<text pos="35,25" class="kwsswitchdlgRedFont">运行。建议您不要同时安装！</text>
+		<text pos="35,55" class="kwsswitchdlgBlackFont">360安全卫士与金山网盾产生冲突的实例</text>
+		<text pos="-108,55" class="linktext" href="http://bbs.duba.net/thread-22201440-1-2.html">查看详情>></text>
+		<hr pos="20,80,-20,80" crbg="A3BAD2"/>
+		<img pos="37,95" skin="kwsswitchinstalldlgicon" />
+		<text pos="61,97" class="kwsswitchdlgGrayFont">金山网盾是广受欢迎的上网保护工具，独有的四层防护从源头抑制病毒的入侵，首创的</text>
+		<text pos="35,115" class="kwsswitchdlgGrayFont">网址云鉴定可以预先识别钓鱼网址，保您安心网购不受骗。此外，浏览器修复首度与金山云</text>
+		<text pos="35,133" class="kwsswitchdlgGrayFont">查杀相结合，强力修复浏览器及多类系统异常</text>
+		<text pos="-108,133" class="linktext" href="http://www.duba.net/wangdun/">查看详情>></text>		
+		<radio id="500" group="operation" pos="35,-80,268,-64">卸载360安全卫士，继续安装金山网盾</radio>
+		<radio id="501" group="operation" pos="35,-56,216,-40">忽略风险，继续安装金山网盾</radio>
+		<button id="101" class="normalbtn" pos="-125,-38,-45,-10">确 定</button>
+	</body>
+</layer>

@@ -1,0 +1,44 @@
+﻿<layer title="信任文件列表" width=500 height=450>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 白名单信任列表</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=3>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,20" >
+            <img pos="0,0" skin=stat15 sub=3/><text pos="20,1">您可以添加信任的文件、网址、系统修复项，添加后将不会被扫描。</text>
+        </dlg>
+        <dlg pos="10,35,-10,-0">
+            <dlg pos="0,0,-0,-0" class=client id="110" show="1">
+                <text pos="0,0">正在加载信任文件列表...</text>
+            </dlg>
+			<dlg pos="0,0,-0,-0" id="106" show=0>
+				<tabctrl id="113" cursel="0" tabpos="9" tabwidth="100" frameskin="panel" tabskin="tab" tabspacing="5" framepos="-1" pos="0,2,-0,-42">
+					<tab title="信任文件" width="full" height="full" >
+						<dlg pos="0,0,-0,-0" id="106" >
+							<realwnd pos="1,1,-1,-1" ctrlid=100 id=100 />
+						</dlg>
+					</tab>
+					<tab title="信任网址" width="full" height="full" >
+						<dlg pos="0,0,-0,-0" id="107">
+								<realwnd pos="1,1,-1,-1" ctrlid=104 id=104 />
+						</dlg>
+					</tab>
+					<tab title="信任系统修复项" width="full" height="full" >
+						<dlg pos="0,0,-0,-0" >
+								<realwnd pos="1,1,-1,-1" ctrlid=112 id=112 />
+						</dlg>
+					</tab>
+				</tabctrl>
+				<button id=102 pos="-90,-34,-0,-8" class=normalbtn show="1">添加信任文件</button>
+				<dlg pos="0,-40,-0,-0" show="0" id="114">
+					<text pos="0,15">输入需添加为信任的网址：</text>
+					<dlg pos="150,9,-100,-8" class=panel id="109" >
+						<realwnd ctrlid=108 id=108 pos="2,4,-2,-2"/>
+					</dlg>
+					<button id=105 pos="-90,6,-0,-8" class=normalbtn>添加信任网址</button>
+				</dlg>
+            </dlg>
+         </dlg>
+    </body>
+</layer>

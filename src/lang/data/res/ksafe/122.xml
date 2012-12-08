@@ -1,0 +1,14 @@
+﻿<layer width=390 height=160>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 云安全中心</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <button id=100 pos="|-90,10,|-10,-10" class=normalbtn>立即上报</button>
+        <button id=2 pos="|10,10,|90,-10" class=normalbtn>关闭</button>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <icon pos="20,20" src="32514" oem="1" size="32"/>
+		<richtext id=101 pos="70,20,-10,60" class=richtext linkclass=linktext/>
+		<check id=128 pos="70,65">加入云安全计划，自动上传到云安全服务器以作分析</check>
+    </body>
+</layer>

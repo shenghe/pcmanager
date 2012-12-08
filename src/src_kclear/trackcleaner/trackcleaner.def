@@ -1,0 +1,4 @@
+LIBRARY	"trackcleaner"
+
+EXPORTS
+    CreateCleanMgrObject	PRIVATE

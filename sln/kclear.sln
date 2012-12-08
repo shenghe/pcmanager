@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kclear", "..\src\src_kclear\kclear\kclear.vcproj", "{79C243E0-0E85-435E-937A-2BF73320C08D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "regcleaner", "..\src\src_kclear\regcleaner\regcleaner.vcproj", "{7D1EDE0D-689F-498F-9A1A-9B5B0405E43B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{79C243E0-0E85-435E-937A-2BF73320C08D} = {79C243E0-0E85-435E-937A-2BF73320C08D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trackcleaner", "..\src\src_kclear\trackcleaner\trackcleaner.vcproj", "{7F875748-EACE-4DFB-BC24-87C6A8AD9EAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fcache", "..\src\src_kclear\fcache\fcache.vcproj", "{453245D1-E9C7-428B-8CEE-12872B88829C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79C243E0-0E85-435E-937A-2BF73320C08D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79C243E0-0E85-435E-937A-2BF73320C08D}.Debug|Win32.Build.0 = Debug|Win32
+		{79C243E0-0E85-435E-937A-2BF73320C08D}.Release|Win32.ActiveCfg = Release|Win32
+		{79C243E0-0E85-435E-937A-2BF73320C08D}.Release|Win32.Build.0 = Release|Win32
+		{7D1EDE0D-689F-498F-9A1A-9B5B0405E43B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D1EDE0D-689F-498F-9A1A-9B5B0405E43B}.Debug|Win32.Build.0 = Debug|Win32
+		{7D1EDE0D-689F-498F-9A1A-9B5B0405E43B}.Release|Win32.ActiveCfg = Release|Win32
+		{7D1EDE0D-689F-498F-9A1A-9B5B0405E43B}.Release|Win32.Build.0 = Release|Win32
+		{7F875748-EACE-4DFB-BC24-87C6A8AD9EAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F875748-EACE-4DFB-BC24-87C6A8AD9EAE}.Debug|Win32.Build.0 = Debug|Win32
+		{7F875748-EACE-4DFB-BC24-87C6A8AD9EAE}.Release|Win32.ActiveCfg = Release|Win32
+		{7F875748-EACE-4DFB-BC24-87C6A8AD9EAE}.Release|Win32.Build.0 = Release|Win32
+		{453245D1-E9C7-428B-8CEE-12872B88829C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{453245D1-E9C7-428B-8CEE-12872B88829C}.Debug|Win32.Build.0 = Debug|Win32
+		{453245D1-E9C7-428B-8CEE-12872B88829C}.Release|Win32.ActiveCfg = Release|Win32
+		{453245D1-E9C7-428B-8CEE-12872B88829C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

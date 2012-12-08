@@ -1,0 +1,287 @@
+﻿<layer title="设置" width=650 height=500>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 设置</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <dlg pos="10,10,-10,-10">
+            <button id="1" pos="-170,0,-90,-0" class="normalbtn">确定</button>
+            <button id="2" pos="-80,0,-0,-0" class="normalbtn">取消</button>
+        </dlg>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,-0">
+            <dlg pos="0,0,-0,-0" class=panel>
+                <dlg pos="0,0,10,-0" crbg=D6EBFE/>
+                <tabctrl id=100 tabwidth=131 tabalign=left tabheight=37 tabskin=tableft splitterskin=tableftsplitter tabspacing=20 tabpos=20 framepos=10 pos="10,0,-0,-0" text-x=-10 crbg=D6EBFE>
+                    <tab title="综合设置" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg1 pos="0,0,-10,100">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">开机启动</text>
+                                <check id=101 pos="20,30">开机后自动启动%str1%，阻止木马入侵，提高系统安全性</check>
+                                <text id=200 crtext="ff0000" pos="35,60" show="0">若不选中此项，则系统不会全程受保护，有危险</text>
+                                <text id="201" crtext="ff0000" pos="35,60" show="0">“实时保护”没有全部开启，不能有效阻止木马入侵</text>
+                                <text id="202" pos="315,60" class="linktext" show="0">立即全部开启</text>
+                            </dlg1>
+                            <dlg pos="0,0,-10,110">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">电脑体检</text>
+                            <!-- <check id=102 pos="20,30" group="exam_method">开机进入 Windows 后自动体检</check> -->
+                                <radio id="205" pos="20,30" group="exam_method">每天第一次打开%str1%主界面后自动体检（推荐）</radio>
+                                <radio id="103" pos="20,55" group="exam_method">每次打开%str1%主界面后自动体检</radio>
+                                <radio id="206" pos="20,80" group="exam_method">手动体检</radio>
+                            </dlg>
+                            <dlg pos="0,110,-10,190">
+                            <hr pos="0,6,-0,6" class="settingline"/>
+                            <text class="settingsubtitle" pos="0,0">升级方式</text>
+                            <radio id="203" pos="20,30" group="update_method">自动升级到最新版本</radio>
+                            <radio id="204" pos="20,55" group="update_method">有新版本文件时，询问是否升级（推荐）</radio>
+                          </dlg>
+                          <dlg pos="0,195,-10,245">
+                            <hr pos="0,6,-0,6" class="settingline"/>
+                            <text class="settingsubtitle" pos="0,0">代理设置</text>
+                            <check id="520" pos="20,30">使用代理服务器</check>
+                            <text id="521" pos="-100,30" class="linktext">自定义代理服务器</text>
+                          </dlg>
+                          <dlg pos="0,255,-10,335">
+                            <hr pos="0,6,-0,6" class="settingline"/>
+                            <text class="settingsubtitle" pos="0,0">免打扰模式</text>
+                            <check id="116" pos="20,30">在全屏或者游戏时，自动进入免打扰模式</check>
+                            <text id="129" pos="-100,30" class="linktext">什么是免打扰模式</text>
+                            <check id="127" pos="20,55">不提示安全的注册表关键位置修改</check>
+                            <!-- text pos="36,90">检测到安全的注册表关键位置修改时，允许修改，不弹出拦截窗口。</text> -->
+                          </dlg>
+                          <dlg pos="0,340,-10,480">
+                            <hr pos="0,6,-0,6" class="settingline"/>
+                            <text class="settingsubtitle" pos="0,0">开机启动设置</text>
+                            <check id="132" pos="20,25">开机时自动保护电脑（推荐开启，如取消将可能导致系统失去安全保护）</check>
+                          </dlg>
+                        </dlg>
+                    </tab>
+                    <tab title="查杀木马" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg pos="0,0,-10,80">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">云安全计划</text>
+                                <check id=104 pos="20,30">加入云安全计划，发现可疑文件后，自动上传到云安全服务器以作分析</check>
+                                <text pos="36,60">此操作不会侵犯您的隐私，请放心使用</text>
+                                <text pos="250,60" class=linktext href="http://www.ijinshan.com/safe/yun_intro.html?fr=client">了解更多</text>
+                            </dlg>
+							<dlg pos="0,100,-10,160">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">查杀策略</text>
+                                <check id=211 pos="20,30">在快速扫描中发现病毒后自动进行深度扫描，彻底杀毒</check>                                
+                            </dlg>
+                            <dlg pos="0,170,-10,270">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">发现木马程序后</text>
+                                <radio id=108 group=setting_scan_operation pos="20,30">自动清除并修复（可通过查杀历史记录进行还原）</radio><text id=110 pos="308,30" class=linktext>打开查杀历史记录</text>
+                                <radio id=109 group=setting_scan_operation pos="20,60">提示用户处理</radio>
+                            </dlg>
+                            <dlg pos="0,270,-10,330">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">设置白名单</text>
+                                <text pos="36,30">白名单信任列表的文件或者网址在扫描时将会被直接跳过</text>
+                                <text id=207 pos="348,30" class=linktext>设置白名单</text>
+                            </dlg>
+                        </dlg>
+                    </tab>
+                    <tab title="修复漏洞" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg pos="0,0,-10,180">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">补丁保存设置</text>
+                                <text pos="20,30">补丁文件存放路径：</text>
+                                <dlg pos="20,50,270,70" class=panel><realwnd id=111 ctrlid=111 pos="2,2,-2,-2"/></dlg>
+                                <button id=112 class=normalbtn pos="280,50,340,70">选择目录</button><button id=113 class=normalbtn pos="350,50,410,70">打开目录</button>
+                                <radio id=125 group=gp_vulsave pos="20,90">不保存补丁安装源文件，在下次修复时删除补丁包。</radio>
+                                <radio id=126 group=gp_vulsave pos="20,110">保存补丁安装源文件，多用于局域网统一修复补丁。</radio>
+                                <dlg id=124 pos="35,130,-0,180" show="0">
+                                    <text pos="0,0">已下载的补丁当前占用空间：</text>
+                                    <text id=105 pos="160,0">0M</text>
+                                    <text pos="270,0" id=115 class=linktext>立即删除</text>
+                                </dlg>
+                            </dlg>
+							<dlg pos="0,170,-10,-0">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">补丁下载设置</text>
+								<radio id=1200 group=gp_vuldown pos="20,30">从微软官方下载补丁包，进行安装</radio>
+								<radio id=1201 group=gp_vuldown pos="20,50">从指定的网络路径或本机目录下载补丁包</radio>
+								<dlg pos="40,70,-80,90" class=panel>
+									<realwnd id=1250 ctrlid=1250 pos="2,2,-2,-2"/>
+								</dlg>
+								<button id=1203 class=normalbtn pos="-70,70,-10,90">选择目录</button>																	
+								<check id=1204 pos="40,100">若补丁不存在，直接从微软官方继续下载</check>
+                            </dlg>
+							
+                        </dlg>
+                    </tab>
+                  <!--
+                    <tab title="免打扰设置" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg pos="0,0,-10,260">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">免打扰模式设置</text>
+                                <check id=116 pos="20,30">在全屏或者游戏时，自动进入免打扰模式</check>
+                                <text pos="36,60">免打扰模式下，不弹出提示窗口，同时，对于被拦截到的行为：</text>
+                                <text pos="36,80">1、如果不是第一次发现（有过阻止或允许），则沿用上次操作</text>
+                                <text pos="36,100">2、如果是第一次发现，则使用默认操作：</text>
+                                <text pos="54,120">√ 发现木马程序时，默认阻止</text>
+                                <text pos="54,140">√ 发现未知操作时，默认允许</text>
+                                <text pos="54,160">√ 发现安全操作时，默认允许</text>
+								<check id=127 pos="20,190">不提示安全的关键位置修改</check>
+								<text pos="36,220">检测到安全的注册表关键位置修改时，允许修改，不弹出拦截窗口。</text>
+                            </dlg>
+                        </dlg>
+                    </tab>
+                    -->
+                  <tab title="系统优化" width="full" height="full">
+                    <dlg pos="0,0,-0,-0" class="settingpage">
+                      <dlg pos="0,0,-10,260">
+                        <hr pos="0,6,-0,6" class="settingline"/>
+                        <text class="settingsubtitle" pos="0,0">开机提示设置</text>
+                        <dlg pos="40,20,-0,-0" >
+                          <dlg pos="0,0,-0,-0">
+                            <radio id="3" group="boottime_setting" pos="10,5">仅在以下特定场景下提示</radio>
+                            <check id="4" pos="30,30">每次使用过“开机加速”后第一次开机时提示</check>
+                            <check id="5" pos="30,55">开机速度较慢时提示</check>
+                            <radio id="6" group="boottime_setting" pos="10,85">每次开机都提示开机时间（推荐）</radio>
+                            <radio id="7" group="boottime_setting" pos="10,110">不进行开机时间提示</radio>
+                          </dlg>
+                        </dlg>
+                      </dlg>
+                      <!-- 
+                      <dlg pos="0,180,-10,260">
+                                              <hr pos="0,6,-0,6" class="settingline"/>
+                                              <text class="settingsubtitle" pos="0,0">流量监控显示</text>
+                                              <check id ="517" pos="50,25">桌面显示流量监控悬浮窗</check>
+                                              <text pos="66,55" crtext="6d6d6d">流量监控悬浮窗在桌面的右下角显示，用以实时查看当前网络流量</text>
+                                              <img id ="518" pos="66,85" skin="netflowcontrol"  show ="0" sub="0"/>
+                                              <img id ="519" pos="66,85" skin="netflowcontrol2" show ="0" sub="1"/>
+                                            </dlg> -->
+
+						<dlg pos="0,155,-0,220">
+							<hr pos="0,5,-10,5" class="settingline"/>
+							<text class="settingsubtitle" pos="0,0">流量统计提醒设置</text>
+
+							<dlg id="530" pos="0,20,-10,40">
+								<check id="531" pos="50,5">当日网络总流量超过</check>
+								<dlg pos="180,0,230,20" class="panel" id="532">
+									<realwnd id="533" ctrlid="533" pos="1,1,-1,-1"/>
+								</dlg>
+								<text id="534" pos="235,5">MB 时提醒我</text>
+								<text id="540" pos="305,5">（请输入1~99999的整数）</text>
+							</dlg>
+
+							<dlg id="535" pos="0,50,-10,70">
+								<check id="536" pos="50,5">当月网络总流量超过</check>
+								<dlg pos="180,0,230,20" class="panel" id="537">
+									<realwnd id="538" ctrlid="538" pos="1,1,-1,-1"/>
+								</dlg>
+								<text id="539" pos="235,5">MB 时提醒我</text>
+								<text id="541" pos="305,5">（请输入1~99999的整数）</text>
+							</dlg>
+						</dlg>
+						
+						<dlg pos="0,230,-10,-0">
+							<hr pos="0,6,-0,6" class="settingline"/>
+							<text class="settingsubtitle" pos="0,0">悬浮窗显示设置</text>
+							<text pos="51,25" crtext1="6d6d6d">金山卫士悬浮窗在桌面的右下角显示，用以实时查看相关的系统信息</text>
+							<check id ="519" pos="50,50">桌面显示金山卫士悬浮窗</check>
+							<check id ="517" pos="70,70">显示流量监控信息(查看网络上传下载情况)</check>
+							<check id ="518" pos="70,90">显示性能监控信息(查看系统CPU、内存占用情况)</check>
+<!-- 
+							<text class="settingsubtitle" pos="0,0">悬浮窗显示设置</text>
+							<check id ="517" pos="50,25">桌面显示流量监控悬浮窗</check>
+							<text pos="66,55" crtext="6d6d6d">流量监控悬浮窗在桌面的右下角显示，用以实时查看当前网络流量</text>
+							<img id ="518" pos="66,85" skin="netflowcontrol"  show ="0" sub="0"/>
+							<img id ="519" pos="66,85" skin="netflowcontrol2" show ="0" sub="1"/>
+ -->
+						</dlg>
+						
+						<dlg pos="0,345,-10,-0">
+							<hr pos="0,6,-0,6" class="settingline"/>
+							<text class="settingsubtitle" pos="0,0">一键加速范围设置</text>
+							<check id ="542" pos="50,25">关闭长时间未看、已卡死的桌面窗口，释放系统资源</check>
+							
+						</dlg>
+						<!--
+														<hr pos="0,310,-10,310" class="settingline"/>
+							<text class="settingsubtitle" pos="0,304">流量统计提醒设置</text>
+
+							<dlg id="530" pos="0,330,-10,360">
+								<check id="531" pos="50,5">当日网络总流量超过</check>
+								<dlg pos="180,0,230,20" class="panel" id="532">
+									<realwnd id="533" ctrlid="533" pos="1,1,-1,-1"/>
+								</dlg>
+								<text id="534" pos="235,5">MB 时提醒我</text>
+								<text id="540" pos="305,5">（请输入1~99999的整数）</text>
+							</dlg>
+
+							<dlg id="535" pos="0,360,-10,390">
+								<check id="536" pos="50,5">当月网络总流量超过</check>
+								<dlg pos="180,0,230,20" class="panel" id="537">
+									<realwnd id="538" ctrlid="538" pos="1,1,-1,-1"/>
+								</dlg>
+								<text id="539" pos="235,5">MB 时提醒我</text>
+								<text id="541" pos="305,5">（请输入1~99999的整数）</text>
+							</dlg>
+							   -->
+                      
+                    </dlg>
+                  </tab>
+                  <tab title="上网保护" width="full" height="full">
+                    <dlg pos="0,0,-0,-0" class="settingpage">
+                      <dlg pos="0,0,-10,100">
+                        <hr pos="0,6,-0,6" class="settingline"/>
+                        <text class="settingsubtitle" pos="0,0">自定义浏览器设置</text>
+                        <text pos="30,35">您可在列表中新增网盾未保护的浏览器</text>
+                        <text id="512" class="linktext" pos="-140,35">添加需要保护的浏览器</text>
+                        <!--
+                        <text pos="30,50">查看您电脑中浏览网站时拦截的危险网站</text>
+                        <text id="513" class="linktext" pos="-140,50">打开拦截历史记录</text>                        
+                        <text pos="30,25">您可以设置广告过滤的自定义规则，支持模糊匹配，您定义的规则还</text>
+                        <text pos="30,50">可能分享给更多的用户订阅</text>
+                        <text id="450" class="linktext" pos="-140,50">自定义广告过滤规则</text> -->                       
+                      </dlg>
+                      <dlg pos="0,80,-10,260">
+                        <hr pos="0,6,-0,6" class="settingline"/>
+                        <text class="settingsubtitle" pos="0,0">广告过滤</text>
+                        <check id ="506" pos="30,25">开启广告过滤提示条</check>
+                        <text pos="46,50">随时了解广告过滤信息，并可对网址广告过滤进行快捷设置</text>
+                        <check id ="507" pos="30,75">开启广告过滤日志</check>
+                        <text pos="46,100">记录在浏览网页时广告过滤功能为您过滤广告日志</text>
+                        <text pos="30,125">您不想过滤某个网站的广告，可以将网址添加到白名单列表</text>
+                        <text id="500" class="linktext" pos="-120,125">广告过滤白名单</text>
+                        <!---
+                        <text pos="30,150">您可以设置广告过滤的自定义规则，支持模糊匹配</text>
+                        <text id="450" class="linktext" pos="-140,150">自定义广告过滤规则</text>
+                        -->
+                      </dlg>
+                      <dlg pos="0,260,-10,390">
+                        <hr pos="0,6,-0,6" class="settingline"/>
+                        <text class="settingsubtitle" pos="0,0">下载保护</text>
+                        <!-- <check id ="508" pos="30,25">启用下载保护监控</check> -->
+                        <check id ="509" pos="30,25">自动清除在下载文件中发现的病毒木马</check>
+                        <check id ="510" pos="30,50">扫描结果为安全时不再提示</check>
+                        <check id ="511" pos="30,75">扫描结果为未知时不再提示，自动提交云安全分析任务</check>                        
+                      </dlg>
+                    </dlg>
+                  </tab>
+                  <tab title="软件管理" width="full" height="full">
+                    <dlgfile pos="0,0,-0,-0" src="603" />
+                  </tab>
+					<!--
+                    <tab title="修复 IE" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg pos="0,0,-10,260">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">一键修复</text>
+                                <text pos="20,30">“清除其他程序添加到 IE 中的危险项”，包括如下内容：</text>
+                                <check id=117 pos="40,60">清除右键菜单中的危险项</check>
+                                <check id=118 pos="40,90">清除工具栏图标中的危险项</check>
+                                <check id=119 pos="40,120">清除工具条中的危险项</check>
+                                <check id=120 pos="40,150">清除插件（BHO插件、ActiveX 控件）中的危险项</check>
+                                <check id=121 pos="40,180">清除受信任网站中的危险项</check>
+                                <check id=122 pos="40,210">清除网络协议中的危险项</check>
+                                <check id=123 pos="40,240">清除搜索引擎中的危险项</check>
+                            </dlg>
+                        </dlg>
+                    </tab>
+					-->
+                </tabctrl>
+            </dlg>
+        </dlg>
+    </body>
+</layer>
+

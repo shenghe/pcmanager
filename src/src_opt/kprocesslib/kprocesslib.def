@@ -1,0 +1,7 @@
+LIBRARY	"kproclib"
+
+
+EXPORTS
+a=pxGetProcessLibQuery
+b=pxFreeProcessLibQuery
+CreateUpdateHelper

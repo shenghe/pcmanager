@@ -1,0 +1,26 @@
+﻿<layer width="400" height="285" appwin="0" noborder="1">
+  <header width="full" height="80">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closebtn_red" pos="-40,0"/>
+      <img id="60009" skin="header_title_safe_down_red" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1060" pos="0,0,-0,-0" font="0404" class="textmode_title">您下载的文件包含木马，建议立即清除！</text>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_red" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <dlg class="panel_gray" pos="0,0,-8,-43">
+          <realwnd id="1061" ctrlid="1061" font="0000" crtext="333333" pos="8,0,-0,-0"/>
+        </dlg>         
+        <button id="60004" class="normalbtn_gray" pos="-168,-33,-98,-10">立即清除</button>
+        <button id="60005" class="normalbtn_gray" pos="-91,-33,-11,-10">暂不处理</button>        
+      </dlg>
+    </dlg>
+  </body>
+</layer>

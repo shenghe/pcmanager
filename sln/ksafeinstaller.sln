@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "knsddownloader", "..\src\ksafeinstaller\conewdownload.vcproj", "{D4A7F431-C65F-45EA-80B5-54434AB983EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_conew|Win32 = Debug_conew|Win32
+		Debug_dbweb|Win32 = Debug_dbweb|Win32
+		Debug_osok|Win32 = Debug_osok|Win32
+		Debug_wps|Win32 = Debug_wps|Win32
+		Debug|Win32 = Debug|Win32
+		Dubug_lib|Win32 = Dubug_lib|Win32
+		Release_beike|Win32 = Release_beike|Win32
+		Release_conew|Win32 = Release_conew|Win32
+		Release_dbweb|Win32 = Release_dbweb|Win32
+		Release_lib|Win32 = Release_lib|Win32
+		Release_osok|Win32 = Release_osok|Win32
+		Release_wdweb|Win32 = Release_wdweb|Win32
+		Release_wps|Win32 = Release_wps|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug_conew|Win32.ActiveCfg = Debug_conew|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug_conew|Win32.Build.0 = Debug_conew|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug_dbweb|Win32.ActiveCfg = Debug_dbweb|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug_dbweb|Win32.Build.0 = Debug_dbweb|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug_osok|Win32.ActiveCfg = Debug_osok|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug_osok|Win32.Build.0 = Debug_osok|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug_wps|Win32.ActiveCfg = Debug_wps|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug_wps|Win32.Build.0 = Debug_wps|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Debug|Win32.Build.0 = Debug|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Dubug_lib|Win32.ActiveCfg = Debug_wps|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Dubug_lib|Win32.Build.0 = Debug_wps|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_beike|Win32.ActiveCfg = Release_beike|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_beike|Win32.Build.0 = Release_beike|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_conew|Win32.ActiveCfg = Release_conew|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_conew|Win32.Build.0 = Release_conew|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_dbweb|Win32.ActiveCfg = Release_dbweb|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_dbweb|Win32.Build.0 = Release_dbweb|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_lib|Win32.ActiveCfg = Release_beike|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_lib|Win32.Build.0 = Release_beike|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_osok|Win32.ActiveCfg = Release_osok|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_osok|Win32.Build.0 = Release_osok|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_wdweb|Win32.ActiveCfg = Release_wdweb|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_wdweb|Win32.Build.0 = Release_wdweb|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_wps|Win32.ActiveCfg = Release_wps|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release_wps|Win32.Build.0 = Release_wps|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release|Win32.ActiveCfg = Release|Win32
+		{D4A7F431-C65F-45EA-80B5-54434AB983EA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

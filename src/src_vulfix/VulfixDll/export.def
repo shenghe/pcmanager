@@ -1,0 +1,11 @@
+LIBRARY	"ksafevul"
+
+EXPORTS
+   CreateObject
+   CreateObjectEx
+   CreateUpdateHelper
+   ExpressScanLeak
+   CreateVulFix
+   CreateVulFixed
+   CreateSoftVulFix
+   CreateRepairVul

@@ -1,0 +1,6 @@
+LIBRARY	"ksafedb"
+
+EXPORTS
+	BKDbInitialize
+	BKDbUninitialize
+	BKDbCreateObject

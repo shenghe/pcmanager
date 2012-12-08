@@ -1,0 +1,21 @@
+<style>
+<class name="mainhead" skin="mainbghead" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="mainbody" skin="mainbgbody" font="0000" crtext="000000" crbg="FFFFFF" />
+<class name="mainfoot" skin="mainbgfoot" font="0000" crtext="000000" crbg="FFFFFF"/>
+<class name="linkimage" cursor="hand"/>
+<class name="clientbody" font="0000" crtext="000000" crbg="FFFFFF" />
+<class name="textblue" font="0000" crtext="006299"  />
+<class name="linktext" font="0002" crtext="3064A5" crhover="3064A5" cursor="hand"/>
+<class name="msgboxhead" skin="msgboxhead" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="msgboxbody" skin="msgboxbody" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="msgboxfoot" skin="msgboxfoot" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="dlgtitle" font="0004" crtext="FFFFFF"/>
+<class name="linkimage" cursor="hand"/>
+<class name="client" margin="10"/>
+<class name="normalbtn" skin="normalbtn" font="0000" crtext="000000" textmode="25" cursor="hand" x-margin="5"/>
+<class name="msgtext" font="0000" crtext="000000" textmode="850"/>
+<class name="msgtext1" font="0000" crtext="696969" textmode="850"/>
+<class name="msgtext2" font="0004" crtext="0000CD" textmode="850"/>
+<class name="msgtext3" font="0002" crtext="0000FF" textmode="850" cursor="hand"/>
+<class name="msgtext4" font="0004" crtext="DC143C" textmode="850"/>
+</style>

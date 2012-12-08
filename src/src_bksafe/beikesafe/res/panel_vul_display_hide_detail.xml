@@ -1,0 +1,6 @@
+﻿<realwnd id=1004 ctrlid=1004 pos="0,0,-10,-0"/>
+<dlg id=1007 pos="-10,0,-0,-0" class=splitter onlydrawchild=1><img skin=splitter_arrow sub=1 pos="3,|-5"/></dlg>
+<dlg pos="-220,0,-0,-0" class=client show=0>
+	<realwnd id="1006" ctrlid="1006" pos="0,0,-0,-0"/>
+</dlg>
+

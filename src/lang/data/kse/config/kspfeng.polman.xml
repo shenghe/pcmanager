@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<kse>
+    <pfileid2pfilename>
+        <serial pol_file_id="0" pol_file="..\KEng\signs.ini"/>
+        <serial pol_file_id="1" pol_file=".\tsigns.ini"/>
+    </pfileid2pfilename>
+    <pid2pfileid>
+        <relation pol_id="0" pol_file_id="0"/>
+        <relation pol_id="1" pol_file_id="0"/>
+    </pid2pfileid>
+</kse>

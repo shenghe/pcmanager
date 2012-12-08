@@ -1,0 +1,33 @@
+﻿<layer width="600" height="400" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="107" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">百度安全卫士 - Hosts 文件有危险项</text>
+		<imgbtn id="815" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-0">  
+			<text id=839 pos="10,5,-80,20">请选择体检时要忽略的项，然后点击“体检时忽略”。不认识的项，建议删除</text>
+			<text id=808 pos="-60,5,-0,20" class="linktext" href="http://guanjia.baidu.com/help/safeguide.html#n8">了解更多</text>
+			<!--richtext id="839" pos="10,5,-80,20" class="addspace" linkclass=linktext show="1">请选择体检时要忽略的项，然后点击“体检时忽略”。不认识的项，建议删除 <a id="808" href="http://guanjia.baidu.com/help/safeguide.html#n8">了解更多</a></richtext-->
+			<dlg pos="10,30,-10,-50" class1=panel>
+				<tabctrl id="837" tabwidth="100" tabheight="30" class="tabpage" tabskin="tab" frameskin="panelgray" tabspacing="-1" tabpos="0" framepos="-2" pos="1,1,-1,-1">
+				  <tab title="hosts文件中的项" width="full" height="full" class1="client" crbg1="FFFFFF">
+					<realwnd id="816" pos="1,1,-1,-1" ctrlid="816"/>
+				  </tab>
+				  <tab title="已忽略项" width="full" height="full" class1="client" crbg1="FFFFFF">
+					<realwnd id="836" pos="0,0,-0,-0" ctrlid="836"/>
+				  </tab>
+				</tabctrl>
+			</dlg>
+			<dlg pos="0,-40,-0,-0">
+				<text id=810 class="linktext" pos="10,5">全选</text>
+				<text pos="37,5">/</text>
+				<text id=811 class="linktext" pos="45,5">全不选</text>
+				<text id=840 pos="100,5" crtext=cccccc>|</text>
+				<text id=838 pos="130,5" class="linktext">删除选中项</text>
+			</dlg>
+			<button id="812" pos="-180,-40,-100,-10" class="normalbtn">体检时忽略</button>
+			<button id="814" pos="-90,-40,-10,-10" class="normalbtn" show=1>关闭</button>
+		</dlg>
+	</body>
+</layer>

@@ -1,0 +1,7 @@
+LIBRARY	"FwProxy"
+
+EXPORTS
+KSDllGetClassObject   @1    PRIVATE
+KSDllGetClassCount    @2    PRIVATE
+KSDllGetClassInfo     @3    PRIVATE
+KSDllCanUnloadNow     @4    PRIVATE

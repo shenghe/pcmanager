@@ -1,0 +1,18 @@
+﻿<layer>
+  <header class="msgboxhead" width="full" height="40">
+    <imgbtn id="60001" class="linkimage" skin="closebtn" pos="-20,5"/>
+  </header>
+  <footer class="msgboxfoot" width="full" height="2">
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-20">
+        <icon id="60005" pos="20,10" src="32516" oem="1" size="32"/>
+        <text id="60006" pos="70,10,-0,-0" class="msgtext"/>
+        <dlg show="0" id="60016" pos="70,10,-0,-0" class="msgtext"/>
+      </dlg>
+      <check id="60007" pos="70,-15">下次不再提示</check>
+      <dlg id="60008" pos="0,0,-0,-10" class="client"/>
+    </dlg>
+  </body>
+</layer>

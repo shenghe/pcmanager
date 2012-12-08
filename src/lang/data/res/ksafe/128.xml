@@ -1,0 +1,17 @@
+<layer width="292" heigth="96">
+	<body width="full" height="full" class="panelrundelay">
+		<dlg pos="1,1,-1,-1" class="loadinfo_dlgbk">
+			<dlg pos="0,0,-0,-0">
+				<dlg pos="1,1,-1,-1">
+					<dlg pos="0,0,-0,-0" id="1">
+						<img id="4" pos="75,36" skin="loading_runopt" sub="0"/>
+						<text pos="20,0,-0,-0" class="centertext">正在加载，请稍候...</text>
+					</dlg>
+				</dlg>
+				<dlg pos="0,0,-0,-0" id="2" show="0">
+					<text id="3" pos="0,0,-0,-0" class="centertext" />
+				</dlg>
+			</dlg>
+		</dlg>
+	</body>
+</layer>

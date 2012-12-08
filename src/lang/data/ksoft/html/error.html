@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>错误页</title>
+<style>
+	body,td {font-size:12px;}
+	body {overflow:hidden}
+</style>
+
+</head>
+
+<body scroll=no oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<br/><br/><br/>
+<table width=210 align=center border=0>
+<tr>
+<td width=35 align=center><img src="images/icon_1.jpg" align="absmiddle" /></td>
+<td>网络连接失败，无法查看页面</td></tr>
+<tr>
+<td>&nbsp</td>
+<td>请检查网络连接后再试</td>
+</tr>
+</table>
+</body>
+</html>
+<script>
+function addSenToEventHandle(obj, eName, insSen){var eObj=obj[eName];var preSen=(eObj!=null)?eObj+'':'';if (preSen.indexOf(insSen)==-1){obj[eName]=new Function(preSen.replace(/^(function +[\w|\$|\.]+ *\([\w|\$|\,|\.]*\) *\{)([\W|\w]*)(\})$/, '$2').replace(/^\s*/g, '') + insSen)}}
+
+function nocontextmenu()
+{
+	event.cancelBubble=true;
+	event.returnValue=false;
+	return false;
+}
+
+function norightclick(e)
+{
+	if(event.button!=1)
+	{
+		event.cancelBubble=true;
+		event.returnValue=false;
+		return false;
+	}
+}
+
+function disabledOnKeyDown()
+{
+	if ((event.keyCode==78 && event.ctrlKey)||(event.altKey)||((event.keyCode==8)&&(event.srcElement.type!="text"&&event.srcElement.type!="textarea"&&event.srcElement.type!="password"))||((event.ctrlKey)&&((event.keyCode==78)||(event.keyCode==82)))||(event.keyCode==116))
+	{
+		alert()
+		event.keyCode=0;
+		event.returnValue=false;
+	}
+}
+
+function disabledKeys()
+{
+	document.oncontextmenu = nocontextmenu;
+	document.onmousedown = norightclick;
+	addSenToEventHandle(window, "onkeydown", "disabledOnKeyDown();");
+}
+
+disabledKeys();
+</script>

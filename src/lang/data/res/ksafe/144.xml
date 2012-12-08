@@ -1,0 +1,21 @@
+﻿<layer width="400" height="260" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="107" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">百度安全卫士 - Guest 账户设置</text>
+		<imgbtn id="815" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-0">  
+			<text pos="20,20,-0,35">当前设置允许未经您授权的用户访问本机共享文件，系统有风险。</text>
+			<dlg pos="10,40,-10,-50" class=panel>
+				<text pos="10,10">您希望如何处理这个问题：</text>
+				<radio id="833" pos="30,40" group="guest_method">修复（推荐）</radio>
+				<radio id="834" pos="30,65" group="guest_method">体检时忽略，以后不再检测此项</radio>
+				<radio id="835" pos="30,90" group="guest_method">不处理，下次继续检测此项</radio>
+			</dlg>
+			<button id=812 pos="-180,-40,-100,-10" class="normalbtn">确定</button>
+			<button id=814 pos="-90,-40,-10,-10" class="normalbtn">关闭</button>
+			<text id=808 pos="13,-30" class="linktext" href="http://guanjia.baidu.com/help/safeguide.html#n7">了解更多</text>
+		</dlg>
+	</body>
+</layer>

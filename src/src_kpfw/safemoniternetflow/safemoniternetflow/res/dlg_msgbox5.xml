@@ -1,0 +1,16 @@
+<layer width="386" height="155" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士-流量监控</text>
+		<imgbtn id="1005" class="linkimage" skin="closebtn" pos="-45,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,138">
+			<icon id="60005" pos="30,20" src="32514" oem="1" size="32"/>
+			<richtext id="1003" pos="80,30,-2,50" class="addspace">是否要限制程序<b><c color=C80000>KSafe.exe</c></b>访问网络？</richtext>
+			<check id="1004" pos="80,55">记住设置，自动禁止相同程序访问网络</check>
+			<button id="1001" pos="110,85,190,110" class="normalbtn">确定</button>
+			<button id="1002" pos="200,85,280,110" class="normalbtn">取消</button>
+		</dlg>
+	</body>
+</layer>

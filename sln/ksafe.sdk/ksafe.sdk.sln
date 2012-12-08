@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksafesdk", "..\..\src_sdk\ksafesdk\ksafesdk.vcproj", "{0497B0B9-2FC4-44E0-A234-351D5C634F74}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ksafesdk_example", "..\..\src_sdk\ksafesdk_example\ksafesdk_example.vcproj", "{27FC6865-F60B-4732-BC5B-D870A79C7699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0497B0B9-2FC4-44E0-A234-351D5C634F74}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0497B0B9-2FC4-44E0-A234-351D5C634F74}.Debug|Win32.Build.0 = Debug|Win32
+		{0497B0B9-2FC4-44E0-A234-351D5C634F74}.Release|Win32.ActiveCfg = Release|Win32
+		{0497B0B9-2FC4-44E0-A234-351D5C634F74}.Release|Win32.Build.0 = Release|Win32
+		{27FC6865-F60B-4732-BC5B-D870A79C7699}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27FC6865-F60B-4732-BC5B-D870A79C7699}.Debug|Win32.Build.0 = Debug|Win32
+		{27FC6865-F60B-4732-BC5B-D870A79C7699}.Release|Win32.ActiveCfg = Release|Win32
+		{27FC6865-F60B-4732-BC5B-D870A79C7699}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

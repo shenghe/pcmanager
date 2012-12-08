@@ -1,0 +1,4 @@
+LIBRARY	"netstat"
+EXPORTS
+					DllGetClassObject				PRIVATE
+					DllCanUnloadNow					PRIVATE

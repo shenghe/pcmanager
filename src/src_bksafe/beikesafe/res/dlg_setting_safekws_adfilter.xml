@@ -1,0 +1,25 @@
+﻿<layer title="广告过滤白名单" width=500 height=570>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">金山卫士 - 广告过滤白名单</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=2>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+      <dlg pos="2,0,-2,-0">
+      	<dlg pos="8,8,-8,-8">
+          <text pos="10,13" class="boldtext" crtext="3064A5">假如您不想过滤某个网站的广告，可以将它的网址加到下面列表中：</text>
+          <dlg pos="10,43,-100,63" class="panel">
+            <realwnd id="502" ctrlid="" pos="1,1,-1,-1"/>
+          </dlg>
+          <button id="505" class="normalbtn" pos="-80,43,-10,63">添加</button>
+          <dlg pos="10,80,-10,-40" class="panel">
+            <realwnd id="501" ctrlid="502" pos="1,1,-1,-1"/>
+          </dlg>
+          <text id="503" class="linktext" pos="15,-25">删除</text>
+          <text id="504" class="linktext" pos="55,-25">删除全部</text>
+          <text id="" pos="310,-25" crtext="ff9900">目前只对IE浏览器生效</text>
+        </dlg>
+      </dlg>
+    </body>
+</layer>
+

@@ -1,0 +1,27 @@
+﻿<layer width="290" height="320" resize="0" appwin="0" noborder="1">
+  <header width="full" height="68">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+      <img id="60009" skin="header_title_sec_red" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <richtext id="1501" pos="45,7,-0,-0" defaultfont="0204" ></richtext>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_red" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <dlg class="panel_red" pos="5,0,-5,-55">
+          <realwnd id="201" ctrlid="201" pos="0,0,-0,-0" />
+        </dlg>
+        <text pos="5,-48" >为防止木马入侵，建议立即修复所有高危漏洞</text>
+        <button id="60004" class="normalbtn_gray" pos="-160,-30,-90,-5" >立即修复</button>
+        <button id="60005" class="normalbtn_gray" pos="-75,-30,-5,-5" >暂不修复</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

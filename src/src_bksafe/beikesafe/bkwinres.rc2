@@ -1,0 +1,479 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// XML
+
+DEFINE_XML(IDR_BK_SKIN_DEF,								100, 					"res\\def_skin.xml")
+DEFINE_XML(IDR_BK_STYLE_DEF,							101, 					"res\\def_style.xml")
+DEFINE_XML(IDR_BK_STRING_DEF,							102, 					"res\\def_string.xml")
+DEFINE_XML(IDR_BK_MAIN_DIALOG,							103, 					"res\\dlg_main.xml")
+DEFINE_XML(IDR_BK_PLUG_DETAIL_DLG,				  		104, 					"res\\dlg_plug_detail.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX,							105, 					"res\\dlg_msgbox.xml")
+DEFINE_XML(IDR_BK_FOLDER_BROWSE_DLG,        			106, 					"res\\dlg_folderbrowse.xml")
+DEFINE_XML(IDR_BK_VIRSCAN_LOG_DLG,          			107, 					"res\\dlg_virscan_log.xml")
+DEFINE_XML(IDR_BK_QUARANTINE_DLG,           			108, 					"res\\dlg_quarantine.xml")
+DEFINE_XML(IDR_BK_PLUG_UPLOAD_DLG,          			109, 					"res\\dlg_plug_upload.xml")
+DEFINE_XML(IDR_BK_PLUG_LOG_DLG,							110, 					"res\\dlg_plug_viewlog.xml")
+DEFINE_XML(IDR_BK_PLUG_RPTQQ_DLG,						111, 					"res\\dlg_plug_rptQQ.xml")
+DEFINE_XML(IDR_BK_VULDLG_MAIN,              			112, 					"res\\dlg_vul_main_new.xml")
+/*
+DEFINE_XML(IDR_BK_VULDLG_INSTALLED,         			113, 					"res\\dlg_vul_Installed.xml")
+DEFINE_XML(IDR_BK_VULDLG_IGNORED,           			114, 					"res\\dlg_vul_Ignored.xml")
+DEFINE_XML(IDR_BK_VULDLG_OPTION,            			115, 					"res\\dlg_vul_Option.xml")
+DEFINE_XML(IDR_BK_VULDLG_SUPERSEDED,        			116, 					"res\\dlg_vul_Superseded.xml")
+*/
+DEFINE_XML(IDR_BK_VULDLG_DETAIL,						117, 					"res\\dlg_vul_Detail.xml")
+DEFINE_XML(IDR_BK_VUL_DISPLAY_SHOW_DETAIL,  			118, 					"res\\panel_vul_display_show_detail.xml")
+DEFINE_XML(IDR_BK_VUL_DISPLAY_HIDE_DETAIL,  			119, 					"res\\panel_vul_display_hide_detail.xml")
+DEFINE_XML(IDR_BK_SETTING_DLG,              			120, 					"res\\dlg_setting.xml")
+DEFINE_XML(IDR_BK_ECHO_FAIL_DLG,            			121, 					"res\\dlg_echofail.xml")
+DEFINE_XML(IDR_BK_FOUND_UNKNOWN_DLG,        			122, 					"res\\dlg_virscan_found_unknown.xml")
+DEFINE_XML(IDR_BK_UNKNOWN_LIST_DLG,         			123, 					"res\\dlg_virscan_unknown_list.xml")
+DEFINE_XML(IDR_BK_SHUTDOWNPROMPT,						124, 					"res\\dlg_vul_shutdownPrompt.xml")
+DEFINE_XML(IDR_BK_VIRSCAN_RESULT_DLG,       			125, 					"res\\dlg_virscan_result.xml")
+DEFINE_XML(IDR_BK_SETUP_DLG,							126, 					"res\\dlg_setup.xml")
+DEFINE_XML(IDR_BK_GETVER_DLG,							127, 					"res\\dlg_getver.xml")
+DEFINE_XML(IDR_BK_SYSOPT_LOADING,						128, 					"res\\dlg_sysopt_loading.xml")
+DEFINE_XML(IDR_BK_UNKNOWN_REPORT_LOG_DLG,   			129, 					"res\\dlg_virscan_unknown_report_log.xml")
+DEFINE_XML(IDR_BK_EXAM_SHARERESOURCES,					130, 					"res\\dlg_exam_shareresource.xml")
+DEFINE_XML(IDR_BK_INSTALL_KAV_ENGINE_DLG,   			131, 					"res\\dlg_install_kav_engine.xml")
+DEFINE_XML(IDR_BK_EXAM_SHOWHOSTSFILEDLG,    			132, 					"res\\dlg_exam_hostfileitem.xml")
+DEFINE_XML(IDR_BK_EXAM_SAFEMONSTATE,	    			133, 					"res\\dlg_exam_safemonstate.xml")
+DEFINE_XML(IDR_BK_RUNOPT_IGNORE_DLG,					134, 					"res\\dlg_runopt_ignore.xml")
+DEFINE_XML(IDR_BK_VIRSCAN_WHITE_LIST_DLG,   			136, 					"res\\dlg_virscan_white_list.xml")
+DEFINE_XML(IDR_BK_POWERSWEEP_TIP_DLG,					137, 					"res\\dlg_mgr_powersweep_tip.xml")
+DEFINE_XML(IDR_BK_SAFEMONITOR_DLG,						138, 					"res\\dlg_protection_setting.xml")
+DEFINE_XML(IDR_BK_QUARANTINE_RETRIEVE_NOTICE_DLG,		139, 					"res\\dlg_quarantine_retrieve_notice.xml")
+DEFINE_XML(IDR_BK_PROTECTION_CTRL_LIST_TEMPLATE,		140, 					"res\\list_template_protection_ctrl.xml")
+DEFINE_XML(IDR_BK_PROTECTION_LOG_LIST_TEMPLATE,			141, 					"res\\list_template_protection_log.xml")
+DEFINE_XML(IDR_BK_ADD_URL_DLG,              			142, 					"res\\dlg_add_url.xml")
+DEFINE_XML(IDR_BK_CLEAR_UPDATE,             			143, 					"res\\dlg_update_clear.xml")
+DEFINE_XML(IDR_BK_EXAM_GUEST,							144, 					"res\\dlg_exam_guest.xml")//体检中的guest账号
+DEFINE_XML(IDR_BK_EXAM_REMOTEDESK,						145, 					"res\\dlg_exam_remotedesk.xml")//体检中的远程桌面账号
+DEFINE_XML(IDR_BK_SOFTMGR_NECESS_TEMPLATE,				146, 					"res\\list_template_softmgr_necess.xml")//体检中的远程桌面账号
+
+DEFINE_XML(IDR_BK_IEFIX_INIT_LST_TEMP,					147,					"res\\list_template_iefix_init_ctrl.xml")
+DEFINE_XML(IDR_BK_EXT_SCAN_DLG,							148,					"res\\dlg_ext_scan.xml")
+//DEFINE_XML(IDR_BK_EXT_RE_SCAN_DLG,						149,					"res\\dlg_ext_re_scan.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX2,							150, 					"res\\dlg_msgbox2.xml")
+DEFINE_XML(IDR_BK_QUARANTINE_RETRIEVE_NOTICE_KWS_DLG,	151, 					"res\\dlg_quarantine_retrieve_notice_kws.xml")
+DEFINE_XML(IDR_BK_VIRUSFIX_SCANING_LST_TEMP,			153,					"res\\list_template_virsfix_scaning_ctrl .xml")//hub
+DEFINE_XML(IDR_BK_SOFTMGR_IGNORE_TEMPLATE,				154, 					"res\\list_template_softmgr_ignore.xml")
+DEFINE_XML(IDR_BK_EXAM_DUBA,							155, 					"res\\dlg_exam_installduba.xml")//体检中检测毒霸
+DEFINE_XML(IDR_BK_SAFEPASS_SETTING_DLG,					157,					"res\\dlg_setting_safepass.xml")//免打扰
+DEFINE_XML(IDR_BK_SYSOPT_HISTORY_LIST,					156,					"res\\list_template_sysopt_history.xml")//优化历史与恢复List
+DEFINE_XML(IDR_BK_SAFEKWS_ADRULE_SETTING_DLG,			158,					"res\\dlg_setting_safekws_adrule.xml")//广告过滤规则
+DEFINE_XML(IDR_BK_SAFEKWS_ADFILTER_SETTING_DLG,			159,					"res\\dlg_setting_safekws_adfilter.xml")//广告过滤
+DEFINE_XML(IDR_BK_SAFEKWS_BROWS_SETTING_DLG,			160,					"res\\dlg_setting_safekws_brows.xml")//浏览器设置
+DEFINE_XML(IDR_BK_PLUG_TRUST_LIST_DLG,   				161, 					"res\\dlg_plug_trust_list.xml")
+DEFINE_XML(IDR_BK_SYSTOOLS_DOWNLOAD,					162,					"res\\dlg_systools_download.xml")//系统工具集下载对话框
+DEFINE_XML(IDR_BK_UPDATE_VERSION,   				    163, 					"res\\dlg_updateversion.xml") /* 手动更新对话框 */
+DEFINE_XML(IDR_BK_PROX_SERVER_DLG,						164,					"res\\dlg_setting_prox_server.xml")//代理服务器设置
+DEFINE_XML(IDR_BK_RUNOPT_DISABLE_BY3XX,					165,					"res\\dlg_sysopt_disby3xx.xml")//被3xx禁止时弹框提示
+DEFINE_XML(IDR_BK_RUNOPT_DELAY_TIP,						166,					"res\\dlg_sysopt_delay_tip.xml")//延迟启动新功能提示
+DEFINE_XML(IDR_BK_RUNOPT_MSGBOX,						167,					"res\\dlg_msg_box_sysopt.xml")//系统优化特殊消息框
+DEFINE_XML(IDR_BK_KVINSTALL_DOWNLOAD,					168,					"res\\dlg_kvinstaller_download.xml")//系统优化特殊消息框
+DEFINE_XML(IDR_BK_IE_DETAIL_DLG,				  		169, 					"res\\dlg_ie_detail.xml")
+
+//金山网盾
+DEFINE_XML(IDR_K_INSTALL_KWS_DLG,						200,					"res\\dlg_install_kws.xml")
+DEFINE_XML(IDR_K_WAITING_UNINSTALL_DLG,					201,					"res\\dlg_waiting_uninstall.xml")
+DEFINE_XML(IDR_K_SWITCH_INSTALL_DLG,					202,					"res\\kws_install_switch_dlg.xml")
+DEFINE_XML(IDR_K_IEFIXING_DLG,							203,					"res\\dlg_ksweb_fixing.xml")
+
+
+DEFINE_XML(IDR_BK_IELOCK_DLG,							204,					"res\\dlg_virs_ielock.xml")//hub  IE锁定的交互式功能
+DEFINE_XML(IDR_BK_SOFTMGR_NECESS_ONE_KEY_SEL_TEMPLATE,	205, 					"res\\list_template_softmgr_onekey_show.xml")
+DEFINE_XML(IDR_BK_SOFTMGR_NECESS_ONE_KEY_INST_TEMPLATE,	206, 					"res\\list_template_softmgr_one_key_install.xml")
+DEFINE_XML(IDR_BK_SOFTMGR_NECESS_ONE_KEY_INSTED_TEMPLATE,	207, 					"res\\list_template_softmgr_onekey_inst_complete.xml")
+DEFINE_XML(IDR_BK_SOFTMGR_NECESS_ONE_KEY_SEL_PLUG_TEMPLATE,	208, 					"res\\list_template_softmgr_onekey_sel_plug.xml")
+DEFINE_XML(IDR_BK_SOFTMGR_NECESS_ONE_KEY_SEL_PLUG_DLG,	209, 					"res\\dlg_softmgr_one_key_sel_plug.xml")
+
+DEFINE_XML(IDR_BK_ADVERT_RULE_DLG,	                    220, 					"res\\dlg_advert_rule.xml")   /* 广告规则 */
+DEFINE_XML(IDR_BK_ADRULE_DETAIL,					    222,					"res\\dlg_adrule_detail.xml") /* 广告规则详情 */
+DEFINE_XML(IDR_BK_ADRULE_RENAME,                        223,                    "res\\dlg_adrule_rename.xml") /* 广告规则包改名 */ 
+// 卸载对话框
+DEFINE_XML(IDR_BK_SOFTMGR_UNINSTALL,					301,  					"res\\dlg_softmgr_uninstall.xml")
+
+DEFINE_XML(IDR_BK_SOFTMGR_SETTING_DLG,					9001, 					"res\\dlg_softmgr_setting.xml")
+DEFINE_XML(IDR_BK_SOFTMGR_POWERSWEEP,					9002, 					"res\\dlg_softmgr_powersweep.xml")
+DEFINE_XML(IDR_BK_DOWNLOAD_MGR_DLG,						9003, 					"res\\dlg_softmgr_download_mgr.xml")
+DEFINE_XML(IDR_BK_LISTTIP_MGR_DLG,						9004, 					"res\\dlg_mgr_listtip.xml")
+DEFINE_XML(IDR_BK_MARK_DLG,								9005, 					"res\\dlg_softmgr_mark.xml")
+DEFINE_XML(IDR_BK_NEW_INFO_DLG,							9006, 					"res\\dlg_softmgr_new_info.xml")
+DEFINE_XML(IDR_BK_SOFTMGR_ONE_KEY_INST_DLG,				9007, 					"res\\dlg_softmgr_one_key.xml")
+DEFINE_XML(IDR_BK_IGNORE_DLG,							9008, 					"res\\dlg_softmgr_ignore.xml")
+DEFINE_XML(IDR_BK_PLUG_INFO_DLG,						9009, 					"res\\dlg_softmgr_plug_info.xml")
+
+// dlgfile 标签里面的文件
+DEFINE_XML(IDR_BK_DLGFILE_SOFTMGR,						501, 					"res\\dlgfile_softmgr.xml")
+DEFINE_XML(IDR_BK_DLGFILE_SAFEMON,						502, 					"res\\dlgfile_safemon.xml")
+//DEFINE_XML(IDR_BK_DLGFILE_KWS,							503, 					"res\\dlgfile_kws.xml")
+DEFINE_XML(IDR_BK_DLGFILE_OPT,							504, 					"res\\dlgfile_opt.xml")
+DEFINE_XML(IDR_BK_DLGFILE_PLUG,							505, 					"res\\dlgfile_plug.xml")
+DEFINE_XML(IDR_BK_DLGFILE_HOME,							506, 					"res\\dlgfile_home.xml")
+DEFINE_XML(IDR_BK_DLGFILE_TROJAN,						507, 					"res\\dlgfile_trojan.xml")
+DEFINE_XML(IDR_BK_DLGFILE_FOOT,					 	    508, 					"res\\dlgfile_foot.xml")
+DEFINE_XML(IDR_BK_DLGFILE_HEADER,				 	    509, 					"res\\dlgfile_header.xml")
+DEFINE_XML(IDR_BK_DLGFILE_SYSFIX,				 	    510, 					"res\\dlgfile_sysfix.xml")
+
+DEFINE_XML(IDR_BK_SETTING_DLG_SOFTMGR,			        603, 					"res\\dlg_setting_softmgr.xml")
+DEFINE_XML(IDR_DLG_ARP_INSTALL,			                602, 					"res\\dlg_install_arp.xml")
+DEFINE_XML(IDR_BK_SYS_FIX_SCAN_LIST_TEMPLATE,			601, 					"res\\list_template_sysfix_scan.xml")
+
+
+//////////////////////////////////////////////////////////////////////////
+// ICON
+#ifdef _BAIDU_KSAFE
+DEFINE_ICO(IDI_BEIKESAFE,                  	 			100, 					"res\\bdbeikesafe.ico")
+DEFINE_ICO(IDI_SMALL,                      	 			101, 					"res\\bdsmall.ico")
+#else
+DEFINE_ICO(IDI_BEIKESAFE,                  	 			100, 					"res\\beikesafe.ico")
+DEFINE_ICO(IDI_SMALL,                      	 			101, 					"res\\small.ico")
+#endif
+
+DEFINE_ICO(IDI_RUN_SYSTEM,                 	 			102, 					"res\\run_system.ico")
+DEFINE_ICO(IDI_RUN_UNKNOWN,                	 			103, 					"res\\run_unknown.ico")
+DEFINE_ICO(IDI_REGEDIT,                    	 			104, 					"res\\regedit.ico")
+DEFINE_ICO(IDI_RUN_REMAIN,								105,					"res\\run_remain.ico")
+DEFINE_ICO(IDI_BAIDU_BK,								106,					"res\\bdbeikesafe.ico")
+DEFINE_ICO(IDI_BAIDU_SMALL,								107,					"res\\bdsmall.ico")
+//////////////////////////////////////////////////////////////////////////
+// PNG
+
+DEFINE_PNG(IDP_EXAM_STATUS,                 			1,   					"res\\exam_status.png")
+DEFINE_PNG(IDP_EXAM_SCAN,                   			2,   					"res\\scan_animation.png")
+DEFINE_PNG(IDP_LOGO_MODULE,                 			3,   					"res\\logo_module.png")
+DEFINE_PNG(IDP_EXAM_ANTI,                   			4,   					"res\\exam_animation.png")
+DEFINE_PNG(IDP_EXAM_SCAN_BG,                			5,   					"res\\scan_animation_bg.png")
+DEFINE_PNG(IDP_CLEAN_ANIMATION_1,           			6,   					"res\\clean_animation_1.png")
+DEFINE_PNG(IDP_CLEAN_ANIMATION_2,           			7,   					"res\\clean_animation_2.png")
+DEFINE_PNG(IDP_CLEAN_ANIMATION_3,           			8,   					"res\\clean_animation_3.png")
+DEFINE_PNG(IDP_PROTECTION_STATUS4,						9,   					"res\\protection_status4.png")
+//DEFINE_PNG(IDP_PROTECTION_EXAMPLE,						10,  					 "res\\protection_example.png")
+DEFINE_PNG(IDP_PROTECTION_STATUS2,						11,	 					 "res\\protection_status2.png")
+DEFINE_PNG(IDP_VUL_TIP,									12,	 					 "res\\vul_tip_icon.png")
+DEFINE_PNG(IDP_EXAM_START,								13,  					 "res\\startexam.png")
+//DEFINE_PNG(IDP_EXAM_STATUS_EX,							14,	 					 "res\\exam_status_ex.png")
+DEFINE_PNG(IDP_ICON_VIRSCAN,                			15,	 					 "res\\icon_virscan.png")
+DEFINE_PNG(IDP_ICON_NEW,                    			16,	 					 "res\\new.png")
+DEFINE_PNG(IDP_SELECT_FOLDER,							17,	 					 "res\\select_folder.png" )
+DEFINE_PNG(IDP_LISTCTRL_BTN_UNINSTALL,					18,  					 "res\\uninstall_btn.png")
+DEFINE_PNG( IDP_POWERSWEEP_ICO,							19,  					 "res\\powersweep.png" )
+DEFINE_PNG(IDP_LISTCTRL_BTN_UNINSTALLED,				20,  					 "res\\uninstalled.png")
+/*
+DEFINE_PNG(IDP_ICON_BROWSER_IE,	            			21,  					 "res\\ie.png")
+DEFINE_PNG(IDP_ICON_BROWSER_MAXTHON,	    			22,  					 "res\\maxthon.png")
+DEFINE_PNG(IDP_ICON_BROWSER_SOGOU,	        			23,  					 "res\\sogou.png")
+DEFINE_PNG(IDP_ICON_BROWSER_TTRAVELER,	    			24,  					 "res\\ttraveler.png")
+DEFINE_PNG(IDP_LOGO_PROTECTION_TAB,         			25,  					 "res\\logo_protection_tab.png")
+DEFINE_PNG(IDP_ICON_STARTPAGE,							27,	 					 "res\\iconstartpage.png")
+DEFINE_PNG(IDP_PNG_DETAILBACK,							29,  					 "res\\detailback.png")
+DEFINE_PNG(IDP_PNG_ARROW,								30,  					 "res\\arrow.png")
+*/
+/*DEFINE_PNG(IDP_LOGO_PROTECTION,             			26,  					 "res\\logo_protection.png")*/
+ 
+DEFINE_PNG(IDP_PNG_STATUS15,							40,						 "res\\status_icon.png")
+DEFINE_PNG(IDP_PNG_EXAM_STATUS15,						41,						 "res\\exam_status_icon.png")
+DEFINE_PNG(IDP_PNG_RIGHTTOP_32,						    42,						 "res\\right_top_icon.png")
+
+DEFINE_PNG(IDP_PNG_SOFT_NECESS_POINT,				    43,						 "res\\softmgr_necess_point.png")
+
+DEFINE_PNG(IDB_BTN_SYS_CLOSE_PNG,							44,						 "res\\btn_sys_close.png")
+//DEFINE_PNG(IDB_BTN_SYS_CLOSE_ONLY,						45,						 "res\\btn_sys_close_only.png")
+DEFINE_PNG(IDB_BTN_SYS_MAXIMIZE_PNG,						46,						 "res\\btn_sys_maximize.png")
+DEFINE_PNG(IDB_BTN_SYS_MINIMIZE_PNG,						47,						 "res\\btn_sys_minimize.png")
+DEFINE_PNG(IDB_BTN_SYS_RESTORE_PNG,							48,						     "res\\btn_sys_restore.png")
+DEFINE_PNG(IDP_IEREPAIR_HOSTPAGEUNLOCK,						49,						  "res\\hostpage_unlock.png")//hub
+DEFINE_PNG(IDP_KCLOUD_DISCONNECT,						50,						  "res\\kcloud_disconnection.png")
+DEFINE_PNG(IDP_SOFT_ONEK_KEY_PEITU,							52,						  "res\\soft_onekey_top_peitu.png")
+DEFINE_PNG(IDP_SOFT_ONEK_KEY_PEITU2,						51,						  "res\\soft_onkey_insted_peitu.png")
+DEFINE_PNG(IDP_SOFT_ONEK_KEY_BTN_BEGIN,						53,						  "res\\softoneky_btn_inst.png")
+DEFINE_PNG(IDP_SOFT_ONEK_KEY_PEITU2_FAIL,					54,						  "res\\soft_onkey_insted_peitu_fail.png")
+DEFINE_PNG(IDP_PNG_EXAM_STATUS55,							55,						 "res\\status_icon_check.png")//hub
+DEFINE_PNG(IDP_PNG_EXAM_STATUS56,							56,						 "res\\NetFlow_Control.png")//hub
+DEFINE_PNG(IDP_PNG_EXAM_STATUS57,							57,						 "res\\net_open_flag.png")//hub  灰显
+DEFINE_PNG(IDP_ICON_NEW_CN,                    				58,	 					 "res\\new_cn.png")
+
+/* 手动升级图标 */
+DEFINE_PNG(IDP_PNG_UPDATE_VERSION,							60,						 "res\\update.png")
+DEFINE_PNG(IDP_PNG_MENU_UPDATE,  							61,						 "res\\menu_update.png")
+DEFINE_PNG(IDP_PNG_MENU_SETTING,							62,						 "res\\menu_setting.png")
+DEFINE_PNG(IDB_BTN_SYS_SETTING_PNG,                         63,                      "res\\btn_sys_setting.png")
+DEFINE_PNG(IDB_PNG_UPDATE_WARNING,                          64,                      "res\\warning.png")
+DEFINE_PNG(IDP_PNG_MENU_BBS,								65,						 "res\\menu_bbs.png")
+DEFINE_PNG(IDP_PNG_ARP_INSTALL,								66,						 "res\\arp_install.png")
+//////////////////////////////////////////////////////////////////////////
+//png exam
+/*
+// 去掉无用资源 [12/30/2010 zhangbaoliang]
+DEFINE_PNG(IDB_EXAM_SCORE_TXT,								200,					"res\\exam_score.png")
+DEFINE_PNG(IDB_EXAM_SCORE_RISK_NUM,							201,					"res\\exam_risk_num.png")
+DEFINE_PNG(IDB_EXAM_SCORE_DANGER_NUM,						202,					"res\\exam_danger_num.png")
+DEFINE_PNG(IDB_EXAM_SCORE_SAFE_NUM,							203,					"res\\exam_safe_num.png")
+DEFINE_PNG(IDB_EXAM_SCORE_OPT_NUM,							204,					"res\\exam_opt_num.png")
+*/
+//打分方案2
+DEFINE_PNG(IDB_EXAM_TEXT_SAFE,							    205,					"res\\safe.png")
+DEFINE_PNG(IDB_EXAM_TEXT_OPT,							    206,					"res\\opt.png")
+DEFINE_PNG(IDB_EXAM_TEXT_RISK,							    207,					"res\\risk.png")
+DEFINE_PNG(IDB_EXAM_TEXT_DANGER,							208,					"res\\danger.png")
+DEFINE_PNG(IDB_EXAM_TEXT_HIGHT_DANGER,						209,					"res\\hight_danger.png")
+DEFINE_PNG(IDB_EXAM_SCORE_ICON,							    210,					"res\\exam_score_icon.png")
+DEFINE_PNG(IDB_EXAM_TEXT_TROJAN,						    211,					"res\\trojan.png")
+
+//////////////////////////////////////////////////////////////////////////
+// BITMAP
+
+DEFINE_BMP(IDB_MAIN_BG_HEADER,              			1,   					"res\\main_bg_header.bmp")
+DEFINE_BMP(IDB_MAIN_BG_BODY,                			2,   					"res\\main_bg_body.bmp")
+DEFINE_BMP(IDB_MAIN_BG_FOOTER,              			3,   					"res\\main_bg_footer.bmp")
+DEFINE_BMP(IDB_MSGBOX_BG,                   			4,   					"res\\msgbox_bg.bmp")
+DEFINE_BMP(IDB_TAB_MAIN,                    			5,   					"res\\tab_main.bmp")
+DEFINE_BMP(IDB_TAB_NORMAL,                  			6,   					"res\\tab_normal.bmp")
+//DEFINE_BMP(IDB_EXAM_TITLE_BG,               			7,   					"res\\exam_title_bg.bmp")
+//DEFINE_BMP(IDB_TAB_MAIN_SPLITTER,           			8,   					"res\\tab_main_splitter.bmp")
+//DEFINE_BMP(IDB_EXAM_ANIMATION,            			9,   					"res\\exam_animation.bmp")
+//DEFINE_BMP(IDB_ANIMATION_BG,              			10,  					"res\\animation_bg.bmp")
+DEFINE_BMP(IDB_SPLITTER_ARROW,              			11,  					"res\\splitter_arrow.bmp")
+// DEFINE_BMP(IDB_BTN_VIRSCAN_FAST,         			12,  					"res\\btn_virscan_fast.bmp")
+// DEFINE_BMP(IDB_BTN_VIRSCAN_FULL,         			13,  					"res\\btn_virscan_full.bmp")
+// DEFINE_BMP(IDB_BTN_VIRSCAN_CUSTOM,       			14,  					"res\\btn_virscan_custom.bmp")
+DEFINE_BMP(IDB_STATUS_40,                   			15,  					"res\\status_40.bmp")
+DEFINE_BMP(IDB_TAB_LEFT,                    			16,  					"res\\tab_left.bmp")
+DEFINE_BMP(IDB_TAB_LEFT_SPLITTER,           			17,  					"res\\tab_left_splitter.bmp")
+DEFINE_BMP(IDB_ARROW,                       			18,  					"res\\arrow.bmp")
+// DEFINE_BMP(IDB_EXAM_SCAN,                			18,  					"res\\scan_animation.bmp")
+DEFINE_BMP(IDB_TAB_PLUGNORMAL,              			20,  					"res\\tab-plug.bmp")
+DEFINE_BMP(IDB_ICON_FLASH,                  			21,  					"res\\icon_flash.bmp")
+DEFINE_BMP(IDB_ICON_PROTECTION,							22,  					"res\\icon_protection.bmp")
+DEFINE_BMP(IDB_EXAM_TITLE_BG_ONLY,						23,  					"res\\exam_title_bg_only.bmp")
+DEFINE_BMP(IDB_EXAM_TITLE_BMP,							24,  					"res\\exam_title_icon.bmp")
+//DEFINE_BMP(IDB_EXAM_D_ENG_BMP,						25,  					"res\\exam_double_eng.bmp")
+DEFINE_BMP(IDB_TIP_DOUBLE_ENGINE,           			26,  					"res\\tip_double_engine.bmp")
+DEFINE_BMP(IDB_BTN_VIRSCAN_BG,              			27,  					"res\\btn_virscan_bg.bmp")
+DEFINE_BMP(IDP_BG_STARTPAGEBTN,							28,  					"res\\startpage_btn_bg.bmp")
+DEFINE_BMP(IDP_BG_MSGBOX_BODY,							29,  					"res\\msgbox_body_bg.bmp")
+//DEFINE_BMP(IDB_TAB_NORMAL_EX,                  			30,   					"res\\tab_normal_ex.bmp")
+DEFINE_BMP(IDB_VUL_DETAIL_BG,							31,						"res\\vul_Detail.bmp")
+//DEFINE_BMP(IDB_DLG_BODY_BG,								32,						"res\\dlg_body.bmp")
+DEFINE_BMP(IDB_BG_SYS_FIX_LST,							33,						"res\\sysfix_list_bg.bmp")
+DEFINE_BMP(IDB_BG_SYS_FIX_LST_ING,							34,						"res\\sysfix_list_bg_seling.bmp")
+
+// DEFINE_BMP(IDB_BTN_NORMAL_BG,               100, "res\\btn_normal_bg.bmp")
+
+/*
+// 去掉无用资源 [12/30/2010 zhangbaoliang]
+DEFINE_BMP(IDB_BTN_SYS_CLOSE,               101, "res\\btn_sys_close.bmp")
+DEFINE_BMP(IDB_BTN_SYS_CLOSE_ONLY,          102, "res\\btn_sys_close_only.bmp")
+DEFINE_BMP(IDB_BTN_SYS_MAXIMIZE,            103, "res\\btn_sys_maximize.bmp")
+DEFINE_BMP(IDB_BTN_SYS_MINIMIZE,            104, "res\\btn_sys_minimize.bmp")
+DEFINE_BMP(IDB_BTN_SYS_RESTORE,             105, "res\\btn_sys_restore.bmp")
+*/
+DEFINE_BMP(IDB_FRAME_PANEL_GRAY,            106, "res\\frame_panel_gray.bmp")
+DEFINE_BMP(IDB_FRAME_PANEL,                 107, "res\\frame_panel.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_BG,             108, "res\\progress_bar_bg.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_VALUE,          109, "res\\progress_bar_value.bmp")
+// DEFINE_BMP(IDB_TAB_MAIN,                    110, "res\\tab_main.bmp")
+DEFINE_BMP(IDB_STATUS_ICON,                 111, "res\\status_icon.bmp")
+//DEFINE_BMP(IDB_EXAM_ANIMATION,              112, "res\\exam_animation.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_VALUE_RED,      113, "res\\progress_bar_value_red.bmp")
+//DEFINE_BMP(IDB_PLUG_LIST_CHECK,		    114, "res\\pluginlist\\check.bmp")
+//DEFINE_BMP(IDB_STATUS_HUGE,                 115, "res\\status_huge.bmp")
+// DEFINE_BMP(IDB_STATUS_PROTECTION,           116, "res\\status_protection.bmp")
+//DEFINE_BMP(IDB_LOGO_BEIKE,                  117, "res\\logo_beike.bmp")
+DEFINE_BMP(IDB_LISTITEMS,					118, "res\\listitems.bmp" )
+DEFINE_BMP(IDB_COLLPEND,					119, "res\\collapse.bmp")
+DEFINE_BMP(IDB_EXPAND,						120, "res\\expand.bmp")
+DEFINE_BMP(IDB_SCAN_RESULT_LIST_BAR_SEL,	121, "res\\scan_result_list_bar_sel.bmp")
+DEFINE_BMP(IDB_SCAN_RESULT_LIST_BAR,		122, "res\\scan_result_list_bar.bmp")
+DEFINE_BMP(IDB_PLUG_LISTHEADER_BG,			123, "res\\plug_list_header.bmp")
+//DEFINE_BMP(IDB_PLUG_LIST_HEADER,	    118, "res\\pluginlist\\header.bmp")
+
+// DEFINE_BMP(IDB_VULFIX_ICON84,						120, 					"res\\status_84.bmp")
+// DEFINE_BMP(IDB_VULFIX_ICON60,						121, 					"res\\status_60.bmp")
+// DEFINE_BMP(IDB_VULFIX_ICON48,						122, 					"res\\status_48.bmp")
+// DEFINE_BMP(IDB_VULFIX_ICON32,						123, 					"res\\status_32.bmp")
+// DEFINE_BMP(IDB_VULFIX_ICON24,						124, 					"res\\status_24.bmp")
+
+DEFINE_PNG(IDB_BITMAP_LISTCTRL_HEADER_ARROW_UP,			220, 					"res\\listctrl_header_arrow_up.png")
+DEFINE_PNG(IDB_BITMAP_LISTCTRL_HEADER_ARROW_DOWN,		221, 					"res\\listctrl_header_arrow_down.png")
+
+DEFINE_BMP(IDB_BITMAP_SOFT_LISTCTRL_HEADER,				223, 					"res\\soft_listctrl_header.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER,					210, 					"res\\listctrl_header.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_CHECK,					211, 					"res\\listctrl_check.bmp")
+DEFINE_BMP(IDB_BITMAP_MINUS_PLUS,						212, 					"res\\minus_plus.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_RADIO,					213, 					"res\\listctrl_radio.bmp")
+DEFINE_BMP(IDB_EXAM_STATUS_ICON,        				214, 					"res\\exam_status_icon.bmp")
+
+// 界面左侧ListBox的向上下滚动的按钮
+DEFINE_BMP(IDB_TYPELIST_SCROLL_UP,						215,					"res\\up.bmp")
+DEFINE_BMP(IDB_TYPELIST_SCROLL_DOWN,					216,					"res\\down.bmp")
+
+/*
+// 无用资源 [12/30/2010 zhangbaoliang]
+DEFINE_BMP(IDB_CLEAR_PANEL,		        				217, 					"res\\clear_panel.bmp")
+DEFINE_PNG(IDB_CLEAR_ICON,								218, 					"res\\clear_icon.png")
+DEFINE_PNG(IDB_MAINUI_BWS_ICON,							219, 					"res\\mainui_bws_icon.png")
+*/
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER2,					222, 					"res\\listctrl_header2.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER_NULL,				125, 					"res\\listctrl_header_null.bmp")
+DEFINE_BMP(IDB_BITMAP_UPDATE_VER_BK,					126, 					"res\\soft_update_ver_bk.bmp")
+
+//体检
+DEFINE_BMP(IDB_EXAM_TITLE_BG,							500,					"res\\exam_title_bg.bmp")
+DEFINE_BMP(IDB_EXAM_BG,									501,					"res\\exam_bg.bmp")
+//DEFINE_BMP(IDB_EXAM_BTN_TAB,							502,					"res\\btn_tab.bmp")
+DEFINE_BMP(IDB_EXAM_LINE,								503,					"res\\exam_line.bmp")
+DEFINE_BMP(IDB_EXAM_RIGHT_TOP_BG,						504,					"res\\exam_right_btn_bg.bmp")
+
+
+//软件管理
+//add by ylb  8000~8999
+DEFINE_BMP(IDB_SOFTMGR_TOPBK,							8001,					 "res\\topbk_softmgr.bmp")
+DEFINE_BMP(IDB_SOFTMGR_TOPSPLITTER,						8002,					 "res\\splitter_softmgr.bmp")
+DEFINE_BMP(IDB_SOFTMGR_BOTTOMBK,						8003,					 "res\\bottombk_softmgr.bmp")
+DEFINE_BMP(IDB_SOFTMGR_DOWNDETAIL,						8004,					 "res\\downdetail_softmgr.bmp")
+DEFINE_BMP(IDB_SOFTMGR_ICON_DETAIL,						8018,					 "res\\icon_detail_softmgr.bmp")
+DEFINE_BMP(IDB_SOFTMGR_PROGRESS_BG,						8019,					 "res\\progress_bottom.bmp")
+DEFINE_BMP(IDB_SOFTMGR_PROGRESS_POS,					8020,					 "res\\progress_value.bmp")
+DEFINE_BMP(IDB_SOFTMGR_TOP_BG,							8021,					 "res\\softmgr_top_tab_bg.bmp")
+
+
+DEFINE_BMP(IDB_SOFTMGR_DLG_BTM,							8101,					 "res\\softdlg_btm.bmp")
+DEFINE_BMP(IDB_SOFTMGR_DLG_BORDER,						8102,					 "res\\softdlg_border.bmp")
+DEFINE_BMP(IDB_SOFTMGR_DLG_TOP,							8103,					 "res\\softdlg_top.bmp")
+DEFINE_BMP(IDB_SOFT_ONEKY_TOP_BG,						8104,					 "res\\soft_onekey_top_bg.bmp")
+DEFINE_BMP(IDB_SOFT_ONEKY_SELDIR_BG,					8105,					 "res\\soft_onkey_seldir_bg.bmp")
+DEFINE_BMP(IDB_SOFT_ONEKY_SELDIR_BG_SANJIAO,			8106,					 "res\\soft_onkey_seldir_bg_sanjiao.bmp")
+DEFINE_BMP(IDB_SOFT_ONEKY_INSTING_BG,					8107,					 "res\\soft_onkey_insting_bg.bmp")
+DEFINE_BMP(IDB_SOFT_ONEKY_INSTING_BG_SANJIAO,			8108,					 "res\\soft_onkey_insting_bg_sanjiao.bmp")
+
+//金山网盾
+//DEFINE_BMP(IDB_KWSMAIN_ICON,							10000,					 "res\\kwsmain_icon.bmp")
+//DEFINE_BMP(IDB_KWSDLG_BG,               				10001,					 "res\\kwsdlg_bg.bmp")
+//DEFINE_BMP(IDB_KWS_BTN_CLOSE,							10002,					 "res\\kws_close_btn.bmp")
+//DEFINE_BMP(IDB_KWS_SWITCH_INSTALL_DLG_BG,				10005,					 "res\\kws_switch_install_dlg.bmp")
+//DEFINE_BMP(IDB_KWS_SWITCH_INSTALL_DLG_BTN_CLOSE,		10006,					 "res\\kws_switch_install_dlg_close_btn.bmp")
+//DEFINE_PNG(IDP_KWS_SWITCH_INSTALL_DLG_TITLE,        	10007,					 "res\\kws_switch_install_dlg_title.png")
+//DEFINE_PNG(IDP_KWS_SWITCH_INSTALL_DLG_ICON,         	10008,					 "res\\kws_install_switch_dlg_icon.png")
+//DEFINE_PNG(IDP_KWS_WAITING_UNINSTALL_ANIMATE,       	10009,					 "res\\kws_waiting_uninstall_animate.png")
+DEFINE_PNG(IDP_KWS_SAFE_ICON,       		    		10010,					 "res\\kws_safe.png")
+DEFINE_PNG(IDP_KWS_DANGER_ICON,       		    		10011,					 "res\\kws_danger.png")
+//DEFINE_BMP(IDB_KWS_DLSDLG_BANNERHINT,                   10012,                   "res\\banner_hint.bmp")
+//DEFINE_BMP(IDB_KWS_DLSDLG_SETTINGLOGO,                  10013,                   "res\\xzbh_09.bmp")
+//DEFINE_BMP(IDB_KWS_DLSDLG_OPENPAGE,                     10014,                   "res\\open_dls_page.bmp")
+DEFINE_BMP(IDB_KWS_BMP_LIST_CHECK,        				10015, 					 "res\\kws_listctrl_check.bmp")
+//DEFINE_BMP(IDB_KWS_SUBITEM_NORAML,                      10018,                   "res\\subitem_normal.bmp")
+DEFINE_PNG(IDB_KWS_ADVERT_RULE,                         10022,                   "res\\web_rule_top_left.png")
+
+// url mon firewall
+DEFINE_PNG(IDP_URLMON_TIP,								11000, "res\\url_mon_tip.png")
+DEFINE_PNG(IDP_URLMON_LOGO,								11001, "res\\url_mon_logo.png")
+DEFINE_PNG(IDP_URLMON_TURN_ON,							11002, "res\\url_mon_turn_on.png")
+DEFINE_PNG(IDP_URLMON_TURN_OFF,							11003, "res\\url_mon_turn_off.png")
+
+DEFINE_PNG(IDP_LISTCTRL_BTN_PAUSE,			8005,   "res\\pause_btn.png")		
+DEFINE_PNG(IDP_LISTCTRL_BTN_CONTINUE,		8006,   "res\\continue_btn.png")
+DEFINE_PNG(IDP_LISTCTRL_BTN_DOWN,			8007,   "res\\setup_btn1.png")
+DEFINE_PNG(IDP_LISTCTRL_BTN_SET,			8008,   "res\\setup_btn.png")
+DEFINE_PNG(IDP_LISTCTRL_BTN_NODOWN,			8009,   "res\\download_btn.png")
+DEFINE_PNG(IDP_LISTCTRL_BTN_CANCEL,			8010,   "res\\cancel_btn.png")
+DEFINE_PNG(IDP_LISTCTRL_PROGRESS_BOTTOM,	8011,   "res\\progress_bottom.png")
+DEFINE_PNG(IDP_LISTCTRL_PROGRESS_VALUE,		8012,   "res\\progress_value.png")
+DEFINE_PNG(IDP_SOFTMGR_SETTING,				8014,   "res\\setting_softmgr.png")
+DEFINE_PNG(IDP_SOFTMGR_REFRESH,				8015,   "res\\refresh_softmgr.png")
+DEFINE_PNG(IDP_SOFTMGR_QUERY,				8016,   "res\\query_softmgr.png") 
+DEFINE_BMP(IDP_SOFTMGR_TAB_INSTALL,			8017,   "res\\install_softmgr.bmp")
+DEFINE_PNG(IDP_SOFTMGR_BTN_DOWNSELECT,		8018,   "res\\down_select_softmgr.png")
+DEFINE_PNG(IDP_SOFTMGR_BTN_QUERY_BACK,		8019,   "res\\back_query_softmgr.png")
+DEFINE_PNG(IDP_LOADINFO_TIP,				8020,   "res\\loadinfo_tip_softmgr.png")
+DEFINE_PNG(IDP_SOFTMGR_REVERT,				8021,   "res\\softmgr_revert.png")
+DEFINE_PNG(IDP_SOFTMGR_CLEAR,				8022,   "res\\softmgr_clear.png")
+DEFINE_PNG(IDP_SOFTMGR_INSTALL1,			8023,   "res\\softmgr_dq1.png")
+DEFINE_PNG(IDP_SOFTMGR_INSTALL2,			8024,   "res\\softmgr_dq2.png")
+DEFINE_PNG(IDP_SOFTMGR_INSTALL3,			8025,   "res\\softmgr_dq3.png")
+DEFINE_PNG(IDP_SOFTMGR_UNINSTALL1,			8026,   "res\\softmgr_xz1.png")
+DEFINE_PNG(IDP_SOFTMGR_UNINSTALL2,			8027,   "res\\softmgr_xz2.png")
+DEFINE_PNG(IDP_SOFTMGR_UNINSTALL3,			8028,   "res\\softmgr_xz3.png")
+DEFINE_PNG(IDB_SOFTMGR_DOT,					8029,	"res\\dot.png")
+DEFINE_PNG(IDP_LISTCTRL_BTN_UPDATE,			8030,	"res\\up_soft_bt.png")
+DEFINE_PNG(IDP_SOFTMGR_NUM,					8031,	"res\\num.png")
+DEFINE_PNG(IDP_SOFTMGR_INFO,				8032,	"res\\info_icon.png")
+DEFINE_PNG(IDB_SOFTMGR_INFO_RED,			8033,	"res\\info_red.png")
+DEFINE_BMP(IDB_SOFTMGR_CLEAR_BK, 			8034, 	"res\\clear_bk.bmp")
+DEFINE_BMP(IDB_SYSOPT_LIST_HEADERBK,		8035,	"res\\sysopt_listbk.bmp")
+DEFINE_BMP(IDB_LOADINFO_DLGBK,				8036,	"res\\loadinfo_dlgbk.bmp")
+DEFINE_BMP(IDB_SOFTMGR_DETAIL_HEADER,		8037,	"res\\detail_header.bmp")
+DEFINE_PNG(IDP_SOFTMGR_PAGE_INDEX_BK,		8038,   "res\\gage_index_select.png")
+DEFINE_PNG(IDP_SOFTMGR_STAR,				8039,	"res\\star.png")
+DEFINE_PNG(IDP_SOFTMGR_STAR_HALF,			8040,	"res\\star_half.png")
+DEFINE_PNG(IDP_SOFTMGR_STAR_OFF,			8041,   "res\\star_off.png")
+DEFINE_PNG(IDP_SOFTMGR_BTN_DETAIL_BACK,		8042,   "res\\back_detail_softmgr.png")
+DEFINE_PNG(IDP_SOFTMGR_SPLIT_DETAIL,		8043,   "res\\split_datail.png")
+DEFINE_PNG(IDP_SOFTMGR_CHARGE_SOFT,			8044,   "res\\soft_info_charge.png")
+DEFINE_PNG(IDP_SOFTMGR_GREEN_SOFT,			8045,   "res\\soft_info_green.png")
+DEFINE_PNG(IDP_SOFTMGR_PLUGIN_SOFT,			8046,   "res\\soft_info_plugin.png")
+DEFINE_PNG(IDP_SOFTMGR_IMPORTANT_SOFT,		8049,   "res\\soft_info_important.png")
+DEFINE_PNG(IDP_SOFTMGR_NEW_SOFT,			8051,   "res\\soft_info_new.png")
+DEFINE_PNG(IDP_SOFTMGR_DOWNLOADED,			8047,   "res\\downloaded_btn.png")
+DEFINE_PNG(IDP_SOFTMGR_ONE_KEY_INST_BTN,	8048,   "res\\softmgr_one_key_inst_button.png")
+DEFINE_PNG(IDP_SOFTMGR_IGNORE_ICON,			8050,	"res\\ignore_icon.png")
+DEFINE_PNG(IDP_SOFTMGR_QUERY_RETURN,		8052,	"res\\query_return.png")
+DEFINE_PNG(IDP_SOFTMGR_SEL_TYPE_BK,			8053,	"res\\sel_type_bk.png")
+DEFINE_PNG(IDP_SOFTMGR_UPDATE_VER_BTN,		8054,   "res\\soft_update_ver_btn.png") 
+DEFINE_BMP(IDP_SET_SOFTMGR_TAB,				8055,   "res\\set_softmgr_tab.bmp")
+
+// 添加
+DEFINE_BMP(IDB_SOFTMGR_BMP_CLEAN, 						20001, 					 "res\\clean.bmp")
+DEFINE_BMP(IDB_SOFTMGR_BMP_DLGBG, 						20002, 					 "res\\softmgr_uninstall_bg.bmp")
+DEFINE_BMP(IDB_SOFTMGR_BMP_ARROW, 						20003, 					 "res\\uni_arrow.bmp")
+DEFINE_BMP(IDB_SOFTMGR_SWEEP_BMP_OK,					20004, 					 "res\\uni_sweep_ok.bmp")
+
+//系统优化
+DEFINE_PNG(IDP_AUTOPOT_BMP_NOITEM,						20005,					"res\\autoopt_done.png")
+DEFINE_PNG(IDP_RUNOPT_NO_RUNTASK,						20006,					"res\\no_runtask.png")
+DEFINE_BMP(IDB_RUNOPT_STATUS,							20007,					"res\\stat_runopt.bmp")
+DEFINE_PNG(IDP_RUNOPT_LOADING_TIP,						20008,					"res\\loading_runopt.png")
+DEFINE_BMP(IDB_RUNOPT_MOREOPT,							20009,					"res\\sysopt_more.bmp")
+DEFINE_BMP(IDB_RUNOPT_LIST_HEADER,						20010,					"res\\runopt_listheader.bmp")
+DEFINE_BMP(IDB_RUNOPT_PANEL_DELAY,						20011,					"res\\loaddlg_panel.bmp")
+DEFINE_PNG(IDP_RUNOPT_STARTUPTIME_SETTING,				20012,					"res\\startuptime_setting.png")
+DEFINE_PNG(IDP_RUNOPT_IGNORE_TIP,						20013,					"res\\ignore_tip.png")
+DEFINE_PNG(IDP_RUNOPT_NO_HISTORY,						20014,					"res\\no_history.png")
+DEFINE_PNG(IDP_RUNOPT_MENU_BTN,							20015,					"res\\sysopt_menu_btn.png")
+DEFINE_BMP(IDB_RUNOPT_LIST_BG,							20016,					"res\\runopt_list_bg.bmp")
+DEFINE_PNG(IDP_RUNOPT_LIST_MENU_BTN,					20017,					"res\\sysopt_menu_btn2.png")
+DEFINE_BMP(IDB_RUNOPT_RED_BG,							20018,					"res\\sysopt_red_bg.bmp")
+DEFINE_BMP(IDB_RUNOPT_BLUE_BG,							20019,					"res\\sysopt_blue_bg.bmp")
+DEFINE_PNG(IDP_RUNOPT_WARN_INFOTEXT,					20020,					"res\\runopt_warning_infotext.png")
+DEFINE_PNG(IDP_RUNOPT_DELAY_INFOTEXT,					20021,					"res\\runopt_delay_infotext.png")
+DEFINE_PNG(IDP_RUNOPT_DELAY_ARROW,						20022,					"res\\double_arrow.png")
+DEFINE_PNG(IDP_RUNOPT_DELAY_HOWTO,						20023,					"res\\runopt_howto_delay.png")
+DEFINE_BMP(IDB_RUNOPT_LIST_HEADER2,						20024,					"res\\runopt_listheader2.bmp")
+DEFINE_PNG(IDP_RUNOPT_BTN_ONEKEYOPT,					20025,					"res\\btn_onekeyopt.png")
+DEFINE_PNG(IDP_RUNOPT_BTN_ONEKEYOPT_CONTINUE,			20026,					"res\\btn_onekeyopt_continue.png")
+DEFINE_PNG(IDP_RUNOPT_ONEKEYOPT_SCAN,					20027,					"res\\onekeyopt_scan.png")
+DEFINE_PNG(IDP_RUNOPT_ONEKEYOPT_SCROLL,					20028,					"res\\scanscroll.png")
+
+/* 网盾广告规则 */
+//DEFINE_PNG(IDP_RULE_DETAIL_OPEN,						20100,					"res\\detail_open.png")
+//DEFINE_PNG(IDP_RULE_DETAIL_CLOSE,						20101,					"res\\detail_close.png")
+//DEFINE_PNG(IDP_RULE_SEARCH_RETURN,                      20102,                  "res\\cancel_search.png")
+//DEFINE_PNG(IDP_RULE_NO_RULE,                            20103,                  "res\\no_rule.png")
+//DEFINE_PNG(IDP_RULE_MORE,                               20104,                  "res\\more_rule.png")
+//DEFINE_PNG(IDP_RULE_SET,                                20105,                  "res\\set_rule.png")
+//DEFINE_PNG(IDP_RULE_RENAME,                             20106,                  "res\\adrule_rename.png")
+
+/* 2011 新版 漏洞修复 */
+DEFINE_BMP(IDB_VUL_HEAD_BACK,					12001,				"res\\vul_head_back.bmp")
+DEFINE_PNG(IDP_VUL_REPAIR,						12002,				"res\\vul_repair.png")
+DEFINE_PNG(IDP_VUL_IMFORMATION,					12003,				"res\\vul_info.png")
+DEFINE_PNG(IDP_VUL_SCAN,						12004,				"res\\vul_scan.png")
+DEFINE_PNG(IDP_VUL_SETUP,						12005,				"res\\vul_setup.png")
+DEFINE_BMP(IDB_VUL_LIST_HEADER,					12006,				"res\\listctrl_vul_header.bmp")
+DEFINE_PNG(IDP_VUL_TIP_HEAD,			 		12007, 				"res\\vul_tip_head.png")
+DEFINE_PNG(IDP_VUL_TIP_DOWN,					12008,				"res\\vul_tip_down.png")
+DEFINE_PNG(IDP_VUL_TIP_POINT,					12009,				"res\\vul_tip_point.png")
+DEFINE_PNG(IDP_VUL_TIP_CLOSE,					12010,				"res\\vul_tip_close.png")
+/* END 漏洞修复 */

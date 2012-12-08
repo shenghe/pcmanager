@@ -1,0 +1,46 @@
+<style>
+<class name="mainhead" skin="mainbghead" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="mainbody" skin="mainbgbody" font="0000" crtext="000000" crbg="FFFFFF" />
+<class name="mainfoot" skin="mainbgfoot" font="0000" crtext="000000" crbg="FFFFFF"/>
+<class name="linkimage" cursor="hand"/>
+<class name="clientbody" font="0000" crtext="000000" crbg="FFFFFF" />
+<class name="textblue" font="0000" crtext="4682B4"  />
+<class name="textgray" font="0000" crtext="666666"  />
+<class name="linktext" font="0002" crtext="3064A5" crhover="3064A5" cursor="hand"/>
+<class name="linktextclicked" font="0004" crtext="000000" />
+<class name="msgboxhead" skin="msgboxhead" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="msgboxbody" skin="msgboxbody" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="msgboxfoot" skin="msgboxfoot" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="msgboxbody2" skin="msgboxbody2" font="0000" crtext="000000" crbg="FBFCFD"/>
+<class name="linkimage" cursor="hand"/>
+<class name="client" margin="10"/>
+<class name="normalbtn" skin="normalbtn" font="0000" crtext="000000" textmode="25" cursor="hand" x-margin="5"/>
+	<class name="NetMonDisabled" cursor="hand"/>
+	<class name="NetMonEnabled" cursor="hand"/>
+<class name="msgtext" font="0000" crtext="000000" textmode="850"/>
+<class name=linktextnetmonitor font=0004 hoverfont=0004 crtext=0064C4 crhover=0064C4 textmode="8030" cursor1="hand"/>
+<class name=linktextnetmonitor2 font=0004 hoverfont=0004 crtext=202020 crhover1=1a6999 textmode="8030" cursor1="hand"/>
+<class name=linktextnetmonitordesc font=0000 hoverfont=0000 crtext=000000 crhover=000000 textmode=8030 />
+<class name=centertext font=0000 hoverfont=0000 crtext=000000 crtbg="ffffff" textmode=8035 />
+<class name=linkcentertext crhover=015Df4 cursor=hand textmode="0002"/>
+<class name=listheader skin=listheaderbg font=0000 crtext=BBCBDE crbg=FBFCFD textmode=25/>
+<class name="listheader2" skin="listheaderbg" font="0000" crtext="666666" crbg="FBFCFD" textmode="25"/>
+<class name="addspace" spacing="7" />
+<class name=filename textmode=8020/>
+<class name=panel skin=panel margin=1/>
+<class name=levelcentertext textmode=8035 />
+<class name=dlgtitle font=0004 crtext=FFFFFF textmode="8030"/>
+<class name=righttext textmode="0002"/>
+<class name="boldfont" font="0004" crtext="000000"/>
+<class name="tabpage" margin="2" crbg="FBFCFD"/>
+<class name="linktexttwo" font="0000" crtext="3064A5" crhover="3064A5"/>
+<class name="leftcentertext" font="0000" hoverfont="0000" crtext="000000" crhover="000000" crtbg="ffffff" textmode="8004" />
+<class name="linktext2" font="0002" crtext="0000FF" crhover="0000FF" cursor="hand"/>
+<class name="linktext3" font="0000" crtext="3064A5" crhover="3064A5" cursor="hand"/>
+<class name="addspace" spacing="7"/>
+<class name=perfmon_caption font=0004 hoverfont=0004 textmode="8030"/>
+<class name=perfmon_desc font=0000 hoverfont=0000 crtext=616161 crhover=616161 textmode="8030"/>
+<class name=centerblod font=0004 hoverfont=0004 crtext=000000 crtbg="ffffff" textmode=8035 />
+<class name="wndoptlisttitlebg" skin="wndoptlistheaderbg" />
+<class name=richtext spacing=5 linespacing=20/>
+</style>

@@ -1,0 +1,17 @@
+﻿<layer width="400" height="150">
+	<header class="kwsdlghead" width="full" height="32">
+		<img pos="5,5" skin="kwsmain_icon" />
+		<text class="kwsdlgtitle" pos="25,7">网盾</text>
+		<imgbtn id="100" class="linkimage" skin="kwsclosebtn" pos="-28,0"/>
+	</header>
+	<footer class="kwsdlgfoot" width="full" height="5" />
+	<body width="full" height="full" class="kwsdlgbody">
+		<dlg pos="0,0,-0,-0">
+			<dlg pos="42,20,-10,-0" id="50" show="1">
+				<text id="1" pos="0,0">正在等待卸载360安全卫士，之后将继续完成网盾安装！</text>
+				<img id="2" pos="0,25" skin="kwswaitinguninstallanimate" sub="0"/>
+				<text id="101" pos="150,60" class="linktext">退出</text>
+			</dlg>
+		</dlg>
+	</body>
+</layer>

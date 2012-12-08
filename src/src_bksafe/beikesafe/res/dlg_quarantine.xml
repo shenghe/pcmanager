@@ -1,0 +1,23 @@
+﻿<layer title="查看隔离区" width=700 height=550>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 查看隔离区</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <dlg pos="10,10,-10,-10">
+            <check id=100 pos="0,5,40,-5">全选</check>
+            <button id=101 pos="-180,0,-100,-0" class=normalbtn>彻底删除</button>
+            <button id=102 pos="-80,0,-0,-0" class=normalbtn>恢复文件</button>
+        </dlg>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg id=103 pos="10,10,-10,20">
+            <img pos="0,0" skin=stat15 sub=3/><text pos="20,1">隔离区的文件是被查杀木马程序。如果您确认需要使用这些程序，请使用“恢复文件”进行恢复操作。</text>
+        </dlg>
+        <dlg pos="10,35,-10,-0" class=panel>
+            <dlg pos="0,0,-0,-0" class=client>
+                <text pos="0,0">正在加载...</text>
+            </dlg>
+            <realwnd pos="0,0,-0,-0" ctrlid=174 id=174 show=0/>
+        </dlg>
+    </body>
+</layer>

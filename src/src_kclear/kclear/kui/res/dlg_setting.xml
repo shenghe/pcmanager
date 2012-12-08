@@ -1,0 +1,37 @@
+﻿<layer width="520" height="500" >
+	<header class="msgboxhead" width="full" height="32">
+		<text id="4489" pos="25,10" class="dlgtitle">垃圾清理设置</text>
+		<icon src="IDI_ICON_SMALL" pos="5,9"/>
+		<imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-10">
+			<text pos="20,20" class="headerline">垃圾体检设置</text>
+			<hr pos="100,26,-10,26" crbg="CCCCCE"/>
+			<text pos="44,43">体检扫描范围：</text>
+			<radio id="6005" pos="134,63" group="trashconfig">垃圾清理默认推荐项</radio>
+			<radio id="6006" pos="134,43" group="trashconfig">垃圾清理当前勾选项（不包括系统盘深度清理）</radio>
+			<text pos="44,86">体检到垃圾文件超过</text>
+			<dlg pos="160,83,217,103">
+				<realwnd id="6004" ctrlid="6004" pos="0,0,-0,-0"/>
+			</dlg>
+			<text pos="225,86">MB 时，报告垃圾文件过多。</text>  
+			<text pos="20,127" class="headerline">视频缓存清理</text>
+			<hr pos="100,133,-10,133" crbg="CCCCCE"/>
+			<check id="6007" pos="44,151">只清理一天前的视频缓存</check>
+			<text pos="20,185" class="headerline">深度垃圾清理</text>
+			<hr pos="100,191,-10,191" crbg="CCCCCE"/>
+			<check id="6003" pos="44,207">启用系统盘深度清理</check>
+			<text id="4490" pos="56,227">深度扫描系统盘所有指定类型的垃圾文件，扫描时间较长，建议您一个月启用一次。</text>
+			<dlg pos="56,247,-15,340" class="panel">
+				<realwnd id="6001" pos="0,0,-0,-0" ctrlid="6001"/>
+			</dlg>
+			<text pos="20,364" class="headerline">主动提醒设置</text>
+			<hr pos="100,370,-10,370" crbg="CCCCCE"/>
+			<check id="6008" pos="44,392">系统盘空间不足时，主动提醒进行垃圾清理。</check>
+			<!--<check id="6002" pos="23,335">不处理2小时以内的视频缓存文件</check>-->
+			<button id="2" pos="-97,-36,-17,-12" class="normalbtn">取消</button>
+			<button id="1" pos="-187,-36,-107,-12" class="normalbtn">确定</button>
+		</dlg>
+	</body>
+</layer>

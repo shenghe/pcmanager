@@ -1,0 +1,101 @@
+﻿<skins>
+<imgframe name="panel" src="IDB_FRAME_PANEL" top="1" left="1" crbg="FBFCFD"/>
+<imgframe name="panelgray" src="IDB_FRAME_PANEL_GRAY" top="1" left="1" crbg="FBFCFD"/>
+<imgframe name="panelwhite" src="IDB_FRAME_PANEL" top="1" left="1" crbg="FBFCFD"/>
+<imgframe name="panelclear" src="IDB_CLEAR_PANEL" mode="mask" top="7" left="7" crbg="FBFCFD"/>
+<imgframe name="tabpage" src="IDB_FRAME_PANEL" top="1" left="1" crbg="FBFCFD" part="center"/>
+<imgframe name="mainbgbody" crbg="FBFCFD"/>
+<imgframe name="softtopbk" src="IDB_MAIN_BG_BODY"  top="36" left="3" />
+<imgframe name="msgboxhead" src="IDB_MSGBOX_HEADER" top="32" left="5" crbg="FBFCFD" part="top"/>
+<imgframe name="msgboxbody" src="IDB_MSGBOX_BODY" top="0" left="2" crbg="FBFCFD" part="middle"/>
+<imgframe name="msgboxfoot" src="IDB_MSGBOX_BODY" top="0" left="2" crbg="FBFCFD" part="bottom"/>
+<button name="uglybtn"/>  
+<button name="normalbtn" border="7D9EBC" bg="FBFCFD" bgup="FEFEFE" bgdown="C6E2FD" bguphover="FEFEFE" bgdownhover="DBEDFE" bguppush="C6E2FD" bgdownpush="FEFEFE"/>  
+<imghorzex name="progressbg" src="IDB_PROGRESS_BAR_BG" mode="mask" left="3"/>
+<imghorzex name="progresspos" src="IDB_PROGRESS_BAR_VALUE" mode="mask" left="3"/>
+<imghorzex name="progressposred" src="IDB_PROGRESS_BAR_VALUE_RED" mode="mask" left="3"/>
+<imghorzex name="listheaderbg" src="IDB_BITMAP_LISTCTRL_HEADER" mode="mask" left="2"/>
+<imglst name="closebtn" src="IDB_BTN_SYS_CLOSE" subwidth="21"/>
+<png name="closeonlybtn" src="IDP_BTN_SYS_CLOSE_ONLY" subwidth="43"/>
+<imglst name="leftfilterbtn" src="IDB_BTN_FILTER_LEFT" subwidth="125"/>
+<imglst name="rightfilterbtn" src="IDB_BTN_FILTER_RIGHT" subwidth="30"/>
+<imglst name="maxbtn" src="IDB_BTN_SYS_MAXIMIZE" subwidth="27"/>
+<imglst name="minbtn" src="IDB_BTN_SYS_MINIMIZE" subwidth="29"/>
+<imglst name="restorebtn" src="IDB_BTN_SYS_RESTORE" subwidth="27"/>
+<imglst name="stat15" src="IDB_STATUS_ICON" mode="mask" subwidth="15"/>
+<imglst name="stat16" src="IDB_STATUS_ICON2" mode="mask" subwidth="16"/>
+<imglst name="stat40" src="IDB_STATUS_ICON3" mode="mask" subwidth="40"/>
+<png name="scanani" src="IDP_EXAM_SCAN" subwidth="35"/>
+<png name="scananibg" src="IDP_EXAM_SCAN_BG" subwidth="42"/>
+<gradation name="tipbg" from="FFFFFF" to="E4E5F0" direction="vert"/>
+<imglst name="ksc_logo" src="IDB_LOGO_KSC" />
+<imglst name="clear_logo" src="IDB_LOGO_CLEAR" />
+<png name="examstatus" src="IDP_EXAM_STATUS" subwidth="48"/>
+<imglst name="exam_stat15" src="IDB_EXAM_STATUS_ICON" mode="mask" subwidth="15"/>
+<png name="examanipng" src="IDP_EXAM_ANTI" subwidth="48"/>
+<png name="protectionstatus3" src="IDP_PROTECTION_STATUS3" subwidth="42" mode="mask" />
+<png name="protectionstatus2" src="IDP_PROTECTION_STATUS2" subwidth="32" mode="mask" />
+<png name="protectionexample" src="IDP_PROTECTION_EXAMPLE" mode="mask" />
+<png name="powersweep_ico" src="IDP_POWERSWEEP_ICO" />
+<png name="loadinfotip" src="IDP_LOADINFO_TIP" subwidth="16" />
+<imglst name="mainuibwssafe" src="IDB_MAINUI_BWS_ICON" mode="mask" subwidth="32"/>
+<png name="iconprottab" src="IDP_LOGO_PROTECTION_TAB" subwidth="33"/>
+<png name="logoprotection" src="IDP_LOGO_PROTECTION" />
+<png name="softmgrclear" src="IDP_SOFTMGR_CLEAR" subwidth="79"/>
+<png name="softmgrrevert" src="IDP_SOFTMGR_REVERT" subwidth="79"/>
+<png name="onekey_clean_end" src="IDB_ONEKEY_CLEAN_END" />
+<imglst name="onekey_clean_advice" src="IDB_ONEKEY_CLEAN_ADVICE" />
+<imglst name="onekey_clean_first" src="IDB_ONEKEY_CLEAN_FIRST" />
+<png name="onekey_clean_stoped" src="IDB_ONEKEY_CLEAN_STOPED" />
+<imglst name="onekey_clean_config_greentip"  src="IDB_ONEKEY_CLEAN_GREEN_TIPS" />
+<png name="scan_animation" src="IDP_SCAN_ANIMATION" subwidth="54" mode="mask" />
+<png name="scan_animation_bg" src="IDP_SCAN_ANIMATION_BG" subwidth="42" mode="mask" />
+<png name="folder" src="IDP_FOLDER" />
+<png name="process_ok" src="IDP_PROCESS_OK" />
+<imglst name="bigfile_del_msgbox" src="IDB_DEL_MSGBOX_INFO" subwidth="40" mode="mask"/>
+<imghorzex name="tabmain" src="IDB_TAB_MAIN" mode="mask" subwidth="7" left="3"/>
+<imglst name="onekeyclean" src="IDB_ONEKEY_CLEAN" subwidth="168"/>
+<imglst name="onekeyshadow" src="IDB_ONEKEY_SHAWDOW" subwidth="168"/>
+<png name="onekeyflag" src="IDP_ONEKEY_FLAG" subwidth="52"/>
+<imghorzex name="onekeyheader" src="IDB_ONEKEY_HEADER"/>
+
+<imghorzex name="trashtipsbkg" src="IDB_TRASH_TIPS_BKG"/>
+<imghorzex name="trashheadbkg" src="IDB_TRASH_HEAD"/>
+<png name="plusapp3" src="IDB_BOOT_SPEED" subwidth="83" mode="mask"/>
+<png name="plusapp2" src="IDB_PLUG_CLEAR" subwidth="83" mode="mask"/>
+<png name="soft_uninstall" src="IDB_SOFT_UNINSTALL" subwidth="83" mode="mask"/>
+<png name="plusapp4" src="IDP_PLUS_APP4" subwidth="83" mode="mask"/>
+<png name="plusapp5" src="IDP_PLUS_APP5" subwidth="83" mode="mask"/>
+<png name="plusapp6" src="IDP_PLUS_APP6" subwidth="83" mode="mask"/>
+<png name="plusapp1" src="IDP_PLUS_APP1" subwidth="83" mode="mask"/>
+
+<imghorzex name="btnexamrightbg" src="IDB_EXAM_RIGHT_BG" mode="mask" subwidth="11" left="5"/>
+<imglst name="right_triangle" src="IDB_RIGHT_TRANGLE"/>
+<imgframe name="shadow_vert" src="IDB_SHADOW_VERT" top="0" left="8" part="middle"/>
+<imglst name="tips_close" src="IDB_TIPS_CLOSE" subwidth="16"/>
+<imglst name="trash_finish_success_r" src="IDB_FINISH_SUCCESS_R"/>
+<imglst name="trash_finish_cancel_r" src="IDB_FINISH_CANCEL_R"/>
+<png name="begin_scan_icon" src="IDP_TRASH_BEGIN_ICON"/>
+<png name="begin_scan_btn" src="IDP_TRASH_BEGIN_SCAN" subwidth="151" mode="mask"/>
+<png name="cancel_btn" src="IDP_TRASH_CANCEL" subwidth="98" mode="mask"/>
+<png name="trash_rescan" src="IDP_TRASH_RESCAN" subwidth="151" mode="mask"/>
+<!--
+<png name="finish_head_s" src="IDP_TRASH_FINISH_HEAD_S"/>
+<png name="finish_head_f" src="IDP_TRASH_FINISH_HEAD_F"/>
+-->
+<png name="trash_cleaning" src="IDP_TRASH_CLEANING" mode="mask" subwidth="73" />
+<png name="trash_scanning" src="IDP_TRASH_SCANING" mode="mask" subwidth="73" />
+<imghorzex name="trash_skip_head" src="IDB_SKIP_HEAD_BACK" mode="mask"/>
+
+<imglst name="spacing_shadow" src="IDB_TRASH_SHADOW" />
+<png name="begin_clean_btn" src="IDP_TRASH_CLEAN" mode="mask" subwidth="151" />
+<png name="trash_ok" src="IDP_TRASH_OK"/>
+<png name="trash_has" src="IDP_TRASH_HAS"/>
+<png name="trash_rish" src="IDP_TRASH_RISK"/>
+<png name="flash_progress" src="IDP_FLASH_PROGRESS" mode="mask" subwidth="387"/>
+
+<png name="setting_icon" src="IDP_SETTING_ICON" />
+
+<png name="question" src="IDP_QUESTION" />
+<imghorzex name="slim_head_bk" src="IDB_SLIM_HEAD_BK" />
+</skins>

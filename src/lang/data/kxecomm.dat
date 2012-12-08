@@ -1,0 +1,5 @@
+[ProductInfo]
+kxebase.dll=SOFTWARE\KSafe\KXEngine
+scom.dll=SOFTWARE\KSafe\KXEngine\CLASSES_ROOT
+[SPRoot]
+SPRoot=SOFTWARE\KSafe\KXEngine\SP_ROOT

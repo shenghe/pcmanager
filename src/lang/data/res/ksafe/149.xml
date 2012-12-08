@@ -1,0 +1,18 @@
+﻿<layer width="400" height="200">
+    <header class="msgboxhead" height="32">
+        <icon src="107" pos="5,9"/>
+        <text class="dlgtitle" pos="25,10">%str1%</text>
+        <imgbtn id="2" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <body class="msgboxfoot">
+        <dlg pos="0,0,-0,-0" class="client">
+            <icon id="60005" pos="10,10" src="32515" oem="1" size="32"/>
+            <text pos="60,10">上次扫描在您的系统中发现了病毒，为了确保系统安全</text>
+            <text pos="60,35">建议本轮进行深度扫描！深度扫描可能发现更多威胁，</text>
+            <text pos="60,60">需要几分钟时间。</text>
+			<check id="60010" pos="60,-60">不再询问，发现病毒后自动进行深度扫描</check>
+            <button id="1" pos="|-85,-35,|-5,-10" class="normalbtn">深度扫描</button>
+            <button id="2" pos="|5,-35,|85,-10" class="normalbtn">普通快速扫描</button>
+        </dlg>
+    </body>
+</layer>

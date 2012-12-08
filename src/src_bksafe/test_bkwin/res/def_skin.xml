@@ -1,0 +1,17 @@
+﻿<skins>
+<imgframe name=panel src=110 top=2 left=2 crbg=F0F4FA/>
+<imgframe name=mainbgall src=104 top=14 left=3 crbg=DEEFFF/>
+<imgframe name=mainbghead src=104 top=14 left=3 crbg=DEEFFF part=top/>
+<imgframe name=mainbgbody src=104 top=14 left=3 crbg=DEEFFF part=middle/>
+<imgframe name=mainbgfoot src=104 top=14 left=3 crbg=DEEFFF part=bottom/>
+<button name=uglybtn/>  
+<imghorzex name=normalbtn src=103 mode=mask subwidth=9 left=4/>
+<imghorzex name=tab src=109 mode=mask subwidth=7 left=3/>
+<imghorzex name=progressbg src=112 mode=mask left=3/>
+<imghorzex name=progresspos src=113 mode=mask left=3/>
+<imglst name=split src=120/>
+<png name=png1 src=121 subwidth=66/>
+<imglst subwidth=25 name=sysbtnmin src=115/>
+<imglst subwidth=25 name=sysbtnmax src=116/>
+<imglst subwidth=43 name=sysbtnclose src=114/>
+</skins>

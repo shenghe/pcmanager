@@ -1,0 +1,30 @@
+﻿<layer width="365" height="350" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">问题反馈</text>
+		<imgbtn id="1611" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-0">   
+			<text pos="|-35,15,|35,30" font="0304">问题反馈</text>
+			<hr pos="10,45,-10,45" crbg="CCCCCC"/>
+			<dlg pos="10,60,-10,-50">
+				<text pos="20,0">插件名称：</text>
+				<dlg pos="20,17,-20,40" class="panel">
+					<realwnd id="1306" pos="0,3,-0,-3" ctrlid="1306"/>
+				</dlg>
+				<text pos="20,53">问题描述：</text>
+				<dlg pos="20,70,-20,130" class="panel">
+					<realwnd id="1304" pos="0,2,-0,-2" ctrlid="1304"/>
+				</dlg>
+				<text pos="20,142" crtext="FF0000">请输入您的qq号：（方便我们联系并帮您解决问题）</text>
+				<dlg pos="20,160,-20,182" class="panel">
+					<realwnd id="1305" pos="0,3,-0,-3" ctrlid="1305"/>
+				</dlg>
+				<hr pos="0,202,-0,202" crbg="CCCCCC"/>
+			</dlg>
+			<button id="1612" pos="-230,-37,-90,-15" class="normalbtn">提交给安全中心</button>
+			<button id="1613" pos="-70,-37,-10,-15" class="normalbtn">取消</button>
+		</dlg>
+	</body>
+</layer>

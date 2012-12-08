@@ -1,0 +1,34 @@
+<layer title="在线升级" width="402" height="360">
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="101" pos="5,9"/>
+    <text class="dlgtitle" pos="25,10">%str1% - 在线升级</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+	<!-- imgbtn id="60003" class="linkimage" skin="minbtn" pos="-73,0"/ -->
+  </header>
+  <footer class="msgboxfoot" width="full" height="40">
+    <dlg pos="10,0,-10,28">
+      <button id="1701" pos="-80,0,-0,-0" class="normalbtn" show="0">确定</button>
+      <button id="1700" pos="-80,0,-0,-0" class="normalbtn" show="0">取消</button>
+      <button id="1702" pos="-170,0,-90,-0" class="normalbtn" show="0">立即升级</button>
+    </dlg>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <img  pos="2,0,-2,67" skin="update_version" />
+    <dlg pos="2,68,-2,-13" show="1">
+      <text id="1703" pos="20,20,-0,50" show="0"  font="0004"></text>
+      <progress id="1706" pos="20,90,-20,10" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+	  <dlg id="1714" pos="20,70,-20,-20" class="panel" show="0">
+		<realwnd id="1708" pos="0,0,-0,-0" ctrlid="1708"/>
+	  </dlg>
+	  <dlg id="1715" pos="70,80,-20,120" show="0">
+		<img pos="0,0,50,-0" skin="update_warning"/>
+		<text id="1716" pos="70,7,-10,-12" font="0004"></text>
+	  </dlg>
+	  <text id="1709" pos="20,-28,-20,-10" show="0">提示:您可以尝试</text>
+	  <text id="1711" pos="114,-28,-20,-10" class="linktext" show="0">下载离线安装包</text>
+	  <text id="1710" pos="201,-28,-20,-10" show="0">进行升级。</text>
+	  <button pos="5,-1,-5,-0" class="normalbtn" crbg="fffffe" show="1"/>
+    </dlg>
+  </body>
+</layer>
+

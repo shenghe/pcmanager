@@ -1,0 +1,82 @@
+﻿<layer title="金山卫士网络测速" width="469" height="410" appwin="1" resize="1" nomaxsize="1">
+	<header class="mainhead" width="full" height="31">
+    <imgbtn id="100" class="linkimage" skin="closebtn" pos="-44,0"/>
+	</header>
+	<footer  class="mainfoot" width="full" height="54">
+    <dlg id="116" pos="0,0,-0,-0" show="1">
+      <button id="101" class="normalbtn" pos="-100,-43,-20,-20">取消</button>
+    </dlg>
+    <dlg id="117" pos="0,0,-0,-0" show="0">
+      <button id="118" class="normalbtn" pos="-100,-43,-20,-20">关闭</button>
+      <button id="119" class="normalbtn" pos="-200,-43,-120,-20">重新测试</button>
+    </dlg>
+	</footer>
+	<body class="mainbody" width="full" height="325">
+     <!-- 上面的部分-->
+     <dlg id="102" pos="0,0,-0,99" show="1">
+      <img pos="12,15" skin="icon"></img>
+      <text id="103" pos="85,16" >正在测速，可能需要15秒左右的时间，请稍候...</text>
+      <progress id="106" pos="84,36,448,48" min="0" max="100" value="0" bgskin="pbk1" posskin="processinfo"/>
+      <text id="104" pos="85,55,325,70" class="textblue">正在查找测速地址，请等待... </text>
+     </dlg>
+     <!-- 成功-->
+     <dlg id="107" pos="0,0,-0,99" show="0">
+      <img pos="12,15" skin="iconsucess"></img>
+      <text id="108" pos="85,16,-0,-0" class="msgtext2">经检测，您当前的网络速度为：0KB/秒</text>
+       <img pos="84,49,442,83" skin="processtext"></img>
+       <progress id="109" pos="84,36,444,48" min="0" max="70" value="0" bgskin="pbk1" posskin="processinfo"/> 
+     </dlg>
+    <!-- 失败显示-->
+    <dlg id="122" pos="0,0,-0,99" show="0">
+      <img pos="12,15" skin="iconfail"></img>
+      <text id="123" pos="85,16,-0,-0" class="msgtext2">检测失败，未能成功连接网络服务器！</text>
+      <text pos="85,36,-0,-0" class="msgtext">由于系统无法访问网络服务器或者当前的网络连接速度过于缓慢，导</text>
+      <text pos="85,56,-0,-0" class="msgtext">致检测未能成功，建议您检查系统是否联网，稍后再进行测试！</text>
+    </dlg>
+     <!-- 上面的部分结束-->
+     <!-- 开始描叙部分-->
+     <dlg id="105" pos="0,100,-0,-0" show="1">
+        <img pos="21,15" skin="icon1"></img>
+        <text pos="48,18" class="msgtext1">网速一般是指电脑上网时上传和下载的速度，受硬件及宽带条件的影响，这</text>
+        <text pos="48,38" class="msgtext1">个数值会不时发生变化。金山卫士网络测速将通过一段时间的平均采样，给</text>
+        <text pos="48,58" class="msgtext1">出最接近于实际情况的数值!</text>
+     </dlg>
+    <!-- 测速成功显示结果-->
+    <dlg id="110" pos="0,100,-0,-0" show="0">
+      <img pos="21,15" skin="icon2"></img>
+      <text id="128" pos="48,18" class="msgtext1">网络测速报告</text>
+      <text id="115" pos="48,38,380,58" class="msgtext1">测试平均网速：0KB/秒</text>
+      <text id="124" pos="48,38,380,58" class="msgtext4">检测失败！</text>
+      <richtext id="111" pos="48,58,-0,-0" class="msgtext1">测试平均网速：0 KB/秒</richtext>
+      <text id="112" pos="48,78,-0,-0" class="msgtext1"></text>
+      <text id="113" pos="48,58,-0,-0" class="msgtext1" show="0">测试平均网速：0 KB/秒</text>
+      <!--  <text id="112" pos="48,78,-0,-0" class="msgtext1">IP地址：10.20.224.104</text>
+      <text id="113" pos="48,98,-0,-0" class="msgtext1">MAC址 ：00:00:00:00</text>
+   -->   <text id="114" pos="-124,98" class="msgtext3">拷贝报告到剪贴板</text>
+
+      <dlg id="120" pos="0,140,-0,-0" show="1">
+        <img pos="21,10" skin="icon3"></img>
+        <text pos="48,10" class="msgtext1">小贴士</text>
+        <!-- 小于512K -->
+        <dlg id="125" pos="0,0,-0,-0" show="0">
+        <text pos="48,30,-0,-0" class="msgtext1">当前网速偏慢，如果网速是在突然间变慢，建议您通过流量监控查看是否有</text>
+        <text pos="48,50,-0,-0" class="msgtext1">进程占用过多的网络带宽！</text>
+        </dlg>
+        <!-- 小于2M 大于 512K -->
+        <dlg id="126" pos="0,0,-0,-0" show="1">
+          <text pos="48,30,-0,-0" class="msgtext1">当前网速一般，如果网速是在突然间变慢，建议您通过流量监控查看是否有</text>
+          <text pos="48,50,-0,-0" class="msgtext1">进程占用过多的网络带宽！</text>
+        </dlg>
+        <!-- 测速失败 -->
+        <dlg id="127" pos="0,0,-0,-0" show="0">
+          <text pos="48,30,-0,-0" class="msgtext1">测速失败，如果网速是在突然间变慢，建议您通过流量监控查看是否有进程</text>
+          <text pos="48,50,-0,-0" class="msgtext1">占用过多的网络带宽！</text>
+        </dlg>
+        
+        <text id="121" pos="-98,50" class="msgtext3">打开流量监控</text>
+      </dlg>
+    </dlg>
+      
+    <!-- 描叙部分结束--> 
+	</body>
+</layer>

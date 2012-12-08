@@ -1,0 +1,18 @@
+﻿<listitem height="55" >
+  <dlg  pos="0,0,-0,-0" crbg="FFFFFF">
+    <dlg id="401" pos="0,0,-0,-0" >
+      <img id="402" pos="0,0,-0,-0" skin="listitembg2"/>
+			<!--时间-->
+			<text id="403" pos="0,0,150,30" class="centertext"></text>
+			<!--上传总流量-->
+			<text id="404" pos="150,0,230,30" class="centertext"></text>
+			<!--下载总流量-->
+			<text id="405" pos="230,0,310,30" class="centertext"></text>
+			<!--总流量-->
+			<text id="406" pos="310,0,390,30" class="centertext"></text>
+			<!--累计监控时间-->
+			<text id="407" pos="390,0,561,30" class="centertext"></text>
+			<hr pos="0,29,-0,29" crbg="dceeff"/>
+		</dlg>
+	</dlg>
+</listitem>

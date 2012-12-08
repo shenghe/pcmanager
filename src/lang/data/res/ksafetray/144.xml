@@ -1,0 +1,32 @@
+﻿<layer width="290" height="180" appwin=0 noborder=1>
+
+	<header class="doublehead" width="full" height="50">
+		<img skin="logo" pos="15,3"/>
+		<imgbtn id="60001" class="linkimage" skin="closeonlybtn2" pos="-55,0"/>
+		<img id="60009" skin="header_title_normal" pos="60,12"/>
+	</header>
+
+	<footer class="doublefoot" width="full" height="7">
+	</footer>
+
+	<!-- <body width="full" height="full"> -->
+	<body class="trayappwinbody" width="full" height="full" crtext="000000" crbg="FFFFFF">
+		<dlg id1=60007 pos="0,0,-0,-0">
+				  
+			<dlg pos="0,0,-1,20" crbg1="FAFDFF">
+				<text id="1700" pos="0,0,-0,-0" class="textmode_title"></text>
+			</dlg>
+			
+			<dlg pos="0,20,-1,80" crbg1="FAFDFF" show="1">
+				<realwnd id="1701" ctrlid="1701" crtext=333333 pos="0,0,-0,-0"/>
+			</dlg>
+			
+			<dlg pos="0,80,-1,-0" crbg1="F0F0F0" show="1">
+				<button id="60004" class="normalbtn_gray" pos="|-110,10,|-10,33"></button>
+				<button id="60005" class="normalbtn_gray" pos="|10,10,|110,33"></button>
+			</dlg> 
+
+			<hr pos="1,81,-1,81" crbg="DFDFDF" />
+		</dlg>
+	</body> 
+</layer>

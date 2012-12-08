@@ -1,0 +1,158 @@
+﻿<dlg pos="0,0,-0,-0">
+	<dlg pos="0,6,150,-0" crbg="E3EDF7" show="1">
+		<tabctrl id="4001" cursel="0" tabwidth="131" tabalign="left" tabheight="37" tabskin="tableft" splitterskin="tableftsplitter" tabspacing="20" tabpos="20" framepos="10" pos="5,0,-0,-0" text-x="-10" crbg1="EFF8FF">
+			<tab title="一键优化" width="full" height="full" class="settingpage" valign="middle" />
+			<tab title="开机加速" width="full" height="full" class="settingpage" valign="middle" />
+      <tab title="流量监控" width="full" height="full" class="settingpage" valign="middle" />
+      <tab title="系统加速" width="full" height="full" class="settingpage" valign="middle" />
+			<tab title="系统百宝箱" width="full" height="full" class="settingpage" valign="middle">
+			</tab>
+		</tabctrl>
+	</dlg>
+	<dlg id="4002" pos="150,0,-6,-0" class="panelsysopt">
+		<tabctrl id="4004" cursel="0" tabwidth="90" tabskin="tab" tabspacing="4" tabpos="10" pos="0,10,-0,-35" frameskin="panelgray" framepos="-1">
+			<tab id="4014" title="启动项" width="full" height="full" class1="tabpage" />
+			<tab id="4015" title="服务项" width="full" height="full" class1="tabpage" />
+			<tab id="4016" title="计划任务" width="full" height="full" class1="tabpage" />
+			<tab id="4101" title="优化历史" width="full" height="full" class1="tabpage" />
+		</tabctrl>
+		<dlg id="4060" pos="2,35,-2,-50" class="sysopt_listbk">
+			<dlg id="4019" pos="15,8,-0,-0">
+				<img pos="0,0" skin="stat_runopt" sub="0"/>
+				<text pos="20,2">禁用不必要的启动项，延迟不是一开机就需要用的启动项，均可以加快开机速度。</text>
+			</dlg>
+			<dlg id="4020" pos="15,8,-0,-0" show="0">
+				<img pos="0,0" skin="stat_runopt" sub="0"/>
+				<text pos="20,2">“服务项”是开机后在后台运行，没有界面。把非必须的项改为开机不启动可加快开机速度。</text>
+			</dlg>
+			<dlg id="4021" pos="15,8,-0,-0" show="0">
+				<img pos="0,0" skin="stat_runopt" sub="0"/>
+				<text pos="20,2">“计划任务”会在设定的时间（例如每天、每周的某个时间点）定时执行。</text>
+			</dlg>
+			<dlg id="4088" pos="15,8,-0,-0" show="0">
+				<img pos="0,0" skin="stat_runopt" sub="0"/>
+				<richtext id="4089" pos="20,2,-0,-0" class="addspace">已禁用<b><c color="cd0000"> 0 </c></b>项，您可以通过此列表还原误禁用的启动项。</richtext>
+			</dlg>
+			<text id="4022" pos="-80,10" class="linktext">了解更多</text>
+		</dlg>
+		<!--启动项列表-->
+		<dlg pos="2,67,-0,-38" id="4008" show="1">
+			<dlg pos="0,0,-1,20" show="1">
+				<text pos="0,0,-330,-0" class="listheader" crbg="AAAA00">软件名称</text>
+				<text pos="-330,0,-250,-0" class="listheader" crbg="AAAA00">建议</text>
+				<text pos="-250,0,-190,-0" class="listheader" crbg="00AA00">开启率</text>
+				<text pos="-190,0,-105,-0" class="listheader" crbg="00AAAA">当前状态</text>
+				<text pos="-105,0,-0,-0" class="listheader" crbg="00AAAA">操作</text>
+			</dlg>
+			<realwnd id="4003" pos="0,20,-1,-0" ctrlid="4003" show="1"/>
+		</dlg>
+		<dlg id="4013" pos="10,-35,-0,-0" show="0">
+			<dlg pos="0,-26,280,-0" id="4023">
+				<check pos="5,0" id="4025">显示已禁止启动的项目</check>
+			</dlg>
+			<dlg pos="135,-26,-100,-0" id="4024" show="0">
+				<dlg pos="25,0,470,-0" show="1">
+					<check id="4005" pos="0,0">隐藏系统服务</check>
+				</dlg>
+			</dlg>
+			<text id="4011" pos="-55,-26" class="linktext">刷新</text>
+			<text id="4012" pos="-180,-26" class="linktext">撤销全部更改</text>
+		</dlg>
+		<dlg id="4082" pos="10,-35,-0,-0" show="0">
+			<text id="4033" pos="-100,-26" class="linktext">撤销全部更改</text>
+		</dlg>
+		<!--开机提示设置-->
+		<img pos="-130,10" skin="startup_setting" sub="0"/>
+		<text id="4048" pos="-105,15" class="linktext">开机提示设置</text>
+		<dlg pos="3,62,-1,-43" id="4069" show="0">
+			<dlg pos="|-330,|-163,|330,|163">
+				<img pos="111,62" skin="notask_img"/>
+				<text pos="180,116" class="centertext">推荐您使用以下功能：</text>
+				<img pos="176,145" skin="stat_runopt" sub="2" />
+				<text id="4070" pos="191,145" class="linktext">清理垃圾</text>
+				<text pos="261,145">清理垃圾文件，加速系统，释放磁盘空间</text>
+				<img pos="176,175" skin="stat_runopt" sub="2" />
+				<text id="4071" pos="191,175" class="linktext">装机必备</text>
+				<text pos="261,175">安全快速安装软件</text>
+			</dlg>
+		</dlg>
+		<!--优化历史记录及恢复List-->
+		<dlg pos="2,67,-0,-37" id="4079" show="0">
+			<dlg pos="|-330,|-169,|330,|169" id="4080">
+				<img pos="113,63" skin="no_history"/>
+				<text pos="180,118" class="centertext">推荐您使用以下功能：</text>
+				<img pos="176,148" skin="stat_runopt" sub="2" />
+				<text id="4081" pos="191,148" class="linktext">一键优化</text>
+				<text pos="261,148">一键清理不必要的启动项</text>
+				<img pos="176,178" skin="stat_runopt" sub="2" />
+				<text id="4070" pos="191,178" class="linktext">清理垃圾</text>
+				<text pos="261,178">清理垃圾文件，加速系统，释放磁盘空间</text>
+				<img pos="176,208" skin="stat_runopt" sub="2" />
+				<text id="4071" pos="191,208" class="linktext">装机必备</text>
+				<text pos="261,208">安全快速安装软件</text>
+			</dlg>
+			<realwnd id="4090" pos="0,0,-1,-0" ctrlid="4090"/>
+		</dlg>
+	</dlg>
+	<dlg id="4084" pos="147,0,-1,56" show="0">
+		<dlg id="4067" pos="5,20,470,60" show="1">
+			<img id="4009" pos="0,0" skin="onekeyopt_scan" sub="0"/>
+			<richtext id="4086" pos="90,10,490,36" class=addspace defaultfont="0204">正在扫描，已经发现<b><c color="cd0000"> 0 </c></b>个可优化项目。</richtext>
+			<img id="4057" pos="90,36" skin="scanscroll" sub="0"/>
+		</dlg>
+		<dlg id="4056" pos="5,20,470,80" show="0">
+			<img pos="0,0" skin="onekeyopt_status" sub="3"/>
+			<richtext id="4076" pos="90,10,490,36" class=addspace defaultfont="0204">扫描完成，共发现<b><c color="cd0000"> 0 </c></b>个可优化项目。</richtext>
+			<richtext pos="90,36,390,48" class=addspace><c color="7a7a7a">进行系统优化可加快程序运行，提升开机速度。</c></richtext>
+		</dlg>
+		<dlg id="4073" pos="5,20,470,80" show="0">
+			<img id="4063" pos="0,0" skin="onekeyopt_scan" sub="0"/>
+			<text id="4058" class="endellipsistext" pos="90,10,390,22"/>
+			<img id="4007" pos="90,36" skin="scanscroll" sub="0"/>
+		</dlg>
+		<dlg id="4074" pos="5,20,470,80" show="0">
+			<img pos="0,0" skin="onekeyopt_status" sub="2"/>
+			<richtext id="4077" pos="90,10,490,36" class=addspace defaultfont="0204">优化完成，本次共优化<b><c color="3064A5"> 0 </c></b>项。</richtext>
+			<richtext pos="90,36,390,48" class=addspace><c color="7a7a7a">进行系统优化可加快程序运行，提升开机速度。</c></richtext>
+		</dlg>
+		<dlg id="4075" pos="5,20,470,80" show="0">
+			<img pos="0,0" skin="onekeyopt_status" sub="2"/>
+			<richtext id="4078" pos="90,10,490,36" class=addspace defaultfont="0204">优化完成，本次共优化<b><c color="3064A5"> 0 </c></b>项，尚有<b><c color="FF7F24"> 0 </c></b>项待优化。</richtext>
+			<richtext pos="90,36,390,48" class=addspace><c color="7a7a7a">进行系统优化可加快程序运行，提升开机速度。</c></richtext>
+		</dlg>
+		<dlg id="4083" pos="5,20,470,80" show="0">
+			<img pos="0,0" skin="onekeyopt_status" sub="2"/>
+			<richtext pos="90,10,390,36" class=addspace defaultfont="0204">优化完成，系统中已无可优化项目。</richtext>
+			<richtext pos="90,36,390,48" class=addspace><c color="7a7a7a">进行系统优化可加快程序运行，提升开机速度。</c></richtext>
+		</dlg>
+	</dlg>
+	<dlg id="4061" pos="147,0,-1,68">
+		<text id="4062" pos="-225,56" class="linktext" show="0">重新扫描</text>
+		<imgbtn id="4053" pos="-170,25" skin="btn_onekeyopt" show="0"/>
+	</dlg>
+	<dlg id="4006" pos="160,-40,-7,-0" show="0">
+		<check pos="5,-26" id="4027">全选</check>
+		<text id="4085" pos="-170,-26" class="linktext">已忽略</text>
+		<text id="4087" pos="-80,-26" class="linktext">撤销全部更改</text>
+	</dlg>
+	<!--一键优化列表-->
+	<dlg pos="150,95,-6,-40" id="4055" class="panelgray" show="0">
+		<dlg pos="|-324,|-148,|324,|148" id="4059">
+			<img pos="111,45" skin="autoopt_noitem"/>
+			<text pos="174,100" class="centertext">您还可以使用以下功能，手动进行系统优化：</text>
+			<img pos="170,128" skin="stat_runopt" sub="2"/>
+			<text id="4066" pos="185,128" class="linktext">垃圾清理</text>
+			<text pos="255,128">清理系统垃圾文件，加速系统运行</text>
+			<img pos="170,165" skin="stat_runopt" sub="2"/>
+			<text id="4064" pos="185,165" class="linktext">开机加速</text>
+			<text pos="255,165">禁止或者延迟不必要的启动项，加速开机</text>
+			<img pos="170,202" skin="stat_runopt" sub="2"/>
+			<text id="4065" pos="185,202" class="linktext">流量监控</text>
+			<text pos="255,202">对占用带宽高的程序限速，加速上网</text>
+		</dlg>
+		<realwnd id="4054" pos="2,1,-1,-2" ctrlid="4054" />
+	</dlg>
+	<dlg id="4040" pos="147,7,-1,-0" show="0">
+		<realwnd id="4041" pos="0,0,-1,-1" ctrlid="4041"/>
+	</dlg>
+</dlg>

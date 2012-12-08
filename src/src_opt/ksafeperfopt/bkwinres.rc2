@@ -1,0 +1,65 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// XML
+DEFINE_XML(IDR_BK_SKIN_DEF,                 100,	"res\\def_skin.xml")
+DEFINE_XML(IDR_BK_STYLE_DEF,                101,	"res\\def_style.xml")
+DEFINE_XML(IDR_BK_STRING_DEF,               102,	"res\\def_string.xml")
+DEFINE_XML(IDR_BK_MAIN_DIALOG,				103,	"res\\dlg_main.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOXEX,				104,	"res\\msgbox_dlg.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX2,				105,	"res\\dlg_msgbox2.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX3,				106,	"res\\dlg_msgbox3.xml")
+
+
+// 2.0 ui [11/29/2010 zhangbaoliang]
+DEFINE_XML(IDR_BK_LISTBOX_PERF_MONITOR,		200,	"res\\listbox_template_perfmonitor.xml")
+DEFINE_XML(IDR_BK_LISTBOX_WNDPROC_MONITOR,	201,	"res\\listbox_template_wndproc.xml")
+DEFINE_XML(IDR_BK_SYSPERF_DLG,				202,	"res\\dlg_sysperf_opt.xml")
+DEFINE_XML(IDR_BK_WND_OPT_DLG,				203,	"res\\dlg_wnd_opt.xml")
+DEFINE_XML(IDR_BK_WND_OPT_LIST,				204,	"res\\list_template_opt_wnd_ctrl.xml")
+
+// ICON
+DEFINE_ICO(IDI_BEIKESAFE,                   100,	"res\\beikesafe.ico")
+DEFINE_ICO(IDI_SMALL,                       101,	"res\\small.ico")
+
+//PNG
+
+DEFINE_PNG(IDP_BTN_SYS_CLOSE,               2,		"res\\btn_sys_close.png")
+DEFINE_PNG(IDP_EXAM_SCAN,                   4,   	"res\\onekeyopt_scan.png")
+DEFINE_PNG(IDB_MAIN_BODY_ICON,              5,		"res\\safe_flux_icon.png")
+DEFINE_PNG(IDB_BTN_SYS_MINIMIZE_PNG,		11,		"res\\btn_sys_minimize.png")
+DEFINE_PNG(IDP_BTN_ONEKEY_SPEED,			12,		"res\\btn_onekey_speedup.png")
+DEFINE_PNG(IDP_CPU_MEM_DISK,				13,		"res\\cpu_mem_disk.png")
+DEFINE_PNG(IDP_EXAM_STATE,					14,		"res\\exam_status.png")
+DEFINE_PNG(IDP_LOAD_STATE,					15,		"res\\loading_runopt.png")
+
+// 2.0 ui [11/30/2010 zhangbaoliang]
+
+DEFINE_PNG(IDB_PNG_SORT_NET,			    201,	"res\\arrow.png")
+DEFINE_PNG(IDB_PNG_SET_NET,					202,	"res\\net_setting.png")
+
+//BMP
+DEFINE_BMP(IDB_BTN_SYS_CLOSE,               101,	"res\\btn_sys_close.bmp")
+DEFINE_BMP(IDB_MSGBOX_BG,                   205,	"res\\msgbox_bg.bmp")
+DEFINE_BMP(IDB_MSGBOX_BODY_BG,              209,	"res\\msgbox_body_bg.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_HEADER,		210,	"res\\listctrl_header.bmp")
+
+
+
+
+
+// 2.0 ui [12/7/2010 zhangbaoliang]
+DEFINE_BMP(IDB_BITMAP_FRAME_PANEL,			211, 	"res\\frame_panel.bmp")
+DEFINE_BMP(IDB_BITMAP_MAIN_HEADER,			212, 	"res\\netmonitor_header.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTBOX_BG,			213, 	"res\\listbox_bg.bmp")
+
+DEFINE_BMP(IDB_BITMAP_PANEL,				216, 	"res\\frame_panel_gray.bmp")
+DEFINE_BMP(IDB_BITMAP_TOPLIST,				217, 	"res\\toplist.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTBKCOLOR,			218, 	"res\\topcolor.bmp")
+DEFINE_BMP(IDB_BITMAP_STATUS40,				219, 	"res\\status_40.bmp")
+DEFINE_BMP(IDB_MSGBOX_BODY_BG2,				220,	"res\\msgbox_body_bg2.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_BG,             221,	"res\\progress_bar_bg.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_VALUE,          222,	"res\\progress_bar_value.bmp")
+DEFINE_BMP(IDB_PROGRESS_BAR_VALUE_RED,      223,	"res\\progress_bar_value_red.bmp")
+DEFINE_BMP(IDB_BITMAP_LISTCTRL_CHECK,		224, 	"res\\listctrl_check.bmp")
+DEFINE_BMP(IDB_WNDOPT_LISTTITLE_BG,			225,	"res\\wndopt_listtitle_bg.bmp")

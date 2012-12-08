@@ -1,0 +1,26 @@
+﻿<layer >
+  <header class="msgboxhead" width="full" height="31">
+    <icon src="101" pos="5,9"/>
+    <text id="60004" class="dlgtitle" pos="25,10">%str7%</text>
+    <imgbtn id="60001" class="linkimage" skin="closebtn" pos="-43,1"/>
+  </header>
+  <footer class="msgboxfoot" width="full" height="55">
+    <dlg id="60008" pos="0,0  ,-0,-10" class="client"/>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-10">
+        <icon id="60005" pos="10,20" src="32516" oem="1" size="32"/>
+        <dlg id="10001" pos="0,0,-0,-0">
+          <text id="60006" pos="60,30,-10,-0" class="msgtext"/>
+        </dlg>
+        <dlg id="10002" pos="0,0,-0,-0" show="0">
+          <text pos="60,20">退出金山卫士会导致您的电脑失去，</text>
+          <text pos="60,37">您确定要退出？</text>
+        </dlg>
+        <dlg show="0" id="60016" pos="60,30,-0,-0" class="msgtext"/>
+      </dlg>
+      <check id="60007" pos="60,-20">下次不再提示</check>
+    </dlg>
+  </body>
+</layer>

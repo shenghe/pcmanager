@@ -1,0 +1,21 @@
+<layer width="580" height="414">
+    <header class="msgboxhead" width="full" height="32">
+        <icon src="IDI_ICON_SMALL" pos="5,9"/><text id="4428" class="dlgtitle" pos="25,10">恢复注册表</text>
+        <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="45">
+        <text id="3" pos="10,10" class="linktext">删除选中项</text>
+        <text id="4" pos="80,10" class="linktext">删除全部</text>
+        <button id="1" pos="-90,10,-10,-10" class="normalbtn">关闭</button>
+        <button id="2" pos="-200,10,-120,-10" class="normalbtn">恢复</button>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+        <img pos="9,10" skin="stat15" sub="2"/>
+        <text pos="30,10">选中备份的项目，点击“恢复”，将还原到清理之前的状态</text>
+        <dlg id="4419" pos="10,30,-10,-5">
+            <dlg pos="0,0,-0,-0" class="panel">
+                <realwnd pos="0,0,-0,-0" id="4420" ctrlid="4420" />
+            </dlg>
+        </dlg>
+    </body>
+</layer>

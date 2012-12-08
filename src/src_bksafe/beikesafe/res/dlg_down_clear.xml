@@ -1,0 +1,23 @@
+<layer width="400" height="200">
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士</text>
+		<imgbtn id="100" class="linkimage" skin="closeonlybtn" pos="-38,2"/>
+	</header>
+	<footer class="msgboxfoot" width="full" height="5" />
+	<body width="full" height="full" class="msgboxbody">
+		<dlg pos="0,0,-0,-0">
+			<dlg pos="20,20,-10,-0" id="50" show="1">
+				<text id="1" pos="0,0">正在启用金山卫士清理功能，请稍候 ...</text>
+				<progress id="2" pos="0,30,-20,57" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+				<text id="4" pos="0,65">已下载：0B / 0MB</text>
+				<button id="3" pos="|-50,-50,|50,-20" class="normalbtn">取消</button>
+			</dlg>
+			<dlg pos="20,20,-10,-0" id="51" show="0">
+				<text pos="0,0">启用金山卫士清理功能失败，请检查网络设置，或稍后再试</text>
+				<text pos="0,40" class="linktext" href="http://dl.ijinshan.com/safe/clear.exe">手动下载金山卫士清理安装包</text>
+				<button id="101" pos="|-50,-50,|50,-20" class="normalbtn">关闭</button>
+			</dlg>
+		</dlg>
+	</body>
+</layer>

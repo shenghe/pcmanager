@@ -1,0 +1,43 @@
+﻿<layer title="百度安全卫士" width="800" height="570" appwin="1" resize="1">
+	<header class="mainhead" width="full" height="23">
+		<dlgfile pos="0,0,-0,-0" src="509" />
+	</header>
+	<footer class="mainfoot" width="full" height="23">
+		<dlgfile pos="0,0,-0,-0" src="508" />
+	</footer>
+	<body class="mainbody" width="full" height="full">
+		<tabctrl id="136" tabwidth="71" tabheight="71" tabskin="tabmain" iconskin="logomodule" splitterskin1="tabmainsplitter" tabspacing="5" tabpos="1" framepos="7" pos="0,4,-0,-1" icon-x="10" icon-y="1" text-x="0" text-y="25">
+			<tab title="首页" width="full" height="full" crtext="044479">
+				<dlgfile pos="0,0,-0,-0" src="506" />
+			</tab>
+			<tab title="查杀木马" width="full" height="full" crtext="044479">
+				<dlgfile pos="0,0,-0,-0" src="507" />
+			</tab>
+			<tab title="修复漏洞" width="full" height="full" class1="tabpage" crtext="044479">
+				<realwnd id="3000" ctrlid="3000" pos="0,8,-0,-0"/>
+			</tab>
+			<tab title="清理插件" width="full" height="full" class1="tabpage" crtext="044479">
+				<dlgfile pos="0,0,-0,-0" src="505" />
+			</tab>
+			<tab title="系统优化" width="full" height="full" crtext="044479">
+				<dlgfile pos="0,0,-0,-0" src="504" />
+			</tab>
+			<tab title="垃圾清理" width="full" height="full" crtext="044479">
+				<dlg pos="0,2,-0,-0">
+					<realwnd id="600" ctrlid="600" pos="0,0,-0,-0" />
+				</dlg>
+			</tab>
+			<tab title="网盾" width="full" height="full" class1="tabpage" crtext="044479">
+				<dlgfile pos="0,0,-0,-0" src="503" />
+			</tab>
+			<tab title="实时保护" width="full" height="full" crtext="044479">
+				<dlgfile pos="0,0,-0,-0" src="502"/>
+			</tab>
+			<tab title="软件管理" width="full" height="full" crtext="044479">
+				<dlgfile pos="0,0,-0,-0" src="501" />
+			</tab>
+		</tabctrl>
+		<img pos="-170,11" skin="logo" class="linkimage" href="http://guanjia.baidu.com/safe.html"/>
+		<img pos="503,8" skin="tipdbleng" transparent="1" show="0"/>
+	</body>
+</layer>

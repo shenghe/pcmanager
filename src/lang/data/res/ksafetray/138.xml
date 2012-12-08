@@ -1,0 +1,26 @@
+﻿<layer width="360" height="250" appwin="0" noborder="1">
+  <header width="full" height="72">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+      <img id="60009" skin="header_title_sec_red" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1040" pos="20,0,-0,-0" font="0404" class="textmode_title">成功拦截网页挂马攻击</text>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_red" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <dlg class="panel_red" pos="5,0,-5,-35">
+          <realwnd id="1041" ctrlid="1041" font="0000" crtext="333333" pos="8,0,-8,-0"/>
+        </dlg>
+        <text id="1088" class="linktext" pos="10,-25">查看拦截日志</text>
+        <button id="60004" class="normalbtn_gray" pos="-85,-30,-5,-5">确 定</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

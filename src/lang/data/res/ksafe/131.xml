@@ -1,0 +1,25 @@
+﻿<layer title="百度安全卫士 本地V10引擎安装程序" width=400 height=300 appwin=1>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 本地V10引擎安装程序</text>
+        <imgbtn id=101 class=linkimage skin=minbtn pos="-74,0"/>
+        <imgbtn id=60001 class=linkimage skin=closebtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <dlg id=106 pos="10,10,-10,-10">
+            <button id=102 pos="-80,0,-0,-0" class=normalbtn>取消</button>
+        </dlg>
+        <dlg id=107 pos="10,10,-10,-10" show=0>
+			<text pos="0,0" class=linktext href="http://dl.ijinshan.com/kav2/kavinstall.exe">如开启失败，请点此下载安装V10引擎包</text>
+            <button id=105 pos="-80,0,-0,-0" class=normalbtn>完成</button>
+        </dlg>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+        <dlg pos="10,10,-10,-0">
+            <img pos="0,0" skin=stat15 sub=4/><text id=103 pos="20,1">正在下载本地V10引擎...</text>
+            <progress id=100 pos="0,20,-0,37" min=0 max=100 value=0 showpercent=1 bgskin="progressbg" posskin="progresspos"/>
+            <dlg pos="0,47,-0,-0" class=panel>
+                <realwnd id=104 ctrlid=104 pos="0,0,-0,-0"/>
+            </dlg>
+        </dlg>
+    </body>
+</layer>

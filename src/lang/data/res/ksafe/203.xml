@@ -1,0 +1,13 @@
+﻿<layer width="350" height="150" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="107" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">百度安全卫士</text>
+		<imgbtn class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-10">
+			<text pos="100,25">正在修复选中项……</text>
+			<progress id="1" pos="20,60,-20,80" min="0" max="100" value="0" showpercent="0" bgskin="progressbg" posskin="progresspos"/>
+		</dlg>
+	</body>
+</layer>

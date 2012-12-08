@@ -1,0 +1,29 @@
+﻿<layer width="290" height="206" appwin="0" noborder="1">
+  <header width="full" height="80">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+      <img id="60009" skin="header_title_normal" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1600" pos="0,10,-0,-0" class="textmode_title"></text>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_red" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,90" crbg="FAFDFF">
+        <realwnd id="1601" ctrlid="1601" crtext="333333" pos="10,0,-10,-30"/>
+        <text id="1602" pos="-70,-30" class="linktext" show="1">了解详情</text>
+      </dlg>
+      <dlg pos="1,90,-1,-0" crbg="FAFDFF">
+        <button id="60004" class="normalbtn_gray" pos="42,-35,114,-10">立即升级</button>
+        <button id="60005" class="normalbtn_gray" pos="144,-35,216,-10">暂不升级</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>
+
+

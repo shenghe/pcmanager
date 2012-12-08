@@ -1,0 +1,16 @@
+<layer title="部分文件未迁移" width="400" height="202">
+    <header class="msgboxhead" width="full" height="32">
+        <icon src="IDI_ICON_SMALL" pos="5,9"/><text class="dlgtitle" pos="25,10">部分文件未迁移</text><imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="45">
+        <text id="101" pos="170,14" class="linktext">查看未迁移文件</text>
+        <button id="1" pos="-134,10,-54,-10" class="normalbtn">确定</button>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+        <img pos="24,24" skin="stat40" sub="1"/>
+        <text pos="82,33" class="boldtext">操作已完成，部分文件未迁移</text>
+        <text pos="82,65">由于部分文件正在被其他程序使用，暂时不能迁移</text>
+        <text pos="82,86">这些文件，您可以在退出程序之后再次尝试迁移这</text>
+        <text pos="82,107">些文件。</text>
+    </body>
+</layer>

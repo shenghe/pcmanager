@@ -1,0 +1,121 @@
+﻿<dlg pos="0,0,-0,-0">
+	<dlg pos="5,13,-5,-5">
+		<!--上部的显示-->
+		<dlg id="1009" pos="0,0,-0,81" >
+			<dlg pos="1,1,-1,-1" >
+				<dlg pos="0,0,-0,55">
+					<!--扫描状态-->
+					<dlg id="1002" pos="0,0,-0,-0" show="1">
+						<img pos="20,0" skin="scananibg" sub="1"/>
+						<img id="1401" pos="28,7" skin="scanani" sub="0"/>
+						<text pos="75,2,135,15" >正在扫描：</text>
+						<text id="1203" pos="135,2,-100,15"></text>
+						<progress id="1501" pos="75,21,-110,33" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+						<button id="1107" pos="-90,16,-10,40" class="normalbtn">停止扫描</button>
+					</dlg>
+					<!--扫描结果-->
+					<dlg id="1003" pos="0,0,-0,-0" show="0" >
+						<dlg id="1011" pos="0,0,-0,-0">
+							<dlg id="1618" pos="15,0,-0,-0" show="0">
+								<img pos="0,0" skin="stat40" sub="0"/>
+								<richtext pos="50,15,-0,-0" id="1623" class="richtext" defaultfont="0204"></richtext>
+							</dlg>
+							<dlg id="1619" pos="15,0,-0,-0" show="0">
+								<img pos="0,0" skin="stat40" sub="3"/>
+								<richtext pos="50,15,-0,-0" id="1625" class="richtext" defaultfont="0204"></richtext>
+							</dlg>
+							<dlg id="1620" pos="15,0,-0,-0" show="0">
+								<img pos="0,0" skin="stat40" sub="2"/>
+								<richtext pos="50,15,-0,-0" id="1627" class="richtext" defaultfont="0204"></richtext>
+							</dlg>
+							<dlg id="1622" pos="15,0,-0,-0" show="0">
+								<img pos="0,0" skin="stat40" sub="1"/>
+								<text pos="50,15" font="0204" clrtext="424242" >插件扫描被终止，为保障计算机安全，建议完成本次插件扫描！</text>
+								<text id="1635" pos="385,17" class="linktext" show="0">立即重新扫描</text>
+							</dlg>
+							<!--停止扫描未扫到-->
+							<dlg id="1207" pos="15,0,-0,-0" show="0">
+								<img pos="0,0" skin="stat40" sub="1"/>
+								<text pos="50,15" font="0204" clrtext="424242">定期清理插件，能够及时发现恶评插件，确保系统安全。</text>
+								
+							</dlg>
+							<text id="1206" pos="-180,-36" class="linktext" show="1">查看清理历史</text>
+							<text id="1214" pos="-90,-36" class="linktext" show="1">已添加信任</text>
+						</dlg>
+					</dlg>
+					<!--正在清理-->
+					<dlg id="1010" pos="0,0,-0,-0" show="0">
+						<img id="1402" pos="20,7" skin="scanani" sub="0"/>
+						<text pos="75,2,135,15" >正在清除: </text>
+						<text id="1208" pos="135,2,-100,15"></text>
+						<progress id="1502" pos="75,21,-30,33" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+					</dlg>
+				</dlg>
+
+			</dlg>
+		</dlg>
+
+		<!--中间的显示-->
+		<dlg pos="0,50,-0,-40" class="panel">
+			<!--list的头部-->
+			<!--
+			<tabctrl id="1118" tabwidth="100" tabheight1="24" class="tabpage" tabskin="tab" frameskin="panelgray" tabspacing="5" tabpos="10" framepos="-1" pos="0,0,-0,-0">
+				<tab id="1614" title="全部" width1="full" height1="full" class1="tabpage" class="tpage"/>
+				<tab id="1615" title="危险" width1="full" height1="full" class1="tabpage" class="tpage"/>
+				<tab id="1616" title="风险" width1="full" height1="full" class1="tabpage" class="tpage"/>
+				<tab id="1617" title="安全" width1="full" height1="full" class1="tabpage" class="tpage"/>
+			</tabctrl>
+			
+			-->
+			
+			<dlg pos="1,0,-1,20">
+				<text pos="0,0,-380,-0" class="pluglistheader" crbg="AAAA00">插件信息</text>
+				<text pos="-380,0,-300,-0" class="pluglistheader" crbg="AAAA00">安全级别</text>
+				<text pos="-300,0,-160,-0" class="pluglistheader" crbg="00AA00">插件类型</text>
+				<text pos="-160,0,-0,-0" class="pluglistheader" crbg="00AAAA">出品公司</text>
+			</dlg>
+			<dlg pos="1,20,-1,-1">
+				<dlg id="1628" pos="0,0,-0,-0" show="0">
+					<img pos="|-100,|-80" skin="stat40" sub="1"/>
+					<text pos="|-50,|-66" class="tipscantext">系统中没有危险插件！</text>
+				</dlg>
+				<dlg id="1629" pos="0,0,-0,-0" show="0">
+					<img pos="|-100,|-80" skin="stat40" sub="1"/>
+					<text pos="|-50,|-66" class="tipscantext">系统中没有风险插件！</text>
+				</dlg>
+				<dlg id="1630" pos="0,0,-0,-0" show="0">
+					<img pos="|-100,|-80" skin="stat40" sub="1"/>
+					<text pos="|-50,|-66" class="tipscantext">系统中没有安全插件！</text>
+				</dlg>
+				<dlg id="1005" pos="0,0,-0,-0" show="0">
+					<img pos="|-230,|-95" skin="stat40" sub="1"/>
+					<text pos="|-180,|-90,|240,|-60" class="tipscantext">插件扫描被终止，为保障计算机安全，建议完成本次插件扫描！</text>
+					<button id="1102" pos="|-62,|-25,|62,|25" class="normalbtn">重新扫描</button>
+				</dlg>
+				<dlg id="1008" pos="0,|-150,-0,|150" show="0">
+					<img  pos="|-175,52" skin="stat40" sub="1"/>
+					<text pos="|-150,60,|150,80" class="tipscantext" >没有检测到插件！您的系统很干净！</text>
+					<dlg pos="|-175,100,|300,-0">
+						<dlg id="1110" pos="10,50,-0,75" show="0">
+							<img id="1111" pos="0,3" skin="stat15" sub="1"/>
+							<text id="1112" pos="20,5"/>
+							<button id="1113" pos="-100,0,-10,22" class="normalbtn"/>
+						</dlg>
+						<dlg id="1114" pos="10,85,-0,110" show="0">
+							<img id="1115" pos="0,3" skin="stat15" sub="2"/>
+							<text id="1116" pos="20,5"/>
+							<button id="1117" pos="-100,0,-10,22" class="normalbtn"/>
+						</dlg>
+					</dlg>
+				</dlg>
+
+				<realwnd id="1301" pos="1,0,-1,-1" ctrlid="1301"/>
+			</dlg>
+		</dlg>
+		<dlg id="1007" pos="0,-40,-0,-0" show="0">
+			<text id="1104" pos="10,-25" class="linktext">选中危险插件</text>
+			<button id="1108" pos="-180,-30,-90,-3" class="normalbtn">立即清理</button>
+			<text id="1633" pos="-70,-22" class="linktext">重新扫描</text>
+		</dlg>
+	</dlg>
+</dlg>

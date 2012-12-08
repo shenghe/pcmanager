@@ -1,0 +1,19 @@
+﻿<layer width="380" height="230" >
+	<header class="msgboxhead" width="full" height="32">
+		<text id="4489" pos="25,10" class="dlgtitle">系统盘瘦身</text>
+		<icon src="IDI_ICON_SMALL" pos="5,9"/>
+		<imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg id="700" pos="0,0,-0,-0">
+			<img pos="20,20" skin="question"/>
+			<richtext id="701" pos="75,20,336,76" class="richtext">删除系统自带“微软拼音输入法”后将无法使用，建议您在安装了第三方输入法软件后进行本项清理。</richtext>
+			<text pos="75,80">是否删除此项？</text>
+			<radio id="702" pos="75,100" group="delslim" value="1"> 删除至回收站</radio>
+			<radio id="703" pos="75,120" group="delslim"> 直接删除</radio>
+			<text pos="145,120" crtext="FF1919">（不可恢复）</text>
+			<button id="1" pos="100,-40,180,-15" class="normalbtn">确定</button>
+			<button id="2" pos="210,-40,290,-15" class="normalbtn">取消</button>
+		</dlg>
+	</body>
+</layer>

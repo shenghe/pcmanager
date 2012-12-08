@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<meta content="IE=8" http-equiv="X-UA-Compatible" />
+		<title>KWS-Feedback</title>        
+        <style type="text/css">
+			*{ font-size:12px;}
+			html,body{ margin:0; padding:0; overflow:hidden; height:175px; width:235px; background:#FFF;}
+			#feedback_box{ margin:0; padding:0;/* height:140px; */width:235px;}
+			h1{color:#333; padding-left:15px; background:url(resources/default/images/msg_item_tag.gif) no-repeat left 2px;}
+			#div_msg{ margin:0; padding:0; line-height:16px; height:100px;}
+			#msg{ color:#999;margin:0; padding:0; height:98px; border:solid 1px #7B9EBD; overflow:auto;}
+			.op{line-height:18px;margin:0; padding:0; height:30px;}
+			#email{ border:solid 1px #7B9EBD; height:16px; width:130px; margin-top:5px;color:#999;}
+			#send_msg_btn{ margin-left:8px; height:22px; width:83px; display:block; background-image:url(resources/default/images/send_msg_normal.bmp); cursor:pointer; text-align:center; padding-top:5px;}
+		</style>			      
+<!--		<link href="../../css/kwsmain/feedback.css" rel="stylesheet" type="text/css" />-->
+		<script type="text/javascript" charset="utf-8"  src="script/lib/jquery.js"></script>
+        <script type="application/javascript">
+        	
+        </script>
+	</head>
+	<body ondrag="return false;"  onselectstart="return true;" oncontextmenu = "self.event.returnValue=false" >
+    
+    <table id="feedback_box"  cellpadding="0" cellspacing="0"><tbody>
+		<tr><td id="div_space"colspan="2"><img src="resources/default/images/msg_space_bg.gif" width="240" height="15"/></td></tr>
+	    <tr><td id="div_tip" colspan="2"><h1>用户反馈</h1></td></tr>
+        <tr><td id="div_msg" colspan="2"><textarea id="msg" cols="30" rows="5"></textarea></td></tr>
+        <tr class="op">
+            <td id="div_email"><input type="text" id="email" value="返信用メールアドレスを入力してください"/></td>
+            <td id="div_sendmsg"><span id="send_msg_btn">送信</span></td>
+        </tr>   
+    </tbody></table>
+	</body>
+</html>
+<script src="script/feedback/feedback.js" charset="utf-8" type="text/javascript"></script>
+<script src="script/common/kcode.js" charset="utf-8" type="text/javascript"></script>

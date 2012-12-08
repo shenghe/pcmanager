@@ -1,0 +1,25 @@
+﻿<layer title="设置" width=380 height=200>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">百度安全卫士-开机提示设置</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=2>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+      <dlg pos="2,0,-2,-0">
+      	<dlg pos="0,0,-0,-0" class=panel>
+					<dlg id=103 pos="40,10,-0,-0" >
+						<dlg pos="0,0,-0,-0">
+							<radio id=3 group="boottime_setting" pos="10,5">仅在以下特定场景下提示（推荐）</radio>
+							<check id=4 pos="30,25">每次使用过“开机加速”后第一次开机时提示</check>
+							<check id=5 pos="30,45">开机速度较慢时提示</check>
+			  			<radio id=6 group="boottime_setting" pos="10,70">每次开机都提示开机时间</radio>
+							<radio id=7 group="boottime_setting" pos="10,90">不进行开机时间提示</radio>
+  			    </dlg>	
+					</dlg>
+      	<button id="1" pos="-180,128,-100,-10" class="normalbtn">确定</button>
+        <button id="2" pos="-90,128,-10,-10" class="normalbtn">取消</button>
+	      </dlg>
+      </dlg> 
+    </body>
+</layer>
+

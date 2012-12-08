@@ -1,0 +1,22 @@
+﻿<layer nomaxsize="1" width="800">
+    <header class=msgboxhead width=full height=31>
+        <icon src=101 pos="5,9"/><text id=60004 class=dlgtitle pos="25,10">%str7%</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=55>
+        <dlg id="60008" pos="0,0,-0,-10" class="client">
+        </dlg>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+      <dlg pos="0,0,-0,-0">
+        <dlg pos="0,0,-0,-0">
+          <icon id="60005" pos="30,20" src="32515" oem="1" size="32"/>
+          <text id="60006" pos="80,20,-0,-0" class="msgtext">由于您的操作系统缺少流量监控依赖的TDX组件，</text>
+          <text id="60099" pos="80,40,-0,-0" class="msgtext">流量监控无法开启。</text>
+          <text id="60099" pos="80,60,-0,-0" class="msgtext">如果您有疑问请进入我们的。</text>
+          <link  id="60009"  class="linktext" pos="240,60" href="http://bbs.ijinshan.com/forum-18-1.html">官方论坛</link>
+          <text id="60010" pos="290,60,-0,-0" class="msgtext">进行反馈</text>
+
+        </dlg>
+      </dlg>
+    </body>
+</layer>

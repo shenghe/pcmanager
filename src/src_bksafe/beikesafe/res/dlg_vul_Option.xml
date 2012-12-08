@@ -1,0 +1,23 @@
+﻿<layer title="设置选项" width="500" height="220">
+  <header class="mainhead" width="full" height="50">
+    <icon src="100" pos="5,5"/>
+    <imgbtn id="10000" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+    <text class="dlgtitle" pos="25,5">设置选项</text>
+  </header>
+  
+  <footer class="mainfoot" width="full" height="50">
+    <button id="10101" pos="|-30,5" class="uglybtn">保存设置</button>
+  </footer>
+  
+  <body class="mainbody" width="full" height="full">
+    <dlg id="200" pos="0,0,-0,-0">
+      
+      <dlg id="201" pos="0,0,-0,50">
+        <text pos="5,0" class="examtitle">您的漏洞补丁安装文件将保存在以下目录</text>
+        <realwnd id="20110" ctrlid="20110" pos="5,35,-120,60"/>
+        <button id="20101" pos="-110,35" class="uglybtn">更改目录</button>
+		<button id="20102" pos="-50,35" class="uglybtn">打开目录</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

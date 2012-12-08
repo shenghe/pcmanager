@@ -1,0 +1,17 @@
+﻿<layer width="400" height="180">
+    <header class="msgboxhead" height="32">
+        <icon src="107" pos="5,9"/>
+        <text class="dlgtitle" pos="25,10">%str1%</text>
+        <imgbtn id="2" class="linkimage" skin=closeonlybtn pos="-38,2"/>
+    </header>
+    <body class="msgboxfoot">
+        <dlg pos="0,0,-0,-0" class="client">
+            <icon id="60005" pos="10,10" src="32515" oem="1" size="32"/>
+            <text pos="60,10">还原已经查杀的危险启动项，需要同时还原与其相关的文</text>
+            <text pos="60,35">件，有染毒风险，是否继续？</text>
+            <check id="60007" pos="60,-60">将相关的文件添加为信任，下次不再检出</check>
+            <button id="1" pos="|-85,-35,|-5,-10" class="normalbtn">确定</button>
+            <button id="2" pos="|5,-35,|85,-10" class="normalbtn">取消</button>
+        </dlg>
+    </body>
+</layer>

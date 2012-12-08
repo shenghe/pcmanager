@@ -1,0 +1,30 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// XML
+
+DEFINE_XML(IDR_BK_SKIN_DEF,                 100, "res\\def_skin.xml")
+DEFINE_XML(IDR_BK_STYLE_DEF,                101, "res\\def_style.xml")
+DEFINE_XML(IDR_BK_STRING_DEF,               102, "res\\def_string.xml")
+DEFINE_XML(IDR_BK_MAIN_DIALOG,              103, "res\\dlg_main.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX,				105, "res\\dlg_msgbox.xml")
+DEFINE_XML(IDR_BK_MESSAGEBOX2,				106, "res\\dlg_msgbox2.xml")
+
+//////////////////////////////////////////////////////////////////////////
+// ICON
+
+DEFINE_ICO(IDI_BEIKESAFE,                   100, "res\\big.ico")
+DEFINE_ICO(IDI_SMALL,                       101, "res\\small.ico")
+
+//////////////////////////////////////////////////////////////////////////
+// PNG
+
+DEFINE_PNG(IDB_BTN_SYS_CLOSE_PNG,			44,	"res\\btn_sys_close.png")
+DEFINE_PNG(IDP_LOADINFO_TIP,				45, "res\\loadinfo_tip.png")
+DEFINE_PNG(IDP_DEFAULT_LOGO,				48,	"res\\default_logo.png")
+
+//////////////////////////////////////////////////////////////////////////
+// BITMAP
+
+DEFINE_BMP(IDB_MSGBOX_BG,                   4,  "res\\msgbox_bg.bmp")
+DEFINE_BMP(IDB_FRAME_PANEL,                 107, "res\\frame_panel.bmp")

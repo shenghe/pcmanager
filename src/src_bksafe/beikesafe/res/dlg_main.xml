@@ -1,0 +1,51 @@
+﻿<layer title="金山卫士 2.6" width="800" height="570" appwin="1" resize="1">
+	<header class="mainhead" width="full" height="23">
+		<dlgfile pos="0,0,-0,-0" src="509" />
+	</header>
+	<footer class="mainfoot" width="full" height="23">
+		<dlgfile pos="0,0,-0,-0" src="508" />
+	</footer>
+	<body class="mainbody" width="full" height="full">
+		<tabctrl id="136" tabwidth="71" tabheight="71" tabskin="tabmain" iconskin="logomodule" splitterskin1="tabmainsplitter" tabspacing="5" tabpos="1" framepos="7" pos="0,4,-0,-1" icon-x="10" icon-y="1" text-x="0" text-y="25">
+			<tab title="首页" width="full" height="full" crtext="000000">
+				<dlgfile pos="0,0,-0,-0" src="506" />
+			</tab>
+			<tab title="查杀木马" width="full" height="full" crtext="000000">
+        <!--<dlgfile pos="0,0,-0,-0" src="507" />-->
+        <dlg pos="0,2,-0,-0">
+          <realwnd id="601" ctrlid="601" pos="0,0,-0,-0" />
+        </dlg>
+			</tab>
+      <tab title="免费杀毒" width="full" height="full" class1="tabpage" crtext="000000">
+        <dlg pos="0,0,-0,-0" show="1" >
+          <realwnd pos="0,0,-0,-0" ctrlid="363" id="363" />
+        </dlg>
+      </tab>
+			<tab title="修复漏洞" width="full" height="full" class1="tabpage" crtext="000000">
+				<realwnd id="3000" ctrlid="3000" pos="0,8,-0,-0"/>
+			</tab>
+			<tab title="系统优化" width="full" height="full" crtext="000000">
+				<dlgfile pos="0,0,-0,-0" src="504" />
+			</tab>
+			<tab title="垃圾清理" width="full" height="full" crtext="000000">
+				<dlg pos="0,2,-0,-0">
+					<realwnd id="600" ctrlid="600" pos="0,0,-0,-0" />
+				</dlg>
+			</tab>
+			<tab title="监控防御" width="full" height="full" crtext="000000">
+         <!--<dlgfile pos="0,0,-0,-0" src="503" />-->
+         <dlg pos="0,6,-0,-0">
+            <realwnd id="602" ctrlid="602" pos="0,0,-0,-0" />
+         </dlg>       
+			</tab>
+      <!--<tab title="实时保护" width="full" height="full" crtext="000000">
+				<dlgfile pos="0,0,-0,-0" src="502"/>
+			</tab>-->
+			<tab title="软件管理" width="full" height="full" crtext="000000">
+				<dlgfile pos="0,0,-0,-0" src="501" />
+			</tab>
+		</tabctrl>
+		<img pos="-170,11" skin="logo" class="linkimage" href="http://www.ijinshan.com/?fr=client"/>
+		<img pos="200,5" skin="new_cn" transparent="1" show="1"/>
+	</body>
+</layer>

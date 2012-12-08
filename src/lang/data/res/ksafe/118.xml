@@ -1,0 +1,28 @@
+﻿<realwnd id=1004 ctrlid=1004 pos="0,0,-230,-0"/>
+<dlg id=1007 pos="-230,0,-220,-0" class=splitter onlydrawchild=1><img skin=splitter_arrow sub=0 pos="2,|-5"/></dlg>
+<dlg pos="-220,0,-0,-0" class=client>
+	<dlg id="1033" pos="0,0,-0,-0" show="0">
+		<realwnd id="1006" ctrlid="1006" pos="0,0,-0,-30"/>
+		<dlg pos="0,-15,-0,-0">
+			<text id="1031" pos="0,0" class="linktext" href="http://tieba.baidu.com/f?kw=%B0%D9%B6%C8%B5%E7%C4%D4%B9%DC%BC%D2">安装此补丁有问题，我要反馈</text>
+		</dlg>
+	</dlg>
+
+	<dlg id="1032" pos="0,0,-0,-0">
+		<img pos="0,13" skin="vultip" sub=1/>
+		<text pos="20,15" class="boldtext">漏洞修复的目的</text>  
+		<text pos="20,40" crtext="#101010">及时有效的修复系统、软件漏洞，</text>
+		<text pos="20,60" crtext="#101010">避免被黑客利用控制您的电脑窃取</text>
+		<text pos="20,80" crtext="#101010">账号、密码等重要信息。</text>
+		<text id="1034" pos="-30,80" class="linktext" href="http://guanjia.baidu.com/help/safeguide.html#n2">详细</text>
+		
+		<img pos="0,118" skin="vultip" sub=0/>
+		<text pos="20,120" class="boldtext">我们的优势</text>  
+		<text pos="20,145" class="boldtext">完美修复</text>
+		<text pos="20,165" crtext="#101010">全面检测并智能修复高危漏洞</text>
+		<text pos="20,190" class="boldtext">快速检测</text>
+		<text pos="20,210" crtext="#101010">专门针对win 7 系统进行优化，</text>
+		<text pos="20,230" crtext="#101010">修复速度比传统软件快10倍</text>
+	</dlg>
+
+</dlg>

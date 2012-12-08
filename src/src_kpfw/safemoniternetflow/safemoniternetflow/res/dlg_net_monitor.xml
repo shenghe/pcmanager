@@ -1,0 +1,197 @@
+﻿<layer title="金山卫士-流量监控" width="800" height="570" appwin="1" resize="1" nomaxsize="1">
+  <!-- <header class="mainhead" width="full" height="31"> -->
+  <header class="msgboxhead" width="800" height="37">
+    <icon src="101" pos="5,9"/>
+    <text class="dlgtitle" pos="25,10">金山卫士-流量监控</text>
+    <imgbtn id="112" class="linkimage" skin="minbtn" pos="-74,0"/>
+    <imgbtn id="100" class="linkimage" skin="closebtn" pos="-43,0"/>
+  </header>
+  <!-- 
+	<footer  class="mainfoot" width="full" height="31">
+		<check id="111" pos="5,5" >在桌面显示悬浮窗,监控网络流量</check>
+	</footer> -->
+
+  <footer class="msgboxbody2" width="800" height="538">
+
+    <tabctrl id="250" cursel="0" tabwidth="105" tabskin="tab" tabspacing="4" tabpos="10" pos="7,5,-7,-100" frameskin="panelgray" framepos="-1">
+      <tab id="251" title="流量监控" width="full" height="full" class1="tabpage" />
+      <tab id="252" title="流量统计" width="full" height="full" class1="tabpage" />
+    </tabctrl>
+
+    <!-->流量监控相关界面<-->
+    <dlg id="260"  pos="0,28,-0,-0" show="1">
+      <img pos="7,0,-7,69" skin="top"></img>
+      <img pos="7,70,-7,-7" skin="topbkcolor"></img>
+
+      <img pos="22,15,64,51" skin="icon"></img>
+      
+      <richtext id="101" pos="78,16,-0,-0" >共有X个程序正在访问网络，实时查看程序的网络访问情况可以帮助您了解是哪些程序在占用网络资源!</richtext>
+      <!--		
+        <link  id="110"  class="linktext" pos="600,16" >悬浮窗设置</link>
+			  <link  id="239"  class="linktext" pos="600,37,650,52">网络测速</link>
+        <link  id="239"  class="linktext" pos="600,11,650,26">网络测速</link>
+	  -->
+		
+      <text id="102" pos="78,41" class="textblue">已下载总流量：00000MB  </text>
+			<text id="108" pos="200,41" class="textblue">已上传总流量：00000KB</text>
+			<img pos="323,40,335,54" skin="downicon"></img>
+			<text id="104" pos="338,41" class="textblue">下载速度：00000B/S </text>
+			<img pos="458,40,470,453" skin="updataicon"></img>
+			<text id="105" pos="473,41" class="textblue">上传速度：00000B/S </text>
+			<imgbtn id="109" class="netmondisable" skin="netmondisable" pos="665,15"/>
+			<!--"10,67,-7,87"-->
+			<dlg class="panel" pos="7,100,-7,-40">
+				<dlg pos="0,0,-0,20">
+					<!--0-->
+					<text id="219" pos="0,0,250,-0" class="listheader2" crbg="AAAA00">进程名称及其说明</text>
+					<!--1-->
+					<text id="220" pos="250,0,320,-0" class="listheader2" crbg="AAAA00">安全级别</text>
+					<!--2-->
+					<text id="221" pos="320,0,390,-0" class="listheader2" crbg="00AA00">下载速度</text>
+					<!--3-->
+					<text id="222" pos="390,0,460,-0" class="listheader2" crbg="00AAAA">上传速度</text>
+					<!--4-->
+					<text id="223" pos="460,0,560,-0" class="listheader2" crbg="00AAAA">限制上传</text>
+					<!--5-->
+					<text id="224" pos="560,0,645,-0" class="listheader2" crbg="00AAAA">已下载流量</text>
+					<!--6-->
+					<text id="225" pos="645,0,735,-0" class="listheader2" crbg="00AAAA">已上传流量</text>
+					<!--7-->
+					<!-- <text id="226" pos="670,0,730,-0" class="listheader" crbg="00AAAA">进程ID</text> -->
+					<!--8-->
+					<text id="227" pos="735,0,770,-0" class="listheader2" crbg="00AAAA">操作</text>
+					<img id="228" pos="0,0,0,0" skin="listsort" sub="0" show="0"></img>
+				</dlg>
+				<dlg pos="0,20,-0,-0" show="1">
+					<realwnd id="201" ctrlid="201" pos="0,0,-0,-0"/>
+				</dlg>
+			</dlg>
+      
+      <dlg pos="12,80,-7,100">
+      <link  id="242"  class="linktext" pos="10,0,100,12" show="0">仅显示网络流量</link>
+      <link  id="243"  class="linktextclicked" pos="10,0,100,12" show="1">仅显示网络流量</link>
+      <hr pos="109,0,109,12" crbg="3064A5"/>
+      <link  id="244"  class="linktext" pos="115,0,210,12" show="1">仅显示本地流量</link>
+      <link  id="245"  class="linktextclicked" pos="115,0,210,12" show="0">仅显示本地流量</link>
+      <hr pos="210,0,210,12" crbg="3064A5"/>
+      <link  id="246"  class="linktext" pos="220,0,320,12" show="1">显示所有流量</link>
+      <link  id="247"  class="linktextclicked" pos="220,0,320,12" show="0">显示所有流量</link>
+      <hr pos="305,0,305,12" crbg="3064A5"/>
+      <link  id="307"  class="linktext" pos="320,0,450,12" show="1">已禁止网络访问</link>
+      <link  id="308"  class="linktextclicked" pos="320,0,450,12" show="0">已禁止网络访问</link>
+      </dlg>
+
+      <dlg pos="22,-30,-7,-0">
+        <text id="248" pos="0,0" >当前设置：在桌面显示悬浮窗</text>
+        <link  id="249"  class="linktext" pos="248,0" >隐藏</link>
+      </dlg>
+    </dlg>
+
+    <!-->流量统计相关界面<-->
+    <dlg id="261"  pos="0,28,-0,-0" show="0">
+      <img pos="7,0,-7,69" skin="top"></img>
+      <img pos="7,70,-7,-7" skin="topbkcolor"></img>
+      <img pos="568,70,-7,-7" skin="topbkcolor2"></img>
+
+      <dlg pos="15,0,-0,84">
+        <img pos="7,15,64,51" skin="icon"></img>
+        <richtext id="262" pos="63,16,-0,-0"  class=addspace>流量统计提供按日、按周、按月、以及自定义查看网络总流量，帮助您了解网络流量的使用情况！</richtext>
+        <richtext id="263" pos="63,41,524,61"  class="addspace">当前设置：当日流量超过50M，月流量超过500M时提醒。  </richtext>
+        <link  id="264"  class="linktext" pos="525,41" show="1">更改设置</link>
+        <imgbtn id="284" class="netmondisable" skin="netmondisable" pos="650,15"/>
+      </dlg>
+
+      <dlg pos="12,80,-0,96">
+        <link  id="267"  class="linktext" pos="10,0,60,12" show="0">按日查看</link>
+        <link  id="268"  class="linktextclicked" pos="10,0,60,12" show="1">按日查看</link>
+        <hr pos="70,0,70,12" crbg="3064A5"/>
+        <link  id="269"  class="linktext" pos="80,0,130,12" show="1">按周查看</link>
+        <link  id="270"  class="linktextclicked" pos="80,0,130,12" show="0">按周查看</link>
+        <hr pos="140,0,140,12" crbg="3064A5"/>
+        <link  id="271"  class="linktext" pos="150,0,200,12" show="1">按月查看</link>
+        <link  id="272"  class="linktextclicked" pos="150,0,200,12" show="0">按月查看</link>
+        <hr pos="210,0,210,12" crbg="3064A5"/>
+        <link  id="273"  class="linktext" pos="220,0,290,12" show="1">自定义查看</link>
+        <link  id="274"  class="linktextclicked" pos="220,0,290,12" show="0">自定义查看</link>
+      </dlg>
+
+
+      <dlg class="panel2" pos="7,100,568,-42">
+        <dlg pos="0,0,-0,20">
+          <!--0-->
+          <text id="275" pos="0,0,150,-0" class="listheader2" crbg="AAAA00">时间</text>
+          <!--1-->
+          <text id="276" pos="150,0,230,-0" class="listheader2" crbg="AAAA00">上传总流量</text>
+          <!--2-->
+          <text id="277" pos="230,0,310,-0" class="listheader2" crbg="00AA00">下载总流量</text>
+          <!--3-->
+          <text id="278" pos="310,0,390,-0" class="listheader2" crbg="00AAAA">总流量</text>
+          <!--4-->
+          <text id="279" pos="390,0,561,-0" class="listheader2" crbg="00AAAA">累计监控时间</text>
+        </dlg>
+        <dlg pos="0,20,-0,-0" show="1">
+          <realwnd id="280" ctrlid="280" pos="0,0,-0,-0"/>
+        </dlg>
+      </dlg>
+      <hr pos="7,100,568,100" crbg="BBCBDE"/>
+      <hr pos="7,-42,568,-42" crbg="BBCBDE"/>
+      
+      <dlg id="290" pos="180,-30,380,-10" >
+        <text pos="0,0" class="linktext" id="285">返回首页</text>
+        <text pos="55,0" class="linktext" id="286">上一页</text>
+        <text pos="105,0" class="linktexttwo" id="287">1</text>
+        <text pos="-75,0" class="linktext" id="288">下一页</text>
+        <text pos="-30,0" class="linktext" id="289">尾页</text>
+      </dlg>
+
+      <hr pos="568,70,568,-7" crbg="D5E5F2"/>
+      
+      <dlg pos="568,90,-7,250">
+        <img pos="20,0,17,14" skin="linkpoint" />
+        <text pos="30,2" class="linktextclicked">今日网络流量占用排行榜</text>
+        <iconfrommodule id="291"  pos="20,26,36,42" class="linkimage2" srcfile="0" issmall="1"/>
+        <text id="292" pos="40,22,160,38"></text>
+        <text id="293" pos="162,22,-10,38"></text>
+        <iconfrommodule id="294"  pos="20,48,36,64" class="linkimage2" srcfile="0" issmall="1"/>
+        <text id="295" pos="40,44,160,60"></text>
+        <text id="296" pos="162,44,-10,60"></text>
+        <iconfrommodule id="297"  pos="20,70,36,86" class="linkimage2" srcfile="0" issmall="1"/>
+        <text id="298" pos="40,66,160,82"></text>
+        <text id="299" pos="162,66,-10,82"></text>
+        <iconfrommodule id="300"  pos="20,92,36,108" class="linkimage2" srcfile="0" issmall="1"/>
+        <text id="301" pos="40,88,160,104"></text>
+        <text id="302" pos="162,88,-10,104"></text>
+        <iconfrommodule id="303"  pos="20,114,36,130" class="linkimage2" srcfile="0" issmall="1"/>
+        <text id="304" pos="40,110,160,126"></text>
+        <text id="305" pos="162,110,-10,126"></text>
+        <text pos="-60,-20" class="linktext" id="306">查看更多</text>
+        <hr pos="0,-0,-0,-0" crbg="D5E5F2"/>
+      </dlg>
+
+      <dlg pos="568,265,-7,365">
+        <img pos="20,0,17,14" skin="linkpoint" />
+        <text pos="30,2" class="linktextclicked">今日网络流量使用统计</text>
+
+        <text pos="30,27" class="textgray" id="282">上传总流量：</text>
+        <text pos="30,49" class="textgray" id="283">下载总流量：</text>
+        <text pos="30,71" class="textgray" id="281">总流量：</text>
+        <hr pos="0,-0,-0,-0" crbg="D5E5F2"/>
+      </dlg>
+
+      <dlg pos="568,380,-7,-7">
+        <img pos="20,0,17,14" skin="linkpoint" />
+        <text pos="30,2" class="linktextclicked" >流量监控使用帮助</text>
+        <img pos="30,31,33,34" skin="helppoint" />
+        <text pos="40,27" class="linktext3" id="281" href="http://bbs.ijinshan.com/thread-64459-1-1.html">流量监控功能使用帮助</text>
+        <img pos="30,53,33,56" skin="helppoint" />
+        <text pos="40,49" class="linktext3" id="282" href="http://bbs.ijinshan.com/thread-48269-1-1.html">流量监控常见问题解答</text>
+        <img pos="30,75,33,78" skin="helppoint" />
+        <text pos="40,71" class="linktext3" id="283" href="http://bbs.ijinshan.com/thread-64460-1-1.html">上传限速使用小技巧</text>
+        <img pos="30,97,33,100" skin="helppoint" />
+        <text pos="40,93" class="linktext3" id="284" href="http://bbs.ijinshan.com/thread-1442-1-1.html">开机加速快速攻略</text>
+      </dlg>
+
+    </dlg>
+
+  </footer>
+</layer>

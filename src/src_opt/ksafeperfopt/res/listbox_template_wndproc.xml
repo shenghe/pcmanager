@@ -1,0 +1,14 @@
+﻿<listitem height="32">
+	<dlg pos="0,0,-0,-0" crbg="FFFFFF">
+		<dlg id="1100" pos="0,0,-0,-0">
+			<iconfrommodule id="1001"  pos="30,10,46,26" srcfile="0"/>
+			<text id="1002" pos="48,10,196,22" class="perfmon_desc">窗口标题</text>
+			<iconfrommodule id="1003"  pos="220,10,236,26" srcfile="0"/>
+			<text id="1004" pos="238,10,470,22" class="perfmon_desc">窗口对应进程名</text>			
+			<text id="1005" pos="470,10,685,22" class="centertext">窗口状态</text>
+			<text id="1006" pos="690,10,738,22" class="linktext">关闭窗口</text>
+			<imgbtn id="1007" pos="740,8" class="linkimage" skin="netsetting"/>
+			<hr pos="0,-1,-0,-1" crbg="dceeff"/>
+		</dlg>
+	</dlg>
+</listitem>

@@ -1,0 +1,110 @@
+﻿<layer title="软件卸载" width="402" height="285">
+  <!-- 标题栏 -->
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="101" pos="5,9"/>
+    <text id="0001"  class="dlgtitle" pos="25,10">金山卫士</text>
+    <imgbtn id="10001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <!-- 底部 -->
+  <footer class="msgboxfoot" width="full" height="45">
+    <dlg pos="10,10,-30,-10">
+      <button id="10002" pos="-80,0,-0,-0" class="normalbtn">退 出</button>
+    </dlg>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,62">
+        <img pos="2,0,-2,-0" skin="softmgr_uninstall_dlg_bg_bmp" />
+        <!--<img pos="30,20" skin="powersweep_ico" />-->
+      </dlg>
+      <dlg pos="40,50,-0,-0">
+        <!-- 分析软件信息 -->
+        <dlg pos="0,0,-0,-0">
+          <img id="20004" pos="0,23,32" skin="stat15" sub="2" show="0"/>
+          <img id="20003" pos="0,23,32" skin="stat15" sub="6"/>
+          <img id="20002" pos="0,23" show="0" skin="loadinfotip" sub="0"/>
+          <text pos="30,25" class="boldtext">分析软件信息</text>
+          <text id = "20001" pos="115,25" show="0">(已完成)</text>
+        </dlg>
+
+        <!-- 标准卸载 -->
+        <dlg pos="0,30,-0,-0" id="2001" show="1">
+          <img id="30004" pos="0,23,32" skin="stat15" sub="6"/>
+          <text id ="30006" pos="30,25" class="boldtext">即将进行标准卸载</text>
+          <text id = "30002" pos="30,45">使用软件或系统自带的卸载程序进行常规卸载</text>
+        </dlg>
+        <!-- 卸载中 -->
+        <dlg pos="0,30,-0,-0" id="2002" show="0">
+          <img id="30005" pos="0,23,32" skin="stat15" sub="2" show="0"/>
+          <img id="30003" pos="0,23" skin="loadinfotip" sub="0"/>
+          <text id="30007" pos="30,25" class="boldtext">标准卸载</text>
+          <text id = "30001" pos="93,25" show="0" >(已完成)</text>
+          <text id = "30009" pos="93,25" show="0" crtext="FF0000">(调用失败)</text>
+          <text id = "30008" pos="93,25" show="0" crtext="FF0000">(标准卸载被中断)</text>
+
+          <text id = "30002" pos="30,45">使用软件或系统自带的卸载程序进行常规卸载</text>
+        </dlg>
+
+        <!-- 强力清扫 -->
+        <dlg show="1" id="1021"  pos="0,80,-0,-0">
+          <img id="40003" pos="0,23,32" skin="stat15" sub="6"/>
+          <text pos="30,25" class="boldtext">即将检查软件残留项目</text>
+          <text pos="30,45">检查此软件残留的注册表项和安装文件</text>
+        </dlg>
+        <!-- 清扫检查中 -->
+        <dlg show="0" id="2003"  pos="0,80,-0,-0">
+          <img id="40002" pos="0,23" skin="loadinfotip" sub="0"/>
+          <text pos="30,25" class="boldtext">强力清扫</text>
+          <text pos="30,45">检查此软件残留的注册表项和安装文件</text>
+        </dlg>
+        <!-- 无残留项 -->
+        <dlg show="0" id="1022"  pos="0,80,-0,-0">
+          <img pos="0,23,32" skin="stat15" sub="2" />
+          <text pos="30,25" class="boldtext">强力清扫</text>
+          <text pos="30,45">没发现任何残留</text>
+        </dlg>
+        <!-- 有残留项 -->
+        <dlg show="0" id="1023"  pos="0,80,-0,-0">
+          <img pos="0,23,32" skin="uni_clean" />
+          <text pos="30,25" class="boldtext">强力清扫</text>
+          <text pos="30,45">发现软件有残留的注册表项或安装文件，如有需要请进行</text>
+          <text id = "40001" pos= "30,60" class="linktext">强力清扫</text>
+        </dlg>
+        <!-- 残留文件过多 -->
+        <dlg show="0" id="1024"  pos="0,80,-0,-0">
+          <img pos="0,23,32" skin="uni_clean" />
+          <text pos="30,25" class="boldtext">强力清扫</text>
+          <text pos="30,45">发现软件有残留的注册表项或安装文件，如有需要请进行</text>
+          <text id = "40001" pos= "30,60" class="linktext">强力清扫</text>
+          <text pos="80,60" crtext="FFA000">(残留文件过多，请仔细辨别，避免误删)</text>
+        </dlg>
+
+        <!-- 残留文件>100M -->
+		<dlg show="0" id="1027"  pos="0,80,-0,-0">
+			<img pos="0,23,32" skin="uni_clean" />
+			<text pos="30,25" class="boldtext">强力清扫</text>
+			<text pos="30,45">发现此软件目录下的残留项过多，可能有其他</text>
+			<text pos="30,60">数据，建议您</text>
+			<text id = "40011" pos= "108,60" class="linktext">打开此软件目录</text>
+			<text pos="198,60">，进行手工处理</text>
+		</dlg>
+
+		<!-- 多个文件装一个目录 -->
+		<dlg show="0" id="1026"  pos="0,80,-0,-0">
+			<img pos="0,23,32" skin="uni_clean" />
+			<text pos="30,25" class="boldtext">强力清扫</text>
+			<text pos="30,45">发现此软件目录下可能装了其他软件，建议您</text>
+			<text id = "40010" pos= "30,60" class="linktext">打开此软件目录</text>
+			<text pos="120,60">，进行手工处理</text>
+		</dlg>
+
+        <!-- 终止卸载 -->
+        <dlg show="0" id="1025"  pos="0,80,-0,-0">
+          <img pos="0,23,32" skin="stat15" sub="1" />
+          <text pos="30,25" class="boldtext" crtext="990000">卸载被终止</text>
+        </dlg>
+      </dlg>
+    </dlg>
+  </body>
+</layer>
+

@@ -1,0 +1,26 @@
+﻿<layer title="金山卫士-流量监控" width="330" height="180"  resize="1" nomaxsize="1" noborder="0">
+    <header class=msgboxhead width=full height=31>
+        <icon src=101 pos="5,9"/><text id=60004 class=dlgtitle pos="25,10">金山卫士-流量监控</text><imgbtn id=102 class=linkimage skin=closebtn pos="-45,2"/>
+    </header>
+    <footer class=msgboxfoot width=full height=2>
+      <dlg id="103" pos="0,0,-0,-10" class="client"/>
+    </footer>
+    <body class="msgboxbody" width="full" height="full">
+      <dlg pos="0,0,-0,-0">
+        
+        <dlg pos="10,5,-0,-0">
+        <img skin="netstaticon"  pos="6,10,50,53"></img>
+        
+        <text pos="80,10" id="106">您的当月网络总流量已经超过50M</text>
+        <text pos="80,35" id="107">是否需要限制一些程序访问网络？</text>
+        <link pos="80,60" id="108" class="linktext2">修改提示设置</link>
+        </dlg>
+        
+        <check id="104" pos="20,-35" show="1">本日不再提示</check>
+        <check id="105" pos="20,-35" show="0">本月不再提示</check>
+        
+        <button id="120" class="normalbtn" pos="-195,-40,-115,-15">流量控制</button>
+        <button id="121" class="normalbtn" pos="-100,-40,-20,-15">查看详情</button>
+      </dlg>
+    </body>
+</layer>

@@ -1,0 +1,28 @@
+﻿<layer width="500" height="480" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士系统加速</text>
+		<imgbtn id="102" class="linkimage" skin=closebtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg id="226" pos="10,8,-10,60" show="1">
+			<img id="235" pos="5,0" skin="examstatus48" sub="2" />
+			<richtext pos="65,10,390,22" id="228" class="richtext" ></richtext>
+			<richtext pos="65,30,390,42" id="236" class="richtext" >关闭窗口、程序，可以加速系统运行！</richtext>
+			<button id="229" pos="-90,-40,-10,-10" class="normalbtn">立即加速</button>
+		</dlg>
+		<dlg pos="10,8,-10,60" show="0" id="227">
+		  <img id="232" pos="5,0" skin="scanani" sub="0" />
+          <text pos="65,5,120,18" >正在处理: </text>
+          <text id="233" pos="128,6,-65,20" class="filename"></text>
+          <progress id="234" pos="65,24,-65,36" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+		  <text pos="-50,6" class="linktext" id="230">停止</text>
+        </dlg>
+		<dlg pos="5,68,-5,-40" show="1" class="panel">
+			<realwnd id="231" ctrlid="231" pos="0,0,-0,-0"/>
+		</dlg>
+		<dlg pos="10,-40,-0,-10" show="1">
+			<check id="237" pos="0,10" show="1">全选</check>
+		</dlg>
+	</body>
+</layer>

@@ -1,0 +1,29 @@
+﻿<layer title="免打扰" width="400" height="250">
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="101" pos="5,9"/>
+    <text class="dlgtitle" pos="25,10">金山卫士-免打扰模式</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <footer class="msgboxfoot" width="full" height="2">
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="2,0,-2,-0">
+      <dlg pos="0,0,-0,-0" class="panel">
+        <dlg pos="20,10,-0,-0" >
+          <dlg pos="0,0,-0,-0">
+            <text pos="10,15">免打扰模式下，不弹出提示窗口，同时，对于被拦截到的行为：</text>
+            <text pos="10,35">1、如果不是第一次发现（有过阻止或允许），则沿用上次操作</text>
+            <text pos="10,55">2、如果是第一次发现，则使用默认操作：</text>
+            <text pos="60,80">√ 发现木马程序时，默认阻止</text>
+            <text pos="60,100">√ 发现未知操作时，默认允许</text>
+            <text pos="60,120">√ 发现安全操作时，默认允许</text>
+          </dlg>
+        </dlg>
+        <!--
+      	<button id ="1" pos="-180,128,-100,-10" class="normalbtn">确定</button>-->
+        <button id ="1" pos="-100,175,-20,-10" class="normalbtn">确定</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>
+

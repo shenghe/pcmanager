@@ -1,0 +1,17 @@
+﻿<layer title="设置" width="260" height="265">
+  <header class="msgboxhead" width="full" height="32">
+    <icon src="107" pos="5,9"/>
+    <text id="8160" class="dlgtitle" pos="25,10,215,22">百度安全卫士</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,0"/>
+  </header>
+  <footer class="msgboxfoot" width="full" height="2">
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="2,0,-2,-0">
+      <dlg pos="0,0,-0,-0">
+        <realwnd pos="0,0,-0,-0" id="8159" ctrlid="8159" />
+      </dlg>
+    </dlg>
+  </body>
+</layer>
+

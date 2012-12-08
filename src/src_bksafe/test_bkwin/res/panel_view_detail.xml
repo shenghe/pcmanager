@@ -1,0 +1,7 @@
+﻿<dlg id=1027 pos="0,0,-210,-0" class=panel>
+<realwnd id=1022 ctrlid=1022 pos="0,0,-0,-0"/>
+</dlg>
+<button id=1029 pos="-210,0,-200,-0" class=uglybtn>→</button>
+<dlg id=1028 pos="-200,0,-0,-0" class=panel>
+<realwnd id=1015 ctrlid=1015 pos="0,0,-0,-0"/>
+</dlg>

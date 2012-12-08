@@ -1,0 +1,75 @@
+﻿<dlg pos="0,0,-0,-0" class="settingpage">
+  <dlg pos="0,24,-0,25" crbg="87B8E0"></dlg>
+  <tabctrl id="436" tabwidth="79" tabheight="25" tabskin="setsoftmgrtab" tabspacing="5" tabpos="9" framepos="0" pos="0,0,-0,-1" text-x="1"  text-y="1">
+
+    <tab title="软件下载" width="full" height="full">
+      <dlg pos="0,0,-0,-0">
+        <img pos="18,27" skin="softnecesspoint"/>
+        <text pos="30,25">在如下目录保存软件安装包（</text>
+        <text id="404" class="linktext" pos="-290,25">恢复默认目录</text>
+        <text pos="-215,25">）：可用磁盘空间：</text>
+        <text pos="-100,25" id="405" class="spacetext">0 GB</text>
+        <dlg pos="30,55,310,75" class="panel">
+          <realwnd id="402" ctrlid="402" pos="2,2,-2,-2"/>
+        </dlg>
+        <button id="403" class="normalbtn" pos="320,55,380,75">选择目录</button>
+        <button id="401" class="normalbtn" pos="390,55,450,75">打开目录</button>
+
+        <text pos="30,93" >如何删除这些软件安装包：</text>
+        <radio id="418" group="delete_setup" pos="30,120">一周后自动删除</radio>
+        <radio id="419" group="delete_setup" pos="30,145">安装完成后立即删除</radio>
+        <radio id="422" group="delete_setup" pos="30,170">一直保留，不自动删除</radio>
+        
+        <img pos="18,212" skin="softnecesspoint"/>
+        <text pos="30,210">下载前提示：</text>
+        <radio id="416" group="plugin_tip" pos="30,235">下载软件前弹出窗口，提示该软件是否收费、是否有插件等信息</radio>
+        <radio id="417" group="plugin_tip" pos="30,260">下载软件前不进行提示，直接开始下载</radio>
+
+        <img pos="18,297" skin="softnecesspoint"/>
+        <text pos="30,295" >下载完成后：</text>
+        <radio id="423" group="run_setup" pos="30,320">自动启动安装程序</radio>
+        <radio id="424" group="run_setup" pos="30,345">手动点击安装包进行安装</radio>
+        <realwnd pos="125,21,405,42" id="408" ctrlid="408" show="0"></realwnd>
+        
+      </dlg>
+    </tab>
+
+    <tab title="软件升级" width="full" height="full">
+      <dlg pos="0,0,-0,-0">
+        <img pos="18,27" skin="softnecesspoint"/>
+        <text pos="30,25">软件升级提醒：</text>
+        <radio id="425" group="update_tip" pos="30,50">每天提示一次有哪些软件可以升级</radio>
+        <radio id="426" group="update_tip" pos="30,75">每周提示一次有哪些软件可以升级</radio>
+        <radio id="427" group="update_tip" pos="30,100">永不提醒</radio>
+
+        <img pos="18,132" skin="softnecesspoint"/>
+        <text pos="30,130" >常用软件智能提醒：</text>
+        <check id="433" pos="30,155">对常用的软件进行提醒</check>
+        <check id="435" pos="30,180">运行软件时，如果该软件可以升级，则进行提醒</check>
+      </dlg>
+    </tab>
+
+    <tab title="软件卸载" width="full" height="full">
+      <dlg pos="0,0,-0,-0">
+        <img pos="18,27" skin="softnecesspoint"/>
+        <text pos="30,25">卸载时，强力清扫残留文件的删除方式：</text>
+        <radio id="428" group="delete_method" pos="30,50">删除到回收站（可恢复）</radio>
+        <radio id="429" group="delete_method" pos="30,75">彻底删除文件（不可恢复）</radio>
+      </dlg>
+    </tab>
+
+    <tab title="其他设置" width="full" height="full">
+      <dlg pos="0,0,-0,-0">
+        <img pos="18,27" skin="softnecesspoint"/>
+        <text pos="30,25">文件关联：</text>
+        <check id="434" pos="30,50">智能识别未知文件，并推荐可打开此文件的软件</check>
+
+        <img pos="18,82" skin="softnecesspoint"/>
+        <text pos="30,80">快捷方式：</text>
+        <check id="407" pos="30,105">在桌面上显示软件管理快捷方式</check>
+        <check id="413" pos="30,130">在快捷方式上显示可升级软件数</check>
+      </dlg>
+    </tab>
+    
+  </tabctrl>
+</dlg>

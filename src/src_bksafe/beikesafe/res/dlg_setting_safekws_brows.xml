@@ -1,0 +1,23 @@
+﻿<layer title="需要保护的浏览器" width=450 height=470>
+    <header class=msgboxhead width=full height=32>
+        <icon src=101 pos="5,9"/><text class=dlgtitle pos="25,10">金山卫士 - 自定义浏览器</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=2>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+      <dlg pos="2,0,-2,-0">
+      	<dlg pos="8,8,-8,-8">
+          <text pos="10,13" class="boldtext" crtext="3064A5">添加网盾不识别的浏览器</text>
+		  <text pos="10,38">正常情况下网盾会自动识别系统中安装的所有浏览器。对于网盾不识别的浏览</text>
+          <text pos="10,63">器，可以点击下面的“添加浏览器”来添加。</text>
+          <dlg pos="10,85,-10,-40" class="panel">
+            <realwnd id="514" ctrlid="514" pos="1,1,-1,-1"/>
+          </dlg>          
+          <!--<text id="515" class="linktext" pos="15,-25">添加浏览器</text>-->
+          <text id="516" class="linktext" pos="15,-25">从列表中删除</text>
+          <button id="515" class="normalbtn" pos="-90,-30,-10,-5">添加浏览器</button>
+        </dlg>
+      </dlg>
+    </body>
+</layer>
+

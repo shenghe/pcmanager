@@ -1,0 +1,89 @@
+﻿<dlg pos="0,0,-0,-0">
+	<dlg pos="5,0,-5,-50">
+    <dlg pos="5,3,-0,65">
+      <dlg pos="0,0,-80,-0">
+        <dlg pos="0,10,-0,65" show="1" id="3316">
+          <img id="3328" pos="10,0" skin="examanipng48" sub="0"/>
+          <text pos="60,5,120,18" >正在扫描: </text>
+          <text id="3301" pos="120,6,-15,20" class="filename"></text>
+          <progress id="3302" pos="60,24,-125,36" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+        </dlg>
+        <dlg pos="0,0,-0,50" show="0" id="3318">
+          <img  pos="10,12" skin="stat40" sub="0"/>
+          <text id="3319" pos="60,25" font="0204" crtext="EC3535">在您的系统中发现了3处威胁，请立即处理</text>
+        </dlg>
+        <dlg pos="0,0,-0,50" show="0" id="3317">
+          <img  pos="10,12" skin="stat40" sub="2"/>
+          <text pos="60,25" font="0204" crtext="008000">未发现威胁，您的系统非常安全</text>
+        </dlg>
+        <dlg pos="0,0,-0,50" show="0" id="3326">
+          <img  pos="10,12" skin="stat40" sub="2"/>
+          <text pos="60,25" id="3327" font="0204" crtext="008000">在您的系统中发现了3处威胁，已全部处理</text>
+        </dlg>
+        <dlg pos="0,0,-0,50" show="0" id="3339">
+          <img  pos="10,12" skin="stat40" sub="2"/>
+          <text pos="60,25" id="3340" font="0204" crtext="008000">在您的系统中发现了3处威胁，已经全部处理</text>
+        </dlg>
+        <dlg pos="0,0,-0,50" show="0" id="3323">
+          <img  pos="10,12" skin="stat40" sub="1"/>
+          <text pos="60,25" font="0204" crtext="F99E00">扫描中断，可能存在风险。</text>
+        </dlg>
+        <dlg pos="0,0,-0,50" show="0" id="3335">
+          <img  pos="10,12" skin="stat40" sub="0"/>
+          <text id="3336" pos="60,25" font="0204" crtext="EC3535"></text>
+        </dlg>
+        <!--hub-->
+        <dlg pos="0,0,-0,50" show="0" id="3324">
+          <img  pos="10,12" skin="stat40" sub="0"/>
+          <text id="3325" pos="60,25" font="0204" crtext="EC3535"></text>
+        </dlg>
+      </dlg>
+      <dlg pos="-80,0,-0,-0">
+        <img  pos="0,18" skin="stat15" sub="3"/>
+        <text pos="19,20" class="linktext" href="http://bbs.ijinshan.com/thread-62697-1-1.html">我要求助</text>
+      </dlg>
+    </dlg>
+
+    <dlg pos="0,64,-0,-1" class="panelffffff" id="3304">
+      <dlg pos="0,0,-0,-0" id="3322">
+        <dlg pos="0,0,-0,25">
+          <text pos="0,0,-200,-0" class="listheader2" crbg="AAAA00">扫描项目</text>
+          <text pos="-200,0,-0,-0" class="listheader2" crbg="00AAAA">扫描结果</text>
+        </dlg>
+        <realwnd id="3300" ctrlid="3300" pos="0,26,-0,-0"/>
+      </dlg>
+    </dlg>
+    <dlg pos="0,64,-0,-1" class="panelffffff" show="0" id="3305">
+      <dlg pos="0,0,-0,-0">
+        <dlg pos="0,0,-0,20">
+          <text pos="0,0,-200,-0" class="listheader2" crbg="AAAA00">扫描项目</text>
+          <text pos="-200,0,-0,-0" class="listheader2" crbg="00AAAA">扫描结果</text>
+        </dlg>
+        <realwnd id="3306" ctrlid="3306" pos="0,26,-0,-0"/>
+      </dlg>
+    </dlg>
+  </dlg>
+
+  <!--IE修复页面中，详细显示页面的低栏-->
+  <dlg id="3013" pos="0,-47,-0,-0" show="1">
+    <dlg pos="0,0,-0,-0" show="0" id="3307">
+      <check id="3011" pos="10,21" >全选</check>
+      <text id="3315" pos="80,21" class="linktext">查看信任列表</text>
+      <text id="3313" pos="-160,-27" class="linktext">暂不处理</text>
+      <button id="3314" pos="-90,-35,-10,-10" class="normalbtn">立即处理</button>
+    </dlg>
+    <dlg pos="0,0,-0,-0" show="0" id="3308">
+      <button id="3309" pos="-180,-35,-100,-10" class="normalbtn">暂停扫描</button>
+      <button id="3320" pos="-180,-35,-100,-10" class="normalbtn">继续扫描</button>
+      <button id="3310" pos="-90,-35,-10,-10" class="normalbtn">停止扫描</button>
+    </dlg>
+    <dlg pos="0,0,-0,-0" show="0" id="3312">
+      <button id="3311" pos="-90,-35,-10,-10" class="normalbtn">重新扫描</button>
+    </dlg>
+    <dlg pos="0,0,-0,-0" show="0" id="3329">
+      <button id="3330" pos="-180,-35,-100,-10" class="normalbtn">继续处理</button>
+      <button id="3331" pos="-90,-35,-10,-10" class="normalbtn">重新扫描</button>
+    </dlg>
+    <!--hub-->
+  </dlg>
+</dlg>  

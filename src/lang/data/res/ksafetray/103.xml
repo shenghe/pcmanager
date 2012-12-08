@@ -1,0 +1,45 @@
+﻿<layer width="290" height="331" appwin="0" noborder="1">
+  <header width="full" height="82">
+    <dlg id="60006" class="mainhead_red" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-40,0"/>
+      <img id="60009" skin="header_title_sec_red" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <text id="1020" pos="20,0,-0,-0" font="0504" class="textmode_title">检测到危险程序加入开机启动项中！</text>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_red" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_red" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,-0" crbg="FAFDFF">
+        <dlg id="5001" class="panel_red" pos="5,0,-5,50">
+            <icon id="1022" pos="10,10" size="32"/>
+            <text id="1023" pos="50,10,-0,30" class="textmode" ></text>
+            <text id="1024" pos="50,30,-0,50" class="textmode" ></text>
+            <text id="1029" pos="10,10,-0,30" class="textmode" ></text>
+            <text id="1030" pos="10,30,-0,50" class="textmode" ></text>
+        </dlg>
+        <dlg id="5002" class="panel_red" pos="5,49,-5,165" >
+          <dlg crbg="FAFDFF" pos="0,0,-0,-0">
+            <realwnd id="1025" ctrlid="1025" pos="10,0,-0,-0" crtext="00b0f0"/>
+          </dlg>
+        </dlg>
+        <dlg pos="5,165,-5,-0" crbg="FAFDFF" >
+          <!-- control -->
+          <radio id="1026" group="operation" pos="5,5,75,25">允许修改</radio>
+          <!--NEW ADD-->
+          <text id="1037" pos="-65,5" class="linktext" show="0">信任此程序</text>
+
+          <radio id="1027" group="operation" pos="5,27,75,47">阻止修改</radio>
+          <check id="1028" height="17" pos="5,49" >记住此操作，不再提示</check>
+          <button id="60004" class="normalbtn_gray" pos="-75,-30,-0,-5">确 定</button>
+          <text id="1035" pos="-100,20" class="linktext">设置为免打扰模式</text>
+          <text id="1036" pos="-60,20" class="linktext">清理此插件</text>
+        </dlg>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

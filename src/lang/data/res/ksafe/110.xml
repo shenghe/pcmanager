@@ -1,0 +1,18 @@
+﻿<layer width="585" height="350" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="107" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">插件日志查看</text>
+		<imgbtn id="1610" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-10">
+			<img pos="10,10" skin="stat15" sub="3"/>
+			<text pos="30,12">在此查看清理插件的操作历史。</text>
+			<dlg pos="10,35,-10,-50" class="panel">
+				<realwnd id="1303" pos="0,0,-0,-0" ctrlid="1303"/>
+			</dlg>
+			<button id="1608" pos="-190,-30,-110,-8" class="normalbtn">清空日志</button>
+			<button id="1609" pos="-90,-30,-10,-8" class="normalbtn">返回</button>
+		</dlg>
+	</body>
+</layer>

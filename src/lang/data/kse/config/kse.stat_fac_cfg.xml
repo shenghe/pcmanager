@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<kse>
+    <status>
+        <CKSEGenericScanStatus          blocksize="2" reserveblocknum="2" maxblocknum="10" />
+        <CKSEScanStatusList             blocksize="2" reserveblocknum="2" maxblocknum="10" />
+        <CKSEFileObjScanStatusImp       blocksize="2" reserveblocknum="2" maxblocknum="10" />
+        <CKSEKAEScanStatus              blocksize="2" reserveblocknum="2" maxblocknum="10" />
+        <CKSEPathNameScanStatus         blocksize="2" reserveblocknum="2" maxblocknum="10" />
+        <CKSENetDetectStatus            blocksize="2" reserveblocknum="2" maxblocknum="10" />
+        <CKSELocalDetectStatus          blocksize="2" reserveblocknum="2" maxblocknum="10" />
+    </status>
+</kse>
+

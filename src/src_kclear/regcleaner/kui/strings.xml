@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<strings>
+<string id="IDS_APP_TITLE" value="金山卫士" />
+
+<!-- MessageBox使用的资源 -->
+<string id="IDS_MSGBOX_BUTTON_XML" value='&lt;button id=%d pos="%d,0,%d,-0" class=normalbtn&gt;%s&lt;/button&gt;' />
+<string id="IDS_MSGBOX_BUTTON_DIV" value='&lt;dlg pos="|-%d,0,|%d,-0"&gt;%s&lt;/dlg&gt;' />
+<string id="IDS_MSGBOX_OK" value="确定" />
+<string id="IDS_MSGBOX_CANCEL" value="取消" />
+<string id="IDS_MSGBOX_ABORT" value="放弃" />
+<string id="IDS_MSGBOX_RETRY" value="重试" />
+<string id="IDS_MSGBOX_IGNORE" value="忽略" />
+<string id="IDS_MSGBOX_YES" value="是" />
+<string id="IDS_MSGBOX_NO" value="否" />
+<string id="IDS_MSGBOX_CONTINUE" value="继续" />
+</strings>

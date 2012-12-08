@@ -1,0 +1,15 @@
+﻿<layer title="云引擎连接失败" width=400 height=300>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">云引擎连接失败</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <text pos="10,14" class=linktext href="http://guanjia.baidu.com/help/safeguide.html#n9">以上方法都不行，我要反馈问题</text>
+        <button id=2 pos="-90,10,-10,-10" class=normalbtn>关闭</button>
+		<button id=558 pos="-180,10,-100,-10" class=normalbtn>重试</button>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,-10" class=cpanel>
+            <richtext pos="0,0,-0,-0" class=richtext>云引擎连接失败，影响查杀效果。<br/><br/>如果您不能上网，请检查网络设置，以及网线是否插好。或者和网络管理员（例如公司、网吧）、网络接入商（例如小区宽带）联系。<br/><br/>如果您能打开网页，则可能是网络状况不稳定，建议“重试”</richtext>
+        </dlg>
+    </body>
+</layer>

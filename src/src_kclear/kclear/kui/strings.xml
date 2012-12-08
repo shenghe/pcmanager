@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<strings>
+<string id="IDS_APP_TITLE" value="金山卫士" />
+
+<!-- MessageBox使用的资源 -->
+<string id="IDS_MSGBOX_BUTTON_XML" value='&lt;button id=%d pos="%d,0,%d,-0" class=normalbtn&gt;%s&lt;/button&gt;' />
+<string id="IDS_MSGBOX_BUTTON_DIV" value='&lt;dlg pos="|-%d,0,|%d,-0"&gt;%s&lt;/dlg&gt;' />
+<string id="IDS_MSGBOX_OK" value="确定" />
+<string id="IDS_MSGBOX_CANCEL" value="取消" />
+<string id="IDS_MSGBOX_ABORT" value="放弃" />
+<string id="IDS_MSGBOX_RETRY" value="重试" />
+<string id="IDS_MSGBOX_IGNORE" value="忽略" />
+<string id="IDS_MSGBOX_YES" value="是" />
+<string id="IDS_MSGBOX_NO" value="否" />
+<string id="IDS_MSGBOX_CONTINUE" value="继续" />
+
+<!-- 一键清理 -->
+<string id="IDS_TRASH" value="系统垃圾" />
+<string id="IDS_TRACK" value="使用痕迹" />
+<string id="IDS_REGTRASH" value="冗余注册表" />
+<string id="IDS_CLEAN_TRASH_AD" value="使用电脑时会生成垃圾文件，定期清理垃圾文件能够提高系统运行速度。" />
+<string id="IDS_CLEAN_TRACK_AD" value="上网、看视频、下载过程中会留下使用痕迹，定期清理痕迹可防止隐私泄露。" />
+<string id="IDS_CLEAN_REG_AD" value="使用系统或软件时会在注册表中留下冗余信息，定期清理可优化系统性能。" />
+<string id="IDS_COUNT" value="条" />
+<string id="IDS_CTL_CLEAN_END_WITHOUT_RESULT" value="在您的电脑中未发现%s。" />
+<string id="IDS_CTL_CLEAN_END_WITH_RESULT" value="共清理 &lt;font color=red&gt;%d%s&lt;/font&gt; %s，用时 &lt;font color=red&gt;%d秒&lt;/font&gt;。" />
+<string id="IDS_CTL_CLEAN_END_WITH_CANCLE" value="已终止清理，" />
+<string id="IDS_CTL_CLEANING1" value="已清理 &lt;font color=red&gt;%d%s&lt;/font&gt; %s，用时 &lt;font color=red&gt;%d秒&lt;/font&gt;" />
+<string id="IDS_CTL_CLEANING2" value="尚未发现%s，用时&lt;font color=red&gt;%d秒&lt;/font&gt;" />
+<string id="IDS_CTL_WAIT_CLEAN" value="等待清理..." />
+<string id="IDS_CTL_VIEW_CLEAN_ENTRYS" value="查看清理内容" />
+<string id="IDS_CTL_ADJUST_CLEAN_SETTING" value="调整一键清理范围" />
+<string id="IDS_CTL_CLEAN_ADVICE1" value="在当前清理项目中未发现使用痕迹，建议您" />
+<string id="IDS_CTL_CLEAN_ADVICE2" value="，然后进行清理。" />
+<string id="IDS_TIME_USE" value="用时：%d秒" />
+<string id="IDS_CLEAN_COUNT" value="%s：%d" />
+<string id="IDS_NOT_FOUND" value="未发现%s" />
+<string id="IDS_ALL_NOT_FOUND" value="没有在您的电脑中发现任何垃圾，痕迹和冗余注册表。建议您在 7 天之内再次进行清理。" />
+<string id="IDS_NOT_START" value="尚未清理%s" />
+<string id="IDS_CLEAN_TASK" value="正在清理..." />
+<string id="IDS_MODULE_NOT_COMPLETE" value="清理模块不完整，无法启用一键清理！请重新安装！" />
+<string id="IDS_CLEAN_REPORT_TITLE" value="本次共清理%s%d%s，耗时%d秒" />
+<string id="IDS_VIEW_DETAIL" value="查看详情" />
+<string id="IDS_LAST_CLEAN_TIME" value="上次清理时间：%s" />
+<string id="IDS_LAST" value="上次%s" />
+
+<!-- 大文件管理 -->
+<string id="IDS_SET_DEST_DIR_TITLE" value="请您选择搬移到后的位置：" />
+
+<!-- 新版垃圾清理 -->
+<!--
+<string id="IDS_PUSH_APP1_NAV" value="ui_softmgr_softuninstall"/>
+<string id="IDS_PUSH_APP1_NAME" value="softmgr_softuninstall" />
+-->
+<string id="IDS_PUSH_APP1_NAV" value="ui_sysopt_ksafetools"/>
+<string id="IDS_PUSH_APP1_NAME" value="sysopt_ksafetools" />
+<string id="IDS_PUSH_APP2_NAV" value="ui_pluginscan"/>
+<string id="IDS_PUSH_APP2_NAME" value="pluginscan" />
+<string id="IDS_PUSH_APP3_NAV" value="ui_sysopt_runopt"/>
+<string id="IDS_PUSH_APP3_NAME" value="sysopt_runopt" />
+<string id="IDS_PUSH_APP4_NAV" value="ui_sysopt_ksafeperfopt"/>
+<string id="IDS_PUSH_APP4_NAME" value="sysopt_ksafeperfopt" />
+<string id="IDS_PUSH_APP5_NAV" value="ui_kclear_clrshoushen"/>
+<string id="IDS_PUSH_APP5_NAME" value="kclear_clrshoushen" />
+<string id="IDS_PUSH_APP6_NAV" value="ui_virscan_sysfix"/>
+<string id="IDS_PUSH_APP6_NAME" value="virscan_sysfix" />
+
+<string id="IDS_TRASH_LAST_INFO" value="您上次清理于%s，清理了 %s 垃圾。"/>
+<string id="IDS_TRASH_LAST_TIME" value="自%s至今，已累计帮助您节省了 %s 空间。"/>
+<string id="IDS_TRASH_BROWER_INFO" value="（共 %s 款浏览器， %s 个文件，%s）"/>
+<string id="IDS_TRASH_VEDIO_INFO" value="（共 %s 款播放器，%s 个文件，%s）"/>
+<string id="IDS_TRASH_SCANING_ITEM" value="正在扫描%s，请稍候..."/>
+<string id="IDS_TRASH_CLEANING_ITEM" value="正在清理%s，请稍候..."/>
+<string id="IDS_TRASH_SCANING" value="正在扫描...（%s个，%s）"/>
+<string id="IDS_TRASH_CLEANING" value="正在清理...（%s个，%s）"/>
+<string id="IDS_TRASH_SCAN_SIZE" value="扫描完成，共检测到&lt;sp/&gt;&lt;c color=FB0000&gt;%s&lt;/c&gt;&lt;sp/&gt;垃圾文件"/>
+<string id="IDS_TRASH_SCAN_COUNT" value="&lt;c color=676767&gt;共&lt;sp/&gt;&lt;c color=FB0000&gt;%s&lt;/c&gt;&lt;sp/&gt;个垃圾文件，建议您立即清理。&lt;/c&gt;"/>
+<string id="IDS_TRASH_SCAN_CANCEL_SIZE" value="&lt;c color=676767&gt;已检测到垃圾文件&lt;sp/&gt;&lt;c color=FB0000&gt;%s&lt;/c&gt;&lt;sp/&gt; &lt;/c&gt;"/>
+<string id="IDS_TRASH_CLEAN_FINISH" value="清理完成，本次共为您释放磁盘空间&lt;sp/&gt; &lt;c color=FB0000&gt;%s&lt;/c&gt;。"/>
+<string id="IDS_TRASH_CLEAN_CANCEL" value="清理被取消，已释放磁盘空间&lt;sp/&gt; &lt;c color=FB0000&gt;%s&lt;/c&gt;。"/>
+<string id="IDS_WAIT_SCAN" value="（等待扫描...）"/>
+<string id="IDS_WAIT_CLEAN" value="（等待清理...）"/>
+<string id="IDS_TRASH_PUBLIC_INFO" value="（共 %s 个文件， %s）"/>
+<string id="IDS_TRASH_RUNNING" value="正在运行，已跳过"/>
+<string id="IDS_TRASH_FINISH_CLEAR" value="清理完成" />
+<string id="IDS_TRASH_CHECK_DETAIL" value="查看详情" />
+<string id="IDS_TRASH_FIRST_VIEW" value="您还是第一次使用垃圾清理哦，赶快试试吧！"/>
+<string id="IDS_TRASH_JUST_FINISH" value="您刚刚完成了一次清理，清理垃圾 %s 。"/>
+<string id="IDS_TRASH_FIRSTDAY" value="已累计为您释放磁盘空间 %s 。"/>
+<string id="IDS_TRASH_TIME_A_NUM" value="&lt;c color=676767&gt;清理用时：&lt;c color=FB0000&gt;%.2f秒&lt;/c&gt; &lt;sp/&gt;&lt;sp/&gt;&lt;sp/&gt;垃圾文件数：&lt;c color=FB0000&gt;%s个&lt;/c&gt; &lt;/c&gt;" />
+<string id="IDS_TRASH_DETAIL" value="金山卫士 - 垃圾清理详情"/>
+<string id="IDS_TRASH_CLEAN_FINISH_HAS_SKIP" value="共为您释放磁盘空间&lt;sp/&gt; &lt;c color=FB0000&gt;%s&lt;/c&gt;，检测到&lt;sp/&gt; &lt;c color=FB0000&gt;%d&lt;/c&gt;&lt;sp/&gt;个正在运行的程序！"/>
+
+<!-- 系统瘦身 -->
+<string id="" value=""/>
+</strings>

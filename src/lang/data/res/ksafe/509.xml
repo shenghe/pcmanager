@@ -1,0 +1,8 @@
+﻿<icon src="107" pos="5,4"/>
+<text class="dlgtitle" pos="25,6">%str1%</text>
+<imgbtn id="60003" class="linkimage" skin="minbtn" pos="-105,0"/>
+<imgbtn id="60002" class="linkimage" skin="maxbtn" pos="-73,0"/>
+<imgbtn id="60001" class="linkimage" skin="closebtn" pos="-43,0"/>
+<link class="linktext6" pos="-238,6" href="http://www.ijinshan.com/safe/help.html?fr=client" crtext="044479" show="0">求助</link>
+<link class="linktext6" pos="-194,6" href="http://tieba.baidu.com/f?kw=%B0%D9%B6%C8%B5%E7%C4%D4%B9%DC%BC%D2" crtext="044479">论坛</link>
+<link id="207" class="linktext6" pos="-150,6" crtext="044479">设置</link>

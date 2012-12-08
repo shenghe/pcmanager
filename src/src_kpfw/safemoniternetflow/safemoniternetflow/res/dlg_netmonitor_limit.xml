@@ -1,0 +1,35 @@
+﻿<layer width="494" height="303" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">金山卫士流量监控</text>
+		<imgbtn id="231" class="linkimage" skin="closebtn" pos="-45,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,138">
+			<img pos="34,22,74,58" skin="netlimittip"/>
+			<text id=242 pos="80,22" font="0200">适当限制上传速度，将有效缓解带宽压力，使您上网更流畅！</text>
+			<!-- <richtext pos="80,45,-2,70" class="addspace" font="0200">限制进程<b><c color="C80000">KSsafe.exe</c></b>的上传速度为</richtext> -->
+			<text pos="80,35,140,60" font="0200">限制程序</text>
+			<text id="234" pos="140,35,200,60" class="filename" font="0204" crtext="C80000">KSafe.exe</text>
+			<text id="235" pos="200,35,270,60" font="0200">的上传速度为</text>
+			<dlg id="238" class="panel" pos="270,60,320,80">
+				<realwnd id="236" pos="1,1,-1,-1"  ctrlid="236" />
+			</dlg>
+			<text id="237" pos="320,35,360,60" font="0200" show="1">KB/S</text>
+			<check id="250" pos="40,93">记住设置，自动对相同程序限速</check>
+			<button id="232" pos="-200,85,-120,115" class="normalbtn">确定</button>
+			<button id="233" pos="-100,85,-20,115" class="normalbtn">取消</button>
+		</dlg>
+		<dlg pos="0,138,-0,-0">
+			<hr pos="2,1,-2,1" crbg="CCCCCC"/>
+			<dlg pos="2,2,-2,-2" crbg="E6ECF6">
+				<img pos="36,12,53,29" skin="netnote"></img>
+				<text pos="60,15" font="0004" crtext="565b5F">小贴士</text>
+				<richtext pos="60,35,-2,55" class="addspace"><c color=565b5F>限制为</c><b><c color=565b5F>1KB/S,</c></b><c color=565b5F>仅推荐在玩网络游戏时用于限制其他程序</c></richtext>
+				<richtext pos="60,55,-2,75" class="addspace"><c color=565b5F>限制为</c><b><c color=565b5F>5KB/S,</c></b><c color=565b5F>良好优化程序的网络占用,大部分程序访问网络不受影响！</c></richtext>
+				<richtext pos="60,75,-2,95" class="addspace"><c color=565b5F>限制为</c><b><c color=565b5F>20KB/S,</c></b><c color=565b5F>较小影响P2P及BT类的下载软件（迅雷、电驴等），过多</c></richtext>
+				<richtext pos="60,95,-2,115" class="addspace"><c color=565b5F>地限制此类软件的上传速度可能影响其下载速度</c></richtext>
+			</dlg>
+		</dlg>
+	</body>
+</layer>

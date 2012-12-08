@@ -1,0 +1,31 @@
+﻿<layer width="350" height="150" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">%str1%</text>
+		<imgbtn id="1" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="5,0,-20,-0" >
+			<dlg id="103" pos="0,0,-0,60" show="1">
+				<text pos="20,20">正在检测最新查杀引擎及木马库...</text>
+			</dlg>
+			<dlg id="104" pos="0,0,-0,60" show="0">
+				<text pos="20,20">正在更新查杀引擎及木马库，只需几分钟即可</text>
+				<text pos="20,40">完成...</text>
+			</dlg>
+			<dlg id="105" pos="0,0,-0,60" show="0">
+				<text pos="20,20">目前的查杀引擎及木马库已经是最新版本</text>
+			</dlg>
+			<dlg id="106" pos="0,0,-0,60" show="0">
+				<text pos="20,20">查杀引擎及木马库更新完成，已获得了最新的</text>
+				<text pos="20,40">木马查杀能力！</text>
+			</dlg>
+			<dlg id="107" pos="0,0,-0,60" show="0">
+				<text pos="20,20">无法检测查杀引擎及木马库的最新版本，连接</text>
+				<text pos="20,40">到互联网后卫士会自动更新最新版本。</text>
+			</dlg>
+			<progress id="3" pos="20,70,-100,112" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+			<button id="4" pos="-90,66,-10,88" class="normalbtn">跳过</button>
+		</dlg>
+	</body>
+</layer>

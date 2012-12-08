@@ -1,0 +1,19 @@
+﻿<layer width="585" height="350" >
+	<header class="msgboxhead" width="full" height="32">
+		<icon src="101" pos="5,9"/>
+		<text class="dlgtitle" pos="25,10">查看详情</text>
+		<imgbtn id="1604" class="linkimage" skin=closeonlybtn pos="-43,0"/>
+	</header>
+	<body class="msgboxfoot" width="full" height="full">
+		<dlg pos="0,0,-0,-10">
+			<img id="1644" pos="10,10" skin="stat15" sub="3"/>
+			<text id="1636" pos="30,12,-30,24" class="endellipsistext">xxxx的所有相关信息</text>
+			<dlg pos="10,35,-10,-50" class="panel">
+				<realwnd id="1601" pos="0,0,-0,-0" ctrlid="1601"/>
+			</dlg>
+      <text id="1603" pos="15,-22" class="linktext">复制详情</text>
+      <text id="1645" pos="-160,-22" show="1" class="linktext">添加信任</text>
+      <button id="1602" pos="-90,-30,-10,-5" class="normalbtn">关闭</button>
+		</dlg>
+	</body>
+</layer>

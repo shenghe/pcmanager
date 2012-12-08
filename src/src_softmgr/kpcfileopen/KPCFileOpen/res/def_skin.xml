@@ -1,0 +1,13 @@
+﻿<skins>
+  <imgframe name="msgboxhead" src="4" top="44" left="127" crbg="FFFFFF" part="top"/>
+  <imgframe name="msgboxbody" src="4" top="44" left="127" crbg="FFFFFF" part="middle"/>
+  <imgframe name="msgboxfoot" src="4" top="248" left="127" crbg="FFFFFF" part="bottom"/>
+
+  <png name="loadinfotip" src="45" subwidth="16" />
+  <png name="closebtn" src="44" subwidth="17"/>
+  <imgframe name="panel" src="107" top="2" left="2" crbg="FFFFFF"/>
+  <png name="default_logo" src="48"/>
+  <button name="normalbtn" border="7D9EBC" bg="FDFDFD" bgup="FEFEFE" bgdown="C6E2FD" bguphover="FEFEFE" bgdownhover="DBEDFE" bguppush="C6E2FD" bgdownpush="FEFEFE"/>
+</skins>
+
+

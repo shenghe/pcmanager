@@ -1,0 +1,63 @@
+﻿<layer title="设置" width=650 height=430>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">百度安全卫士软件下载管理</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class="msgboxfoot" width="full" height="2">
+    </footer>
+    <body class=msgboxbody width=full height=full>
+       <dlg pos="2,0,-2,-0">
+       		<dlg pos="0,0,-0,-0" class=panel>
+							<realwnd pos="0,0,100,-0" id=100 ctrlid=100 />
+							
+							<dlg id=101 class="downmgrdlg" pos="100,0,-0,-0" >
+								
+								<richtext id="102" pos="20,15,-120,40" class="addspace"></richtext>
+								<!--imgbtn id="103" class=linkimage skin=selectfolder pos="-115,10"/>
+								<text id="104" class=linktext pos="-85,15">打开下载目录</text-->
+								<realwnd id="105" ctrlid="105" pos="0,40,-0,-31"></realwnd>
+								<dlg id="106" pos="0,40,-0,-31" show="1">
+									<text pos="0,0,-0,-0" class="centertext" font="0404" crtext="9A9A9A" crbg="FFFFFF">目前没有正在下载的软件</text>
+								</dlg>	
+								
+								<dlg pos="0,-31,-0,-0" class="softmgrbottombk">
+								</dlg>
+								
+							</dlg>
+  				
+							<dlg id="200" class="downmgrdlg" pos="100,0,-0,-0" >
+								<richtext id="201" pos="20,15,-120,40" class="addspace"></richtext>
+								<!--imgbtn id="202" class=linkimage skin=selectfolder pos="-115,10"/>
+								<text id="203" class=linktext pos="-85,15">打开下载目录</text-->
+								
+								<realwnd id="204" ctrlid="204" pos="0,40,-0,-31"></realwnd>
+								<dlg id="208" pos="0,40,-0,-31" show="1">
+									<text pos="0,0,-0,-0" class="centertext" font="0404" crtext="9A9A9A" crbg="FFFFFF" >目前没有已完成下载的软件</text>
+								</dlg>	
+								 
+								<dlg pos="0,-31,-0,-0" class="softmgrbottombk">
+									<check id="205"  pos="14,-21" >全选/全不选</check>
+									<button id="207" pos="-110,-26,-15,-3" class="normalbtn">删除安装文件</button>
+								</dlg>
+							</dlg>			
+							
+							<dlg id="214" class="downmgrdlg" pos="100,0,-0,-0" >
+								<richtext id="213" pos="20,15,-120,40" class="addspace" show="0"></richtext>
+																
+								<realwnd id="209" ctrlid="209" pos="0,40,-0,-31" show="1"></realwnd>
+								<dlg id="212" pos="0,40,-0,-31" show="0">
+									<text pos="0,0,-0,-0" class="centertext" font="0404" crtext="9A9A9A" crbg="FFFFFF" >目前垃圾箱中没有软件</text>
+								</dlg>	
+								 
+								<dlg pos="0,-31,-0,-0" class="softmgrbottombk">
+									<check id="210"  pos="14,-21" >全选/全不选</check>
+									<button id="211" pos="-110,-26,-15,-3" class="normalbtn">删除安装文件</button>
+								</dlg>
+							</dlg>
+							
+							<imgbtn id="103" class=linkimage skin=selectfolder pos="-115,10"/>
+							<text id="104" class=linktext pos="-85,15">打开下载目录</text>
+	       	</dlg>
+       </dlg> 
+    </body>
+</layer>
+

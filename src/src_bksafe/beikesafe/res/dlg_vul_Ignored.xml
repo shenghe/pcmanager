@@ -1,0 +1,39 @@
+﻿<layer width="587" height="351">
+    <header class="msgboxhead" width="full" height="32">
+        <icon src=101 pos="5,9"/><text id=60004 class=dlgtitle pos="25,10">已忽略补丁</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <body class="msgboxfoot" width="full" height="full">
+        <dlg id="200" pos="0,0,-0,-0">
+			<!-- 加载 -->
+			<dlg id="201" pos="10,10,-10,-10" class="panel">
+				<dlg pos="0,0,-0,-0" class="anibg">
+					<dlg pos="0,|-50,-0,|50">
+						<img id="105" pos="10,0" skin="examani" sub="0"/>
+						<text pos="80,5">正在加载列表，请稍候...</text>
+						<progress id="112" pos="80,25,-10,45" min="0" max="100" value="0" showpercent="1" bgskin="progressbg" posskin="progresspos"/>
+					</dlg>
+				</dlg>
+			</dlg>
+
+			<!-- 列表 -->
+            <dlg id="200" pos="0,0,-0,-0" class=client>
+                <dlg id=300 show=0 pos="0,0,-0,-0">
+					<img pos="0,5" skin="stat15" sub="3"/>
+                    <text id="30000"  pos="20,7"/>
+                    <dlg pos="0,40,-0,-35" class=panel>
+                        <realwnd id="30010" ctrlid="30010" pos="0,0,-0,-0"/>
+                    </dlg>
+                    <dlg pos="0,-30,-0,-0">
+						<dlg id="1036" pos="0,0,-100,-0">
+							<text id=30500 pos="0,10" class=linktext>全选</text>
+							<text pos="30,10">/</text>
+							<text id=30501 pos="40,10" class=linktext>全不选</text>
+							<button id="30502" pos="-80,5,-0,27" class="normalbtn">取消忽略</button>
+						</dlg>	
+                        <button id="30503" pos="-80,5,-0,27" class="normalbtn">关闭</button>
+                    </dlg>
+                </dlg>
+            </dlg>
+        </dlg>
+    </body>
+</layer>

@@ -1,0 +1,24 @@
+HKCR
+{
+	bksafesvc.bkcomm.1 = s 'bkcomm Class'
+	{
+		CLSID = s '{C313E554-97AB-49F9-988F-04DF64CD0451}'
+	}
+	bksafesvc.bkcomm = s 'bkcomm Class'
+	{
+		CLSID = s '{C313E554-97AB-49F9-988F-04DF64CD0451}'
+		CurVer = s 'bksafesvc.bkcomm.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C313E554-97AB-49F9-988F-04DF64CD0451} = s 'bkcomm Class'
+		{
+			ProgID = s 'bksafesvc.bkcomm.1'
+			VersionIndependentProgID = s 'bksafesvc.bkcomm'
+			ForceRemove 'Programmable'
+			LocalServer32 = s '%MODULE%'
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{C09A3ECC-2185-4F08-A17D-3EE687E05774}'
+		}
+	}
+}

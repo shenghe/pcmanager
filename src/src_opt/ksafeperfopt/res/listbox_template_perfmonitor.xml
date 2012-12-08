@@ -1,0 +1,23 @@
+﻿<listitem height="55">
+	<dlg  pos="0,0,-0,-0" crbg="FFFFFF">
+		<dlg id="201" pos="0,0,-0,-0">
+			<img id="203" pos="0,0,-0,-0" skin="listitembg"/>
+			<iconfrommodule id="204"  pos="10,12,42,44" class="linkimage" srcfile="0"/>
+			<text id="205" pos="50,10,270,22" class="perfmon_caption">进程标题</text>
+			<text id="206" pos="50,32,270,44" class="perfmon_desc">进程描述</text>
+			<text id="207" pos="270,22,370,34" class="centerblod">安全级别</text>
+			<text id="208" pos="370,22,470,34" class="centertext">CPU占用</text>
+			<text id="209" pos="470,22,570,34" class="centertext">内存占用</text>
+			<text id="210" pos="570,22,670,34" class="centertext">硬盘读写</text>
+			<text id="211" pos="680,22,728,34" class="linktext">关闭程序</text>
+			<imgbtn id="212" pos="745,22" class="linkimage" skin="netsetting"/>
+			<!--展开后显示的内容-->
+			<dlg id="202" pos="0,55,-1,-1">
+				<text id="213" pos="50,0,-0,12" class="filename" crtext="6d6d6d">程序路径</text>
+				<text id="214" pos="65,0,-0,12" class="linktext" show="0">打开所在目录</text>
+				<text id="215" pos="50,22">进程ID</text>
+			</dlg>
+			<hr pos="0,-1,-0,-1" crbg="dceeff"/>
+		</dlg>
+	</dlg>
+</listitem>

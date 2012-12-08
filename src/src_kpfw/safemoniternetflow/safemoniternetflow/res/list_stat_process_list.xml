@@ -1,0 +1,17 @@
+<listitem height="31">
+  <dlg  pos="0,0,-0,-0" crbg="FFFFFF">
+    <dlg id="212" pos="0,0,-0,-0">
+      <!--icon-->
+      <iconfrommodule id="213"  pos="10,7,26,23" class="linkimage" srcfile="0" iconhandle="0" issmall="1"/>
+      <!--title 210P-->
+      <text id="214" pos="30,8,300,30" class="leftcentertext"></text>
+      <!--level-->
+      <text id="215" pos="301,0,400,30" class="centertext" ></text>
+      <!--download speed-->
+      <text id="216" pos="401,0,500,30" class="centertext"></text>
+      <!--up speed-->
+      <text id="217" pos="501,0,-1,30" class="centertext"></text>
+      <hr pos="0,-1,-0,-1" crbg="dceeff"/>
+    </dlg>
+  </dlg>
+</listitem>

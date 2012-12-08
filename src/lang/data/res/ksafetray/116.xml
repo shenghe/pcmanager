@@ -1,0 +1,27 @@
+﻿<layer width="264" height="198" appwin="0" noborder="1">
+  <header width="full" height="68">
+    <dlg id="60006" class="mainhead_green" pos="0,0,-0,-0">
+      <imgbtn id="60001" class="linkimage" skin="btnclose_green" pos="-40,0"/>
+      <img id="60009" skin="header_title_normal" pos="40,12"/>
+      <dlg pos="0,41,-0,-0" crbg="FAFDFF" >
+        <richtext id="1500" defaultfont="0204" pos="50,10,-0,-0"></richtext>
+      </dlg>
+      <img skin="logo" pos="0,10"/>
+    </dlg>
+  </header>
+  <footer width="full" height="13">
+    <dlg id="60008" class="mainfoot_green" pos="0,0,-0,-0"/>
+  </footer>
+  <body width="full" height="full">
+    <dlg id="60007" class="mainbody_green" pos="0,0,-0,-0">
+      <dlg pos="0,0,-0,82" crbg="FAFDFF">
+        <realwnd id="1501" ctrlid="1501" crtext="333333" pos="5,0,-5,-0"/>
+      </dlg>
+      <dlg pos="0,82,-0,-0" crbg="FAFDFF">
+        <img id="60010" skin="link_icon" pos="5,-27"/>
+        <text id="1502" pos="28,-25" class="linktext"></text>
+        <button id="6002" class="normalbtn_gray" pos="-85,-35,-5,-10" >确 定</button>
+      </dlg>
+    </dlg>
+  </body>
+</layer>

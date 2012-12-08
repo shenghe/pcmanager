@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes" ?>
+<root>
+    <scripttype typeid="6">
+        <scriptinfo uuid="647647d0-e017-4b58-9f68-83bd414a7bf3" />
+        <scriptinfo uuid="a877ea67-f26c-450e-a258-ad1b90cdb8e3" />
+        <scriptinfo uuid="86BABA40-D08D-4717-8F53-7013AE8ED8EC" />
+        <scriptinfo uuid="7846935A-E667-426e-8258-964ECFB38835" />
+        <scriptinfo uuid="1749CA1F-0837-4316-8575-B0EED284FFB0" />
+        <scriptinfo uuid="78DB79A9-47CD-48c0-9DC7-4E9AFBDC7ABC" />
+        <scriptinfo uuid="7fa2208f-2b2e-473e-ad31-aa0023c35ecf" />
+    </scripttype>
+    <scripttype typeid="7">
+        <scriptinfo uuid="c9310b85-e7a0-4ec0-a4e4-757b73ee6e58" />
+    </scripttype>
+    <scripttype typeid="8">
+        <scriptinfo uuid="3D0E2F66-CD60-4920-9CD7-0970369A7209" />
+        <scriptinfo uuid="3a1e477b-bc3d-4fb5-9d76-4740610e20f9" />
+        <scriptinfo uuid="9266005e-f1e3-4e6c-983c-b707a30dd67b" />
+        <scriptinfo uuid="31020771-A76F-4742-A6CB-6388C0172FBB" />
+        <scriptinfo uuid="53CC5CD9-AEA9-4cb4-B8A8-FA119B772AE0" />
+        <scriptinfo uuid="b97dbed5-3483-44f7-a14a-62f97338e73f" />
+        <scriptinfo uuid="062cf483-e675-45cf-a295-565cf34baa31" />
+        <scriptinfo uuid="6f2074d1-6f05-4c0a-9656-6c24ae8db417" />
+    </scripttype>
+    <scripttype typeid="9">
+        <scriptinfo uuid="E2CE1FD0-54AD-46ec-B6A4-C8790EB4FF16" />
+        <scriptinfo uuid="d8ebb9ad-d882-48cd-a5fa-c27991b836be" />
+        <scriptinfo uuid="d1695c0b-9c3a-450c-95d0-1a1137e7e6ee" />
+        <scriptinfo uuid="90a8c94e-98ab-49af-8f9e-74a2f18d526f" />
+        <scriptinfo uuid="ADDEEE5A-C03F-47de-B85C-AECF08B8BED6" />
+        <scriptinfo uuid="7286522F-349D-4480-B1D9-FD1A169B785B" />
+        <scriptinfo uuid="4D1E4ABB-C897-4f07-8D9A-642946A72D61" />
+        <scriptinfo uuid="DE2C6712-790F-40eb-960D-6CDA4590B9B3" />
+    </scripttype>
+    <scripttype typeid="10">
+        <scriptinfo uuid="5d39dcb1-003b-4412-b45e-38a3fae7563d" />
+        <scriptinfo uuid="448a35de-a42d-4436-b75c-68b1873605a8" />
+        <scriptinfo uuid="ca74d9d8-156c-4584-93dc-ca8225bb830c" />
+        <scriptinfo uuid="23ea3f35-aa27-4bc0-8d6e-27aa09b6e2c3" />
+        <scriptinfo uuid="108f1931-a8a3-4175-b8ad-72c03ec97882" />
+        <scriptinfo uuid="67456faf-4b28-4d27-bd8a-cc52c3458e48" />
+        <scriptinfo uuid="c8999b10-a47a-49fc-8bb9-a31a52a94225" />
+        <scriptinfo uuid="70a0229b-2afd-4de4-b1f9-0a0141f3bd92" />
+        <scriptinfo uuid="3b51273a-b268-4b71-a570-0f5120c2608a" />
+    </scripttype>
+    <scripttype typeid="11">
+        <scriptinfo uuid="53a4c44d-b30f-486f-9665-6bfa97fb9039" />
+        <scriptinfo uuid="a292e9f3-3e2b-4e7e-a6b9-f53e23f499c5" />
+        <scriptinfo uuid="65e1fa30-ed49-4f34-a974-92154360dfe3" />
+    </scripttype>
+    <scripttype typeid="12">
+        <scriptinfo uuid="7579DEBA-739E-421b-A73B-1013F6BB0BA2" />
+    </scripttype>
+    <scripttype typeid="13">
+        <scriptinfo uuid="b9207659-b9ed-4229-99c9-afa0fbe0149e" />
+    </scripttype>
+    <scripttype typeid="14">
+        <scriptinfo uuid="437a6156-edd4-4d98-90a7-ba3e3c968e74" />
+    </scripttype>
+</root>

@@ -1,0 +1,130 @@
+﻿<layer title="设置" width=600 height=450>
+    <header class=msgboxhead width=full height=32>
+        <icon src=107 pos="5,9"/><text class=dlgtitle pos="25,10">%str1% - 设置</text><imgbtn id=60001 class=linkimage skin=closeonlybtn pos="-43,0"/>
+    </header>
+    <footer class=msgboxfoot width=full height=45>
+        <dlg pos="10,10,-10,-10">
+            <button id="1" pos="-170,0,-90,-0" class="normalbtn">确定</button>
+            <button id="2" pos="-80,0,-0,-0" class="normalbtn">取消</button>
+        </dlg>
+    </footer>
+    <body class=msgboxbody width=full height=full>
+        <dlg pos="10,10,-10,-0">
+            <dlg pos="0,0,-0,-0" class=panel>
+                <dlg pos="0,0,10,-0" crbg=D6EBFE/>
+                <tabctrl id=100 tabwidth=131 tabalign=left tabheight=37 tabskin=tableft splitterskin=tableftsplitter tabspacing=20 tabpos=20 framepos=10 pos="10,0,-0,-0" text-x=-10 crbg=D6EBFE>
+                    <tab title="综合设置" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg1 pos="0,0,-10,100">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">开机启动</text>
+                                <check id=101 pos="20,30">开机后自动启动%str1%，阻止木马入侵，提高系统安全性</check>
+                                <text id=200 crtext="ff0000" pos="35,60" show="0">若不选中此项，则系统不会全程受保护，有危险</text>
+                                <text id="201" crtext="ff0000" pos="35,60" show="0">“实时保护”没有全部开启，不能有效阻止木马入侵</text>
+                                <text id="202" pos="315,60" class="linktext" show="0">立即全部开启</text>
+                            </dlg1>
+                            <dlg pos="0,0,-10,130">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">电脑体检</text>
+                            <!-- <check id=102 pos="20,30" group="exam_method">开机进入 Windows 后自动体检</check> -->
+                                <radio id="205" pos="20,30" group="exam_method">每天第一次打开%str1%主界面后自动体检（推荐）</radio>
+                                <radio id="103" pos="20,60" group="exam_method">每次打开%str1%主界面后自动体检</radio>
+                                <radio id="206" pos="20,90" group="exam_method">手动体检</radio>
+                            </dlg>
+                            <dlg pos="0,130,-10,200">
+                            <hr pos="0,6,-0,6" class="settingline"/>
+                            <text class="settingsubtitle" pos="0,0">升级方式</text>
+                            <radio id="203" pos="20,30" group="update_method">自动升级到最新版本</radio>
+                            <radio id="204" pos="20,60" group="update_method">有新版本文件时，询问是否升级（推荐）</radio>
+                          </dlg>
+                        </dlg>
+                    </tab>
+                    <tab title="查杀木马" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg pos="0,0,-10,80">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">云安全计划</text>
+                                <check id=104 pos="20,30">加入云安全计划，发现可疑文件后，自动上传到云安全服务器以作分析</check>
+                                <text pos="36,60">此操作不会侵犯您的隐私，请放心使用</text>
+                                <text pos="250,60" class=linktext href="http://guanjia.baidu.com/help/safeguide.html#n5">了解更多</text>
+                            </dlg>
+							<dlg pos="0,100,-10,160">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">查杀策略</text>
+                                <check id=111 pos="20,30">在快速扫描中发现病毒后自动进行深度扫描，彻底杀毒</check>                                
+                            </dlg>
+                            <dlg pos="0,170,-10,270">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">发现木马程序后</text>
+                                <radio id=108 group=setting_scan_operation pos="20,30">自动清除并修复（可通过查杀历史记录进行还原）</radio><text id=110 pos="308,30" class=linktext>打开查杀历史记录</text>
+                                <radio id=109 group=setting_scan_operation pos="20,60">提示用户处理</radio>
+                            </dlg>
+                            <dlg pos="0,270,-10,330">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">设置白名单</text>
+                                <text pos="36,30">白名单信任列表的文件或者网址在扫描时将会被直接跳过</text>
+                                <text id=207 pos="348,30" class=linktext>设置白名单</text>
+                            </dlg>
+                        </dlg>
+                    </tab>
+                    <tab title="修复漏洞" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg pos="0,0,-10,180">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">补丁保存设置</text>
+                                <text pos="20,30">补丁文件存放路径：</text>
+                                <dlg pos="20,50,270,70" class=panel><realwnd id=111 ctrlid=111 pos="2,2,-2,-2"/></dlg>
+                                <button id=112 class=normalbtn pos="280,50,340,70">选择目录</button><button id=113 class=normalbtn pos="350,50,410,70">打开目录</button>
+                                <radio id=125 group=gp_vulsave pos="20,90">不保存补丁安装源文件，在下次修复时删除补丁包。</radio>
+                                <radio id=126 group=gp_vulsave pos="20,110">保存补丁安装源文件，多用于局域网统一修复补丁。</radio>
+                                <dlg id=124 pos="35,130,-0,180" show="0">
+                                    <text pos="0,0">已下载的补丁当前占用空间：</text>
+                                    <text id=105 pos="160,0">0M</text>
+                                    <text pos="270,0" id=115 class=linktext>立即删除</text>
+                                </dlg>
+                            </dlg>
+							<dlg pos="0,170,-10,-0">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">补丁下载设置</text>
+								<radio id=1200 group=gp_vuldown pos="20,30">从微软官方下载补丁包，进行安装</radio>
+								<radio id=1201 group=gp_vuldown pos="20,50">从指定的网络路径或本机目录下载补丁包</radio>
+								<dlg pos="40,70,-80,90" class=panel>
+									<realwnd id=1250 ctrlid=1250 pos="2,2,-2,-2"/>
+								</dlg>
+								<button id=1203 class=normalbtn pos="-70,70,-10,90">选择目录</button>																	
+								<check id=1204 pos="40,100">若补丁不存在，直接从微软官方继续下载</check>
+                            </dlg>
+							
+                        </dlg>
+                    </tab>
+                    <tab title="免打扰设置" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg pos="0,0,-10,260">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">免打扰模式设置</text>
+                                <check id=116 pos="20,30">在全屏或者游戏时，自动进入免打扰模式</check>
+                                <text pos="36,60">免打扰模式下，不弹出提示窗口，同时，对于被拦截到的行为：</text>
+                                <text pos="36,80">1、如果不是第一次发现（有过阻止或允许），则沿用上次操作</text>
+                                <text pos="36,100">2、如果是第一次发现，则使用默认操作：</text>
+                                <text pos="54,120">√ 发现木马程序时，默认阻止</text>
+                                <text pos="54,140">√ 发现未知操作时，默认允许</text>
+                                <text pos="54,160">√ 发现安全操作时，默认允许</text>
+								<check id=127 pos="20,190">不提示安全的关键位置修改</check>
+								<text pos="36,220">检测到安全的注册表关键位置修改时，允许修改，不弹出拦截窗口。</text>
+                            </dlg>
+                        </dlg>
+                    </tab>
+					<!--
+                    <tab title="修复 IE" width="full" height="full">
+                        <dlg pos="0,0,-0,-0" class=settingpage>
+                            <dlg pos="0,0,-10,260">
+                                <hr pos="0,6,-0,6" class=settingline/><text class=settingsubtitle pos="0,0">一键修复</text>
+                                <text pos="20,30">“清除其他程序添加到 IE 中的危险项”，包括如下内容：</text>
+                                <check id=117 pos="40,60">清除右键菜单中的危险项</check>
+                                <check id=118 pos="40,90">清除工具栏图标中的危险项</check>
+                                <check id=119 pos="40,120">清除工具条中的危险项</check>
+                                <check id=120 pos="40,150">清除插件（BHO插件、ActiveX 控件）中的危险项</check>
+                                <check id=121 pos="40,180">清除受信任网站中的危险项</check>
+                                <check id=122 pos="40,210">清除网络协议中的危险项</check>
+                                <check id=123 pos="40,240">清除搜索引擎中的危险项</check>
+                            </dlg>
+                        </dlg>
+                    </tab>
+					-->
+                </tabctrl>
+            </dlg>
+        </dlg>
+    </body>
+</layer>
+
